@@ -11038,17 +11038,17 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/commentsform_template.ui" line="14"/>
         <source>Comments</source>
         <extracomment>The title of the dialog to choose the comments</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Бележки</translation>
     </message>
     <message>
         <location filename="../src/interface/commentsform_template.ui" line="23"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/commentsform_template.ui" line="30"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -27835,192 +27835,192 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/daysform_template.ui" line="20"/>
         <source>Number of working days per week</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой работни дни в седмицата</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="59"/>
         <source>Day 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 1</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="72"/>
         <source>Day 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 2</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="85"/>
         <source>Day 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 3</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="98"/>
         <source>Day 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 4</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="111"/>
         <source>Day 5</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 5</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="124"/>
         <source>Day 6</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 6</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="137"/>
         <source>Day 7</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 5</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="154"/>
         <source>Day 8</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 8</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="167"/>
         <source>Day 9</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 9</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="180"/>
         <source>Day 10</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 10</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="193"/>
         <source>Day 11</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 11</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="206"/>
         <source>Day 12</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 12</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="219"/>
         <source>Day 13</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 13</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="232"/>
         <source>Day 14</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 14</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="249"/>
         <source>Day 15</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 15</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="262"/>
         <source>Day 16</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 16</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="275"/>
         <source>Day 17</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 17</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="288"/>
         <source>Day 18</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 18</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="301"/>
         <source>Day 19</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 19</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="314"/>
         <source>Day 20</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 20</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="327"/>
         <source>Day 21</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 21</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="344"/>
         <source>Day 22</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 22</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="357"/>
         <source>Day 23</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 23</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="370"/>
         <source>Day 24</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 24</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="383"/>
         <source>Day 25</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 25</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="396"/>
         <source>Day 26</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 26</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="409"/>
         <source>Day 27</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 27</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="422"/>
         <source>Day 28</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 28</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="439"/>
         <source>Day 29</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 29</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="452"/>
         <source>Day 30</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 30</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="465"/>
         <source>Day 31</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 31</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="478"/>
         <source>Day 32</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 32</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="491"/>
         <source>Day 33</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 33</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="504"/>
         <source>Day 34</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 34</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="517"/>
         <source>Day 35</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден 35</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="552"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/daysform_template.ui" line="559"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -28377,183 +28377,183 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="649"/>
         <location filename="../src/interface/fetmainform.cpp" line="3643"/>
         <source>US English</source>
-        <translation type="unfinished"></translation>
+        <translation>Английски US</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="650"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="651"/>
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>Каталонски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="652"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Немски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="653"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Гръцки</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="654"/>
         <source>Spanish</source>
-        <translation type="unfinished"></translation>
+        <translation>Испански</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="655"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Френски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="656"/>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Унгарски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="657"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Индонезийски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="658"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Италиянски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="659"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Литовски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="660"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Македонски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="661"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>Малайски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="662"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Холандски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="663"/>
         <source>Polish</source>
-        <translation type="unfinished"></translation>
+        <translation>Полски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="664"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Румънски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="665"/>
         <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>Турски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="666"/>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>Руски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="667"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Персийски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="668"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>Украински</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="669"/>
         <source>Brazilian Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>Португалски Бразилия</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="670"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Датски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="671"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Синхалски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="672"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>Словашки</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="673"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Иврит</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="674"/>
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>Сръбски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="675"/>
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation>Галисийски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="676"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Виетнамски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="677"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>Узбекски</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="678"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>Албански</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="679"/>
         <source>Chinese Simplified</source>
-        <translation type="unfinished"></translation>
+        <translation>Китайски опростен</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="685"/>
         <source>Constraint is not enabled. To use this type of constraint you must enable it from the Settings-&gt;Advanced menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограниченията не са активирани. За да използвате този тип ограничения, тря бва да ги активирате от меню: Настройки -&gt; Разширени.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="687"/>
         <location filename="../src/interface/fetmainform.cpp" line="2811"/>
         <source>Explanation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Обяснение:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="689"/>
         <source>Constraints of this type are good, working, but they are not perfectly optimized.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограниченията от този тип работят добре, но те не са прецизно оптимизирани.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="691"/>
         <source>For some situations, the generation of the timetable may take too long or be impossible.</source>
-        <translation type="unfinished"></translation>
+        <translation>В някои ситуации генерирането на график може да продължи дълго или да е невъзможно.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="693"/>
         <source>Use with caution.</source>
-        <translation type="unfinished"></translation>
+        <translation>Използвайте с внимание.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="695"/>
@@ -28714,22 +28714,22 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="3985"/>
         <location filename="../src/interface/fetmainform.cpp" line="3996"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="750"/>
         <source>Could not search for possible updates on the internet - error message is: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Търсенето на актуализации е неуспешно - съобщението за грешка е: %1.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="752"/>
         <source>Searching for file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Търсене на файл %1.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="754"/>
         <source>Possible actions: check your network connection, try again later, try to visit FET homepage: %1, or try to search for the new FET page on the internet (maybe it has changed).</source>
-        <translation type="unfinished"></translation>
+        <translation>Вазможни действия: проверете връзката с Интернет, опитайте пак по-късно, посетете страницата на FET: %1, или потърсете новата страница на FET (възможно е да се е сменила).</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="757"/>
@@ -28756,38 +28756,38 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="4212"/>
         <location filename="../src/interface/fetmainform.cpp" line="4236"/>
         <source>FET warning</source>
-        <translation type="unfinished"></translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="767"/>
         <source>The file %1 from the FET homepage, indicating the current FET version, is incorrect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл %1 от страницата на FET, показващ текущата версия на FET, e развален.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="769"/>
         <source>Maybe the FET homepage has some temporary problems, so try again later. Or maybe the current structure on FET homepage was changed. You may visit FET homepage: %1, and get latest version or, if it does not work, try to search for the new FET page on the internet (maybe it has changed).</source>
-        <translation type="unfinished"></translation>
+        <translation>Изглежда страницата на FET има някакви временни проблеми, опитайте пак по-късно. Възможно е и структурата на тази страница да е променена. Посетете я на адрес: %1, и изтеглете най-новата версия, или ако не се отвори, потърсете новата страница на FET (може да е сменена).</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="787"/>
         <source>Another version: %1, is available on the FET homepage: %2</source>
         <comment>%1 is new version, %2 is FET homepage</comment>
-        <translation type="unfinished"></translation>
+        <translation>Друга версия: %1 е налична на страницата на FET: %2</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="789"/>
         <source>You may need to hit Refresh in your web browser.</source>
-        <translation type="unfinished"></translation>
+        <translation>Трябва да презаредите страницата в браузъра.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="789"/>
         <source>Would you like to open the FET homepage now?</source>
-        <translation type="unfinished"></translation>
+        <translation>Искате ли да отворите страницата на FET сега?</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="792"/>
         <source>Additional comments: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Добълнителни бележки: %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="800"/>
@@ -28795,7 +28795,7 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="3210"/>
         <location filename="../src/interface/fetmainform.cpp" line="3220"/>
         <source>Could not start the default internet browser (trying to open the link %1). Maybe you can try to manually start your browser and open this link.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не се стартира браузъра по подразбиране за да отвори адрес %1. Може би се налага ръчно да отворите с браузър този адрес.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="829"/>
@@ -28805,7 +28805,7 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="830"/>
         <source>Your data file has been modified - do you want to save it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Вашият файл с данни е променен - да се запази ли?</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="889"/>
@@ -28945,33 +28945,33 @@ Please stop simulation before this.</source>
         <location filename="../src/interface/fetmainform.cpp" line="918"/>
         <source>%1[*] - FET</source>
         <comment>The title of the main window, %1 is the name of the current file. Please keep the string [*] unmodified (three characters) - it is used to make the difference between modified files and unmodified files.</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1[*] - FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="971"/>
         <location filename="../src/interface/fetmainform.cpp" line="1043"/>
         <source>FET application</source>
-        <translation type="unfinished"></translation>
+        <translation>Програма FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="972"/>
         <source>Your current data file has been modified. Are you sure you want to reset to new empty data?</source>
-        <translation type="unfinished"></translation>
+        <translation>Текущият файл е променен. Сигурни ли сте, че искате да генерирате нов празен файл?</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1014"/>
         <source>New file generated</source>
-        <translation type="unfinished"></translation>
+        <translation>Генерира се нов файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1044"/>
         <source>Your current data file has been modified. Are you sure you want to open another data file?</source>
-        <translation type="unfinished"></translation>
+        <translation>Вашият файл с данни е променен - да се запази ли?</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1065"/>
         <source>Choose a file to open</source>
-        <translation type="unfinished"></translation>
+        <translation>Избиране на файл за отваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1067"/>
@@ -28979,91 +28979,92 @@ Please stop simulation before this.</source>
         <location filename="../src/interface/fetmainform.cpp" line="1331"/>
         <source>FET XML files</source>
         <comment>Instructions for translators: FET XML is a type of file format (using text mode). So this field means files in the FET XML format</comment>
-        <translation type="unfinished"></translation>
+        <translation>FET XML файлове</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1068"/>
         <location filename="../src/interface/fetmainform.cpp" line="1151"/>
         <location filename="../src/interface/fetmainform.cpp" line="1332"/>
         <source>All files</source>
-        <translation type="unfinished"></translation>
+        <translation>Всички файлове</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1079"/>
         <source>Please do not use quotation marks &quot; in filename, the html css code does not work. File was not loaded. Please rename it, removing not allowed characters and open it after that with FET.</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, не използвайте кавички &quot; в имената на файловете, html и css кода не работи. Файлът не беше зареден. Моля, преименувайте го, премахвайки нежеланите символи и след това го отворете с FET.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1085"/>
         <source>Please do not use semicolon ; in filename, the html css code does not work. File was not loaded. Please rename it, removing not allowed characters and open it after that with FET.</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, не използвайте точка и зепетай ; в имената на файловете, html и css кода не работи. Файлът не беше зареден. Моля, преименувайте го, премахвайки нежеланите символи и след това го отворете с FET.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1091"/>
         <source>Please do not use # in filename, the html css code does not work. File was not loaded. Please rename it, removing not allowed characters and open it after that with FET.</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, не използвайте знак # в имената на файловете, html и css кода не работи. Файлът не беше зареден. Моля, преименувайте го, премахвайки нежеланите символи и след това го отворете с FET.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1102"/>
         <source>Loading...</source>
         <comment>This is a message in the status bar, that we are loading the file</comment>
-        <translation type="unfinished"></translation>
+        <translation>Зареждане...</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1118"/>
         <source>File opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлът е отворен</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1149"/>
         <source>Choose a filename to save under</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете име на файл, в който да запишете</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1160"/>
         <location filename="../src/interface/fetmainform.cpp" line="1341"/>
         <source>Please do not use quotation marks &quot; in filename, the html css code does not work</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, не използвайте кавички &quot; в името на файла, html и css кода не работи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1164"/>
         <location filename="../src/interface/fetmainform.cpp" line="1345"/>
         <source>Please do not use semicolon ; in filename, the html css code does not work</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, не използвайте точка и запетайка ; в името на файла, html и css кода не работи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1168"/>
         <location filename="../src/interface/fetmainform.cpp" line="1349"/>
         <source>Please do not use # in filename, the html css code does not work</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, не използвайте символа # в името на файла, html и css кода не работи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1179"/>
         <source>FET</source>
-        <translation type="unfinished"></translation>
+        <translation>FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1180"/>
         <source>File %1 exists - are you sure you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Файл %1 съществува - да се запише ли върху него?</translatorcomment>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1192"/>
         <location filename="../src/interface/fetmainform.cpp" line="1534"/>
         <source>File saved</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлът е запазен</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1276"/>
         <location filename="../src/interface/fetmainform.cpp" line="1286"/>
         <location filename="../src/interface/fetmainform.cpp" line="1294"/>
         <source>FET - Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>FET - Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1276"/>
         <source>You have not yet generated a timetable - please generate firstly</source>
-        <translation type="unfinished"></translation>
+        <translation>Още не ссте генерирали график - моля, първо генерирайте</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1286"/>
@@ -29074,12 +29075,12 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1330"/>
         <source>Choose a filename for data and timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете име на файл за данни и график</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1360"/>
         <source>File exists</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлът съществува</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1362"/>
@@ -29089,26 +29090,26 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1365"/>
         <source>Please choose a non-existing name</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля изберете име, което не е използвано</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1441"/>
         <location filename="../src/interface/fetmainform.cpp" line="1466"/>
         <source>Added to the saved file:</source>
         <comment>It refers to a constraint</comment>
-        <translation type="unfinished"></translation>
+        <translation>Добавено в запазения файл:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1443"/>
         <location filename="../src/interface/fetmainform.cpp" line="1468"/>
         <source>NOT added to the saved file (already existing):</source>
         <comment>It refers to a constraint</comment>
-        <translation type="unfinished"></translation>
+        <translation>НЕ Е добавено в запазения файл (вече съществува):</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1477"/>
         <source>Added %1 locking time constraints and %2 locking space constraints to saved file, ignored %3 activities which were already fixed in time and %4 activities which were already fixed in space.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1479"/>
@@ -29467,7 +29468,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3668"/>
         <source>The list of recently used files will be cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>Списъкът последно отваряни файлове ще бъде изтрит</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3671"/>
@@ -29722,7 +29723,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="123"/>
         <source>As</source>
         <comment>It is an abbreviation for Save as. It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation>Запазване като</translation>
+        <translation>Като</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="130"/>
@@ -29757,7 +29758,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="245"/>
         <source>Basic</source>
         <comment>It is a shortcut button on the main form, activates a menu with institution information (name and comments) and days per week and hours per day. It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Основни</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="252"/>
@@ -29766,7 +29767,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="726"/>
         <source>Teachers</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="259"/>
@@ -29775,14 +29776,14 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="733"/>
         <source>Students</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="266"/>
         <location filename="../src/interface/fetmainform_template.ui" line="583"/>
         <source>Subjects</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Дисциплини</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="273"/>
@@ -29815,7 +29816,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="301"/>
         <source>Advanced</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short. It contains submenu for activity planning</comment>
-        <translation type="unfinished"></translation>
+        <translation>Разширени</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="354"/>
@@ -29841,7 +29842,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1220"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1287"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Разширени</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="497"/>
@@ -29871,19 +29872,19 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="657"/>
         <source>Timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>График</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="712"/>
         <source>Generate</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Генериране</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="719"/>
         <source>Multiple</source>
         <comment>It means generate multiple timetables, but I wanted to keep field short, that is why I only write &apos;Multiple&apos;.It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="740"/>
@@ -29906,29 +29907,29 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="860"/>
         <source>&amp;Help</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;File, &amp;Data, &amp;Timetable, &amp;Help, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Помощ</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="864"/>
         <source>Online</source>
         <extracomment>menu Help-&gt;Online (means on the internet)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>В Интернет</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="882"/>
         <source>&amp;File</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;File, &amp;Data, &amp;Timetable, &amp;Help, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="886"/>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Експортиране</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="892"/>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="896"/>
@@ -29939,13 +29940,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="909"/>
         <source>Open &amp;recent</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;New, &amp;Open, Open &amp;recent, &amp;Save, Save &amp;as, &amp;Quit, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Отваряни &amp;последни</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="927"/>
         <source>&amp;Timetable</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;File, &amp;Data, &amp;Timetable, &amp;Help, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;График</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="931"/>
@@ -29955,13 +29956,13 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="959"/>
         <source>Statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>Статистика</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="974"/>
         <source>&amp;Data</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;File, &amp;Data, &amp;Timetable, &amp;Help, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Данни</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="978"/>
@@ -30026,27 +30027,27 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1181"/>
         <source>Institution information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация за институцията</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1188"/>
         <source>Days and hours</source>
-        <translation type="unfinished"></translation>
+        <translation>Дни и часове</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1216"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1236"/>
         <source>Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Интерфейс</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1244"/>
         <source>Timetables</source>
-        <translation type="unfinished"></translation>
+        <translation>Графици</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1260"/>
@@ -30070,19 +30071,19 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1316"/>
         <source>&amp;Open...</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;New, &amp;Open, Open &amp;recent, &amp;Save, Save &amp;as, &amp;Quit, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Отваряне...</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1319"/>
         <source>Ctrl+O</source>
         <extracomment>This is the shortcut for menu item File-&gt;Open. It is recommended to translate with Ctrl+O, the same as original, or with Ctrl+other letter you prefer (do not make duplicates with other shortcuts). All shortcuts are: Ctrl+N (New), Ctrl+O (Open), Ctrl+S (Save), Ctrl+Q (Quit), Ctrl+G (Generate), Ctrl+P (Print). Please use the English keyboard modifiers name, for instance Ctrl, because otherwise the shortcuts do not work (so, even if your keyboard has another name for the Ctrl key, write &apos;Ctrl&apos;. It will work OK on all platforms. Even if you are on German keyboard, write &apos;Ctrl&apos; as in English). Maybe it would be good to translate with &apos;Ctrl+O&apos;, the same as the English original, to keep things standard.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+О</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1324"/>
         <source>&amp;Save</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;New, &amp;Open, Open &amp;recent, &amp;Save, Save &amp;as, &amp;Quit, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1327"/>
@@ -30094,13 +30095,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1332"/>
         <source>Save &amp;as...</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;New, &amp;Open, Open &amp;recent, &amp;Save, Save &amp;as, &amp;Quit, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Запазване &amp;като...</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1340"/>
         <source>&amp;Quit</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;New, &amp;Open, Open &amp;recent, &amp;Save, Save &amp;as, &amp;Quit, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Изход</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1343"/>
@@ -30111,42 +30112,42 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1348"/>
         <source>Frequently asked questions</source>
-        <translation type="unfinished"></translation>
+        <translation>Често задаване въпроси</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1356"/>
         <source>About...</source>
-        <translation type="unfinished"></translation>
+        <translation>Относно...</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1364"/>
         <source>&amp;Teachers</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Subjects, Activity ta&amp;gs, &amp;Teachers, Stu&amp;dents, &amp;Activities, &amp;Modify subactivities, &amp;Buildings, &amp;Rooms, All t&amp;ime constraints, All s&amp;pace constraints must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1369"/>
         <source>&amp;Subjects</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Subjects, Activity ta&amp;gs, &amp;Teachers, Stu&amp;dents, &amp;Activities, &amp;Modify subactivities, &amp;Buildings, &amp;Rooms, All t&amp;ime constraints, All s&amp;pace constraints must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Дисциплини</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1374"/>
         <source>&amp;Years (forms, classes)</source>
         <extracomment>Accelerator key (letter after ampersand) must be different for &amp;Years, &amp;Groups, &amp;Subgroups</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Години (форми, класове)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1379"/>
         <source>&amp;Groups</source>
         <extracomment>Accelerator key (letter after ampersand) must be different for &amp;Years, &amp;Groups, &amp;Subgroups</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Групи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1384"/>
         <source>&amp;Subgroups</source>
         <extracomment>Accelerator key (letter after ampersand) must be different for &amp;Years, &amp;Groups, &amp;Subgroups</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Подгрупи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1389"/>
@@ -30158,7 +30159,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1394"/>
         <source>&amp;Generate new</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Generate new, View (&amp;teachers), View (&amp;students), View (&amp;rooms), Show soft &amp;conflicts, &amp;Print, Generate &amp;multiple, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Генериране нов</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1397"/>
@@ -30188,13 +30189,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1417"/>
         <source>&amp;Days per week</source>
         <extracomment>Accelerators (letters after &amp; - ampersand) for &amp;Days per week and &amp;Hours (periods) per day must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Дни в седмица</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1422"/>
         <source>&amp;Hours (periods) per day</source>
         <extracomment>Accelerators (letters after &amp; - ampersand) for &amp;Days per week and &amp;Hours (periods) per day must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Часове (занятия) на ден</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1430"/>
@@ -30332,13 +30333,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1561"/>
         <source>I&amp;nstitution name</source>
         <extracomment>Accelerators (letters after &amp; - ampersand) for I&amp;nstitution name and &amp;Comments must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Име на институция</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1566"/>
         <source>&amp;Comments</source>
         <extracomment>Accelerators (letters after &amp; - ampersand) for I&amp;nstitution name and &amp;Comments must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Бележки</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1571"/>
@@ -32586,7 +32587,7 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/interface/groupactivitiesininitialorderitemsform_template.ui" line="123"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/groupactivitiesininitialorderitemsform_template.ui" line="130"/>
@@ -33392,7 +33393,7 @@ A: - Students - organized into sets (years (or forms, or classes), containing gr
     <message>
         <location filename="../src/interface/helpfaqform.cpp" line="88"/>
         <source>Maximum number of working days per week: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимален брой работни дни в седмица: %1</translation>
     </message>
     <message>
         <location filename="../src/interface/helpfaqform.cpp" line="90"/>
@@ -34650,322 +34651,322 @@ Add another constraint: min 1 day between activities with id-s 2 and 3, consecut
         <location filename="../src/interface/hoursform_template.ui" line="14"/>
         <source>The hours of the day</source>
         <extracomment>The title of the dialog to modify the hours of the day</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Часовете през деня</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="22"/>
         <source>Number of periods (start hours) per day</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой на часовете (започващи в) на ден</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="65"/>
         <source>Hour 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 1</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="78"/>
         <source>Hour 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 2</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="91"/>
         <source>Hour 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 3</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="101"/>
         <source>Hour 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 4</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="117"/>
         <source>Hour 5</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 5</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="127"/>
         <source>Hour 6</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 6</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="140"/>
         <source>Hour 7</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 7</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="156"/>
         <source>Hour 8</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 8</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="169"/>
         <source>Hour 9</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 9</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="182"/>
         <source>Hour 10</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 10</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="195"/>
         <source>Hour 11</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 11</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="208"/>
         <source>Hour 12</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 12</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="218"/>
         <source>Hour 13</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 13</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="234"/>
         <source>Hour 14</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 14</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="244"/>
         <source>Hour 15</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 15</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="260"/>
         <source>Hour 16</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 16</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="270"/>
         <source>Hour 17</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 17</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="283"/>
         <source>Hour 18</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 18</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="296"/>
         <source>Hour 19</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 19</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="309"/>
         <source>Hour 20</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 20</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="325"/>
         <source>Hour 21</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 21</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="335"/>
         <source>Hour 22</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 22</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="348"/>
         <source>Hour 23</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 23</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="364"/>
         <source>Hour 24</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 24</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="377"/>
         <source>Hour 25</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 25</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="390"/>
         <source>Hour 26</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 26</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="403"/>
         <source>Hour 27</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 27</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="413"/>
         <source>Hour 28</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 28</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="426"/>
         <source>Hour 29</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 29</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="439"/>
         <source>Hour 30</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 30</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="455"/>
         <source>Hour 31</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 31</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="468"/>
         <source>Hour 32</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 32</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="481"/>
         <source>Hour 33</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 33</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="491"/>
         <source>Hour 34</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 34</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="507"/>
         <source>Hour 35</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 35</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="517"/>
         <source>Hour 36</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 36</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="530"/>
         <source>Hour 37</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 37</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="543"/>
         <source>Hour 38</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 38</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="556"/>
         <source>Hour 39</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 39</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="569"/>
         <source>Hour 40</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 40</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="582"/>
         <source>Hour 41</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 41</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="598"/>
         <source>Hour 42</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 42</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="611"/>
         <source>Hour 43</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 43</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="621"/>
         <source>Hour 44</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 44</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="634"/>
         <source>Hour 45</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 45</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="650"/>
         <source>Hour 46</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 46</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="660"/>
         <source>Hour 47</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 47</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="676"/>
         <source>Hour 48</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 48</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="686"/>
         <source>Hour 49</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 49</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="699"/>
         <source>Hour 50</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 50</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="712"/>
         <source>Hour 51</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 51</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="725"/>
         <source>Hour 52</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 52</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="738"/>
         <source>Hour 53</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 53</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="751"/>
         <source>Hour 54</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 54</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="767"/>
         <source>Hour 55</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 55</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="777"/>
         <source>Hour 56</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 56</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="790"/>
         <source>Hour 57</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 57</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="806"/>
         <source>Hour 58</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 58</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="819"/>
         <source>Hour 59</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 59</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="832"/>
         <source>Hour 60</source>
-        <translation type="unfinished"></translation>
+        <translation>Час 60</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="859"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="866"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Оказване</translation>
     </message>
 </context>
 <context>
@@ -35703,17 +35704,17 @@ Please stop simulation before this</source>
         <location filename="../src/interface/institutionnameform_template.ui" line="14"/>
         <source>Institution name</source>
         <extracomment>The title of the dialog to modify the institution name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Име на институция</translation>
     </message>
     <message>
         <location filename="../src/interface/institutionnameform_template.ui" line="20"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отказване</translation>
     </message>
     <message>
         <location filename="../src/interface/institutionnameform_template.ui" line="27"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване</translation>
     </message>
 </context>
 <context>
@@ -43679,31 +43680,31 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/engine/rules.cpp" line="118"/>
         <location filename="../src/engine/rules.cpp" line="5698"/>
         <source>Monday</source>
-        <translation type="unfinished"></translation>
+        <translation>понеделник</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="119"/>
         <location filename="../src/engine/rules.cpp" line="5699"/>
         <source>Tuesday</source>
-        <translation type="unfinished"></translation>
+        <translation>вторник</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="120"/>
         <location filename="../src/engine/rules.cpp" line="5700"/>
         <source>Wednesday</source>
-        <translation type="unfinished"></translation>
+        <translation>сряда</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="121"/>
         <location filename="../src/engine/rules.cpp" line="5701"/>
         <source>Thursday</source>
-        <translation type="unfinished"></translation>
+        <translation>четвъртък</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="122"/>
         <location filename="../src/engine/rules.cpp" line="5702"/>
         <source>Friday</source>
-        <translation type="unfinished"></translation>
+        <translation>петък</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="124"/>
@@ -50065,27 +50066,27 @@ Please stop simulation before this.</source>
         <location filename="../src/interface/yearsform_template.ui" line="14"/>
         <source>Years (forms, classes) of students</source>
         <extracomment>Title of dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Години (форми, класове) от студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform_template.ui" line="39"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform_template.ui" line="46"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform_template.ui" line="57"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform_template.ui" line="64"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform_template.ui" line="73"/>
@@ -50105,7 +50106,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/yearsform_template.ui" line="94"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 </TS>
