@@ -372,7 +372,8 @@ void initLanguagesSet()
 	languagesSet.clear();
 	languagesSet.insert("en_US");
 	languagesSet.insert("ar");
-	languagesSet.insert("ca");
+    languagesSet.insert("bg");
+    languagesSet.insert("ca");
 	languagesSet.insert("de");
 	languagesSet.insert("el");
 	languagesSet.insert("es");
