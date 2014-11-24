@@ -29861,7 +29861,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="754"/>
         <source>Rooms</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="604"/>
@@ -30001,12 +30001,12 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1097"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1113"/>
         <source>Subjects</source>
-        <translation type="unfinished"></translation>
+        <translation>Дисциплини</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1120"/>
@@ -30201,13 +30201,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1430"/>
         <source>&amp;Rooms</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Subjects, Activity ta&amp;gs, &amp;Teachers, Stu&amp;dents, &amp;Activities, &amp;Modify subactivities, &amp;Buildings, &amp;Rooms, All t&amp;ime constraints, All s&amp;pace constraints must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;таи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1438"/>
         <source>View (&amp;rooms)</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Generate new, View (&amp;teachers), View (&amp;students), View (&amp;rooms), Show soft &amp;conflicts, &amp;Print, Generate &amp;multiple, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Преглед (с&amp;таи)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1443"/>
@@ -30476,7 +30476,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1707"/>
         <source>&amp;Buildings</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Subjects, Activity ta&amp;gs, &amp;Teachers, Stu&amp;dents, &amp;Activities, &amp;Modify subactivities, &amp;Buildings, &amp;Rooms, All t&amp;ime constraints, All s&amp;pace constraints must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сгради</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1712"/>
@@ -30636,7 +30636,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1867"/>
         <source>Import activities from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране на дейности от CSV файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1872"/>
@@ -30646,22 +30646,22 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1877"/>
         <source>Import rooms and buildings from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране на стаи и сгради от CSV файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1882"/>
         <source>Import subjects from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране на дисциплини от CSV файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1887"/>
         <source>Import teachers from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране на преподаватели от CSV файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1892"/>
         <source>Import years, groups and subgroups from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране на години, групи и подгрупи от CSV файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1897"/>
