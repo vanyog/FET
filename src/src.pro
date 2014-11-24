@@ -1265,8 +1265,7 @@ FORMS += \
 
 TRANSLATIONS += \
 	../translations/fet_ar.ts \
-        ../translations/fet_bg.ts \
-        ../translations/fet_ca.ts \
+	../translations/fet_ca.ts \
 	../translations/fet_da.ts \
 	../translations/fet_de.ts \
 	../translations/fet_el.ts \
@@ -1300,7 +1299,7 @@ TRANSLATIONS += \
 TEMPLATE = app
 
 CONFIG += release warn_on thread
-QT += xml network
+QT += network
 
 greaterThan(QT_MAJOR_VERSION, 4){
 	QT += widgets

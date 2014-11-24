@@ -3196,8 +3196,10 @@ Liviu:
 
 Unfortunately, I cannot think of how to adapt the FET algorithm to multiple cores.
 
-201---------------------------------------------------------
+201-------------------------DONE----------------------------
 From liquid (on forum):
+
+DONE since FET-5.24.0 on 23 November 2014, constraints preferred/home rooms allow a single room -->
 
 Generally, constraints have the two forms:
 item has preferred other item
@@ -3225,3 +3227,5 @@ That's what I meant starting this thread. I'm sorry if the first post was misund
 Liviu:
 
 Variant 1 is wrong. You should use 2. Yes, I'll add this in the TODO.
+
+<-- DONE

@@ -1701,7 +1701,7 @@ Version 5.22.0
 	- Increased the maximum number of divisions in the first and second categories when dividing a year (suggested by Bobby Wise).
 	- Added a new Morocco example file, by Mohamed Bahaj.
 ---------------------------------------------------------------------------------
-Versions 5.23.0 - 5.23.v
+Versions 5.23.0 - 5.23.4
 - Version 5.23.0
 	- Updated to Qt 5.3.1.
 	- Added a new timetabling generation option, to group selected activities in the initial order, next to the activity which is
@@ -1725,3 +1725,11 @@ Versions 5.23.0 - 5.23.v
 - Version 5.23.4
 	- Added a partial Chinese Simplified (zh_CN) translation, by orange.
 	- Added two example files from Vietnam, by Nguyen Huu Tuyen.
+---------------------------------------------------------------------------------
+Versions 5.24.0 - 5.24.x
+- Version 5.24.0
+	- Code improvement in reading the .fet XML files: converted from the obsolete Qt classes QDom* to QXmlStreamReader. It might
+	bring a speed and memory improvement when reading the input file, and ensures FET source compatibility with future Qt versions.
+	Also error reporting when reading a corrupt file is improved.
+	- It is now allowed to have constraints preferred/home rooms with a single room (suggested by liquid and Volker Dirr).
+	- Added a new example file from Vietnam, by nguyenhuuduyet.

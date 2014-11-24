@@ -3220,42 +3220,36 @@ You can choose the minimum distance in days between each pair of activities. Ple
 <context>
     <name>AddConstraintActivityPreferredRoomsForm</name>
     <message>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="193"/>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="199"/>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="204"/>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="212"/>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="230"/>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="233"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="191"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="197"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="210"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="228"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="231"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
     </message>
     <message>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="194"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="192"/>
         <source>Invalid weight (percentage)</source>
         <translation>Нисте изабрали тежину (у процентима)</translation>
     </message>
     <message>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="200"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="198"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
     </message>
     <message>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="205"/>
-        <source>Only one selected room - please use constraint activity preferred room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења делатности за жељену просторију ако желите једну учионицу</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="213"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="211"/>
         <source>Invalid activity</source>
         <translation>Неважећа врста делатности</translation>
     </message>
     <message>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="227"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="225"/>
         <source>Constraint added:</source>
         <translation>Услов је додат:</translation>
     </message>
     <message>
-        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="234"/>
+        <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="232"/>
         <source>Constraint NOT added - please report error</source>
         <translation>Услов није додат - молим извештај о грешци</translation>
     </message>
@@ -3754,7 +3748,6 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="83"/>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="89"/>
-        <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="94"/>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="100"/>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="117"/>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="120"/>
@@ -3770,11 +3763,6 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="90"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="95"/>
-        <source>Only one selected room - please use constraint activity tag preferred room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења делатности за жељену просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="101"/>
@@ -5696,7 +5684,6 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="91"/>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="97"/>
-        <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="102"/>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="121"/>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="124"/>
         <source>FET information</source>
@@ -5711,11 +5698,6 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="98"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="103"/>
-        <source>Only one selected room - please use constraint students set home room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничење скупа ученика за почетну просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="118"/>
@@ -6970,7 +6952,6 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="89"/>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="95"/>
-        <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="100"/>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="106"/>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="113"/>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="130"/>
@@ -6987,11 +6968,6 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="96"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="101"/>
-        <source>Only one selected room - please use constraint subject activity tag preferred room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења предмета врсте делатности за жељену просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="107"/>
@@ -7140,7 +7116,6 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="82"/>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="88"/>
-        <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="93"/>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="99"/>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="116"/>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="119"/>
@@ -7156,11 +7131,6 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="89"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="94"/>
-        <source>Only one selected room - please use constraint subject preferred room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничење предмета за жељену просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="100"/>
@@ -7457,7 +7427,6 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="81"/>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="87"/>
-        <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="92"/>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="111"/>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="114"/>
         <source>FET information</source>
@@ -7472,11 +7441,6 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="88"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="93"/>
-        <source>Only one selected room - please use constraint teacher home room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења наставника за почетну просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="108"/>
@@ -32969,7 +32933,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Copyright (C) 2002-2014 Liviu Lalescu, Volker Dirr&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Version: 5.23.4 (November 2014).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Version: 5.24.0 (November 2014).&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Licensed under GNU GPL v2 or later.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
@@ -33493,11 +33457,13 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;fromturkey - suggestion.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;orange - Chinese Simplified translation.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;nguyenhuuduyet - example file.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/helpaboutform_template.ui" line="702"/>
+        <location filename="../src/interface/helpaboutform_template.ui" line="704"/>
         <source>Close</source>
         <translation type="unfinished">Затвори</translation>
     </message>
@@ -37714,7 +37680,6 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="95"/>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="101"/>
-        <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="106"/>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="112"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
@@ -37728,11 +37693,6 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="102"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="107"/>
-        <source>Only one selected room - please use constraint activity preferred room if you want a single room</source>
-        <translation>Само једна изабрана учионица - користите ограничење делатности за жељену просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="113"/>
@@ -38161,7 +38121,6 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="96"/>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="102"/>
-        <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="107"/>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="113"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
@@ -38175,11 +38134,6 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="103"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="108"/>
-        <source>Only one selected room - please use constraint activity tag preferred room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничење врсте делатности за жељену просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="114"/>
@@ -39786,7 +39740,6 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform.cpp" line="109"/>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform.cpp" line="115"/>
-        <location filename="../src/interface/modifyconstraintstudentssethomeroomsform.cpp" line="120"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
     </message>
@@ -39799,11 +39752,6 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform.cpp" line="116"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/modifyconstraintstudentssethomeroomsform.cpp" line="121"/>
-        <source>Only one selected room - please use constraint students set home room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења разреда за почетну просторију ако желите једну учионицу</translation>
     </message>
 </context>
 <context>
@@ -40846,7 +40794,6 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="110"/>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="116"/>
-        <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="121"/>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="127"/>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="134"/>
         <source>FET information</source>
@@ -40861,11 +40808,6 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="117"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="122"/>
-        <source>Only one selected room - please use constraint subject activity tag preferred room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења предмета врсту делатности за жељену просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="128"/>
@@ -40992,7 +40934,6 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="93"/>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="99"/>
-        <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="104"/>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="110"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
@@ -41006,11 +40947,6 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="100"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="105"/>
-        <source>Only one selected room - please use constraint subject preferred room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења предмета за жељену просторију ако желите једну учионицу</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="111"/>
@@ -41261,7 +41197,6 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform.cpp" line="93"/>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform.cpp" line="99"/>
-        <location filename="../src/interface/modifyconstraintteacherhomeroomsform.cpp" line="104"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
     </message>
@@ -41274,11 +41209,6 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform.cpp" line="100"/>
         <source>Empty list of selected rooms</source>
         <translation>Списак изабраних учионица је празан</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/modifyconstraintteacherhomeroomsform.cpp" line="105"/>
-        <source>Only one selected room - please use constraint teacher home room if you want a single room</source>
-        <translation>Само је једна изабрана учионица - користите ограничења наставнику за почетну просторију ако желите једну учионицу</translation>
     </message>
 </context>
 <context>
@@ -43957,43 +43887,43 @@ Note: teacher not available and break are not counted as gaps.</source>
     <name>Rules</name>
     <message>
         <location filename="../src/engine/rules.cpp" line="118"/>
-        <location filename="../src/engine/rules.cpp" line="5698"/>
+        <location filename="../src/engine/rules.cpp" line="5688"/>
         <source>Monday</source>
         <translation>Понедељак</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="119"/>
-        <location filename="../src/engine/rules.cpp" line="5699"/>
+        <location filename="../src/engine/rules.cpp" line="5689"/>
         <source>Tuesday</source>
         <translation>Уторак</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="120"/>
-        <location filename="../src/engine/rules.cpp" line="5700"/>
+        <location filename="../src/engine/rules.cpp" line="5690"/>
         <source>Wednesday</source>
         <translation>Среда</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="121"/>
-        <location filename="../src/engine/rules.cpp" line="5701"/>
+        <location filename="../src/engine/rules.cpp" line="5691"/>
         <source>Thursday</source>
         <translation>Четвртак</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="122"/>
-        <location filename="../src/engine/rules.cpp" line="5702"/>
+        <location filename="../src/engine/rules.cpp" line="5692"/>
         <source>Friday</source>
         <translation>Петак</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="124"/>
-        <location filename="../src/engine/rules.cpp" line="5704"/>
+        <location filename="../src/engine/rules.cpp" line="5694"/>
         <source>Default institution</source>
         <translation>Подразумевана установа</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="125"/>
-        <location filename="../src/engine/rules.cpp" line="5705"/>
+        <location filename="../src/engine/rules.cpp" line="5695"/>
         <source>Default comments</source>
         <translation>Подразумеване напомене</translation>
     </message>
@@ -44009,96 +43939,33 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/engine/rules.cpp" line="723"/>
         <location filename="../src/engine/rules.cpp" line="750"/>
         <location filename="../src/engine/rules.cpp" line="810"/>
-        <location filename="../src/engine/rules.cpp" line="4534"/>
-        <location filename="../src/engine/rules.cpp" line="4565"/>
-        <location filename="../src/engine/rules.cpp" line="4594"/>
-        <location filename="../src/engine/rules.cpp" line="4623"/>
-        <location filename="../src/engine/rules.cpp" line="4652"/>
-        <location filename="../src/engine/rules.cpp" line="4682"/>
-        <location filename="../src/engine/rules.cpp" line="5660"/>
-        <location filename="../src/engine/rules.cpp" line="5672"/>
-        <location filename="../src/engine/rules.cpp" line="5867"/>
-        <location filename="../src/engine/rules.cpp" line="6481"/>
-        <location filename="../src/engine/rules.cpp" line="6636"/>
-        <location filename="../src/engine/rules.cpp" line="6683"/>
-        <location filename="../src/engine/rules.cpp" line="6818"/>
-        <location filename="../src/engine/rules.cpp" line="6879"/>
-        <location filename="../src/engine/rules.cpp" line="6900"/>
-        <location filename="../src/engine/rules.cpp" line="6930"/>
-        <location filename="../src/engine/rules.cpp" line="6944"/>
+        <location filename="../src/engine/rules.cpp" line="5650"/>
+        <location filename="../src/engine/rules.cpp" line="5662"/>
+        <location filename="../src/engine/rules.cpp" line="5883"/>
+        <location filename="../src/engine/rules.cpp" line="6704"/>
+        <location filename="../src/engine/rules.cpp" line="6751"/>
+        <location filename="../src/engine/rules.cpp" line="6889"/>
+        <location filename="../src/engine/rules.cpp" line="6951"/>
         <location filename="../src/engine/rules.cpp" line="6972"/>
-        <location filename="../src/engine/rules.cpp" line="6989"/>
-        <location filename="../src/engine/rules.cpp" line="7006"/>
-        <location filename="../src/engine/rules.cpp" line="7070"/>
-        <location filename="../src/engine/rules.cpp" line="7103"/>
-        <location filename="../src/engine/rules.cpp" line="7347"/>
-        <location filename="../src/engine/rules.cpp" line="7871"/>
-        <location filename="../src/engine/rules.cpp" line="7888"/>
-        <location filename="../src/engine/rules.cpp" line="7905"/>
-        <location filename="../src/engine/rules.cpp" line="8016"/>
-        <location filename="../src/engine/rules.cpp" line="8035"/>
-        <location filename="../src/engine/rules.cpp" line="8111"/>
-        <location filename="../src/engine/rules.cpp" line="8152"/>
-        <location filename="../src/engine/rules.cpp" line="8197"/>
-        <location filename="../src/engine/rules.cpp" line="8238"/>
-        <location filename="../src/engine/rules.cpp" line="8302"/>
-        <location filename="../src/engine/rules.cpp" line="8318"/>
-        <location filename="../src/engine/rules.cpp" line="8341"/>
-        <location filename="../src/engine/rules.cpp" line="8409"/>
-        <location filename="../src/engine/rules.cpp" line="8425"/>
-        <location filename="../src/engine/rules.cpp" line="8448"/>
-        <location filename="../src/engine/rules.cpp" line="8496"/>
-        <location filename="../src/engine/rules.cpp" line="8533"/>
-        <location filename="../src/engine/rules.cpp" line="8593"/>
-        <location filename="../src/engine/rules.cpp" line="8609"/>
-        <location filename="../src/engine/rules.cpp" line="8632"/>
-        <location filename="../src/engine/rules.cpp" line="8700"/>
-        <location filename="../src/engine/rules.cpp" line="8715"/>
-        <location filename="../src/engine/rules.cpp" line="8738"/>
-        <location filename="../src/engine/rules.cpp" line="8791"/>
-        <location filename="../src/engine/rules.cpp" line="8807"/>
-        <location filename="../src/engine/rules.cpp" line="8823"/>
-        <location filename="../src/engine/rules.cpp" line="8934"/>
-        <location filename="../src/engine/rules.cpp" line="8953"/>
-        <location filename="../src/engine/rules.cpp" line="10574"/>
-        <location filename="../src/engine/rules.cpp" line="10591"/>
-        <location filename="../src/engine/rules.cpp" line="10607"/>
-        <location filename="../src/engine/rules.cpp" line="10629"/>
-        <location filename="../src/engine/rules.cpp" line="10742"/>
-        <location filename="../src/engine/rules.cpp" line="10759"/>
-        <location filename="../src/engine/rules.cpp" line="10775"/>
-        <location filename="../src/engine/rules.cpp" line="10797"/>
-        <location filename="../src/engine/rules.cpp" line="11375"/>
-        <location filename="../src/engine/rules.cpp" line="11396"/>
-        <location filename="../src/engine/rules.cpp" line="11489"/>
-        <location filename="../src/engine/rules.cpp" line="11510"/>
-        <location filename="../src/engine/rules.cpp" line="11603"/>
-        <location filename="../src/engine/rules.cpp" line="11624"/>
-        <location filename="../src/engine/rules.cpp" line="11679"/>
-        <location filename="../src/engine/rules.cpp" line="11694"/>
-        <location filename="../src/engine/rules.cpp" line="11709"/>
-        <location filename="../src/engine/rules.cpp" line="11813"/>
-        <location filename="../src/engine/rules.cpp" line="11831"/>
-        <location filename="../src/engine/rules.cpp" line="12698"/>
-        <location filename="../src/engine/rules.cpp" line="12722"/>
-        <location filename="../src/engine/rules.cpp" line="12839"/>
-        <location filename="../src/engine/rules.cpp" line="12863"/>
-        <location filename="../src/engine/rules.cpp" line="12980"/>
-        <location filename="../src/engine/rules.cpp" line="13004"/>
-        <location filename="../src/engine/rules.cpp" line="13127"/>
-        <location filename="../src/engine/rules.cpp" line="13151"/>
-        <location filename="../src/engine/rules.cpp" line="13273"/>
-        <location filename="../src/engine/rules.cpp" line="13297"/>
-        <location filename="../src/engine/rules.cpp" line="13381"/>
-        <location filename="../src/engine/rules.cpp" line="13401"/>
-        <location filename="../src/engine/rules.cpp" line="13491"/>
-        <location filename="../src/engine/rules.cpp" line="13511"/>
-        <location filename="../src/engine/rules.cpp" line="13636"/>
-        <location filename="../src/engine/rules.cpp" line="13652"/>
-        <location filename="../src/engine/rules.cpp" line="13668"/>
-        <location filename="../src/engine/rules.cpp" line="13777"/>
-        <location filename="../src/engine/rules.cpp" line="13796"/>
-        <location filename="../src/engine/rules.cpp" line="13911"/>
+        <location filename="../src/engine/rules.cpp" line="7002"/>
+        <location filename="../src/engine/rules.cpp" line="7016"/>
+        <location filename="../src/engine/rules.cpp" line="7044"/>
+        <location filename="../src/engine/rules.cpp" line="7061"/>
+        <location filename="../src/engine/rules.cpp" line="7078"/>
+        <location filename="../src/engine/rules.cpp" line="7148"/>
+        <location filename="../src/engine/rules.cpp" line="7177"/>
+        <location filename="../src/engine/rules.cpp" line="7437"/>
+        <location filename="../src/engine/rules.cpp" line="8512"/>
+        <location filename="../src/engine/rules.cpp" line="8628"/>
+        <location filename="../src/engine/rules.cpp" line="8723"/>
+        <location filename="../src/engine/rules.cpp" line="8763"/>
+        <location filename="../src/engine/rules.cpp" line="8829"/>
+        <location filename="../src/engine/rules.cpp" line="8945"/>
+        <location filename="../src/engine/rules.cpp" line="11250"/>
+        <location filename="../src/engine/rules.cpp" line="11272"/>
+        <location filename="../src/engine/rules.cpp" line="11428"/>
+        <location filename="../src/engine/rules.cpp" line="11450"/>
+        <location filename="../src/engine/rules.cpp" line="15116"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
     </message>
@@ -44122,92 +43989,92 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/engine/rules.cpp" line="643"/>
         <location filename="../src/engine/rules.cpp" line="724"/>
-        <location filename="../src/engine/rules.cpp" line="6000"/>
-        <location filename="../src/engine/rules.cpp" line="6056"/>
-        <location filename="../src/engine/rules.cpp" line="6126"/>
-        <location filename="../src/engine/rules.cpp" line="6201"/>
-        <location filename="../src/engine/rules.cpp" line="6224"/>
-        <location filename="../src/engine/rules.cpp" line="6247"/>
-        <location filename="../src/engine/rules.cpp" line="6639"/>
-        <location filename="../src/engine/rules.cpp" line="6686"/>
-        <location filename="../src/engine/rules.cpp" line="6757"/>
-        <location filename="../src/engine/rules.cpp" line="6767"/>
-        <location filename="../src/engine/rules.cpp" line="6777"/>
-        <location filename="../src/engine/rules.cpp" line="6822"/>
-        <location filename="../src/engine/rules.cpp" line="6870"/>
-        <location filename="../src/engine/rules.cpp" line="6885"/>
-        <location filename="../src/engine/rules.cpp" line="6903"/>
-        <location filename="../src/engine/rules.cpp" line="6935"/>
-        <location filename="../src/engine/rules.cpp" line="6949"/>
-        <location filename="../src/engine/rules.cpp" line="6977"/>
-        <location filename="../src/engine/rules.cpp" line="6994"/>
-        <location filename="../src/engine/rules.cpp" line="7012"/>
-        <location filename="../src/engine/rules.cpp" line="7046"/>
-        <location filename="../src/engine/rules.cpp" line="7056"/>
-        <location filename="../src/engine/rules.cpp" line="7106"/>
-        <location filename="../src/engine/rules.cpp" line="7120"/>
-        <location filename="../src/engine/rules.cpp" line="7131"/>
-        <location filename="../src/engine/rules.cpp" line="7143"/>
-        <location filename="../src/engine/rules.cpp" line="7154"/>
-        <location filename="../src/engine/rules.cpp" line="7165"/>
-        <location filename="../src/engine/rules.cpp" line="7176"/>
-        <location filename="../src/engine/rules.cpp" line="7187"/>
-        <location filename="../src/engine/rules.cpp" line="7204"/>
-        <location filename="../src/engine/rules.cpp" line="7252"/>
-        <location filename="../src/engine/rules.cpp" line="7263"/>
-        <location filename="../src/engine/rules.cpp" line="7274"/>
+        <location filename="../src/engine/rules.cpp" line="6019"/>
+        <location filename="../src/engine/rules.cpp" line="6073"/>
+        <location filename="../src/engine/rules.cpp" line="6142"/>
+        <location filename="../src/engine/rules.cpp" line="6235"/>
+        <location filename="../src/engine/rules.cpp" line="6258"/>
+        <location filename="../src/engine/rules.cpp" line="6281"/>
+        <location filename="../src/engine/rules.cpp" line="6707"/>
+        <location filename="../src/engine/rules.cpp" line="6754"/>
+        <location filename="../src/engine/rules.cpp" line="6825"/>
+        <location filename="../src/engine/rules.cpp" line="6836"/>
+        <location filename="../src/engine/rules.cpp" line="6847"/>
+        <location filename="../src/engine/rules.cpp" line="6893"/>
+        <location filename="../src/engine/rules.cpp" line="6941"/>
+        <location filename="../src/engine/rules.cpp" line="6957"/>
+        <location filename="../src/engine/rules.cpp" line="6975"/>
+        <location filename="../src/engine/rules.cpp" line="7007"/>
+        <location filename="../src/engine/rules.cpp" line="7021"/>
+        <location filename="../src/engine/rules.cpp" line="7049"/>
+        <location filename="../src/engine/rules.cpp" line="7066"/>
+        <location filename="../src/engine/rules.cpp" line="7084"/>
+        <location filename="../src/engine/rules.cpp" line="7118"/>
+        <location filename="../src/engine/rules.cpp" line="7129"/>
+        <location filename="../src/engine/rules.cpp" line="7180"/>
+        <location filename="../src/engine/rules.cpp" line="7194"/>
+        <location filename="../src/engine/rules.cpp" line="7206"/>
+        <location filename="../src/engine/rules.cpp" line="7219"/>
+        <location filename="../src/engine/rules.cpp" line="7231"/>
+        <location filename="../src/engine/rules.cpp" line="7243"/>
+        <location filename="../src/engine/rules.cpp" line="7255"/>
+        <location filename="../src/engine/rules.cpp" line="7267"/>
         <location filename="../src/engine/rules.cpp" line="7285"/>
-        <location filename="../src/engine/rules.cpp" line="10622"/>
-        <location filename="../src/engine/rules.cpp" line="10634"/>
-        <location filename="../src/engine/rules.cpp" line="10790"/>
-        <location filename="../src/engine/rules.cpp" line="10802"/>
-        <location filename="../src/engine/rules.cpp" line="13926"/>
+        <location filename="../src/engine/rules.cpp" line="7334"/>
+        <location filename="../src/engine/rules.cpp" line="7346"/>
+        <location filename="../src/engine/rules.cpp" line="7358"/>
+        <location filename="../src/engine/rules.cpp" line="7370"/>
+        <location filename="../src/engine/rules.cpp" line="11265"/>
+        <location filename="../src/engine/rules.cpp" line="11277"/>
+        <location filename="../src/engine/rules.cpp" line="11443"/>
+        <location filename="../src/engine/rules.cpp" line="11455"/>
+        <location filename="../src/engine/rules.cpp" line="15131"/>
         <source>Skip rest</source>
         <translation>Прескочи одмор</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="643"/>
         <location filename="../src/engine/rules.cpp" line="724"/>
-        <location filename="../src/engine/rules.cpp" line="6000"/>
-        <location filename="../src/engine/rules.cpp" line="6056"/>
-        <location filename="../src/engine/rules.cpp" line="6126"/>
-        <location filename="../src/engine/rules.cpp" line="6201"/>
-        <location filename="../src/engine/rules.cpp" line="6224"/>
-        <location filename="../src/engine/rules.cpp" line="6247"/>
-        <location filename="../src/engine/rules.cpp" line="6639"/>
-        <location filename="../src/engine/rules.cpp" line="6686"/>
-        <location filename="../src/engine/rules.cpp" line="6757"/>
-        <location filename="../src/engine/rules.cpp" line="6767"/>
-        <location filename="../src/engine/rules.cpp" line="6777"/>
-        <location filename="../src/engine/rules.cpp" line="6822"/>
-        <location filename="../src/engine/rules.cpp" line="6870"/>
-        <location filename="../src/engine/rules.cpp" line="6885"/>
-        <location filename="../src/engine/rules.cpp" line="6903"/>
-        <location filename="../src/engine/rules.cpp" line="6935"/>
-        <location filename="../src/engine/rules.cpp" line="6949"/>
-        <location filename="../src/engine/rules.cpp" line="6977"/>
-        <location filename="../src/engine/rules.cpp" line="6994"/>
-        <location filename="../src/engine/rules.cpp" line="7012"/>
-        <location filename="../src/engine/rules.cpp" line="7046"/>
-        <location filename="../src/engine/rules.cpp" line="7056"/>
-        <location filename="../src/engine/rules.cpp" line="7106"/>
-        <location filename="../src/engine/rules.cpp" line="7120"/>
-        <location filename="../src/engine/rules.cpp" line="7131"/>
-        <location filename="../src/engine/rules.cpp" line="7143"/>
-        <location filename="../src/engine/rules.cpp" line="7154"/>
-        <location filename="../src/engine/rules.cpp" line="7165"/>
-        <location filename="../src/engine/rules.cpp" line="7176"/>
-        <location filename="../src/engine/rules.cpp" line="7187"/>
-        <location filename="../src/engine/rules.cpp" line="7204"/>
-        <location filename="../src/engine/rules.cpp" line="7252"/>
-        <location filename="../src/engine/rules.cpp" line="7263"/>
-        <location filename="../src/engine/rules.cpp" line="7274"/>
+        <location filename="../src/engine/rules.cpp" line="6019"/>
+        <location filename="../src/engine/rules.cpp" line="6073"/>
+        <location filename="../src/engine/rules.cpp" line="6142"/>
+        <location filename="../src/engine/rules.cpp" line="6235"/>
+        <location filename="../src/engine/rules.cpp" line="6258"/>
+        <location filename="../src/engine/rules.cpp" line="6281"/>
+        <location filename="../src/engine/rules.cpp" line="6707"/>
+        <location filename="../src/engine/rules.cpp" line="6754"/>
+        <location filename="../src/engine/rules.cpp" line="6825"/>
+        <location filename="../src/engine/rules.cpp" line="6836"/>
+        <location filename="../src/engine/rules.cpp" line="6847"/>
+        <location filename="../src/engine/rules.cpp" line="6893"/>
+        <location filename="../src/engine/rules.cpp" line="6941"/>
+        <location filename="../src/engine/rules.cpp" line="6957"/>
+        <location filename="../src/engine/rules.cpp" line="6975"/>
+        <location filename="../src/engine/rules.cpp" line="7007"/>
+        <location filename="../src/engine/rules.cpp" line="7021"/>
+        <location filename="../src/engine/rules.cpp" line="7049"/>
+        <location filename="../src/engine/rules.cpp" line="7066"/>
+        <location filename="../src/engine/rules.cpp" line="7084"/>
+        <location filename="../src/engine/rules.cpp" line="7118"/>
+        <location filename="../src/engine/rules.cpp" line="7129"/>
+        <location filename="../src/engine/rules.cpp" line="7180"/>
+        <location filename="../src/engine/rules.cpp" line="7194"/>
+        <location filename="../src/engine/rules.cpp" line="7206"/>
+        <location filename="../src/engine/rules.cpp" line="7219"/>
+        <location filename="../src/engine/rules.cpp" line="7231"/>
+        <location filename="../src/engine/rules.cpp" line="7243"/>
+        <location filename="../src/engine/rules.cpp" line="7255"/>
+        <location filename="../src/engine/rules.cpp" line="7267"/>
         <location filename="../src/engine/rules.cpp" line="7285"/>
-        <location filename="../src/engine/rules.cpp" line="10622"/>
-        <location filename="../src/engine/rules.cpp" line="10634"/>
-        <location filename="../src/engine/rules.cpp" line="10790"/>
-        <location filename="../src/engine/rules.cpp" line="10802"/>
-        <location filename="../src/engine/rules.cpp" line="13926"/>
+        <location filename="../src/engine/rules.cpp" line="7334"/>
+        <location filename="../src/engine/rules.cpp" line="7346"/>
+        <location filename="../src/engine/rules.cpp" line="7358"/>
+        <location filename="../src/engine/rules.cpp" line="7370"/>
+        <location filename="../src/engine/rules.cpp" line="11265"/>
+        <location filename="../src/engine/rules.cpp" line="11277"/>
+        <location filename="../src/engine/rules.cpp" line="11443"/>
+        <location filename="../src/engine/rules.cpp" line="11455"/>
+        <location filename="../src/engine/rules.cpp" line="15131"/>
         <source>See next</source>
         <translation>Погледајте следеће</translation>
     </message>
@@ -44227,20 +44094,6 @@ Note: teacher not available and break are not counted as gaps.</source>
         <translation>Обрада интерног ограничења простора ... сачекајте</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="4535"/>
-        <location filename="../src/engine/rules.cpp" line="4566"/>
-        <location filename="../src/engine/rules.cpp" line="4595"/>
-        <location filename="../src/engine/rules.cpp" line="4624"/>
-        <location filename="../src/engine/rules.cpp" line="4653"/>
-        <location filename="../src/engine/rules.cpp" line="4683"/>
-        <source>The constraint
-%1 will be modified into constraint
-%2 because there is only one room left in the constraint</source>
-        <translation>Ограничење
-%1 ће бити измењено у ограничење
-%2 јер постоји само једна учионица остала у ограничењу</translation>
-    </message>
-    <message>
         <location filename="../src/engine/rules.cpp" line="3742"/>
         <location filename="../src/engine/rules.cpp" line="3747"/>
         <location filename="../src/engine/rules.cpp" line="3752"/>
@@ -44250,64 +44103,69 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/engine/rules.cpp" line="3835"/>
         <location filename="../src/engine/rules.cpp" line="3840"/>
         <location filename="../src/engine/rules.cpp" line="3845"/>
-        <location filename="../src/engine/rules.cpp" line="5471"/>
-        <location filename="../src/engine/rules.cpp" line="5482"/>
-        <location filename="../src/engine/rules.cpp" line="5502"/>
-        <location filename="../src/engine/rules.cpp" line="5513"/>
-        <location filename="../src/engine/rules.cpp" line="5592"/>
-        <location filename="../src/engine/rules.cpp" line="5619"/>
-        <location filename="../src/engine/rules.cpp" line="5654"/>
-        <location filename="../src/engine/rules.cpp" line="5805"/>
-        <location filename="../src/engine/rules.cpp" line="5848"/>
-        <location filename="../src/engine/rules.cpp" line="5894"/>
-        <location filename="../src/engine/rules.cpp" line="5937"/>
-        <location filename="../src/engine/rules.cpp" line="5999"/>
-        <location filename="../src/engine/rules.cpp" line="6055"/>
-        <location filename="../src/engine/rules.cpp" line="6125"/>
-        <location filename="../src/engine/rules.cpp" line="6200"/>
-        <location filename="../src/engine/rules.cpp" line="6223"/>
-        <location filename="../src/engine/rules.cpp" line="6246"/>
-        <location filename="../src/engine/rules.cpp" line="6376"/>
-        <location filename="../src/engine/rules.cpp" line="6490"/>
-        <location filename="../src/engine/rules.cpp" line="6523"/>
-        <location filename="../src/engine/rules.cpp" line="6585"/>
-        <location filename="../src/engine/rules.cpp" line="6755"/>
-        <location filename="../src/engine/rules.cpp" line="6765"/>
-        <location filename="../src/engine/rules.cpp" line="6775"/>
-        <location filename="../src/engine/rules.cpp" line="6868"/>
-        <location filename="../src/engine/rules.cpp" line="7044"/>
-        <location filename="../src/engine/rules.cpp" line="7054"/>
-        <location filename="../src/engine/rules.cpp" line="7118"/>
-        <location filename="../src/engine/rules.cpp" line="7129"/>
-        <location filename="../src/engine/rules.cpp" line="7141"/>
-        <location filename="../src/engine/rules.cpp" line="7152"/>
-        <location filename="../src/engine/rules.cpp" line="7163"/>
-        <location filename="../src/engine/rules.cpp" line="7174"/>
-        <location filename="../src/engine/rules.cpp" line="7185"/>
-        <location filename="../src/engine/rules.cpp" line="7202"/>
-        <location filename="../src/engine/rules.cpp" line="7250"/>
-        <location filename="../src/engine/rules.cpp" line="7261"/>
-        <location filename="../src/engine/rules.cpp" line="7272"/>
+        <location filename="../src/engine/rules.cpp" line="5468"/>
+        <location filename="../src/engine/rules.cpp" line="5485"/>
+        <location filename="../src/engine/rules.cpp" line="5496"/>
+        <location filename="../src/engine/rules.cpp" line="5581"/>
+        <location filename="../src/engine/rules.cpp" line="5608"/>
+        <location filename="../src/engine/rules.cpp" line="5644"/>
+        <location filename="../src/engine/rules.cpp" line="5808"/>
+        <location filename="../src/engine/rules.cpp" line="5856"/>
+        <location filename="../src/engine/rules.cpp" line="5907"/>
+        <location filename="../src/engine/rules.cpp" line="5955"/>
+        <location filename="../src/engine/rules.cpp" line="6018"/>
+        <location filename="../src/engine/rules.cpp" line="6072"/>
+        <location filename="../src/engine/rules.cpp" line="6141"/>
+        <location filename="../src/engine/rules.cpp" line="6234"/>
+        <location filename="../src/engine/rules.cpp" line="6257"/>
+        <location filename="../src/engine/rules.cpp" line="6280"/>
+        <location filename="../src/engine/rules.cpp" line="6406"/>
+        <location filename="../src/engine/rules.cpp" line="6546"/>
+        <location filename="../src/engine/rules.cpp" line="6578"/>
+        <location filename="../src/engine/rules.cpp" line="6649"/>
+        <location filename="../src/engine/rules.cpp" line="6823"/>
+        <location filename="../src/engine/rules.cpp" line="6834"/>
+        <location filename="../src/engine/rules.cpp" line="6845"/>
+        <location filename="../src/engine/rules.cpp" line="6939"/>
+        <location filename="../src/engine/rules.cpp" line="7116"/>
+        <location filename="../src/engine/rules.cpp" line="7127"/>
+        <location filename="../src/engine/rules.cpp" line="7192"/>
+        <location filename="../src/engine/rules.cpp" line="7204"/>
+        <location filename="../src/engine/rules.cpp" line="7217"/>
+        <location filename="../src/engine/rules.cpp" line="7229"/>
+        <location filename="../src/engine/rules.cpp" line="7241"/>
+        <location filename="../src/engine/rules.cpp" line="7253"/>
+        <location filename="../src/engine/rules.cpp" line="7265"/>
         <location filename="../src/engine/rules.cpp" line="7283"/>
-        <location filename="../src/engine/rules.cpp" line="9021"/>
-        <location filename="../src/engine/rules.cpp" line="9145"/>
-        <location filename="../src/engine/rules.cpp" line="9921"/>
-        <location filename="../src/engine/rules.cpp" line="9991"/>
-        <location filename="../src/engine/rules.cpp" line="10414"/>
-        <location filename="../src/engine/rules.cpp" line="10486"/>
-        <location filename="../src/engine/rules.cpp" line="10553"/>
-        <location filename="../src/engine/rules.cpp" line="10721"/>
-        <location filename="../src/engine/rules.cpp" line="13874"/>
+        <location filename="../src/engine/rules.cpp" line="7332"/>
+        <location filename="../src/engine/rules.cpp" line="7344"/>
+        <location filename="../src/engine/rules.cpp" line="7356"/>
+        <location filename="../src/engine/rules.cpp" line="7368"/>
+        <location filename="../src/engine/rules.cpp" line="7512"/>
+        <location filename="../src/engine/rules.cpp" line="9333"/>
+        <location filename="../src/engine/rules.cpp" line="9471"/>
+        <location filename="../src/engine/rules.cpp" line="10370"/>
+        <location filename="../src/engine/rules.cpp" line="10447"/>
+        <location filename="../src/engine/rules.cpp" line="11018"/>
+        <location filename="../src/engine/rules.cpp" line="11109"/>
+        <location filename="../src/engine/rules.cpp" line="11187"/>
+        <location filename="../src/engine/rules.cpp" line="11365"/>
+        <location filename="../src/engine/rules.cpp" line="15073"/>
         <source>FET warning</source>
         <translation>FET упозорење</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5471"/>
+        <location filename="../src/engine/rules.cpp" line="5468"/>
         <source>Could not open file - not existing or in use</source>
         <translation>Није могуће отворити датотеку - не постоји, или је у употреби</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5483"/>
+        <location filename="../src/engine/rules.cpp" line="6531"/>
+        <source>The activity with id=%1 contains incorrect data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="7513"/>
         <source>Could not read file - XML parse error at line %1, column %2:
 %3</source>
         <comment>The error description is %3</comment>
@@ -44315,56 +44173,56 @@ Note: teacher not available and break are not counted as gaps.</source>
 %3</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5502"/>
-        <location filename="../src/engine/rules.cpp" line="5513"/>
+        <location filename="../src/engine/rules.cpp" line="5485"/>
+        <location filename="../src/engine/rules.cpp" line="5496"/>
         <source>Cannot create or use directory %1 - cannot continue</source>
         <translation>Не могу да направим фасциклу %1 - не може да настави</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5543"/>
+        <location filename="../src/engine/rules.cpp" line="5526"/>
         <source>FET cannot open the log file %1 for writing. This might mean that you don&apos;t have write permissions in this location. You can continue operation, but you might not be able to save the generated timetables as html files</source>
         <translation>FET не можете да отвори датотеку евиденције %1 за писање. То може да значи да нема&apos;те дозволу да пишете на овој локацији. Можете да наставите рад, али можда неће моћи да сачувате направљене распореде као ХТМЛ датотеке</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5546"/>
+        <location filename="../src/engine/rules.cpp" line="5529"/>
         <source>A solution is to remove that file (if it exists already) or set its permissions to allow writing</source>
         <translation>Решење је да се уклонe те датотеке (ако већ постојe) или подесите своје дозволе да се дозволи писање</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5547"/>
+        <location filename="../src/engine/rules.cpp" line="5530"/>
         <source>Please report possible bug</source>
         <translation>Пријавите евентуалне грешке</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5548"/>
-        <location filename="../src/engine/rules.cpp" line="7416"/>
-        <location filename="../src/engine/rules.cpp" line="7459"/>
-        <location filename="../src/engine/rules.cpp" line="7578"/>
+        <location filename="../src/engine/rules.cpp" line="5531"/>
+        <location filename="../src/engine/rules.cpp" line="7542"/>
+        <location filename="../src/engine/rules.cpp" line="7585"/>
+        <location filename="../src/engine/rules.cpp" line="7704"/>
         <source>FET critical</source>
         <translation>FET гранично</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5592"/>
+        <location filename="../src/engine/rules.cpp" line="5581"/>
         <source>File contains a version numbering scheme which is not matched by v.v.va (3 numbers separated by points, followed by any string a, which may be empty). File will be opened, but you are adviced to check the version of the .fet file (in the beginning of the file). If this is a FET bug, please report it</source>
         <translation>Датотека садржи нумерисану шему верзије која није прилагођена за v.v.va (3 броја одвојени тачкама, праћена било којим низом, који може бити празан). Датотека ће бити отворена, али вам саветујемо да проверите верзију датотеке .fet (на почетку датотеке). Ако је ово FET грешка, молимо вас пријавите је</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5595"/>
+        <location filename="../src/engine/rules.cpp" line="5584"/>
         <source>If you are opening a file older than FET format version 5, it will be converted to latest FET data format</source>
         <translation>Ако отварате датотеку старију од FET формата - издање 5, то ће бити пребачено у послењни FET формат података</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5619"/>
+        <location filename="../src/engine/rules.cpp" line="5608"/>
         <source>FET version does not respect the format v.v.va (3 numbers separated by points, followed by any string a, which may be empty). This is probably a bug in FET - please report it</source>
         <translation>FET верзија не поштује формат v.v.va (3 броја одвојени тачкама, праћена било којим низом, који може бити празан). Ово је вероватно грешка у FET, молимо вас пријавите је</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5654"/>
+        <location filename="../src/engine/rules.cpp" line="5644"/>
         <source>File does not have a corresponding beginning tag - it should be %1 or %2. File is incorrect...it cannot be opened</source>
         <translation>Датотеке нема одговарајућу ознаку почетка - треба да буде %1 или %2. Датотеке је неправилна ... не може да се отвори</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5661"/>
+        <location filename="../src/engine/rules.cpp" line="5651"/>
         <source>Opening older file - it will be converted to latest format, automatically assigning weight percentages to constraints and dropping parity for activities. You are adviced to make a backup of your old file before saving in new format.
 
 Please note that the default weight percentage of constraints min days between activities will be 95% (mainly satisfied, not always) and &apos;force consecutive if same day&apos; will be set to true (meaning that if the activities are in the same day, they will be placed continuously, in a bigger duration activity). If you want, you can modify this percent to be 100%, manually in the fet input file or from the interface</source>
@@ -44373,78 +44231,129 @@ Please note that the default weight percentage of constraints min days between a
 Имајте на уму да подразумевани тежински проценат ограничења са најмање дана између делатности, биће 95% (углавном задовољни, не увек) и &apos;принудно заредом, ако је исти дан&apos; биће постављено на тачно (што значи да уколико су делатности у истом дану, они ће бити постављени непрекидно, у већем трајању делатности). Уколико желите да, можете да измените овај проценат да буде 100%, ручно у FET улазној датотеци или из сучеља</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5673"/>
+        <location filename="../src/engine/rules.cpp" line="5663"/>
         <source>Opening a file generated with a newer version than your current FET software ... file will be opened but it is recommended to update your FET software to the latest version</source>
         <translation>Отварање датотека прављење са новијим издањем него ваш тренутни FET софтвера ... датотека ће бити отворена, али се препоручује да ажурирате ваш FET софтвер на најновије издање</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5674"/>
+        <location filename="../src/engine/rules.cpp" line="5664"/>
         <source>Your FET version: %1, file version: %2</source>
         <translation>Ваше FET издање: %1, издање датотеке: %2</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5806"/>
+        <location filename="../src/engine/rules.cpp" line="5729"/>
+        <location filename="../src/engine/rules.cpp" line="5763"/>
+        <location filename="../src/engine/rules.cpp" line="5825"/>
+        <location filename="../src/engine/rules.cpp" line="5873"/>
+        <location filename="../src/engine/rules.cpp" line="5924"/>
+        <location filename="../src/engine/rules.cpp" line="5972"/>
+        <location filename="../src/engine/rules.cpp" line="6499"/>
+        <location filename="../src/engine/rules.cpp" line="6501"/>
+        <location filename="../src/engine/rules.cpp" line="6503"/>
+        <location filename="../src/engine/rules.cpp" line="6595"/>
+        <location filename="../src/engine/rules.cpp" line="6666"/>
+        <location filename="../src/engine/rules.cpp" line="8225"/>
+        <location filename="../src/engine/rules.cpp" line="8302"/>
+        <location filename="../src/engine/rules.cpp" line="8347"/>
+        <location filename="../src/engine/rules.cpp" line="8396"/>
+        <location filename="../src/engine/rules.cpp" line="8441"/>
+        <location filename="../src/engine/rules.cpp" line="9266"/>
+        <location filename="../src/engine/rules.cpp" line="10510"/>
+        <location filename="../src/engine/rules.cpp" line="10576"/>
+        <location filename="../src/engine/rules.cpp" line="10647"/>
+        <location filename="../src/engine/rules.cpp" line="10713"/>
+        <location filename="../src/engine/rules.cpp" line="10765"/>
+        <location filename="../src/engine/rules.cpp" line="10822"/>
+        <location filename="../src/engine/rules.cpp" line="10874"/>
+        <location filename="../src/engine/rules.cpp" line="10931"/>
+        <location filename="../src/engine/rules.cpp" line="11003"/>
+        <location filename="../src/engine/rules.cpp" line="11089"/>
+        <location filename="../src/engine/rules.cpp" line="12128"/>
+        <location filename="../src/engine/rules.cpp" line="12267"/>
+        <location filename="../src/engine/rules.cpp" line="12406"/>
+        <location filename="../src/engine/rules.cpp" line="12672"/>
+        <location filename="../src/engine/rules.cpp" line="13382"/>
+        <location filename="../src/engine/rules.cpp" line="13503"/>
+        <location filename="../src/engine/rules.cpp" line="13691"/>
+        <location filename="../src/engine/rules.cpp" line="13861"/>
+        <location filename="../src/engine/rules.cpp" line="14031"/>
+        <location filename="../src/engine/rules.cpp" line="14208"/>
+        <location filename="../src/engine/rules.cpp" line="14384"/>
+        <location filename="../src/engine/rules.cpp" line="14508"/>
+        <location filename="../src/engine/rules.cpp" line="14648"/>
+        <location filename="../src/engine/rules.cpp" line="14996"/>
+        <source>%1 is incorrect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="5745"/>
+        <location filename="../src/engine/rules.cpp" line="5779"/>
+        <source>%1: %2 and the number of %3 read do not correspond</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="5809"/>
         <source>Duplicate teacher %1 found - ignoring</source>
         <translation>Дуплих наставника %1 је пронађено - занемари</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5849"/>
+        <location filename="../src/engine/rules.cpp" line="5857"/>
         <source>Duplicate subject %1 found - ignoring</source>
         <translation>Дуплих предмета %1 је пронађено - занемари</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5867"/>
+        <location filename="../src/engine/rules.cpp" line="5883"/>
         <source>Your file contains subject tags list, which is named in versions&gt;=5.5.0 activity tags list</source>
         <translation>Ваша датотека садржи списак ознака предмета, која је названа у издањима &gt;=5.5.0 списак врста делатности</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5895"/>
-        <location filename="../src/engine/rules.cpp" line="5938"/>
+        <location filename="../src/engine/rules.cpp" line="5908"/>
+        <location filename="../src/engine/rules.cpp" line="5956"/>
         <source>Duplicate activity tag %1 found - ignoring</source>
         <translation>Дуплих врста делатности пронађено %1 - занемаривање</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5993"/>
+        <location filename="../src/engine/rules.cpp" line="6012"/>
         <source>Trying to add year %1, which is already added as another year - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш годину %1, која је већ додата као још једна година - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5995"/>
+        <location filename="../src/engine/rules.cpp" line="6014"/>
         <source>Trying to add year %1, which is already added as another group - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш годину %1, која је већ додата као још једна група - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="5997"/>
+        <location filename="../src/engine/rules.cpp" line="6016"/>
         <source>Trying to add year %1, which is already added as another subgroup - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш годину %1, која је већ додата као још једна подгрупа - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6042"/>
+        <location filename="../src/engine/rules.cpp" line="6059"/>
         <source>Trying to add group %1, which is already added as another year - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш групу %1, која је већ додата као још једна година - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6045"/>
+        <location filename="../src/engine/rules.cpp" line="6062"/>
         <source>Trying to add group %1 in year %2 but it is already added - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш групу %1 у години %2 али је већ додата - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6051"/>
+        <location filename="../src/engine/rules.cpp" line="6068"/>
         <source>Trying to add group %1, which is already added as another subgroup - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш групу %1, која је већ додата као још једна подгрупа - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6112"/>
+        <location filename="../src/engine/rules.cpp" line="6128"/>
         <source>Trying to add subgroup %1, which is already added as another year - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш подгрупу %1, која је већ додата као још једна година - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6114"/>
+        <location filename="../src/engine/rules.cpp" line="6130"/>
         <source>Trying to add subgroup %1, which is already added as another group - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш подгрупу %1, која је већ додата као још једна група - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6117"/>
+        <location filename="../src/engine/rules.cpp" line="6133"/>
         <source>Trying to add subgroup %1 in year %2, group %3 but it is already added - your file will be loaded but probably contains errors, please correct them after loading</source>
         <translation>Покушај да додаш подгрупу %1 у години %2, група %3  али је већ додата - ваша датотека ће бити учитана, али вероватно садржи грешке, исправите их након учитавања</translation>
     </message>
@@ -44530,158 +44439,153 @@ Please note that the default weight percentage of constraints min days between a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6192"/>
+        <location filename="../src/engine/rules.cpp" line="6226"/>
         <source>Minor problem found and corrected: year %1 has different number of students in two places (%2 and %3)</source>
         <comment>%2 and %3 are number of students</comment>
         <translation>Мали проблем је пронађен и поправљен: година %1 има различит број ученика на два места (%2 и %3)</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6196"/>
+        <location filename="../src/engine/rules.cpp" line="6230"/>
         <source>Explanation: this is a minor problem, which appears if using overlapping students set, due to a bug in FET previous to version %1. FET will now correct this problem by setting the number of students for this year, in all places where it appears, to the number that was found in the first appearance (%2). It is advisable to check the number of students for this year.</source>
         <translation>Објашњење: Ово је мали проблем, која се појављује ако користите преклапаље скупа ученика, због грешке у претходном FET издању %1. FET ће сада решити овај проблем тако што ће поставити број ученика за ову годину, на свим местима где се појављује, за број који је пронађен у првом појављивању (%2). Препоручљиво је да проверите број ученика за ову годину.</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6215"/>
+        <location filename="../src/engine/rules.cpp" line="6249"/>
         <source>Minor problem found and corrected: group %1 has different number of students in two places (%2 and %3)</source>
         <comment>%2 and %3 are number of students</comment>
         <translation>Мали проблем је пронађен и поправљен: група %1 има различит број ученика на два места (%2 и %3)</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6219"/>
+        <location filename="../src/engine/rules.cpp" line="6253"/>
         <source>Explanation: this is a minor problem, which appears if using overlapping students set, due to a bug in FET previous to version %1. FET will now correct this problem by setting the number of students for this group, in all places where it appears, to the number that was found in the first appearance (%2). It is advisable to check the number of students for this group.</source>
         <translation>Објашњење: Ово је мали проблем, која се појављује ако користите преклапаље скупа ученика, због грешке у претходном FET издању %1. FET ће сада решити овај проблем тако што ће поставити број ученика за ову групу, на свим местима где се појављује, за број који је пронађен у првом појављивању (%2). Препоручљиво је да проверите број ученика за ову групу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6238"/>
+        <location filename="../src/engine/rules.cpp" line="6272"/>
         <source>Minor problem found and corrected: subgroup %1 has different number of students in two places (%2 and %3)</source>
         <comment>%2 and %3 are number of students</comment>
         <translation>Мали проблем је пронађен и поправљен: подгрупа %1 има различит број ученика на два места (%2 и %3)</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6242"/>
+        <location filename="../src/engine/rules.cpp" line="6276"/>
         <source>Explanation: this is a minor problem, which appears if using overlapping students set, due to a bug in FET previous to version %1. FET will now correct this problem by setting the number of students for this subgroup, in all places where it appears, to the number that was found in the first appearance (%2). It is advisable to check the number of students for this subgroup.</source>
         <translation>Објашњење: Ово је мали проблем, која се појављује ако користите преклапаље скупа ученика, због грешке у претходном FET издању %1. FET ће сада решити овај проблем тако што ће поставити број ученика за ову подгрупу, на свим местима где се појављује, за број који је пронађен у првом појављивању (%2). Препоручљиво је да проверите број ученика за ову подгрупу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6377"/>
+        <location filename="../src/engine/rules.cpp" line="6407"/>
         <source>Found activity active tag which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The activity will be considered not active</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађене делатност за врсту делатности која није &apos;тачно&apos;, &apos;нетачно&apos;, &apos;да&apos;, &apos;не &apos;, &apos;1 &apos;или &apos;0&apos;. Делатност ће се сматрати да није активна</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6482"/>
-        <source>Activity with id=%1 contains invalid data - skipping</source>
-        <translation>Делатност са ИД = %1 садржи неважеће податке - прескакање</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="6491"/>
+        <location filename="../src/engine/rules.cpp" line="6547"/>
         <source>File contains deprecated equipments list - will be ignored</source>
         <translation>Датотека садржи застареле спискове опреме - биће занемарене</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6524"/>
+        <location filename="../src/engine/rules.cpp" line="6579"/>
         <source>Duplicate building %1 found - ignoring</source>
         <translation>Дуплих зграда %1 нађено - занемаривање</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6586"/>
+        <location filename="../src/engine/rules.cpp" line="6650"/>
         <source>Duplicate room %1 found - ignoring</source>
         <translation>Дуплих учионица %1 нађено - занемаривање</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6637"/>
+        <location filename="../src/engine/rules.cpp" line="6705"/>
         <source>File contains constraint teacher not available, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint teacher not available times (a matrix).</source>
         <translation>Датотека садржи ограничење, наставник није доступан, која је стара (побољшања је у FET 5.5.0), и биће претворено у слично ограничење овог типа, ограничењу наставника није доступан термин (матрица).</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6684"/>
+        <location filename="../src/engine/rules.cpp" line="6752"/>
         <source>File contains constraint students set not available, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint students set not available times (a matrix).</source>
         <translation>Датотека садржи ограничење, ученици нису доступни, која је стара (побољшања је у FET 5.5.0), и биће претворено у слично ограничење овог типа, ограничењу скупа ученика није доступан термин (матрица).</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6756"/>
+        <location filename="../src/engine/rules.cpp" line="6824"/>
         <source>File contains deprecated constraint teachers subgroups max hours daily - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења наставника подгрупа, највише часова дневно - ће бити занемарено</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6766"/>
+        <location filename="../src/engine/rules.cpp" line="6835"/>
         <source>File contains deprecated constraint students n hours daily - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења ученика, n часова дневно - ће бити занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6776"/>
+        <location filename="../src/engine/rules.cpp" line="6846"/>
         <source>File contains deprecated constraint students set n hours daily - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења скупа ученика, n часова дневно - ће бити занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6819"/>
+        <location filename="../src/engine/rules.cpp" line="6890"/>
         <source>File contains old constraint type activity preferred time, which will be converted to the newer similar constraint of this type, constraint activity preferred STARTING time. This improvement is done in versions 5.5.9 and above</source>
         <translation>Датотека садржи стари типа ограничења делатности за жељено време, која ће бити пребачена у новија слична ограничења овог типа, ограничење делатности за жељено ПОЧЕТНО времена. Ова побољшање се користи у издању 5.5.9 и више</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6869"/>
+        <location filename="../src/engine/rules.cpp" line="6940"/>
         <source>File contains deprecated constraint activity ends day - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења делатности, завршни дан - ће бити занемарен
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6880"/>
+        <location filename="../src/engine/rules.cpp" line="6952"/>
         <source>Your file contains old constraint activity preferred times, which will be converted to new equivalent constraint activity preferred starting times. Beginning with FET-5.5.9 it is possible to specify: 1. the starting times of an activity (constraint activity preferred starting times) or: 2. the accepted time slots (constraint activity preferred time slots). If what you need is type 2 of this constraint, you will have to add it by yourself from the interface.</source>
         <translation>Ваша датотека садржи стара ограничења делатности за жељено време, које ће бити претворена у нове еквивалентне делатности ограничене жељеним почетним временом. Почевши са FET-5.5.9 могуће је навести: 1.почетна времена делатности (ограничење делатности за жељено почетно време) или: 2. прихватио је временска места (ограничење делатности на жељена места). Ако је оно што вам је потребно то је тип 2 овог ограничења, мораћете да га додате сами из сучеља.</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6901"/>
+        <location filename="../src/engine/rules.cpp" line="6973"/>
         <source>File contains constraint break, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint break times (a matrix).</source>
         <translation>Датотека садржи ограничење паузе, која је стара (било је побољшања у FET 5.5.0), и биће претворено у слично ограничење овог типа, ограничењу простора није доступан термин (матрица).</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6931"/>
+        <location filename="../src/engine/rules.cpp" line="7003"/>
         <source>File contains constraint students no gaps, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint students max gaps per week, with max gaps=0. If you like, you can modify this constraint to allow more gaps per week (normally not accepted in schools)</source>
         <translation>Датотека садржи ограничења ученика без празнина, која је стара (било је побољшања у FET 5.5.0), и биће претворено у слично ограничење овог типа, ограничење ученика са највише празнина седмично, са највише празнина=0. Ако желите, можете да измените ово ограничење да дозволи више празнине у седмици (обично не прихватају у школама)</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6945"/>
+        <location filename="../src/engine/rules.cpp" line="7017"/>
         <source>File contains constraint students set no gaps, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint students set max gaps per week, with max gaps=0. If you like, you can modify this constraint to allow more gaps per week (normally not accepted in schools)</source>
         <translation>Датотека садржи ограничења скупа ученика без празнина, која је стара (било је побољшања у FET 5.5.0), и биће претворено у слично ограничење овог типа, ограничење скупа ученика са највише празнина седмично, са највише празнина=0. Ако желите, можете да измените ово ограничење да дозволи више празнине у седмици (обично не прихватају у школама)</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6973"/>
+        <location filename="../src/engine/rules.cpp" line="7045"/>
         <source>File contains constraint students early, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint students early max beginnings at second hour, with max beginnings=0. If you like, you can modify this constraint to allow more beginnings at second available hour (above 0 - this will make the timetable easier)</source>
         <translation>Датотека садржи рана ограничења ученика , која је стара (било је побољшања у FET 5.5.0), и биће претворено у слично ограничење овог типа, рано ограничење ученика са највише почетака на другом часу, са највише почетака=0. Ако желите, можете да измените ово ограничење да дозволи више почетака у другом расположивом часу (изнад 0 - ово ће направити распоред лакше)</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="6990"/>
+        <location filename="../src/engine/rules.cpp" line="7062"/>
         <source>File contains constraint students set early, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint students set early max beginnings at second hour, with max beginnings=0. If you like, you can modify this constraint to allow more beginnings at second available hour (above 0 - this will make the timetable easier)</source>
         <translation>Датотека садржи рана ограничења ученика , која је стара (било је побољшања у FET 5.5.0), и биће претворено у слично ограничење овог типа, рано ограничење ученика са највише почетака на другом часу, са највише почетака=0. Ако желите, можете да измените ово ограничење да дозволи више почетака у другом расположивом часу (изнад 0 - ово ће направити распоред лакше)</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7007"/>
+        <location filename="../src/engine/rules.cpp" line="7079"/>
         <source>Your file contains old constraint activities preferred times, which will be converted to new equivalent constraint activities preferred starting times. Beginning with FET-5.5.9 it is possible to specify: 1. the starting times of several activities (constraint activities preferred starting times) or: 2. the accepted time slots (constraint activities preferred time slots). If what you need is type 2 of this constraint, you will have to add it by yourself from the interface.</source>
         <translation>Ваша датотека садржи стара ограничења делатности жељеног времена, које ће бити претворене у нове једнаке делатности ограничене жељеним почетним временом. Почевши са FET-5.5.9 могуће је навести: 1.почетна времена од неколико делатности (ограничење делатности преферира почетна времена) или: 2. прихватио временских места (ограничење делатности, на жељена места). Ако је оно што вам је потребно тип 2 овог ограничења, мораћете да га додате сами из сучеља.</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7045"/>
+        <location filename="../src/engine/rules.cpp" line="7117"/>
         <source>File contains deprecated constraint teachers subject tags max hours continuously - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, врсте предмета са највише часова непрекидно за наставнике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7055"/>
+        <location filename="../src/engine/rules.cpp" line="7128"/>
         <source>File contains deprecated constraint teachers subject tag max hours continuously - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, врста предмета са највише часова непрекидно за наставнике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7071"/>
-        <location filename="../src/engine/rules.cpp" line="7348"/>
+        <location filename="../src/engine/rules.cpp" line="7149"/>
+        <location filename="../src/engine/rules.cpp" line="7438"/>
         <source>Constraint
 %1
 not added - must be a duplicate</source>
@@ -44690,211 +44594,277 @@ not added - must be a duplicate</source>
 не додајите - мора бити дупликат</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7104"/>
+        <location filename="../src/engine/rules.cpp" line="7178"/>
         <source>File contains constraint room not available, which is old (it was improved in FET 5.5.0), and will be converted to the similar constraint of this type, constraint room not available times (a matrix).</source>
         <translation>Датотека садржи ограничење собе, није доступна, која је стара (било је побољшања у FET 5.5.0), и биће претворено у слично ограничење овог типа, ограничењу простора није доступан термин (матрица).</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7119"/>
+        <location filename="../src/engine/rules.cpp" line="7193"/>
         <source>File contains deprecated constraint room type not allowed subjects - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, врста учионице није доступна за предмете - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7130"/>
+        <location filename="../src/engine/rules.cpp" line="7205"/>
         <source>File contains deprecated constraint subject requires equipments - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, предмет захтева опрему - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7142"/>
+        <location filename="../src/engine/rules.cpp" line="7218"/>
         <source>File contains deprecated constraint subject tag requires equipments - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, врста предмет захтева опрему - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7153"/>
+        <location filename="../src/engine/rules.cpp" line="7230"/>
         <source>File contains deprecated constraint teacher requires room - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, наставник захтева учионицу - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7164"/>
+        <location filename="../src/engine/rules.cpp" line="7242"/>
         <source>File contains deprecated constraint teacher subject require room - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, наставник предмета захтевају учионицу - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7175"/>
+        <location filename="../src/engine/rules.cpp" line="7254"/>
         <source>File contains deprecated constraint minimize number of rooms for students - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, умањи број учионица за ученике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7186"/>
+        <location filename="../src/engine/rules.cpp" line="7266"/>
         <source>File contains deprecated constraint minimize number of rooms for teachers - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, умањи број учионица за наставнике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7203"/>
+        <location filename="../src/engine/rules.cpp" line="7284"/>
         <source>File contains deprecated constraint activities same room - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, делатности у истој учионици - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7251"/>
+        <location filename="../src/engine/rules.cpp" line="7333"/>
         <source>File contains deprecated constraint max building changes per day for teachers - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, највише зграда се мења дневно за наставнике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7262"/>
+        <location filename="../src/engine/rules.cpp" line="7345"/>
         <source>File contains deprecated constraint max building changes per day for students - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, највише зграда се мења дневно за ученике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7273"/>
+        <location filename="../src/engine/rules.cpp" line="7357"/>
         <source>File contains deprecated constraint max room changes per day for teachers - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, највише учионица се мења дневно за наставнике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7284"/>
+        <location filename="../src/engine/rules.cpp" line="7369"/>
         <source>File contains deprecated constraint max room changes per day for students - will be ignored
 </source>
         <translation>Датотека садржи застарела ограничења, највише учионица се мења дневно за ученике - биће занемарено
 </translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7417"/>
+        <location filename="../src/engine/rules.cpp" line="7490"/>
+        <location filename="../src/engine/rules.cpp" line="8243"/>
+        <location filename="../src/engine/rules.cpp" line="9284"/>
+        <location filename="../src/engine/rules.cpp" line="9390"/>
+        <location filename="../src/engine/rules.cpp" line="9528"/>
+        <location filename="../src/engine/rules.cpp" line="9617"/>
+        <location filename="../src/engine/rules.cpp" line="9671"/>
+        <location filename="../src/engine/rules.cpp" line="9740"/>
+        <location filename="../src/engine/rules.cpp" line="9809"/>
+        <location filename="../src/engine/rules.cpp" line="9878"/>
+        <location filename="../src/engine/rules.cpp" line="9928"/>
+        <location filename="../src/engine/rules.cpp" line="12142"/>
+        <location filename="../src/engine/rules.cpp" line="12281"/>
+        <location filename="../src/engine/rules.cpp" line="12420"/>
+        <location filename="../src/engine/rules.cpp" line="12684"/>
+        <location filename="../src/engine/rules.cpp" line="13705"/>
+        <location filename="../src/engine/rules.cpp" line="13875"/>
+        <location filename="../src/engine/rules.cpp" line="14045"/>
+        <location filename="../src/engine/rules.cpp" line="14222"/>
+        <location filename="../src/engine/rules.cpp" line="14398"/>
+        <location filename="../src/engine/rules.cpp" line="14528"/>
+        <location filename="../src/engine/rules.cpp" line="14535"/>
+        <location filename="../src/engine/rules.cpp" line="14668"/>
+        <location filename="../src/engine/rules.cpp" line="14675"/>
+        <location filename="../src/engine/rules.cpp" line="15014"/>
+        <location filename="../src/engine/rules.cpp" line="15215"/>
+        <location filename="../src/engine/rules.cpp" line="15343"/>
+        <location filename="../src/engine/rules.cpp" line="15481"/>
+        <location filename="../src/engine/rules.cpp" line="15619"/>
+        <location filename="../src/engine/rules.cpp" line="15710"/>
+        <location filename="../src/engine/rules.cpp" line="15800"/>
+        <location filename="../src/engine/rules.cpp" line="15890"/>
+        <location filename="../src/engine/rules.cpp" line="16372"/>
+        <location filename="../src/engine/rules.cpp" line="16426"/>
+        <source>%1 does not coincide with the number of read %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="7543"/>
         <source>Saving of logging gave error code %1, which means you cannot see the log of reading the file. Please check your disk free space</source>
         <translation>Чување пријављивања је дао код грешке %1, што значи да не можете да видите приступ читања датотеке. Проверите слободан простор на диску</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7460"/>
+        <location filename="../src/engine/rules.cpp" line="7586"/>
         <source>Cannot open %1 for writing ... please check write permissions of the selected directory or your disk free space. Saving of file aborted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7579"/>
+        <location filename="../src/engine/rules.cpp" line="7705"/>
         <source>Saved file gave error code %1, which means saving is compromised. Please check your disk free space</source>
         <translation>Сачувана датотека је дала грешку кода %1, што значи да је угрожено чување. Проверите слободни простора на диску</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="7872"/>
-        <source>Constraint TeacherNotAvailable day corrupt for teacher %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Наставник Није Доступнан дан је заузет за наставника %1, дан %2 је непостојећи ... занемари ограничење</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="7889"/>
-        <source>Constraint TeacherNotAvailable start hour corrupt for teacher %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Наставник Није Доступнан пошетни час је заузет за наставника %1, час %2 је непостојећи ... занемари ограничење</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="7906"/>
-        <source>Constraint TeacherNotAvailable end hour corrupt for teacher %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Наставник Није Доступнан последњи дан је заузет за наставника %1, час %2 је непостојећи ... занемари ограничење</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8017"/>
-        <source>Constraint TeacherNotAvailableTimes day corrupt for teacher %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Наставник Није Доступнан дан је заузет за наставника %1, дан %2 је непостојећи ... занемари ограничење</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8036"/>
-        <source>Constraint TeacherNotAvailableTimes hour corrupt for teacher %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Наставник Није Доступнан час је заузет за наставника %1, час %2 је непостојећи ... занемари ограничење</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8112"/>
-        <source>Constraint TeacherMaxDaysPerWeek max days corrupt for teacher %1, max days %2 &lt;= 0 or &gt;nDaysPerWeek, ignoring constraint</source>
+        <location filename="../src/engine/rules.cpp" line="7983"/>
+        <location filename="../src/engine/rules.cpp" line="9026"/>
+        <location filename="../src/engine/rules.cpp" line="12444"/>
+        <source>Weight percentage incorrect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8153"/>
-        <source>Constraint TeachersMaxDaysPerWeek max days corrupt, max days %1 &lt;= 0 or &gt;nDaysPerWeek, ignoring constraint</source>
+        <location filename="../src/engine/rules.cpp" line="8005"/>
+        <location filename="../src/engine/rules.cpp" line="8179"/>
+        <location filename="../src/engine/rules.cpp" line="9048"/>
+        <location filename="../src/engine/rules.cpp" line="9220"/>
+        <location filename="../src/engine/rules.cpp" line="11210"/>
+        <location filename="../src/engine/rules.cpp" line="11388"/>
+        <location filename="../src/engine/rules.cpp" line="12083"/>
+        <location filename="../src/engine/rules.cpp" line="12221"/>
+        <location filename="../src/engine/rules.cpp" line="12360"/>
+        <location filename="../src/engine/rules.cpp" line="12466"/>
+        <location filename="../src/engine/rules.cpp" line="12628"/>
+        <location filename="../src/engine/rules.cpp" line="13639"/>
+        <location filename="../src/engine/rules.cpp" line="13809"/>
+        <location filename="../src/engine/rules.cpp" line="13979"/>
+        <location filename="../src/engine/rules.cpp" line="14156"/>
+        <location filename="../src/engine/rules.cpp" line="14332"/>
+        <location filename="../src/engine/rules.cpp" line="14464"/>
+        <location filename="../src/engine/rules.cpp" line="14604"/>
+        <location filename="../src/engine/rules.cpp" line="14626"/>
+        <location filename="../src/engine/rules.cpp" line="14783"/>
+        <location filename="../src/engine/rules.cpp" line="14950"/>
+        <source>Day %1 is inexistent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8198"/>
-        <source>Constraint TeacherMinDaysPerWeek min days corrupt for teacher %1, min days %2 &lt;= 0 or &gt;nDaysPerWeek, ignoring constraint</source>
+        <location filename="../src/engine/rules.cpp" line="8024"/>
+        <location filename="../src/engine/rules.cpp" line="9066"/>
+        <location filename="../src/engine/rules.cpp" line="12483"/>
+        <location filename="../src/engine/rules.cpp" line="14801"/>
+        <source>Hour %1 is the last hour - impossible</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8239"/>
-        <source>Constraint TeachersMinDaysPerWeek min days corrupt, min days %1 &lt;= 0 or &gt;nDaysPerWeek, ignoring constraint</source>
+        <location filename="../src/engine/rules.cpp" line="8028"/>
+        <location filename="../src/engine/rules.cpp" line="8051"/>
+        <location filename="../src/engine/rules.cpp" line="8200"/>
+        <location filename="../src/engine/rules.cpp" line="8529"/>
+        <location filename="../src/engine/rules.cpp" line="8645"/>
+        <location filename="../src/engine/rules.cpp" line="8846"/>
+        <location filename="../src/engine/rules.cpp" line="8961"/>
+        <location filename="../src/engine/rules.cpp" line="9070"/>
+        <location filename="../src/engine/rules.cpp" line="9092"/>
+        <location filename="../src/engine/rules.cpp" line="9241"/>
+        <location filename="../src/engine/rules.cpp" line="11229"/>
+        <location filename="../src/engine/rules.cpp" line="11407"/>
+        <location filename="../src/engine/rules.cpp" line="12106"/>
+        <location filename="../src/engine/rules.cpp" line="12244"/>
+        <location filename="../src/engine/rules.cpp" line="12383"/>
+        <location filename="../src/engine/rules.cpp" line="12487"/>
+        <location filename="../src/engine/rules.cpp" line="12508"/>
+        <location filename="../src/engine/rules.cpp" line="12648"/>
+        <location filename="../src/engine/rules.cpp" line="13665"/>
+        <location filename="../src/engine/rules.cpp" line="13835"/>
+        <location filename="../src/engine/rules.cpp" line="14005"/>
+        <location filename="../src/engine/rules.cpp" line="14182"/>
+        <location filename="../src/engine/rules.cpp" line="14358"/>
+        <location filename="../src/engine/rules.cpp" line="14486"/>
+        <location filename="../src/engine/rules.cpp" line="14805"/>
+        <location filename="../src/engine/rules.cpp" line="14827"/>
+        <location filename="../src/engine/rules.cpp" line="14971"/>
+        <source>Hour %1 is inexistent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8303"/>
+        <location filename="../src/engine/rules.cpp" line="8047"/>
+        <location filename="../src/engine/rules.cpp" line="9088"/>
+        <location filename="../src/engine/rules.cpp" line="12504"/>
+        <location filename="../src/engine/rules.cpp" line="14823"/>
+        <source>Hour %1 is the first hour - impossible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="8079"/>
+        <location filename="../src/engine/rules.cpp" line="8083"/>
+        <location filename="../src/engine/rules.cpp" line="8087"/>
+        <location filename="../src/engine/rules.cpp" line="9119"/>
+        <location filename="../src/engine/rules.cpp" line="9123"/>
+        <location filename="../src/engine/rules.cpp" line="9127"/>
+        <location filename="../src/engine/rules.cpp" line="12529"/>
+        <location filename="../src/engine/rules.cpp" line="12533"/>
+        <location filename="../src/engine/rules.cpp" line="12537"/>
+        <location filename="../src/engine/rules.cpp" line="14850"/>
+        <location filename="../src/engine/rules.cpp" line="14854"/>
+        <location filename="../src/engine/rules.cpp" line="14858"/>
+        <source>Field missing: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="8554"/>
+        <location filename="../src/engine/rules.cpp" line="8670"/>
+        <location filename="../src/engine/rules.cpp" line="8871"/>
+        <location filename="../src/engine/rules.cpp" line="8986"/>
+        <source>Hour %1 is inexistent (it is also not void, to specify end of the day)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="8513"/>
         <source>Constraint TeacherIntervalMaxDaysPerWeek max days corrupt for teacher %1, max days %2 &gt;nDaysPerWeek, constraint added, please correct constraint</source>
         <translation>Ограничења Наставнику Интервал Највише Дана Недељно највише дана заузет за наставника %1, највише дана %2  &gt;nДанаНедељно, занемари ограничење</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8319"/>
-        <source>Constraint Teacher interval max days per week start hour corrupt for teacher %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Наставнику интервал највише дана седмично, почетни час је заузет за наставника %1, час %2 је непостојећи ... занемари ограничење</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8342"/>
-        <source>Constraint Teacher interval max days per week end hour corrupt for teacher %1, hour %2 is inexistent (it is also not void, to specify end of the day) ... ignoring constraint</source>
-        <translation>Ограничења Наставник интервал највише дана седмично, последњи час је заузет за наставника %1, час %2 је непостојећи (такође није празнина, наведете на крају дана)... занемари ограничење</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8410"/>
+        <location filename="../src/engine/rules.cpp" line="8629"/>
         <source>Constraint TeachersIntervalMaxDaysPerWeek max days corrupt, max days %1 &gt;nDaysPerWeek, constraint added, please correct constraint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8426"/>
-        <source>Constraint Teachers interval max days per week start hour corrupt because hour %1 is inexistent ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8449"/>
-        <source>Constraint Teachers interval max days per week end hour corrupt because hour %1 is inexistent (it is also not void, to specify end of the day) ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8497"/>
+        <location filename="../src/engine/rules.cpp" line="8724"/>
         <source>Constraint StudentsSetMaxDaysPerWeek max days corrupt for students set %1, max days %2 &gt;nDaysPerWeek, constraint added, please correct constraint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8534"/>
+        <location filename="../src/engine/rules.cpp" line="8764"/>
         <source>Constraint StudentsMaxDaysPerWeek max days corrupt, max days %1 &gt;nDaysPerWeek, constraint added, please correct constraint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8701"/>
+        <location filename="../src/engine/rules.cpp" line="8946"/>
         <source>Constraint StudentsIntervalMaxDaysPerWeek max days corrupt: max days %1 &gt;nDaysPerWeek, constraint added, please correct constraint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8716"/>
-        <source>Constraint Students interval max days per week start hour corrupt: hour %1 is inexistent ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8739"/>
-        <source>Constraint Students interval max days per week end hour corrupt: hour %1 is inexistent (it is also not void, to specify end of the day) ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8594"/>
+        <location filename="../src/engine/rules.cpp" line="8830"/>
         <source>Constraint StudentsSetIntervalMaxDaysPerWeek max days corrupt for students set %1, max days %2 &gt;nDaysPerWeek, constraint added, please correct constraint</source>
         <translation>Ограничења Наставник Интервал Највише Дана Недељно највише дана заузет за разред %1, највише дана %2 &gt;nДанаНедељно, ограничење је додато, исправите ограничење</translation>
     </message>
@@ -44904,263 +44874,90 @@ not added - must be a duplicate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="8610"/>
-        <source>Constraint Students set interval max days per week start hour corrupt for students %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења разреду, највећи интервала дана седмично, почетни час је заузет за ученике %1, сат %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8633"/>
-        <source>Constraint Students set interval max days per week end hour corrupt for students %1, hour %2 is inexistent (it is also not void, to specify end of the day) ... ignoring constraint</source>
-        <translation>Ограничења разреду, интервал са највише дана седмично, крај часа је заузет за ученике %1, час %2 је непостојећи (такође није празнина, наведете на крају дана) ... занемарите ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8792"/>
-        <source>Constraint StudentsSetNotAvailable day corrupt for students %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Скуп Ученика Није Доступан дан, неисправно за ученике %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8808"/>
-        <source>Constraint StudentsSetNotAvailable start hour corrupt for students set %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Скуп Ученика Није Доступан почетни час, неисправно за разред %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8824"/>
-        <source>Constraint StudentsSetNotAvailable end hour corrupt for students %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Скуп Ученика Није Доступан последњи час, неисправно за ученике %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8935"/>
-        <source>Constraint StudentsSetNotAvailableTimes day corrupt for students %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Скуп Ученика Није Доступно Време час, неисправно за ученике %1, дан %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="8954"/>
-        <source>Constraint StudentsSetNotAvailableTimes hour corrupt for students %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Скуп Ученика Није Доступно Време час, неисправно за ученике %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="9022"/>
-        <location filename="../src/engine/rules.cpp" line="9146"/>
+        <location filename="../src/engine/rules.cpp" line="9334"/>
+        <location filename="../src/engine/rules.cpp" line="9472"/>
         <source>Found constraint min days between activities with tag consecutive if same day which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The tag will be considered false</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађено је ограничење са најмање дана дневно између делатности са ознаком узастопно, ако је исти дан није &apos;тачно&apos;, &apos;нетачно&apos;, &apos;да&apos;, &apos;не &apos;, &apos;1 &apos;или &apos;0&apos;. Ознака ће се сматрати нетачна</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="9922"/>
+        <location filename="../src/engine/rules.cpp" line="10371"/>
         <source>Found constraint teachers min hours daily with tag allow empty days which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The tag will be considered false</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађено је ограничење наставницима са најмање часова дневно са ознаком дозволите празне дане који су не &apos;тачно&apos;, &apos;нетачно&apos;, &apos;да&apos;, &apos;не &apos;, &apos;1 &apos;или &apos;0&apos;. Ознака ће се сматрати нетачна</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="9992"/>
+        <location filename="../src/engine/rules.cpp" line="10448"/>
         <source>Found constraint teacher min hours daily with tag allow empty days which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The tag will be considered false</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађено је ограничење наставнику са најмање часова дневно са ознаком дозволите празне дане који су не &apos;тачно&apos;, &apos;нетачно&apos;, &apos;да&apos;, &apos;не &apos;, &apos;1 &apos;или &apos;0&apos;. Ознака ће се сматрати нетачна</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="10415"/>
+        <location filename="../src/engine/rules.cpp" line="10523"/>
+        <location filename="../src/engine/rules.cpp" line="10594"/>
+        <location filename="../src/engine/rules.cpp" line="10660"/>
+        <location filename="../src/engine/rules.cpp" line="10731"/>
+        <location filename="../src/engine/rules.cpp" line="10788"/>
+        <location filename="../src/engine/rules.cpp" line="10840"/>
+        <location filename="../src/engine/rules.cpp" line="10897"/>
+        <location filename="../src/engine/rules.cpp" line="10949"/>
+        <location filename="../src/engine/rules.cpp" line="11035"/>
+        <location filename="../src/engine/rules.cpp" line="11126"/>
+        <location filename="../src/engine/rules.cpp" line="13408"/>
+        <location filename="../src/engine/rules.cpp" line="13534"/>
+        <source>%1 not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="11019"/>
         <source>Found constraint students min hours daily with tag allow empty days which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The tag will be considered false</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађено је ограничење ученицима за најмање часова дневно са ознаком дозволите празне дане који су не &apos;тачно&apos;, &apos;нетачно&apos;, &apos;да&apos;, &apos;не &apos;, &apos;1 &apos;или &apos;0&apos;. Ознака ће се сматрати нетачна</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="10487"/>
+        <location filename="../src/engine/rules.cpp" line="11110"/>
         <source>Found constraint students set min hours daily with tag allow empty days which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The tag will be considered false</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађено је ограничење разреду са најмање часова дневно са ознаком дозволите празне дане који су не &apos;тачно&apos;, &apos;нетачно&apos;, &apos;да&apos;, &apos;не &apos;, &apos;1 &apos;или &apos;0&apos;. Ознака ће се сматрати нетачна</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="10554"/>
-        <location filename="../src/engine/rules.cpp" line="10722"/>
+        <location filename="../src/engine/rules.cpp" line="11188"/>
+        <location filename="../src/engine/rules.cpp" line="11366"/>
         <source>Found constraint activity preferred starting time with tag permanently locked which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The tag will be considered false</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађено је ограничење делатности за жељено почетно време са ознаком трајно закључано која није &apos;тачно&apos;, &apos;нетачно&apos;, &apos;да&apos;, &apos;не &apos;, &apos;1 &apos;или &apos;0&apos;. Ознака ће се сматрати нетачна</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="10575"/>
-        <source>Constraint ActivityPreferredTime day corrupt for activity with id %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Активност Жељено Време дан, неисправно за активност са ИД %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="10592"/>
-        <source>Constraint ActivityPreferredTime hour corrupt for activity with id %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Активност Жељено Време час, неисправно за активност са ИД %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="10608"/>
-        <location filename="../src/engine/rules.cpp" line="10776"/>
+        <location filename="../src/engine/rules.cpp" line="11251"/>
+        <location filename="../src/engine/rules.cpp" line="11429"/>
         <source>Found constraint activity preferred starting time, with unspecified tag &apos;permanently locked&apos; - this tag will be set to &apos;false&apos; by default. You can always modify it by editing the constraint in the &apos;Data&apos; menu</source>
         <translation>Пронађено је ограничење делатности за жељено почетно време, за неутврђениу активност &apos;трајно закључани&apos; - ова ознака ће бити постављена на &apos;нетачно &apos; као подразумевано. Увек можете да га измените тако што ћете изменити ограничење у изборнику &apos;Подаци&apos;</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="10611"/>
-        <location filename="../src/engine/rules.cpp" line="10779"/>
+        <location filename="../src/engine/rules.cpp" line="11254"/>
+        <location filename="../src/engine/rules.cpp" line="11432"/>
         <source>Explanation: starting with version 5.8.0 (January 2009), the constraint activity preferred starting time has a new tag, &apos;permanently locked&apos; (true or false). It is recommended to make the tag &apos;permanently locked&apos; true for the constraints you need to be not modifiable from the &apos;Timetable&apos; menu and leave this tag false for the constraints you need to be modifiable from the &apos;Timetable&apos; menu (the &apos;permanently locked&apos; tag can be modified by editing the constraint from the &apos;Data&apos; menu). This way, when viewing the timetable and locking/unlocking some activities, you will not unlock the constraints which need to be locked all the time.</source>
         <translation>Објашњење: почевши од издања 5.8.0 (Јануар 2009.), ограничење делатности за жељено почетно време има нове ознаке, &apos;трајно закључани&apos; (тачно или нетачно). Препоручује се да се ознака &apos;трајно закључани&apos; важи и за ограничења потребно је да се не измени из изборника &apos;Распоред&apos; и оставити ову ознаку на нетачно за ограничења, треба да буду измењено из изборника &apos;Распоред&apos; (&apos;трајно закључани&apos; ознаку можете мењати тако што ћете изменити ограничења из изборника &apos;Подаци&apos;). На овај начин, када се прегледа распоред и закључавање/откључавање неких делатности, нећете откључати ограничења која морају да буду закључана стално.</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="10630"/>
-        <location filename="../src/engine/rules.cpp" line="10798"/>
+        <location filename="../src/engine/rules.cpp" line="11273"/>
+        <location filename="../src/engine/rules.cpp" line="11451"/>
         <source>Found constraint activity preferred starting time, with unspecified day or hour. This constraint will be transformed into constraint activity preferred starting times (a set of times, not only one). This change is done in FET versions 5.8.1 and higher.</source>
         <translation>Пронађено је ограничење делатности за жељено почетно време, за неутврђени дана или час. Ово ограничење ће се трансформисати у жељено ограничење делатности за почетно време (скуп тренутака, не само један). Ова промена се примењује у издању 5.8.1 FET и новије.</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="10743"/>
-        <source>Constraint ActivityPreferredStartingTime day corrupt for activity with id %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног Времена дана, неисправно за активност са ИД %1, дан %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="10760"/>
-        <source>Constraint ActivityPreferredStartingTime hour corrupt for activity with id %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног Времена часа, неисправно за активност са ИД %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11376"/>
-        <source>Constraint ActivityPreferredTimes day corrupt for activity with id %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Времена дана, неисправно за активност са ИД %1, дан %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11397"/>
-        <source>Constraint ActivityPreferredTimes hour corrupt for activity with id %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Времена часа, неисправно за активност са ИД %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11490"/>
-        <source>Constraint ActivityPreferredTimeSlots day corrupt for activity with id %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Времена места дана, неисправно за активност са ИД %1, дан %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11511"/>
-        <source>Constraint ActivityPreferredTimeSlots hour corrupt for activity with id %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Времена места часа, неисправно за активност са ИД %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11604"/>
-        <source>Constraint ActivityPreferredStartingTimes day corrupt for activity with id %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Времена дана, неисправно за активност са ИД %1, дан %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11625"/>
-        <source>Constraint ActivityPreferredStartingTimes hour corrupt for activity with id %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног Времена часа, неисправно за активност са ИД %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11680"/>
-        <source>Constraint Break day corrupt for day %1 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Прекид дан, неисправан за час %1 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11695"/>
-        <source>Constraint Break start hour corrupt for hour %1 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Прекид почетни час, неисправан за час %1 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11710"/>
-        <source>Constraint Break end hour corrupt for hour %1 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Прекид крај часа, неисправан за час %1 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11814"/>
-        <source>Constraint BreakTimes day corrupt for day %1 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Прекид Времена дан, неисправан за дан %1 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="11832"/>
-        <source>Constraint BreakTimes hour corrupt for hour %1 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Прекида Времена часа, неисправан за час %1 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="12699"/>
-        <source>Constraint ActivitiesPreferredTimes day corrupt for teacher name=%1, students names=%2, subject name=%3, activity tag name=%4, day %5 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног дана, неисправно за име наставника =%1, имена ученика=%2, назив предмета=%3, назив врсте делатности=%4, час %5 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="12723"/>
-        <source>Constraint ActivitiesPreferredTimes hour corrupt for teacher name=%1, students names=%2, subject name=%3, activity tag name=%4, hour %5 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног часа, неисправно за име наставника =%1, имена ученика=%2, назив предмета=%3, назив врсте делатности=%4, час %5 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="12840"/>
-        <location filename="../src/engine/rules.cpp" line="13128"/>
-        <source>Constraint ActivitiesPreferredTimeSlots day corrupt for teacher name=%1, students names=%2, subject name=%3, activity tag name=%4, day %5 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног места дана, неисправно за име наставника =%1, имена ученика=%2, назив предмета=%3, назив врсте делатности=%4, час %5 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="12864"/>
-        <location filename="../src/engine/rules.cpp" line="13152"/>
-        <source>Constraint ActivitiesPreferredTimeSlots hour corrupt for teacher name=%1, students names=%2, subject name=%3, activity tag name=%4, hour %5 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног места часа, неисправно за име наставника =%1, имена ученика=%2, назив предмета=%3, назив врсте делатности=%4, час %5 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="12981"/>
-        <location filename="../src/engine/rules.cpp" line="13274"/>
-        <source>Constraint ActivitiesPreferredStartingTimes day corrupt for teacher name=%1, students names=%2, subject name=%3, activity tag name=%4, day %5 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног дана, неисправно за име наставника =%1, имена ученика=%2, назив предмета=%3, назив врсте делатности=%4, час %5 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13005"/>
-        <location filename="../src/engine/rules.cpp" line="13298"/>
-        <source>Constraint ActivitiesPreferredStartingTimes hour corrupt for teacher name=%1, students names=%2, subject name=%3, activity tag name=%4, hour %5 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења Делатности Жељеног Почетног часа, неисправно за име наставника =%1, имена ученика=%2, назив предмета=%3, назив врсте делатности=%4, час %5 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13382"/>
-        <source>Constraint ActivitiesOccupyMaxTimeSlotsFromSelection day corrupt, day %1 is inexistent ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13402"/>
-        <source> Constraint ActivitiesOccupyMaxTimeSlotsFromSelection hour corrupt, hour %1 is inexistent ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13492"/>
-        <source>Constraint ActivitiesMaxSimultaneousInSelectedTimeSlots day corrupt, day %1 is inexistent ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13512"/>
-        <source> Constraint ActivitiesMaxSimultaneousInSelectedTimeSlots hour corrupt, hour %1 is inexistent ... ignoring constraint</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13637"/>
-        <source>Constraint RoomNotAvailable day corrupt for room %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења учионице, није доступан дан, неисправно за учионицу %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13653"/>
-        <source>Constraint RoomNotAvailable start hour corrupt for room %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења учионице, није доступно почетно време, неисправно за учионицу %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13669"/>
-        <source>Constraint RoomNotAvailable end hour corrupt for room %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења учионице, није доступна и час, неисправно за учионицу %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13778"/>
-        <source>Constraint RoomNotAvailableTimes day corrupt for room %1, day %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења учионице, није доступан термин, неисправно за учионицу %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13797"/>
-        <source>Constraint RoomNotAvailableTimes hour corrupt for room %1, hour %2 is inexistent ... ignoring constraint</source>
-        <translation>Ограничења учионице, није доступан час, неисправно за учионицу %1, час %2 је непостојећи ... занемари ограничења</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="13875"/>
+        <location filename="../src/engine/rules.cpp" line="15074"/>
         <source>Found constraint activity preferred room with tag permanently locked which is not &apos;true&apos;, &apos;false&apos;, &apos;yes&apos;, &apos;no&apos;, &apos;1&apos; or &apos;0&apos;. The tag will be considered false</source>
         <comment>Instructions for translators: please leave the &apos;true&apos;, &apos;false&apos;, &apos;yes&apos; and &apos;no&apos; fields untranslated, as they are in English</comment>
         <translation>Пронађено је ограничење делатности за жељену учионицу са ознаком трајно закључана која није &apos;тачно&apos;, &apos;нетачно&apos;, &apos;Да&apos;, &apos;не&apos;, &apos;1&apos;или &apos;0&apos;. ознака ће се сматрати нетачном</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="13912"/>
+        <location filename="../src/engine/rules.cpp" line="15117"/>
         <source>Found constraint activity preferred room, with unspecified tag &apos;permanently locked&apos; - this tag will be set to &apos;false&apos; by default. You can always modify it by editing the constraint in the &apos;Data&apos; menu</source>
         <translation>Пронађено је ограничење делатности за жељену учионицу, са ознаком неодређено &apos;трајно закључани&apos; - ова ознака ће бити постављена на &apos;нетачно&apos; као подразумеваном. Увек можете да га измените тако што ћете изменити ограничење у изборнику &apos;Подаци&apos;</translation>
     </message>
     <message>
-        <location filename="../src/engine/rules.cpp" line="13915"/>
+        <location filename="../src/engine/rules.cpp" line="15120"/>
         <source>Explanation: starting with version 5.8.0 (January 2009), the constraint activity preferred room has a new tag, &apos;permanently locked&apos; (true or false). It is recommended to make the tag &apos;permanently locked&apos; true for the constraints you need to be not modifiable from the &apos;Timetable&apos; menu and leave this tag false for the constraints you need to be modifiable from the &apos;Timetable&apos; menu (the &apos;permanently locked&apos; tag can be modified by editing the constraint from the &apos;Data&apos; menu). This way, when viewing the timetable and locking/unlocking some activities, you will not unlock the constraints which need to be locked all the time.</source>
         <translation>Објашњење: почевши од издања 5.8.0 (Јануар 2009.), ограничење делатности за жељену учионицу има нове ознаке, &apos;трајно закључано&apos; (тачно или нетачно). Препоручује се да ознака &apos;трајно закључано&apos; буде тачна за ограничења која вам требају као непроменљива из изборника &apos;Распоред&apos; или да поставити ову ознаку на нетачно за ограничења која вам треабају као променљива из изборника &apos;Распоред&apos; (&apos;трајно закључани&apos; ознаку можете мењати тако што ћете изменити ограничења из изборника &apos;Подаци&apos;). Овако, када се прегледа распоред и закључавају/откључавају неке делатности, нећете откључати ограничења која морају бити стално закључана .</translation>
     </message>
