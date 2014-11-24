@@ -78,7 +78,7 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
         <source>FET warning</source>
-        <translation type="unfinished"></translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
@@ -1285,7 +1285,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addactivityform_template.ui" line="26"/>
         <source>Teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/addactivityform_template.ui" line="43"/>
@@ -28800,7 +28800,7 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="829"/>
         <source>FET - exiting</source>
-        <translation type="unfinished"></translation>
+        <translation>FET - изход</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="830"/>
@@ -29070,7 +29070,7 @@ Please stop simulation before this.</source>
         <location filename="../src/interface/fetmainform.cpp" line="1286"/>
         <location filename="../src/interface/fetmainform.cpp" line="1294"/>
         <source>It seems that you have an incomplete timetable. Saving of timetable does not work for incomplete timetables. Please generate a complete timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Изглежда имате непълен график. Записване на непълен график не се прави. Моля, генерирайте пълен график</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1330"/>
@@ -29085,7 +29085,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1362"/>
         <source>For safety (so you don&apos;t lose work), it is not allowed to overwrite an existing file with locking and saving a current data+timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>За сигурност (за да не загубите направеното), не е позволено да се записва върху съществуващ файл чрез заключване и запазване на текущите данни+график</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1365"/>
@@ -29934,7 +29934,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="896"/>
         <source>Import comma separated values (text)</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране на отделени със запетая стойности (текст)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="909"/>
@@ -29979,13 +29979,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="989"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1142"/>
         <source>Teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1017"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1127"/>
         <source>Students</source>
-        <translation type="unfinished"></translation>
+        <translation>Студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1045"/>
@@ -30631,7 +30631,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1862"/>
         <source>Export comma separated values (text)</source>
-        <translation type="unfinished"></translation>
+        <translation>Експортиране на отделени със запетая стойности (текст)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1867"/>
@@ -30974,7 +30974,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="2303"/>
         <source>&amp;Clear list</source>
         <extracomment>It means clearing the list of recently opened files</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Изтриване на списъка</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2308"/>
@@ -32345,7 +32345,7 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8437"/>
         <source>Teachers: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8439"/>
@@ -35044,7 +35044,7 @@ Add another constraint: min 1 day between activities with id-s 2 and 3, consecut
     <message>
         <location filename="../src/engine/import.cpp" line="114"/>
         <source>Teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="115"/>
@@ -35833,7 +35833,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyactivityform_template.ui" line="26"/>
         <source>Teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyactivityform_template.ui" line="43"/>
@@ -43164,7 +43164,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifysubactivityform_template.ui" line="29"/>
         <source>Teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/modifysubactivityform_template.ui" line="46"/>
@@ -44109,7 +44109,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/engine/rules.cpp" line="5471"/>
         <source>Could not open file - not existing or in use</source>
-        <translation type="unfinished"></translation>
+        <translation>Не може да се отвори файла - не съществува или се използва</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="5483"/>
@@ -47175,22 +47175,22 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/teachersform_template.ui" line="14"/>
         <source>Teachers</source>
         <extracomment>Title of dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform_template.ui" line="39"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform_template.ui" line="46"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Преименуване</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform_template.ui" line="53"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform_template.ui" line="62"/>
@@ -47205,12 +47205,12 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/teachersform_template.ui" line="78"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform_template.ui" line="85"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -47218,7 +47218,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/teachersstatisticsform.cpp" line="50"/>
         <source>Teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersstatisticsform.cpp" line="51"/>
