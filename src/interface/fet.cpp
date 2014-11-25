@@ -372,7 +372,8 @@ void initLanguagesSet()
 	languagesSet.clear();
 	languagesSet.insert("en_US");
 	languagesSet.insert("ar");
-	languagesSet.insert("ca");
+    languagesSet.insert("bg");
+    languagesSet.insert("ca");
 	languagesSet.insert("de");
 	languagesSet.insert("el");
 	languagesSet.insert("es");
@@ -424,15 +425,18 @@ void setLanguage(QCoreApplication& qapplication, QWidget* parent)
 	bool translation_loaded=false;
 	
 	if(FET_LANGUAGE!="en_US" && languagesSet.contains(FET_LANGUAGE)){
-		translation_loaded=translator.load("fet_"+FET_LANGUAGE, qapplication.applicationDirPath());
-		if(!translation_loaded){
-			translation_loaded=translator.load("fet_"+FET_LANGUAGE, qapplication.applicationDirPath()+"/translations");
-			if(!translation_loaded){
-				if(d.exists()){
-					translation_loaded=translator.load("fet_"+FET_LANGUAGE, "/usr/share/fet/translations");
-				}
-			}
-		}
+        translation_loaded=translator.load("fet_"+FET_LANGUAGE, QDir::currentPath());
+        if(!translation_loaded){
+            translation_loaded=translator.load("fet_"+FET_LANGUAGE, qapplication.applicationDirPath());
+            if(!translation_loaded){
+                translation_loaded=translator.load("fet_"+FET_LANGUAGE, qapplication.applicationDirPath()+"/translations");
+                if(!translation_loaded){
+                    if(d.exists()){
+                        translation_loaded=translator.load("fet_"+FET_LANGUAGE, "/usr/share/fet/translations");
+                    }
+                }
+            }
+        }
 	}
 	else{
 		if(FET_LANGUAGE!="en_US"){

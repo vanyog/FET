@@ -441,8 +441,8 @@ FetMainForm::FetMainForm()
 	//statusBar()->showMessage(tr("FET started", "This is a message written in the status bar, saying that FET was started"), STATUS_BAR_MILLISECONDS);
 	statusBar()->showMessage("", STATUS_BAR_MILLISECONDS); //to get the correct centralWidget for the logo, so we need status bar existing.
 	
-	INPUT_FILENAME_XML=QString("");
-	setCurrentFile(INPUT_FILENAME_XML);
+//    INPUT_FILENAME_XML=QString("");
+//    setCurrentFile(INPUT_FILENAME_XML);
 
 	//toolBox->setCurrentIndex(0);
 	tabWidget->setVisible(SHOW_SHORTCUTS_ON_MAIN_WINDOW);
@@ -629,6 +629,12 @@ FetMainForm::FetMainForm()
 	setEnabledIcon(dataTimeConstraintsStudentsMaxGapsPerDayAction, ENABLE_STUDENTS_MAX_GAPS_PER_DAY);
 
 	setEnabledIcon(groupActivitiesInInitialOrderAction, ENABLE_GROUP_ACTIVITIES_IN_INITIAL_ORDER);
+
+    // Change made by Vanyo Georgiev
+         INPUT_FILENAME_XML=settings.value(QString("FetMainForm/LastOpenedFETXMLFile"), QString("")).toString();
+         if (!INPUT_FILENAME_XML.isEmpty()) openFile(INPUT_FILENAME_XML);
+         else setCurrentFile(INPUT_FILENAME_XML);
+    // End of changes
 }
 
 void FetMainForm::setEnabledIcon(QAction* action, bool enabled)
@@ -648,7 +654,8 @@ void FetMainForm::populateLanguagesMap(QMap<QString, QString>& languagesMap)
 	languagesMap.clear();
 	languagesMap.insert("en_US", tr("US English"));
 	languagesMap.insert("ar", tr("Arabic"));
-	languagesMap.insert("ca", tr("Catalan"));
+    languagesMap.insert("bg", tr("Bulgarian"));
+    languagesMap.insert("ca", tr("Catalan"));
 	languagesMap.insert("de", tr("German"));
 	languagesMap.insert("el", tr("Greek"));
 	languagesMap.insert("es", tr("Spanish"));
@@ -861,6 +868,10 @@ FetMainForm::~FetMainForm()
 	settings.remove(QString("FetMainForm/recent-file"));
 	for(int i=0; i<recentFiles.count(); i++)
 		settings.setValue(QString("FetMainForm/recent-file/")+CustomFETString::number(i+1), recentFiles.at(i));
+
+// Change made by Vanyo Georgiev
+    settings.setValue(QString("FetMainForm/LastOpenedFETXMLFile"), INPUT_FILENAME_XML);
+// End of changes
 
 	shortcutBasicMenu->clear();
 	delete shortcutBasicMenu;
