@@ -1,28 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Ιόνιο Πανεπιστήμιο - Τμήμα Τεχνών Ήχου &amp; Εικόνας</Institution_Name>
 
 <Comments>Πρόγραμμα Εξετάσεων Ιουνίου 2009</Comments>
-
-<Hours_List>
-	<Number>14</Number>
-	<Name>08:00</Name>
-	<Name>09:00</Name>
-	<Name>10:00</Name>
-	<Name>11:00</Name>
-	<Name>12:00</Name>
-	<Name>13:00</Name>
-	<Name>14:00</Name>
-	<Name>15:00</Name>
-	<Name>16:00</Name>
-	<Name>17:00</Name>
-	<Name>18:00</Name>
-	<Name>19:00</Name>
-	<Name>20:00</Name>
-	<Name>21:00</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>18</Number>
@@ -46,125 +28,143 @@
 	<Name>Τετάρτη 30/9</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>14</Number>
+	<Name>08:00</Name>
+	<Name>09:00</Name>
+	<Name>10:00</Name>
+	<Name>11:00</Name>
+	<Name>12:00</Name>
+	<Name>13:00</Name>
+	<Name>14:00</Name>
+	<Name>15:00</Name>
+	<Name>16:00</Name>
+	<Name>17:00</Name>
+	<Name>18:00</Name>
+	<Name>19:00</Name>
+	<Name>20:00</Name>
+	<Name>21:00</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>1ο Έτος</Name>
-<Number_of_Students>90</Number_of_Students>
+	<Name>1ο Έτος</Name>
+	<Number_of_Students>90</Number_of_Students>
 	<Group>
-	<Name>Α Εξάμηνο</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>Α-Α</Name>
+		<Name>Α Εξάμηνο</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>Α-Α</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Α-Β</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Α-Β</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Β Εξάμηνο</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>B-A</Name>
+		<Name>Β Εξάμηνο</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>B-A</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>B-B</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>B-B</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Β-Γ</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>2ο Έτος</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Γ Εξάμηνο</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>Γ-Α</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Γ-Β</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Δ Εξάμηνο</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>3ο Έτος</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Ε Εξάμηνο</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>Ε-Α</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Ε-Β</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>ΣΤ Εξάμηνο</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>ΣΤ-Α</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ΣΤ-Β</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Β-Γ</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>4ο Έτος</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Ζ Εξάμηνο</Name>
+	<Name>2ο Έτος</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>Ζ-Α</Name>
+	<Group>
+		<Name>Γ Εξάμηνο</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>Γ-Α</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Ζ-Β</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Γ-Β</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Η Εξάμηνο</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>H-A</Name>
+		<Name>Δ Εξάμηνο</Name>
 		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>3ο Έτος</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>Ε Εξάμηνο</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>Ε-Α</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>H-B</Name>
+			<Name>Ε-Β</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>ΣΤ Εξάμηνο</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>ΣΤ-Α</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ΣΤ-Β</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>5ο έτος</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Θ Εξάμηνο</Name>
+	<Name>4ο Έτος</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>Ζ Εξάμηνο</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>Ζ-Α</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Ζ-Β</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Ι Εξάμηνο</Name>
+		<Name>Η Εξάμηνο</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>H-A</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>H-B</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>5ο έτος</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>Θ Εξάμηνο</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Ι Εξάμηνο</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

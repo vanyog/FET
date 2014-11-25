@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>6ο Δημοτικό Σχολείο Διδυμοτείχου</Institution_Name>
 
 <Comments>Σχολείο με πρόγραμμα διευρυμένου διδακτικού ωραρίου - Σχολικό έτος 2010-2011 - Δείγμα προγράμματος</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Δευτέρα</Name>
+	<Name>Τρίτη</Name>
+	<Name>Τετάρτη</Name>
+	<Name>Πέμπτη</Name>
+	<Name>Παρασκευή</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>7</Number>
@@ -17,97 +26,88 @@
 	<Name>13:20</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Δευτέρα</Name>
-	<Name>Τρίτη</Name>
-	<Name>Τετάρτη</Name>
-	<Name>Πέμπτη</Name>
-	<Name>Παρασκευή</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>ΣΧΟΛΙΚΟ ΕΤΟΣ 2010-2011</Name>
-<Number_of_Students>300</Number_of_Students>
+	<Name>ΣΧΟΛΙΚΟ ΕΤΟΣ 2010-2011</Name>
+	<Number_of_Students>300</Number_of_Students>
 	<Group>
-	<Name>Α</Name>
-	<Number_of_Students>50</Number_of_Students>
+		<Name>Α</Name>
+		<Number_of_Students>50</Number_of_Students>
 		<Subgroup>
-		<Name>Α1</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Α1</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Α2</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Α2</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Β</Name>
-	<Number_of_Students>50</Number_of_Students>
+		<Name>Β</Name>
+		<Number_of_Students>50</Number_of_Students>
 		<Subgroup>
-		<Name>Β1</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Β1</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Β2</Name>
-		<Number_of_Students>25</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Γ</Name>
-	<Number_of_Students>50</Number_of_Students>
-		<Subgroup>
-		<Name>Γ1</Name>
-		<Number_of_Students>25</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Γ2</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Β2</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Δ</Name>
-	<Number_of_Students>50</Number_of_Students>
+		<Name>Γ</Name>
+		<Number_of_Students>50</Number_of_Students>
 		<Subgroup>
-		<Name>Δ1</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Γ1</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Δ2</Name>
-		<Number_of_Students>25</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Ε</Name>
-	<Number_of_Students>50</Number_of_Students>
-		<Subgroup>
-		<Name>Ε1</Name>
-		<Number_of_Students>25</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Ε2</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Γ2</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>ΣΤ</Name>
-	<Number_of_Students>50</Number_of_Students>
+		<Name>Δ</Name>
+		<Number_of_Students>50</Number_of_Students>
 		<Subgroup>
-		<Name>ΣΤ1</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Δ1</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>ΣΤ2</Name>
-		<Number_of_Students>25</Number_of_Students>
+			<Name>Δ2</Name>
+			<Number_of_Students>25</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>ΤΥ</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Ε</Name>
+		<Number_of_Students>50</Number_of_Students>
 		<Subgroup>
-		<Name>ΤΥ1</Name>
+			<Name>Ε1</Name>
+			<Number_of_Students>25</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Ε2</Name>
+			<Number_of_Students>25</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>ΣΤ</Name>
+		<Number_of_Students>50</Number_of_Students>
+		<Subgroup>
+			<Name>ΣΤ1</Name>
+			<Number_of_Students>25</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ΣΤ2</Name>
+			<Number_of_Students>25</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>ΤΥ</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>ΤΥ1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

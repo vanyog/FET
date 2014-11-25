@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>ПГ &quot;Найден Геров&quot; - Лом</Institution_Name>
 
 <Comments>Първи срок 2007/2008 година</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Понеделник</Name>
+	<Name>Вторник</Name>
+	<Name>Сряда</Name>
+	<Name>Четвъртък</Name>
+	<Name>Петък</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>7</Number>
@@ -17,197 +26,188 @@
 	<Name>12:30</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Понеделник</Name>
-	<Name>Вторник</Name>
-	<Name>Сряда</Name>
-	<Name>Четвъртък</Name>
-	<Name>Петък</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>8</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>8 а</Name>
+	<Name>8</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>8 а целия клас</Name>
+	<Group>
+		<Name>8 а</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>8 а целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>8 б</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>8 б целия клас</Name>
+		<Name>8 б</Name>
 		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>9</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>9 а</Name>
-	<Number_of_Students>0</Number_of_Students>
 		<Subgroup>
-		<Name>9 а целия клас</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>9 б</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>9 б историци1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9 б историци2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>9 в</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>9 в историци2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9 в биолози</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>8 б целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>10</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>10 а</Name>
+	<Name>9</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>10 а целия клас</Name>
+	<Group>
+		<Name>9 а</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>9 а целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>10 б</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>10 б математици</Name>
+		<Name>9 б</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>9 б историци1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10 б худ.-биолози</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>10 в</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>10 в историци</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10 в худ.-биолози</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>11</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>11 а</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>11 а целия клас</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>9 б историци2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>11 б</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>11 б художници</Name>
+		<Name>9 в</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>9 в историци2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11 б спортисти</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>11 в</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>11 в историци</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11 в спортисти</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>11 г</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>11 г биолози</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11 г спортисти</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>9 в биолози</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>12</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>12 а</Name>
+	<Name>10</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>12 а целия клас</Name>
+	<Group>
+		<Name>10 а</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>10 а целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>12 б</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>12 б целия клас</Name>
+		<Name>10 б</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>10 б математици</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10 б худ.-биолози</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>12 в</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>12 в целия клас</Name>
+		<Name>10 в</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>10 в историци</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10 в худ.-биолози</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>11</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>11 а</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>11 а целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>12 г</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>12 г целия клас</Name>
+		<Name>11 б</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>11 б художници</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>11 б спортисти</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>12 д</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>12 д целия клас</Name>
+		<Name>11 в</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>11 в историци</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>11 в спортисти</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>11 г</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>11 г биолози</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>11 г спортисти</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>12</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>12 а</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>12 а целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>12 б</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>12 б целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>12 в</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>12 в целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>12 г</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>12 г целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>12 д</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>12 д целия клас</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

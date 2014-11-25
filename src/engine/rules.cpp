@@ -98,21 +98,8 @@ void FakeString::operator+=(const char* str)
 
 void Rules::init() //initializes the rules (empty, but with default hours and days)
 {
-	//defaults
-	this->nHoursPerDay=12;
-	this->hoursOfTheDay[0]="08:00";
-	this->hoursOfTheDay[1]="09:00";
-	this->hoursOfTheDay[2]="10:00";
-	this->hoursOfTheDay[3]="11:00";
-	this->hoursOfTheDay[4]="12:00";
-	this->hoursOfTheDay[5]="13:00";
-	this->hoursOfTheDay[6]="14:00";
-	this->hoursOfTheDay[7]="15:00";
-	this->hoursOfTheDay[8]="16:00";
-	this->hoursOfTheDay[9]="17:00";
-	this->hoursOfTheDay[10]="18:00";
-	this->hoursOfTheDay[11]="19:00";
-	//this->hoursOfTheDay[12]="20:00";
+	this->institutionName=tr("Default institution");
+	this->comments=tr("Default comments");
 
 	this->nDaysPerWeek=5;
 	this->daysOfTheWeek[0] = tr("Monday");
@@ -121,8 +108,21 @@ void Rules::init() //initializes the rules (empty, but with default hours and da
 	this->daysOfTheWeek[3] = tr("Thursday");
 	this->daysOfTheWeek[4] = tr("Friday");
 	
-	this->institutionName=tr("Default institution");
-	this->comments=tr("Default comments");
+	//defaults
+	this->nHoursPerDay=12;
+	this->hoursOfTheDay[0]=tr("08:00", "Hour name");
+	this->hoursOfTheDay[1]=tr("09:00", "Hour name");
+	this->hoursOfTheDay[2]=tr("10:00", "Hour name");
+	this->hoursOfTheDay[3]=tr("11:00", "Hour name");
+	this->hoursOfTheDay[4]=tr("12:00", "Hour name");
+	this->hoursOfTheDay[5]=tr("13:00", "Hour name");
+	this->hoursOfTheDay[6]=tr("14:00", "Hour name");
+	this->hoursOfTheDay[7]=tr("15:00", "Hour name");
+	this->hoursOfTheDay[8]=tr("16:00", "Hour name");
+	this->hoursOfTheDay[9]=tr("17:00", "Hour name");
+	this->hoursOfTheDay[10]=tr("18:00", "Hour name");
+	this->hoursOfTheDay[11]=tr("19:00", "Hour name");
+	//this->hoursOfTheDay[12]=tr("20:00", "Hours name");
 
 	activitiesPointerHash.clear();
 	bctSet.clear();
@@ -5669,20 +5669,8 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 		this->kill();
 	this->init();
 	
-	this->nHoursPerDay=12;
-	this->hoursOfTheDay[0]="08:00";
-	this->hoursOfTheDay[1]="09:00";
-	this->hoursOfTheDay[2]="10:00";
-	this->hoursOfTheDay[3]="11:00";
-	this->hoursOfTheDay[4]="12:00";
-	this->hoursOfTheDay[5]="13:00";
-	this->hoursOfTheDay[6]="14:00";
-	this->hoursOfTheDay[7]="15:00";
-	this->hoursOfTheDay[8]="16:00";
-	this->hoursOfTheDay[9]="17:00";
-	this->hoursOfTheDay[10]="18:00";
-	this->hoursOfTheDay[11]="19:00";
-	//this->hoursOfTheDay[12]="20:00";
+	this->institutionName=tr("Default institution");
+	this->comments=tr("Default comments");
 
 	this->nDaysPerWeek=5;
 	this->daysOfTheWeek[0] = tr("Monday");
@@ -5691,8 +5679,20 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 	this->daysOfTheWeek[3] = tr("Thursday");
 	this->daysOfTheWeek[4] = tr("Friday");
 
-	this->institutionName=tr("Default institution");
-	this->comments=tr("Default comments");
+	this->nHoursPerDay=12;
+	this->hoursOfTheDay[0]=tr("08:00", "Hour name");
+	this->hoursOfTheDay[1]=tr("09:00", "Hour name");
+	this->hoursOfTheDay[2]=tr("10:00", "Hour name");
+	this->hoursOfTheDay[3]=tr("11:00", "Hour name");
+	this->hoursOfTheDay[4]=tr("12:00", "Hour name");
+	this->hoursOfTheDay[5]=tr("13:00", "Hour name");
+	this->hoursOfTheDay[6]=tr("14:00", "Hour name");
+	this->hoursOfTheDay[7]=tr("15:00", "Hour name");
+	this->hoursOfTheDay[8]=tr("16:00", "Hour name");
+	this->hoursOfTheDay[9]=tr("17:00", "Hour name");
+	this->hoursOfTheDay[10]=tr("18:00", "Hour name");
+	this->hoursOfTheDay[11]=tr("19:00", "Hour name");
+	//this->hoursOfTheDay[12]=tr("20:00", "Hour name");
 
 	bool skipDeprecatedConstraints=false;
 	
@@ -5713,40 +5713,6 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 			xmlReadingLog+="  Found comments="+this->comments+"\n";
 			reducedXmlLog+="Read comments="+this->comments+"\n";
 		}
-		else if(xmlReader.name()=="Hours_List"){
-			int tmp=0;
-			assert(xmlReader.isStartElement());
-			while(xmlReader.readNextStartElement()){
-				xmlReadingLog+="   Found "+xmlReader.name().toString()+" tag\n";
-				if(xmlReader.name()=="Number"){
-					QString text=xmlReader.readElementText();
-					this->nHoursPerDay=text.toInt();
-					xmlReadingLog+="   Found the number of hours per day = "+
-					 CustomFETString::number(this->nHoursPerDay)+"\n";
-					reducedXmlLog+="Added "+
-					 CustomFETString::number(this->nHoursPerDay)+" hours per day\n";
-					if(nHoursPerDay<=0)
-						xmlReader.raiseError(tr("%1 is incorrect").arg("Number"));
-					else
-						assert(this->nHoursPerDay>0);
-				}
-				else if(xmlReader.name()=="Name"){
-					QString text=xmlReader.readElementText();
-					this->hoursOfTheDay[tmp]=text;
-					xmlReadingLog+="   Found hour "+this->hoursOfTheDay[tmp]+"\n";
-					tmp++;
-				}
-				else{
-					xmlReader.skipCurrentElement();
-					xmlReaderNumberOfUnrecognizedFields++;
-				}
-			}
-			if(!(tmp==nHoursPerDay || tmp==nHoursPerDay+1))
-				xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg("Number").arg("Name"));
-			else
-				assert(tmp==nHoursPerDay || tmp==nHoursPerDay+1);
-			//don't do assert tmp == nHoursPerDay, because some older files contain also the end of day hour, so tmp==nHoursPerDay+1 in this case
-		}
 		else if(xmlReader.name()=="Days_List"){
 			int tmp=0;
 			assert(xmlReader.isStartElement());
@@ -5759,26 +5725,86 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 					 CustomFETString::number(this->nDaysPerWeek)+"\n";
 					reducedXmlLog+="Added "+
 					 CustomFETString::number(this->nDaysPerWeek)+" days per week\n";
-					if(nDaysPerWeek<=0)
+					if(nDaysPerWeek<=0){
 						xmlReader.raiseError(tr("%1 is incorrect").arg("Number"));
-					else
-						assert(this->nDaysPerWeek>0);
+					}
+					else if(nDaysPerWeek>MAX_DAYS_PER_WEEK){
+						xmlReader.raiseError(tr("%1 is too large").arg("Number"));
+					}
+					else{
+						assert(this->nDaysPerWeek>0 && nDaysPerWeek<=MAX_DAYS_PER_WEEK);
+					}
 				}
 				else if(xmlReader.name()=="Name"){
-					QString text=xmlReader.readElementText();
-					this->daysOfTheWeek[tmp]=text;
-					xmlReadingLog+="   Found day "+this->daysOfTheWeek[tmp]+"\n";
-					tmp++;
+					if(tmp>=MAX_DAYS_PER_WEEK){
+						xmlReader.raiseError(tr("Too many %1").arg("Name"));
+						xmlReader.skipCurrentElement();
+					}
+					else{
+						QString text=xmlReader.readElementText();
+						this->daysOfTheWeek[tmp]=text;
+						xmlReadingLog+="   Found day "+this->daysOfTheWeek[tmp]+"\n";
+						tmp++;
+					}
 				}
 				else{
 					xmlReader.skipCurrentElement();
 					xmlReaderNumberOfUnrecognizedFields++;
 				}
 			}
-			if(!tmp==nDaysPerWeek)
-				xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Days_List").arg("Number").arg("Name"));
-			else
-				assert(tmp==this->nDaysPerWeek);
+			if(!xmlReader.error()){
+				if(!(tmp==nDaysPerWeek))
+					xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Days_List").arg("Number").arg("Name"));
+				else
+					assert(tmp==this->nDaysPerWeek);
+			}
+		}
+		else if(xmlReader.name()=="Hours_List"){
+			int tmp=0;
+			assert(xmlReader.isStartElement());
+			while(xmlReader.readNextStartElement()){
+				xmlReadingLog+="   Found "+xmlReader.name().toString()+" tag\n";
+				if(xmlReader.name()=="Number"){
+					QString text=xmlReader.readElementText();
+					this->nHoursPerDay=text.toInt();
+					xmlReadingLog+="   Found the number of hours per day = "+
+					 CustomFETString::number(this->nHoursPerDay)+"\n";
+					reducedXmlLog+="Added "+
+					 CustomFETString::number(this->nHoursPerDay)+" hours per day\n";
+					if(nHoursPerDay<=0){
+						xmlReader.raiseError(tr("%1 is incorrect").arg("Number"));
+					}
+					else if(nHoursPerDay>MAX_HOURS_PER_DAY){
+						xmlReader.raiseError(tr("%1 is too large").arg("Number"));
+					}
+					else{
+						assert(this->nHoursPerDay>0 && nHoursPerDay<=MAX_HOURS_PER_DAY);
+					}
+				}
+				else if(xmlReader.name()=="Name"){
+					if(tmp>=MAX_HOURS_PER_DAY){
+						xmlReader.raiseError(tr("Too many %1").arg("Name"));
+						xmlReader.skipCurrentElement();
+					}
+					else{
+						QString text=xmlReader.readElementText();
+						this->hoursOfTheDay[tmp]=text;
+						xmlReadingLog+="   Found hour "+this->hoursOfTheDay[tmp]+"\n";
+						tmp++;
+					}
+				}
+				else{
+					xmlReader.skipCurrentElement();
+					xmlReaderNumberOfUnrecognizedFields++;
+				}
+			}
+			if(!xmlReader.error()){
+				if(!(tmp==nHoursPerDay || tmp==nHoursPerDay+1))
+					xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg("Number").arg("Name"));
+				else
+					assert(tmp==nHoursPerDay || tmp==nHoursPerDay+1);
+				//don't do assert tmp == nHoursPerDay, because some older files contain also the end of day hour, so tmp==nHoursPerDay+1 in this case
+			}
 		}
 		else if(xmlReader.name()=="Teachers_List"){
 			QSet<QString> teachersRead;
@@ -6189,7 +6215,7 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 							if(ns == stg->subgroupsList.size()){
 								xmlReadingLog+="    Added "+CustomFETString::number(ns)+" subgroups\n";
 								tsgr+=ns;
-							//reducedXmlLog+="		Added "+CustomFETString::number(ns)+" subgroups\n";
+								//reducedXmlLog+="		Added "+CustomFETString::number(ns)+" subgroups\n";
 							}
 						}
 						else{
@@ -7599,19 +7625,19 @@ bool Rules::write(QWidget* parent, const QString& filename)
 //	tos<<"<!DOCTYPE FET><FET version=\""+FET_VERSION+"\">\n\n";
 	tos<<"<fet version=\""+FET_VERSION+"\">\n\n";
 	
-	//the institution name and comments
+	//the institution name and the comments
 	tos<<"<Institution_Name>"+protect(this->institutionName)+"</Institution_Name>\n\n";
 	tos<<"<Comments>"+protect(this->comments)+"</Comments>\n\n";
 
-	//the hours and days
-	tos<<"<Hours_List>\n	<Number>"+CustomFETString::number(this->nHoursPerDay)+"</Number>\n";
-	for(int i=0; i<this->nHoursPerDay; i++)
-		tos<<"	<Name>"+protect(this->hoursOfTheDay[i])+"</Name>\n";
-	tos<<"</Hours_List>\n\n";
+	//the days and the hours
 	tos<<"<Days_List>\n	<Number>"+CustomFETString::number(this->nDaysPerWeek)+"</Number>\n";
 	for(int i=0; i<this->nDaysPerWeek; i++)
 		tos<<"	<Name>"+protect(this->daysOfTheWeek[i])+"</Name>\n";
 	tos<<"</Days_List>\n\n";
+	tos<<"<Hours_List>\n	<Number>"+CustomFETString::number(this->nHoursPerDay)+"</Number>\n";
+	for(int i=0; i<this->nHoursPerDay; i++)
+		tos<<"	<Name>"+protect(this->hoursOfTheDay[i])+"</Name>\n";
+	tos<<"</Hours_List>\n\n";
 
 	//students list
 	tos<<"<Students_List>\n";

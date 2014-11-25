@@ -1,10 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Pioneers Boys School</Institution_Name>
 
 <Comments>SchoolWrite . . . software designed with the future in mind!</Comments>
+
+<Days_List>
+	<Number>7</Number>
+	<Name>Day1</Name>
+	<Name>Day 2</Name>
+	<Name>Day 3</Name>
+	<Name>Day 4</Name>
+	<Name>Day 5</Name>
+	<Name>Day 6</Name>
+	<Name>Day 7</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>9</Number>
@@ -19,432 +30,421 @@
 	<Name>Period 8</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>7</Number>
-	<Name>Day1</Name>
-	<Name>Day 2</Name>
-	<Name>Day 3</Name>
-	<Name>Day 4</Name>
-	<Name>Day 5</Name>
-	<Name>Day 6</Name>
-	<Name>Day 7</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>Gr10 A</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>Gr10 A</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>Gr8 A</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>Gr8 A</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>Gr8 B</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>Gr8 B</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>Gr9 A</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>Gr9 A</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>Gr9 B</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>Gr9 B</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>N1 A</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>N1 A Metal</Name>
+	<Name>N1 A</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>N1 A Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>N1 A Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 A Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>N1 A Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 A Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>N1 A Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 A Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>N1 A Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>N1 B</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>N1 B Metal</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>N1 B Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>N1 B Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>N1 B Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>N1 B Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 A Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr10 A</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr10 A Metal</Name>
+	<Name>N1 B</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>N1 B Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 A Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 B Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 A Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 B Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 A Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 B Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 A Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>SGr10 B</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr10 B Metal</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr10 B Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr10 B Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr10 B Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr10 B Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>N1 B Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr10 C</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr10 C Metal</Name>
+	<Name>SGr10 A</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr10 A Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 C Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 A Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 C Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 A Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 C Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 A Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr10 C Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>SGr6 A</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr6 B</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr6 C</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr6 D</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr7 A</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr7 B</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr7 C</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr7 D</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr7 E</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>SGr8 A</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr8 A Metal</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 A Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 A Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 A Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 A Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 A Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr8 B</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr8 B Metal</Name>
+	<Name>SGr10 B</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr10 B Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 B Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 B Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 B Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 B Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 B Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 B Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 B Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>SGr8 C</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr8 C Metal</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 C Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 C Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 C Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 C Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 B Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr8 D</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr8 D Metal</Name>
+	<Name>SGr10 C</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr10 C Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 D Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 C Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 D Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 C Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 D Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 C Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr8 D Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>SGr8 E</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr8 E Metal</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 E Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 E Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 E Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr8 E Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr10 C Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr9 A</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr9 A Metal</Name>
+	<Name>SGr6 A</Name>
 	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr6 B</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr6 C</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr6 D</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr7 A</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr7 B</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr7 C</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr7 D</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr7 E</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>SGr8 A</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr8 A Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 A Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 A Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 A Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 A Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 A Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 A Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 A Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 A Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr9 B</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr9 B Metal</Name>
+	<Name>SGr8 B</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr8 B Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 B Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 B Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 B Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 B Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 B Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 B Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 B Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>SGr9 C</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr9 C Metal</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr9 C Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr9 C Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr9 C Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>SGr9 C Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 B Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr9 D</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr9 D Metal</Name>
+	<Name>SGr8 C</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr8 C Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 D Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 C Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 D Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 C Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 D Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 C Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 D Woodwork</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 C Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>SGr9 E</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>SGr9 E Metal</Name>
+	<Name>SGr8 D</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr8 D Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 E Motor</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 D Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 E Panel Beating</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 D Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 E Plumbing</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>SGr8 D Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>SGr9 E Woodwork</Name>
+		<Name>SGr8 D Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>SGr8 E</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr8 E Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr8 E Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr8 E Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr8 E Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr8 E Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>SGr9 A</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr9 A Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 A Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 A Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 A Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 A Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>SGr9 B</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr9 B Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 B Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 B Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 B Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 B Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>SGr9 C</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr9 C Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 C Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 C Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 C Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 C Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>SGr9 D</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr9 D Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 D Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 D Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 D Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 D Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>SGr9 E</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>SGr9 E Metal</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 E Motor</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 E Panel Beating</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 E Plumbing</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>SGr9 E Woodwork</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

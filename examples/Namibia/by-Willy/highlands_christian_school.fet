@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Highlands Christian School</Institution_Name>
 
 <Comments>Second term 2008</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Mon</Name>
+	<Name>Tues</Name>
+	<Name>Wed</Name>
+	<Name>Thurs</Name>
+	<Name>Fri</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>9</Number>
@@ -19,82 +28,73 @@
 	<Name>12:30 - 13:10</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Mon</Name>
-	<Name>Tues</Name>
-	<Name>Wed</Name>
-	<Name>Thurs</Name>
-	<Name>Fri</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>2008</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Gr 1 A</Name>
+	<Name>2008</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>Gr 1 A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 1 B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 1 B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 10</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 10</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 2 A</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 2 A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 2 B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 2 B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 3</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 3</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 4 A</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 4 A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 4 B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 4 B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 5 A</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 5 A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 5 B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 5 B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 6 A</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 6 A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 6 B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 6 B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 7 A</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 7 A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 7 B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 7 B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 8</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 8</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Gr 9</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Gr 9</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

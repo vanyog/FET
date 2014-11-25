@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Facultatea de Economie si de Administrare a Afacerilor</Institution_Name>
 
 <Comments>Orar, anul universitar 2009-2010
 Semestrul 1</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Luni</Name>
+	<Name>Marti</Name>
+	<Name>Miercuri</Name>
+	<Name>Joi</Name>
+	<Name>Vineri</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>8</Number>
@@ -19,669 +28,660 @@ Semestrul 1</Comments>
 	<Name>19:40-21:10</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Luni</Name>
-	<Name>Marti</Name>
-	<Name>Miercuri</Name>
-	<Name>Joi</Name>
-	<Name>Vineri</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>Anul 1</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Anul 1 Seria 1</Name>
+	<Name>Anul 1</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S1 Grupa 1</Name>
+	<Group>
+		<Name>Anul 1 Seria 1</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S1 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S1 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S1 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S1 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S1 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S1 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S1 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 1 Seria 2</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S2 Grupa 1</Name>
+		<Name>Anul 1 Seria 2</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S2 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S2 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S2 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S2 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S2 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S2 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 1 Seria 3</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S3 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S3 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S3 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S3 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S2 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 1 Seria 4</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S4 Grupa 1</Name>
+		<Name>Anul 1 Seria 3</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S3 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S4 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S3 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S4 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S3 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S4 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 1 Seria 5</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S5 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S5 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S5 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S5 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S3 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 1 Seria 6</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S6 Grupa 1</Name>
+		<Name>Anul 1 Seria 4</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S4 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S6 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S4 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S6 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S4 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S6 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 1 Seria 7</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S7 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S7 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S7 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S7 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S4 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 1 Seria 8</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S8 Grupa 1</Name>
+		<Name>Anul 1 Seria 5</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S5 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S8 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S5 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S8 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S5 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1S8 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 1 Seria 9 ENG</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1S9 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1S9 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>Anul 2</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Anul 2 Seria 1 CIG</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S1 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S1 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S1 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S1 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S1 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S5 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 2 Seria 2 CIG</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S2 Grupa 1</Name>
+		<Name>Anul 1 Seria 6</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S6 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S2 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S6 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S2 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S6 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S2 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S2 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S6 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 2 Seria 3 FB</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S3 Grupa 1</Name>
+		<Name>Anul 1 Seria 7</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S7 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S3 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S7 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S3 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S7 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S3 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S3 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S3 Grupa 6</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S7 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 2 Seria 4 FB</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S4 Grupa 1</Name>
+		<Name>Anul 1 Seria 8</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S8 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S4 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S8 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S4 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S8 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S4 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S4 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S4 Grupa 6</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S8 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 2 Seria 5 MGM</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S5 Grupa 1</Name>
+		<Name>Anul 1 Seria 9 ENG</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1S9 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2S5 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S5 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S5 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S5 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 2 Seria 6 MGM</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S6 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S6 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S6 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S6 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S6 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 2 Seria 7 ECTS</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S7 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S7 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S7 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S7 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S7 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 2 Seria 8 IE+ECE+EAM</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S8 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S8 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S8 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S8 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 2 Seria 9 EAI</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S9 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S9 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S9 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 2 Seria 10 MKT</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2S10 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S10 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S10 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S10 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S10 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2S10 Grupa 6</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1S9 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>Anul 3</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Anul 3 Contabilitate si Informatica de Gestiune Seria 1</Name>
+	<Name>Anul 2</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3CIG S1 Grupa 1</Name>
+	<Group>
+		<Name>Anul 2 Seria 1 CIG</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S1 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3CIG S1 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S1 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3CIG S1 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S1 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3CIG S1 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S1 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3CIG S1 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S1 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 3 Contabilitate si Informatica de Gestiune Seria 2</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3CIG S2 Grupa 1</Name>
+		<Name>Anul 2 Seria 2 CIG</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S2 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3CIG S2 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S2 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3CIG S2 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S2 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3CIG S2 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 3 Finante Banci Seria 1</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3FB S1 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S2 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3FB S1 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3FB S1 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3FB S1 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3FB S1 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S2 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 3 Finante Banci Seria 2</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3FB S2 Grupa 1</Name>
+		<Name>Anul 2 Seria 3 FB</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S3 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3FB S2 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S3 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3FB S2 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S3 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3FB S2 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S3 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3FB S2 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 3 Management Seria 1</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3M S1 Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S3 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3M S1 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3M S1 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3M S1 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3M S1 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S3 Grupa 6</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 3 Management Seria 2</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3M S2 Grupa 1</Name>
+		<Name>Anul 2 Seria 4 FB</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S4 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3M S2 Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S4 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3M S2 Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S4 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3M S2 Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S4 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3M S2 Grupa 5</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 3 Economie si Afaceri Internationale</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3EAI Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S4 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3EAI Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3EAI Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S4 Grupa 6</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 3 Economie Agroalimentara si a mediului</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3EAM Grupa 1</Name>
+		<Name>Anul 2 Seria 5 MGM</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S5 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S5 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S5 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S5 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S5 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 3 Economie si Comunicare Economica</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3ECE Grupa 1</Name>
+		<Name>Anul 2 Seria 6 MGM</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S6 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3ECE Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Anul 3 Economia Comertului, Turismului si Serviciilor</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3ECTS Grupa 1</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S6 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3ECTS Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S6 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3ECTS Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S6 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S6 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 3 Informatica Economica</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3IE Grupa 1</Name>
+		<Name>Anul 2 Seria 7 ECTS</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S7 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3IE Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S7 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3IE Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2S7 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S7 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S7 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Anul 3 Marketing</Name>
+		<Name>Anul 2 Seria 8 IE+ECE+EAM</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S8 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S8 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S8 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S8 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 2 Seria 9 EAI</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S9 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S9 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S9 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 2 Seria 10 MKT</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2S10 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S10 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S10 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S10 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S10 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2S10 Grupa 6</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>Anul 3</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3MK Grupa 1</Name>
+	<Group>
+		<Name>Anul 3 Contabilitate si Informatica de Gestiune Seria 1</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3CIG S1 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3MK Grupa 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>3CIG S1 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3MK Grupa 3</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>3CIG S1 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3MK Grupa 4</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>3CIG S1 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3MK Grupa 5</Name>
+			<Name>3CIG S1 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Contabilitate si Informatica de Gestiune Seria 2</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3CIG S2 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3CIG S2 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3CIG S2 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3CIG S2 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Finante Banci Seria 1</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3FB S1 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S1 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S1 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S1 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S1 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Finante Banci Seria 2</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3FB S2 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S2 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S2 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S2 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3FB S2 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Management Seria 1</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3M S1 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S1 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S1 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S1 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S1 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Management Seria 2</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3M S2 Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S2 Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S2 Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S2 Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3M S2 Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Economie si Afaceri Internationale</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3EAI Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3EAI Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3EAI Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Economie Agroalimentara si a mediului</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3EAM Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Economie si Comunicare Economica</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3ECE Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3ECE Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Economia Comertului, Turismului si Serviciilor</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3ECTS Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3ECTS Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3ECTS Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Informatica Economica</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3IE Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3IE Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3IE Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Anul 3 Marketing</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3MK Grupa 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3MK Grupa 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3MK Grupa 3</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3MK Grupa 4</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3MK Grupa 5</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

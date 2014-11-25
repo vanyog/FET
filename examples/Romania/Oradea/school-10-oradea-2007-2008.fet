@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Şcoala Generală Nr. 10 - Oradea</Institution_Name>
 
 <Comments>2007/2008</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Luni</Name>
+	<Name>Marti</Name>
+	<Name>Miercuri</Name>
+	<Name>Joi</Name>
+	<Name>Vineri</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>7</Number>
@@ -17,86 +26,77 @@
 	<Name>14:10-15:00</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Luni</Name>
-	<Name>Marti</Name>
-	<Name>Miercuri</Name>
-	<Name>Joi</Name>
-	<Name>Vineri</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>5</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5A</Name>
+	<Name>5</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5C</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5C</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5D</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>6</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6A</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>6B</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>6C</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5D</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>7</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>7A</Name>
+	<Name>6</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>7B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>6B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>7C</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>6C</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>8</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>8A</Name>
+	<Name>7</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>7A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>8B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>7B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>8C</Name>
+		<Name>7C</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>8</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>8A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>8D</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>8B</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>8C</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>8D</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

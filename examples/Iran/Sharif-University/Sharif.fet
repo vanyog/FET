@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>دانشکده مهندسی کامپیوتر دانشگاه صنعتی شریف</Institution_Name>
 
 <Comments>Default comments</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>شنبه</Name>
+	<Name>یکشنبه</Name>
+	<Name>دوشنبه</Name>
+	<Name>سه شنبه</Name>
+	<Name>چهارشنبه</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>22</Number>
@@ -32,19 +41,10 @@
 	<Name>18:00</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>شنبه</Name>
-	<Name>یکشنبه</Name>
-	<Name>دوشنبه</Name>
-	<Name>سه شنبه</Name>
-	<Name>چهارشنبه</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>-</Name>
-<Number_of_Students>500</Number_of_Students>
+	<Name>-</Name>
+	<Number_of_Students>500</Number_of_Students>
 </Year>
 </Students_List>
 

@@ -1,19 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Hopwood ESOL</Institution_Name>
 
 <Comments>Default comments</Comments>
-
-<Hours_List>
-	<Number>5</Number>
-	<Name>9.30 - 11.00</Name>
-	<Name>11.15 - 12.45</Name>
-	<Name>13.00 - 15.15</Name>
-	<Name>15.30 - 17.30</Name>
-	<Name>18.15 - 20.15</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>6</Number>
@@ -25,217 +16,226 @@
 	<Name>Saturday</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>5</Number>
+	<Name>9.30 - 11.00</Name>
+	<Name>11.15 - 12.45</Name>
+	<Name>13.00 - 15.15</Name>
+	<Name>15.30 - 17.30</Name>
+	<Name>18.15 - 20.15</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>2005</Name>
-<Number_of_Students>20</Number_of_Students>
+	<Name>2005</Name>
+	<Number_of_Students>20</Number_of_Students>
 	<Group>
-	<Name>Basic ??</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic ??</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Basic Eve A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic Eve A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Basic Eve B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic Eve B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Basic F/T A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic F/T A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Basic F/T B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic F/T B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Basic P/T A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic P/T A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Basic P/T B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic P/T B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Basic Skills</Name>
-	<Number_of_Students>10</Number_of_Students>
-		<Subgroup>
-		<Name>Basic E1-  E3</Name>
+		<Name>Basic Skills</Name>
 		<Number_of_Students>10</Number_of_Students>
+		<Subgroup>
+			<Name>Basic E1-  E3</Name>
+			<Number_of_Students>10</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Basic E3 - L2</Name>
-		<Number_of_Students>10</Number_of_Students>
+			<Name>Basic E3 - L2</Name>
+			<Number_of_Students>10</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Basic L1 - L2</Name>
-		<Number_of_Students>10</Number_of_Students>
+			<Name>Basic L1 - L2</Name>
+			<Number_of_Students>10</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Basic Pre-Entry/E1</Name>
-		<Number_of_Students>10</Number_of_Students>
+			<Name>Basic Pre-Entry/E1</Name>
+			<Number_of_Students>10</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Basic Pre-Entry/E2</Name>
-		<Number_of_Students>10</Number_of_Students>
+			<Name>Basic Pre-Entry/E2</Name>
+			<Number_of_Students>10</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Basic Sk. Assess</Name>
-		<Number_of_Students>10</Number_of_Students>
+			<Name>Basic Sk. Assess</Name>
+			<Number_of_Students>10</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Basic plus</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Basic plus</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Begin</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Begin</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Begin Eve A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Begin Eve A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Begin Eve B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Begin Eve B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Begin F/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Begin F/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Begin P/T A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Begin P/T A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Begin P/T B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Begin P/T B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>CAE</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>CAE</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>CAE Eve</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>CAE Eve</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>EAL group</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>EAL group</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>EFL</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>EFL</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>ESOL</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>ESOL</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>ESOL Craft (FACE)</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>ESOL Craft (FACE)</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>ESOL IT</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>ESOL IT</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>ESOL new</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>ESOL new</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Elem Eve A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Elem Eve A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Elem Eve B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Elem Eve B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Elem F/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Elem F/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Elem P/T A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Elem P/T A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Elem P/T B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Elem P/T B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>FCE</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>FCE</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>FCE Eve</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>FCE Eve</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>IELTS</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>IELTS</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>IELTS Found F/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>IELTS Found F/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>IELTS Inter P/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>IELTS Inter P/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>IELTS Up Int P/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>IELTS Up Int P/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Inter Eve A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Inter Eve A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Inter Eve B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Inter Eve B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Inter F/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Inter F/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Inter P/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Inter P/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Pre-Int Eve A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Pre-Int Eve A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Pre-Int Eve B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Pre-Int Eve B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Pre-Int F/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Pre-Int F/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Pre-Int P/T A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Pre-Int P/T A</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Pre-Int P/T B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Pre-Int P/T B</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Staff</Name>
-	<Number_of_Students>1</Number_of_Students>
+		<Name>Staff</Name>
+		<Number_of_Students>1</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Upper Int P/T</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Upper Int P/T</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Women Group</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Women Group</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

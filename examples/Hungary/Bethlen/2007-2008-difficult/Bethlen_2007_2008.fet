@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Bethlen Gábor Református Gimnázium</Institution_Name>
 
 <Comments>2007-2008-as tanév
 </Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Hétfő</Name>
+	<Name>Kedd</Name>
+	<Name>Szerda</Name>
+	<Name>Csütörtök</Name>
+	<Name>Péntek</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>9</Number>
@@ -20,1289 +29,1280 @@
 	<Name>9.</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Hétfő</Name>
-	<Name>Kedd</Name>
-	<Name>Szerda</Name>
-	<Name>Csütörtök</Name>
-	<Name>Péntek</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>5.</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>5.</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>5.A</Name>
-	<Number_of_Students>34</Number_of_Students>
+		<Name>5.A</Name>
+		<Number_of_Students>34</Number_of_Students>
 		<Subgroup>
-		<Name>5A1-NAZO</Name>
-		<Number_of_Students>10</Number_of_Students>
+			<Name>5A1-NAZO</Name>
+			<Number_of_Students>10</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>5A1-EDIT</Name>
-		<Number_of_Students>6</Number_of_Students>
+			<Name>5A1-EDIT</Name>
+			<Number_of_Students>6</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>5A2-NAZO</Name>
-		<Number_of_Students>9</Number_of_Students>
+			<Name>5A2-NAZO</Name>
+			<Number_of_Students>9</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>5A2-EDIT</Name>
-		<Number_of_Students>6</Number_of_Students>
+			<Name>5A2-EDIT</Name>
+			<Number_of_Students>6</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>5A2-eh</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>5A2-eh</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>6.</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>6.</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>6.A</Name>
-	<Number_of_Students>32</Number_of_Students>
+		<Name>6.A</Name>
+		<Number_of_Students>32</Number_of_Students>
 		<Subgroup>
-		<Name>6A1-DOMI</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>6A1-DOMI</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>6A1-NAZO</Name>
-		<Number_of_Students>11</Number_of_Students>
+			<Name>6A1-NAZO</Name>
+			<Number_of_Students>11</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>6A2-DOMI</Name>
-		<Number_of_Students>3</Number_of_Students>
+			<Name>6A2-DOMI</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>6A2-NAZO</Name>
-		<Number_of_Students>12</Number_of_Students>
+			<Name>6A2-NAZO</Name>
+			<Number_of_Students>12</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>7.</Name>
-<Number_of_Students>30</Number_of_Students>
-	<Group>
-	<Name>7.A</Name>
+	<Name>7.</Name>
 	<Number_of_Students>30</Number_of_Students>
+	<Group>
+		<Name>7.A</Name>
+		<Number_of_Students>30</Number_of_Students>
 		<Subgroup>
-		<Name>7.A-NAZO-SZZS</Name>
-		<Number_of_Students>5</Number_of_Students>
+			<Name>7.A-NAZO-SZZS</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>7.A-NAZO-KINÉ</Name>
-		<Number_of_Students>5</Number_of_Students>
+			<Name>7.A-NAZO-KINÉ</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>7.A-DOMI-SZZS</Name>
-		<Number_of_Students>5</Number_of_Students>
+			<Name>7.A-DOMI-SZZS</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>7.A-DOMI-KINÉ</Name>
-		<Number_of_Students>5</Number_of_Students>
+			<Name>7.A-DOMI-KINÉ</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>8.</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>8.</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>8.A</Name>
-	<Number_of_Students>32</Number_of_Students>
+		<Name>8.A</Name>
+		<Number_of_Students>32</Number_of_Students>
 		<Subgroup>
-		<Name>8A1-FAMA-CESA</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>8A1-FAMA-CESA</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A1-FAMA-RANE</Name>
-		<Number_of_Students>3</Number_of_Students>
+			<Name>8A1-FAMA-RANE</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A1-NAZO-CESA</Name>
-		<Number_of_Students>3</Number_of_Students>
+			<Name>8A1-NAZO-CESA</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A1-NAZO-JANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>8A1-NAZO-JANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A1-NAZO-RANE</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>8A1-NAZO-RANE</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A2-FAMA-CESA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>8A2-FAMA-CESA</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A2-FAMA-JANE</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>8A2-FAMA-JANE</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A2-NAZO-CESA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>8A2-NAZO-CESA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>8A2-NAZO-JANE</Name>
-		<Number_of_Students>7</Number_of_Students>
+			<Name>8A2-NAZO-JANE</Name>
+			<Number_of_Students>7</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>9.</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>9.</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>9.A</Name>
-	<Number_of_Students>34</Number_of_Students>
+		<Name>9.A</Name>
+		<Number_of_Students>34</Number_of_Students>
 		<Subgroup>
-		<Name>9A1-NAZO-1-KOKA-BEGE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A1-NAZO-1-KOKA-BEGE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-NAZO-1-KOKA-MOLA</Name>
-		<Number_of_Students>6</Number_of_Students>
+			<Name>9A1-NAZO-1-KOKA-MOLA</Name>
+			<Number_of_Students>6</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-NAZO-1-RANE-BEGE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A1-NAZO-1-RANE-BEGE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-NAZO-1-RANE-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A1-NAZO-1-RANE-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-NAZO-1-PINE-BEGE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A1-NAZO-1-PINE-BEGE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-NAZO-1-PINE-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A1-NAZO-1-PINE-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-DOMI-1-KOKA-BEGE</Name>
-		<Number_of_Students>6</Number_of_Students>
+			<Name>9A1-DOMI-1-KOKA-BEGE</Name>
+			<Number_of_Students>6</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-DOMI-1-KOKA-MOLA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9A1-DOMI-1-KOKA-MOLA</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-DOMI-1-RANE-BEGE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A1-DOMI-1-RANE-BEGE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A1-DOMI-1-RANE-MOLA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9A1-DOMI-1-RANE-MOLA</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A2-NAZO-JEER-BOEV-BEGE</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>9A2-NAZO-JEER-BOEV-BEGE</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A2-NAZO-JEER-BOEV-MOLA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9A2-NAZO-JEER-BOEV-MOLA</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A2-EDIT-JEER-BOEV-BEGE</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9A2-EDIT-JEER-BOEV-BEGE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A2-EDIT-JEER-BOEV-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A2-EDIT-JEER-BOEV-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9A2-EDIT-LENE-BOEV-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9A2-EDIT-LENE-BOEV-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>9.B</Name>
-	<Number_of_Students>33</Number_of_Students>
+		<Name>9.B</Name>
+		<Number_of_Students>33</Number_of_Students>
 		<Subgroup>
-		<Name>9Bbk-bkNAZO-JEER-HAEN-mMOLA-SAAN</Name>
-		<Number_of_Students>5</Number_of_Students>
+			<Name>9Bbk-bkNAZO-JEER-HAEN-mMOLA-SAAN</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-bkNAZO-LENE-BOEV-mBEJA-JONE</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bbk-bkNAZO-LENE-BOEV-mBEJA-JONE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-bkNAZO-LENE-HAEN-mBEJA-SAAN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Bbk-bkNAZO-LENE-HAEN-mBEJA-SAAN</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-bkNAZO-LENE-HAEN-mMOLA-SAAN</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bbk-bkNAZO-LENE-HAEN-mMOLA-SAAN</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-bkEDIT-JEER-BOEV-mBEJA-JONE</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bbk-bkEDIT-JEER-BOEV-mBEJA-JONE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-bkEDIT-JEER-HAEN-mMOLA-SAAN</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bbk-bkEDIT-JEER-HAEN-mMOLA-SAAN</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-bkEDIT-LENE-HAEN-mBEJA-SAAN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Bbk-bkEDIT-LENE-HAEN-mBEJA-SAAN</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-bkEDIT-LENE-HAEN-mMOLA-SAAN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Bbk-bkEDIT-LENE-HAEN-mMOLA-SAAN</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bbk-eh-JEER-HAEN-mMOLA-SAAN</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bbk-eh-JEER-HAEN-mMOLA-SAAN</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bspa-spaNAZO-spa-BINE-mBEJA-spa</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bspa-spaNAZO-spa-BINE-mBEJA-spa</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bspa-spaNAZO-spa-KINE-mBEJA-spa</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bspa-spaNAZO-spa-KINE-mBEJA-spa</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bspa-spaNAZO-spa-PINE-mBEJA-spa</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Bspa-spaNAZO-spa-PINE-mBEJA-spa</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bspa-spaFAMA-spa-SZZS-mBEJA-spa</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Bspa-spaFAMA-spa-SZZS-mBEJA-spa</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bspa-spaFAMA-spa-BINE-mBEJA-spa</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bspa-spaFAMA-spa-BINE-mBEJA-spa</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bspa-spaFAMA-spa-KINE-mBEJA-spa</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Bspa-spaFAMA-spa-KINE-mBEJA-spa</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>9Bspa-spaFAMA-spa-PINE-mBEJA-spa</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>9.C</Name>
-	<Number_of_Students>33</Number_of_Students>
-		<Subgroup>
-		<Name>9Cmf-CSMA-NAZO-BINE</Name>
-		<Number_of_Students>5</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmf-CSMA-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmf-CSMA-FAMA-BINE</Name>
-		<Number_of_Students>4</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmf-CSMA-FAMA-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmf-LENE-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-NAZO-BINE</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-NAZO-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-NAZO-PINE</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-FAMA-BINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-FAMA-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-FAMA-PINE</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-CSMA-eh-BINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-LENE-NAZO-SZZS</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-LENE-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-LENE-FAMA-BINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>9Cmt-LENE-eh-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>10.</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>10.A</Name>
-	<Number_of_Students>27</Number_of_Students>
-		<Subgroup>
-		<Name>10A1-NAZO-DENE</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A1-NAZO-JANE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A1-FAMA-DENE</Name>
-		<Number_of_Students>4</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A1-FAMA-RANE</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A2-NAZO-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A2-NAZO-JANE</Name>
-		<Number_of_Students>6</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A2-NAZO-MOTU</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A2-FAMA-JANE</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A2-FAMA-RANE</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10A2-eh-JANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Bspa-spaFAMA-spa-PINE-mBEJA-spa</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>10.B</Name>
-	<Number_of_Students>35</Number_of_Students>
+		<Name>9.C</Name>
+		<Number_of_Students>33</Number_of_Students>
 		<Subgroup>
-		<Name>10Bmt-NBCS-JEER-JANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmf-CSMA-NAZO-BINE</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-NBCS-JEER-MOTU</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmf-CSMA-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-NBCS-JEER-KOKA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Cmf-CSMA-FAMA-BINE</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-NBCS-JEER-KINE</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>9Cmf-CSMA-FAMA-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-NBCS-JEER-BOEV</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmf-LENE-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-NBCS-KOER-JANE</Name>
-		<Number_of_Students>3</Number_of_Students>
+			<Name>9Cmt-CSMA-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-NBCS-KOER-MOTU</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-CSMA-NAZO-BINE</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-FAMA-KRED-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-CSMA-NAZO-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-FAMA-KRED-MOTU</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-CSMA-NAZO-PINE</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-FAMA-JEER-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-CSMA-FAMA-BINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-FAMA-JEER-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-CSMA-FAMA-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-FAMA-KOER-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-CSMA-FAMA-PINE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-eh-KRED-MOTU</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-CSMA-eh-BINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmt-eh-KRED-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-LENE-NAZO-SZZS</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmf-NBCS-KRED-KOKA</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>9Cmt-LENE-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmf-NBCS-KRED-eny</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>9Cmt-LENE-FAMA-BINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>10Bmf-NBCS-JEER-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-NBCS-JEER-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-NBCS-JEER-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-FAMA-KRED-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-FAMA-KRED-MOTU</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-FAMA-JEER-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-FAMA-KOER-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-FAMA-KOER-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-eh-KRED-MOTU</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Bmf-eh-KOER-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>10.C</Name>
-	<Number_of_Students>38</Number_of_Students>
-		<Subgroup>
-		<Name>10Cbk-NBCS-KRED-bk</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cbk-NBCS-JEER-bk</Name>
-		<Number_of_Students>5</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cbk-NBCS-KOER-bk</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cbk-EDIT-KRED-bk</Name>
-		<Number_of_Students>4</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cbk-EDIT-JEER-bk</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cbk-EDIT-KOER-bk</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-NBCS-spa-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-NBCS-spa-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-NBCS-spa-MOTU</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-NBCS-spa-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-NBCS-spa-KINE</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-EDIT-spa-DENE</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-EDIT-spa-MOTU</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-EDIT-spa-KOKA</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-EDIT-spa-KINE</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10Cspa-eh-spa-KOKA</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>10.D</Name>
-	<Number_of_Students>20</Number_of_Students>
-		<Subgroup>
-		<Name>10DFAMA-SZZS</Name>
-		<Number_of_Students>6</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10DFAMA-JANE</Name>
-		<Number_of_Students>5</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10DNBCS-SZZS</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>10DNBCS-JANE</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>9Cmt-LENE-eh-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>11.</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>10.</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>11.B</Name>
-	<Number_of_Students>28</Number_of_Students>
+		<Name>10.A</Name>
+		<Number_of_Students>27</Number_of_Students>
 		<Subgroup>
-		<Name>11B1-1foldrajz-2tori-NAZO-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A1-NAZO-DENE</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1kemia-2biologia-FAMA-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A1-NAZO-JANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2angol-FAMA-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A1-FAMA-DENE</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2angol-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A1-FAMA-RANE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2tori-FAMA-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A2-NAZO-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2tori-FAMA-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A2-NAZO-JANE</Name>
+			<Number_of_Students>6</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2tori-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A2-NAZO-MOTU</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2tori-NAZO-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A2-FAMA-JANE</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2tori-NAZO-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A2-FAMA-RANE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11B1-1magyar-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B1-1matek-2fizika-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B1-1matek-2tori-NAZO-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B1-1nincs-2tori-FAMA-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1foldrajz-2angol-NAZO-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1foldrajz-2tori-FAMA-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1foldrajz-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1kemia-2biologia-NAZO-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1magyar-2angol-FAMA-SZZS</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1magyar-2nincs-FAMA-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1magyar-2tori-eh-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1magyar-2tori-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1magyar-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11B2-1matek-2tori-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10A2-eh-JANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>11.C</Name>
-	<Number_of_Students>31</Number_of_Students>
+		<Name>10.B</Name>
+		<Number_of_Students>35</Number_of_Students>
 		<Subgroup>
-		<Name>11Cmf-1foldrajz-2fizika-NAZO-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-NBCS-JEER-JANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-1foldrajz-2fizika-DOMI-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-NBCS-JEER-MOTU</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-1magyar-2angol-NAZO-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-NBCS-JEER-KOKA</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-1magyar-2tori-DOMI-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-NBCS-JEER-KINE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-mf-1matek-2fizika-NAZO-DENE</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>10Bmt-NBCS-JEER-BOEV</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-mf-1matek-2fizika-DOMI-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-NBCS-KOER-JANE</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-mf-1matek-2fizika-DOMI-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-NBCS-KOER-MOTU</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-mf-1matek-2fizika-DOMI-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-FAMA-KRED-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-mf-1matek-2tori-DOMI-SZZS</Name>
-		<Number_of_Students>3</Number_of_Students>
+			<Name>10Bmt-FAMA-KRED-MOTU</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cmf-mf-1matek-2tori-eh-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-FAMA-JEER-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1biosz-2angol-NAZO-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-FAMA-JEER-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1biosz-2kemia-NAZO-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-FAMA-KOER-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1biosz-2kemia-DOMI-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-eh-KRED-MOTU</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1biosz-2kemia-DOMI-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmt-eh-KRED-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1foldrajz-2angol-NAZO-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-NBCS-KRED-KOKA</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1foldrajz-2tori-NAZO-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-NBCS-KRED-eny</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1foldrajz-2tori-NAZO-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-NBCS-JEER-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1foldrajz-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-NBCS-JEER-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1magyar-2angol-NAZO-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-NBCS-JEER-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1magyar-2angol-DOMI-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-FAMA-KRED-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1magyar-2angol-eh-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-FAMA-KRED-MOTU</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1magyar-2tori-DOMI-PINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-FAMA-JEER-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-1magyar-2tori-eh-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-FAMA-KOER-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-spa-1matek-2angol-DOMI-DENE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-FAMA-KOER-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-spa-1matek-2fizika-DOMI-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-eh-KRED-MOTU</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11Cspa-spa-1matek-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>11.D</Name>
-	<Number_of_Students>38</Number_of_Students>
-		<Subgroup>
-		<Name>11D1-1biosz-2kemia-1HAEN-FAMA</Name>
-		<Number_of_Students>5</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D1-1biosz-2kemia-1HAEN-NAZO</Name>
-		<Number_of_Students>8</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D1-1biosz-2kemia-DENE-FAMA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D1-1biosz-2tori-1HAEN-NAZO</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D1-1foldrajz-2kemia-DENE-NAZO</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D1-1matek-2kemia-DENE-NAZO</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D2-1foldrajz-2biosz-1HAEN-FAMA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D2-1foldrajz-2biosz-2HAEN-NAZO</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D2-1kemia-2biosz-2HAEN-FAMA</Name>
-		<Number_of_Students>8</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D2-1kemia-2biosz-2HAEN-NAZO</Name>
-		<Number_of_Students>6</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D2-1magyar-2biosz-2HAEN-FAMA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>11D2-1matek-2biosz-2HAEN-FAMA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Bmf-eh-KOER-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>11.E</Name>
-	<Number_of_Students>24</Number_of_Students>
+		<Name>10.C</Name>
+		<Number_of_Students>38</Number_of_Students>
 		<Subgroup>
-		<Name>11E1-BINE-FAMA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Cbk-NBCS-KRED-bk</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11E1-BINE-NBCS</Name>
-		<Number_of_Students>3</Number_of_Students>
+			<Name>10Cbk-NBCS-JEER-bk</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11E1-KOKA-FAMA</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>10Cbk-NBCS-KOER-bk</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11E1-KOKA-NBCS</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>10Cbk-EDIT-KRED-bk</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11E2-BINE-FAMA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>10Cbk-EDIT-JEER-bk</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11E2-BINE-NBCS</Name>
-		<Number_of_Students>5</Number_of_Students>
+			<Name>10Cbk-EDIT-KOER-bk</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11E2-KOKA-FAMA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>10Cspa-NBCS-spa-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>11E2-KOKA-NBCS</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>10Cspa-NBCS-spa-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-NBCS-spa-MOTU</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-NBCS-spa-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-NBCS-spa-KINE</Name>
+			<Number_of_Students>3</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-EDIT-spa-DENE</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-EDIT-spa-MOTU</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-EDIT-spa-KOKA</Name>
+			<Number_of_Students>3</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-EDIT-spa-KINE</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10Cspa-eh-spa-KOKA</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>10.D</Name>
+		<Number_of_Students>20</Number_of_Students>
+		<Subgroup>
+			<Name>10DFAMA-SZZS</Name>
+			<Number_of_Students>6</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10DFAMA-JANE</Name>
+			<Number_of_Students>5</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10DNBCS-SZZS</Name>
+			<Number_of_Students>3</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>10DNBCS-JANE</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>12.</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>11.</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>12.A</Name>
-	<Number_of_Students>37</Number_of_Students>
+		<Name>11.B</Name>
+		<Number_of_Students>28</Number_of_Students>
 		<Subgroup>
-		<Name>12A1-1biosz-2fizika-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1foldrajz-2tori-NAZO-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1biosz-2kemia-FAMA-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1kemia-2biologia-FAMA-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1biosz-2kemia-NAZO-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1magyar-2angol-FAMA-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1biosz-2kemia-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1magyar-2angol-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1biosz-2tori-FAMA-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1magyar-2tori-FAMA-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1biosz-2tori-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1magyar-2tori-FAMA-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1biosz-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1magyar-2tori-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1magyar-2tori-FAMA-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1magyar-2tori-NAZO-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1magyar-2tori-FAMA-SZZS</Name>
-		<Number_of_Students>3</Number_of_Students>
+			<Name>11B1-1magyar-2tori-NAZO-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1magyar-2tori-NAZO-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1magyar-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1magyar-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11B1-1matek-2fizika-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1matek-2fizika-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1matek-2tori-NAZO-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1matek-2fizika-NAZO-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B1-1nincs-2tori-FAMA-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1matek-2info-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1foldrajz-2angol-NAZO-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1matek-2info-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1foldrajz-2tori-FAMA-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A1-1matek-2tori-FAMA-SZZS</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11B2-1foldrajz-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A2-1biosz-2kemia-FAMA-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1kemia-2biologia-NAZO-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A2-1biosz-2kemia-FAMA-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1magyar-2angol-FAMA-SZZS</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A2-1biosz-2kemia-NAZO-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1magyar-2nincs-FAMA-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A2-1biosz-2kemia-NAZO-SZZS</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11B2-1magyar-2tori-eh-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A2-1magyar-2info-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1magyar-2tori-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A2-1magyar-2tori-FAMA-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1magyar-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12A2-1magyar-2tori-NAZO-RANE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12A2-1matek-2info-FAMA-HAEN</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12A2-1matek-2info-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12A2-1matek-2info-eh-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12A2-1matek-2tori-FAMA-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12A2-1matek-2tori-NAZO-RANE</Name>
-		<Number_of_Students>2</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12A2-1matek-2tori-NAZO-SZZS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11B2-1matek-2tori-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>12.B</Name>
-	<Number_of_Students>34</Number_of_Students>
+		<Name>11.C</Name>
+		<Number_of_Students>31</Number_of_Students>
 		<Subgroup>
-		<Name>12Bmt-1biosz-2tori-NAZO-LENE-SZZS-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-1foldrajz-2fizika-NAZO-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1biosz-2tori-FAMA-LENE-KINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-1foldrajz-2fizika-DOMI-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-NAZO-LENE-KINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-1magyar-2angol-NAZO-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-NAZO-LENE-SZZS-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-1magyar-2tori-DOMI-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-NAZO-KOER-BINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-mf-1matek-2fizika-NAZO-DENE</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-NAZO-KOER-SZZS-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-mf-1matek-2fizika-DOMI-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-FAMA-LENE-BINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-mf-1matek-2fizika-DOMI-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-FAMA-LENE-SZZS-GULA-PRGY</Name>
-		<Number_of_Students>4</Number_of_Students>
+			<Name>11Cmf-mf-1matek-2fizika-DOMI-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-FAMA-KOER-BINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-mf-1matek-2tori-DOMI-SZZS</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-FAMA-KOER-SZZS-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cmf-mf-1matek-2tori-eh-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-1magyar-2tori-eh-LENE-KINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1biosz-2angol-NAZO-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-LTIS-2tori-NAZO-KOER-BINE-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1biosz-2kemia-NAZO-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmt-LTIS-2tori-FAMA-KOER-SZZS-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1biosz-2kemia-DOMI-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-1biosz-2info-NAZO-LENE-SZZS-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1biosz-2kemia-DOMI-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2fizika-NAZO-LENE-KINE-LTIS-MOLA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11Cspa-1foldrajz-2angol-NAZO-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2fizika-NAZO-LENE-KOKA-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1foldrajz-2tori-NAZO-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2fizika-NAZO-LENE-SZZS-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1foldrajz-2tori-NAZO-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2fizika-FAMA-LENE-KINE-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1foldrajz-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2fizika-FAMA-LENE-KOKA-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1magyar-2angol-NAZO-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2fizika-FAMA-LENE-SZZS-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1magyar-2angol-DOMI-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2fizika-FAMA-KOER-BINE-LTIS-MOLA</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11Cspa-1magyar-2angol-eh-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-LTIS-2info-FAMA-LENE-KOKA-LTIS-MOLA</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-1magyar-2tori-DOMI-PINE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-RINE-2info-NAZO-LENE-SZZS-GULA-PRGY</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11Cspa-1magyar-2tori-eh-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-RINE-2info-NAZO-KOER-BINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-spa-1matek-2angol-DOMI-DENE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Bmf-RINE-2info-FAMA-LENE-BINE-GULA-PRGY</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>12.C</Name>
-	<Number_of_Students>33</Number_of_Students>
-		<Subgroup>
-		<Name>12Cbk-1biosz-2info-KENE-NBCS-BOEV</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-spa-1matek-2fizika-DOMI-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12Cbk-1biosz-2kemia-KENE-NBCS-BOEV</Name>
-		<Number_of_Students>8</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cbk-1biosz-2kemia-KENE-eh-BOEV</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cbk-1biosz-2kemia-KENE-FAMA-BOEV</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cbk-1biosz-2kemia-KOER-FAMA-BOEV</Name>
-		<Number_of_Students>3</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cbk-1magyar-2tori-KENE-NBCS-BOEV</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1magyar-2tori-DEBE-NBCS-BINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1magyar-2tori-DEBE-NBCS-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1magyar-2tori-DEBE-NBCS-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1magyar-2tori-DEBE-FAMA-BINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1magyar-2tori-DEBE-FAMA-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1matek-2fizika-DEBE-NBCS-BINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1matek-2fizika-DEBE-FAMA-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1matek-2tori-DEBE-eh-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1matek-2tori-DEBE-FAMA-BINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1matek-2tori-DEBE-FAMA-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1nincs-2tori-DEBE-NBCS-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1nincs-2tori-DEBE-FAMA-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1spa-biosz-2fizika-DEBE-FAMA-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1spa-biosz-2info-DEBE-eh-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1spa-biosz-2nincs-DEBE-FAMA-KOKA</Name>
-		<Number_of_Students>1</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>12Cspa-1spa-biosz-2tori-DEBE-NBCS-KINE</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11Cspa-spa-1matek-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>12.D</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>11.D</Name>
+		<Number_of_Students>38</Number_of_Students>
 		<Subgroup>
-		<Name>12D1-1biosz-2kemia-SZZS-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D1-1biosz-2kemia-1HAEN-FAMA</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1biosz-2tori-DENE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D1-1biosz-2kemia-1HAEN-NAZO</Name>
+			<Number_of_Students>8</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1foci-2tori-KINE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D1-1biosz-2kemia-DENE-FAMA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1magyar-2tori-KINE-DOMI</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11D1-1biosz-2tori-1HAEN-NAZO</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1magyar-2tori-KINE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D1-1foldrajz-2kemia-DENE-NAZO</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1magyar-2tori-SZZS-DOMI</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11D1-1matek-2kemia-DENE-NAZO</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1magyar-2tori-SZZS-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D2-1foldrajz-2biosz-1HAEN-FAMA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1matek-2angol-SZZS-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D2-1foldrajz-2biosz-2HAEN-NAZO</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1matek-2tori-DENE-DOMI</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D2-1kemia-2biosz-2HAEN-FAMA</Name>
+			<Number_of_Students>8</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D1-1matek-2tori-KINE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D2-1kemia-2biosz-2HAEN-NAZO</Name>
+			<Number_of_Students>6</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1biosz-2kemia-DENE-NBCS</Name>
-		<Number_of_Students>2</Number_of_Students>
+			<Name>11D2-1magyar-2biosz-2HAEN-FAMA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1biosz-2tori-DENE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11D2-1matek-2biosz-2HAEN-FAMA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>11.E</Name>
+		<Number_of_Students>24</Number_of_Students>
+		<Subgroup>
+			<Name>11E1-BINE-FAMA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1biosz-2tori-SZZS-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11E1-BINE-NBCS</Name>
+			<Number_of_Students>3</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1foci-2tori-DENE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11E1-KOKA-FAMA</Name>
+			<Number_of_Students>4</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1foci-2tori-SZZS-DOMI</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11E1-KOKA-NBCS</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1foci-2tori-SZZS-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11E2-BINE-FAMA</Name>
+			<Number_of_Students>2</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1magyar-2angol-KINE-DOMI</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11E2-BINE-NBCS</Name>
+			<Number_of_Students>5</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1magyar-2tori-DENE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11E2-KOKA-FAMA</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1magyar-2tori-KINE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>11E2-KOKA-NBCS</Name>
+			<Number_of_Students>4</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>12.</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>12.A</Name>
+		<Number_of_Students>37</Number_of_Students>
+		<Subgroup>
+			<Name>12A1-1biosz-2fizika-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1matek-2angol-DENE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>12A1-1biosz-2kemia-FAMA-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>12D2-1matek-2nincs-DENE-NBCS</Name>
-		<Number_of_Students>1</Number_of_Students>
+			<Name>12A1-1biosz-2kemia-NAZO-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1biosz-2kemia-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1biosz-2tori-FAMA-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1biosz-2tori-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1biosz-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1magyar-2tori-FAMA-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1magyar-2tori-FAMA-SZZS</Name>
+			<Number_of_Students>3</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1magyar-2tori-NAZO-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1magyar-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1matek-2fizika-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1matek-2fizika-NAZO-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1matek-2info-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1matek-2info-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A1-1matek-2tori-FAMA-SZZS</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1biosz-2kemia-FAMA-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1biosz-2kemia-FAMA-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1biosz-2kemia-NAZO-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1biosz-2kemia-NAZO-SZZS</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1magyar-2info-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1magyar-2tori-FAMA-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1magyar-2tori-NAZO-RANE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1matek-2info-FAMA-HAEN</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1matek-2info-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1matek-2info-eh-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1matek-2tori-FAMA-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1matek-2tori-NAZO-RANE</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12A2-1matek-2tori-NAZO-SZZS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>12.B</Name>
+		<Number_of_Students>34</Number_of_Students>
+		<Subgroup>
+			<Name>12Bmt-1biosz-2tori-NAZO-LENE-SZZS-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1biosz-2tori-FAMA-LENE-KINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-NAZO-LENE-KINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-NAZO-LENE-SZZS-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-NAZO-KOER-BINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-NAZO-KOER-SZZS-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-FAMA-LENE-BINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-FAMA-LENE-SZZS-GULA-PRGY</Name>
+			<Number_of_Students>4</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-FAMA-KOER-BINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-FAMA-KOER-SZZS-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-1magyar-2tori-eh-LENE-KINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-LTIS-2tori-NAZO-KOER-BINE-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmt-LTIS-2tori-FAMA-KOER-SZZS-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-1biosz-2info-NAZO-LENE-SZZS-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2fizika-NAZO-LENE-KINE-LTIS-MOLA</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2fizika-NAZO-LENE-KOKA-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2fizika-NAZO-LENE-SZZS-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2fizika-FAMA-LENE-KINE-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2fizika-FAMA-LENE-KOKA-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2fizika-FAMA-LENE-SZZS-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2fizika-FAMA-KOER-BINE-LTIS-MOLA</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-LTIS-2info-FAMA-LENE-KOKA-LTIS-MOLA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-RINE-2info-NAZO-LENE-SZZS-GULA-PRGY</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-RINE-2info-NAZO-KOER-BINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Bmf-RINE-2info-FAMA-LENE-BINE-GULA-PRGY</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>12.C</Name>
+		<Number_of_Students>33</Number_of_Students>
+		<Subgroup>
+			<Name>12Cbk-1biosz-2info-KENE-NBCS-BOEV</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cbk-1biosz-2kemia-KENE-NBCS-BOEV</Name>
+			<Number_of_Students>8</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cbk-1biosz-2kemia-KENE-eh-BOEV</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cbk-1biosz-2kemia-KENE-FAMA-BOEV</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cbk-1biosz-2kemia-KOER-FAMA-BOEV</Name>
+			<Number_of_Students>3</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cbk-1magyar-2tori-KENE-NBCS-BOEV</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1magyar-2tori-DEBE-NBCS-BINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1magyar-2tori-DEBE-NBCS-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1magyar-2tori-DEBE-NBCS-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1magyar-2tori-DEBE-FAMA-BINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1magyar-2tori-DEBE-FAMA-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1matek-2fizika-DEBE-NBCS-BINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1matek-2fizika-DEBE-FAMA-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1matek-2tori-DEBE-eh-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1matek-2tori-DEBE-FAMA-BINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1matek-2tori-DEBE-FAMA-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1nincs-2tori-DEBE-NBCS-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1nincs-2tori-DEBE-FAMA-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1spa-biosz-2fizika-DEBE-FAMA-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1spa-biosz-2info-DEBE-eh-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1spa-biosz-2nincs-DEBE-FAMA-KOKA</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12Cspa-1spa-biosz-2tori-DEBE-NBCS-KINE</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>12.D</Name>
+		<Number_of_Students>27</Number_of_Students>
+		<Subgroup>
+			<Name>12D1-1biosz-2kemia-SZZS-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1biosz-2tori-DENE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1foci-2tori-KINE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1magyar-2tori-KINE-DOMI</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1magyar-2tori-KINE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1magyar-2tori-SZZS-DOMI</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1magyar-2tori-SZZS-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1matek-2angol-SZZS-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1matek-2tori-DENE-DOMI</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D1-1matek-2tori-KINE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1biosz-2kemia-DENE-NBCS</Name>
+			<Number_of_Students>2</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1biosz-2tori-DENE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1biosz-2tori-SZZS-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1foci-2tori-DENE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1foci-2tori-SZZS-DOMI</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1foci-2tori-SZZS-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1magyar-2angol-KINE-DOMI</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1magyar-2tori-DENE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1magyar-2tori-KINE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1matek-2angol-DENE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>12D2-1matek-2nincs-DENE-NBCS</Name>
+			<Number_of_Students>1</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

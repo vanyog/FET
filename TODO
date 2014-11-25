@@ -3229,3 +3229,21 @@ Liviu:
 Variant 1 is wrong. You should use 2. Yes, I'll add this in the TODO.
 
 <-- DONE
+
+202---------------------------------------------------------
+From Vanyo Georgiev (on forum):
+
+The last opened FET XML file is opened again at start up.
+
+Vanyo Georgiev provided the necessary code changes to do this.
+
+203---------------------------------------------------------
+From Vanyo Georgiev (on forum):
+
+One more place to check for a language .qm file - the work path.
+
+Vanyo Georgiev provided the necessary code changes to do this:
+	translation_loaded=translator.load("fet_"+FET_LANGUAGE, QDir::currentPath());
+in fet.cpp.
+
+This change makes possible by setting the Working directory of the exe file in QtCreator to test the current translation without copying the .qm file to another directory.

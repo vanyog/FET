@@ -1,4 +1,4 @@
-This is FET version 5.24.0-snapshot-24-nov-2014-17_44
+This is FET version 5.24.0-snapshot-25-nov-2014-22_03
 
 
 Program description:
@@ -81,6 +81,9 @@ Compiling FET:
 
 	Note: compilation takes long (maybe even 1 hour, if you are using an older computer). The file
 	rules.cpp takes the longest time to compile, maybe even 1 minute or more.
+
+	Note: if after unpacking the tar.bz2 sources archive you obtain some files with incomplete/truncated file names in the sources directories,
+	you might need to use a better unpacker (probably a recent version of the official tar and bzip2 should be fine).
 
 	Note2: the following situation may appear under GNU/Linux, but it could be met also on other platforms.
 	Depending on your Qt installation, it may happen that the FET intermediary files and executables are very large (~100 MB for the fet executable

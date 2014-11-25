@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.23.0">
+<fet version="5.24.0">
 
 <Institution_Name>Default institution</Institution_Name>
 
 <Comments>Default comments</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Monday</Name>
+	<Name>Tuesday</Name>
+	<Name>Wednesday</Name>
+	<Name>Thursday</Name>
+	<Name>Friday</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>12</Number>
@@ -22,85 +31,76 @@
 	<Name>19:00</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Monday</Name>
-	<Name>Tuesday</Name>
-	<Name>Wednesday</Name>
-	<Name>Thursday</Name>
-	<Name>Friday</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>y1</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>y1 a</Name>
+	<Name>y1</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>y1 a en</Name>
+	<Group>
+		<Name>y1 a</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>y1 a en</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>y1 a fr</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>y1 a fr</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>y1 b</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>y1 b en</Name>
+		<Name>y1 b</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>y1 b en</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>y1 b fr</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>y1 c</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>y1 c en</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>y1 c fr</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>y1 b fr</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>y1 en</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>y1 a en</Name>
+		<Name>y1 c</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>y1 c en</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>y1 b en</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>y1 c en</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>y1 c fr</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>y1 fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>y1 a fr</Name>
+		<Name>y1 en</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>y1 a en</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>y1 b fr</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>y1 b en</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>y1 c fr</Name>
+			<Name>y1 c en</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>y1 fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>y1 a fr</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>y1 b fr</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>y1 c fr</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>8ο Γυμνάσιο Πειραιά</Institution_Name>
 
 <Comments>Default comments</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Δευτέρα</Name>
+	<Name>Τρίτη</Name>
+	<Name>Τετάρτη</Name>
+	<Name>Πέμπτη</Name>
+	<Name>Παρασκευή</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>7</Number>
@@ -17,78 +26,69 @@
 	<Name>7</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Δευτέρα</Name>
-	<Name>Τρίτη</Name>
-	<Name>Τετάρτη</Name>
-	<Name>Πέμπτη</Name>
-	<Name>Παρασκευή</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>Α</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Α1</Name>
+	<Name>Α</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>Α1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Α2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Α2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Α3</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Α3</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Α4</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>Β</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Β1</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Β2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Β3</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Β4</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Α4</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>Γ</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Γ1</Name>
+	<Name>Β</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>Β1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Γ2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Β2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Γ3</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Β3</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Γ4</Name>
+		<Name>Β4</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>Γ</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>Γ1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Γ5</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>Γ2</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Γ3</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Γ4</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Γ5</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

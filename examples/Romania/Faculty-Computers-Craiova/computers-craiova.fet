@@ -1,10 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Default institution</Institution_Name>
 
 <Comments>Default comments</Comments>
+
+<Days_List>
+	<Number>6</Number>
+	<Name>Monday</Name>
+	<Name>Tuesday</Name>
+	<Name>Wednesday</Name>
+	<Name>Thursday</Name>
+	<Name>Friday</Name>
+	<Name>Saturday</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>12</Number>
@@ -22,371 +32,361 @@
 	<Name>19</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>6</Number>
-	<Name>Monday</Name>
-	<Name>Tuesday</Name>
-	<Name>Wednesday</Name>
-	<Name>Thursday</Name>
-	<Name>Friday</Name>
-	<Name>Saturday</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>I</Name>
-<Number_of_Students>157</Number_of_Students>
+	<Name>I</Name>
+	<Number_of_Students>157</Number_of_Students>
 	<Group>
-	<Name>C 10103</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>C 10103</Name>
+		<Number_of_Students>27</Number_of_Students>
 		<Subgroup>
-		<Name>a1.1</Name>
-		<Number_of_Students>14</Number_of_Students>
+			<Name>a1.1</Name>
+			<Number_of_Students>14</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>b1.1</Name>
-		<Number_of_Students>13</Number_of_Students>
+			<Name>b1.1</Name>
+			<Number_of_Students>13</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>C 10104</Name>
-	<Number_of_Students>33</Number_of_Students>
+		<Name>C 10104</Name>
+		<Number_of_Students>33</Number_of_Students>
 		<Subgroup>
-		<Name>c1.1</Name>
+			<Name>c1.1</Name>
+			<Number_of_Students>17</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d1.1</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE 10105</Name>
+		<Number_of_Students>31</Number_of_Students>
+		<Subgroup>
+			<Name>a1.2</Name>
+			<Number_of_Students>15</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b1.2</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE 10106</Name>
+		<Number_of_Students>31</Number_of_Students>
+		<Subgroup>
+			<Name>c1.2</Name>
+			<Number_of_Students>15</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d1.2</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>TC 10110</Name>
+		<Number_of_Students>35</Number_of_Students>
+		<Subgroup>
+			<Name>a1.3</Name>
+			<Number_of_Students>17</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b1.3</Name>
+			<Number_of_Students>18</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>II</Name>
+	<Number_of_Students>164</Number_of_Students>
+	<Group>
+		<Name>C 10203</Name>
+		<Number_of_Students>25</Number_of_Students>
+		<Subgroup>
+			<Name>a2.1</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b2.1</Name>
+			<Number_of_Students>13</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>C 10204</Name>
+		<Number_of_Students>33</Number_of_Students>
+		<Subgroup>
+			<Name>c2.1</Name>
+			<Number_of_Students>15</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d2.1</Name>
+			<Number_of_Students>18</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE 10205</Name>
+		<Number_of_Students>31</Number_of_Students>
+		<Subgroup>
+			<Name>a2.2</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b2.2</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE 10206</Name>
+		<Number_of_Students>28</Number_of_Students>
+		<Subgroup>
+			<Name>c2.2</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d2.2</Name>
+			<Number_of_Students>15</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>TC 10210</Name>
+		<Number_of_Students>23</Number_of_Students>
+		<Subgroup>
+			<Name>a2.3</Name>
+			<Number_of_Students>11</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b2.3</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>TC 10211</Name>
+		<Number_of_Students>24</Number_of_Students>
+		<Subgroup>
+			<Name>c2.3</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d2.3</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>III</Name>
+	<Number_of_Students>188</Number_of_Students>
+	<Group>
+		<Name>C 10304</Name>
+		<Number_of_Students>28</Number_of_Students>
+		<Subgroup>
+			<Name>a3.1</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b3.1</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>C 10305</Name>
+		<Number_of_Students>30</Number_of_Students>
+		<Subgroup>
+			<Name>c3.1</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d3.1</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>C 10306</Name>
+		<Number_of_Students>32</Number_of_Students>
+		<Subgroup>
+			<Name>e3.1</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>f3.1</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE 10307</Name>
+		<Number_of_Students>21</Number_of_Students>
+		<Subgroup>
+			<Name>a3.2</Name>
+			<Number_of_Students>10</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b3.2</Name>
+			<Number_of_Students>11</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE 10308</Name>
+		<Number_of_Students>27</Number_of_Students>
+		<Subgroup>
+			<Name>c3.2</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d3.2</Name>
+			<Number_of_Students>13</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>TC 10312</Name>
+		<Number_of_Students>24</Number_of_Students>
+		<Subgroup>
+			<Name>a3.3</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b3.3</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>TC 10313</Name>
+		<Number_of_Students>26</Number_of_Students>
+		<Subgroup>
+			<Name>c3.3</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d3.3</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>IV</Name>
+	<Number_of_Students>119</Number_of_Students>
+	<Group>
+		<Name>C-SSC 10403</Name>
+		<Number_of_Students>37</Number_of_Students>
+		<Subgroup>
+			<Name>a4.1</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b4.1</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>c4.1</Name>
+			<Number_of_Students>13</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>C-SW 10404</Name>
+		<Number_of_Students>37</Number_of_Students>
+		<Subgroup>
+			<Name>d4.1</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>e4.1</Name>
+			<Number_of_Students>12</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>f4.1</Name>
+			<Number_of_Students>13</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE-SW 10406</Name>
+		<Number_of_Students>30</Number_of_Students>
+		<Subgroup>
+			<Name>b4.2</Name>
+			<Number_of_Students>14</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>c4.2</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE-SSC 10405</Name>
+		<Number_of_Students>15</Number_of_Students>
+		<Subgroup>
+			<Name>a4.2</Name>
+			<Number_of_Students>15</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>V</Name>
+	<Number_of_Students>116</Number_of_Students>
+	<Group>
+		<Name>C-SW 10503</Name>
+		<Number_of_Students>32</Number_of_Students>
+		<Subgroup>
+			<Name>a5.1</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>b5.1</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>C-SW 10504</Name>
+		<Number_of_Students>31</Number_of_Students>
+		<Subgroup>
+			<Name>c5.1</Name>
+			<Number_of_Students>15</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>d5.1</Name>
+			<Number_of_Students>16</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>C-SSC 10505</Name>
+		<Number_of_Students>21</Number_of_Students>
+		<Subgroup>
+			<Name>e5.1</Name>
+			<Number_of_Students>10</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>f5.1</Name>
+			<Number_of_Students>11</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>CE-SW 10506</Name>
 		<Number_of_Students>17</Number_of_Students>
-		</Subgroup>
 		<Subgroup>
-		<Name>d1.1</Name>
-		<Number_of_Students>16</Number_of_Students>
+			<Name>a5.2</Name>
+			<Number_of_Students>17</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>CE 10105</Name>
-	<Number_of_Students>31</Number_of_Students>
-		<Subgroup>
-		<Name>a1.2</Name>
+		<Name>CE-SSC 10507</Name>
 		<Number_of_Students>15</Number_of_Students>
-		</Subgroup>
 		<Subgroup>
-		<Name>b1.2</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE 10106</Name>
-	<Number_of_Students>31</Number_of_Students>
-		<Subgroup>
-		<Name>c1.2</Name>
-		<Number_of_Students>15</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d1.2</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>TC 10110</Name>
-	<Number_of_Students>35</Number_of_Students>
-		<Subgroup>
-		<Name>a1.3</Name>
-		<Number_of_Students>17</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b1.3</Name>
-		<Number_of_Students>18</Number_of_Students>
+			<Name>b5.2</Name>
+			<Number_of_Students>15</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>II</Name>
-<Number_of_Students>164</Number_of_Students>
-	<Group>
-	<Name>C 10203</Name>
-	<Number_of_Students>25</Number_of_Students>
-		<Subgroup>
-		<Name>a2.1</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b2.1</Name>
-		<Number_of_Students>13</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>C 10204</Name>
-	<Number_of_Students>33</Number_of_Students>
-		<Subgroup>
-		<Name>c2.1</Name>
-		<Number_of_Students>15</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d2.1</Name>
-		<Number_of_Students>18</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE 10205</Name>
-	<Number_of_Students>31</Number_of_Students>
-		<Subgroup>
-		<Name>a2.2</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b2.2</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE 10206</Name>
-	<Number_of_Students>28</Number_of_Students>
-		<Subgroup>
-		<Name>c2.2</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d2.2</Name>
-		<Number_of_Students>15</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>TC 10210</Name>
-	<Number_of_Students>23</Number_of_Students>
-		<Subgroup>
-		<Name>a2.3</Name>
-		<Number_of_Students>11</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b2.3</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>TC 10211</Name>
-	<Number_of_Students>24</Number_of_Students>
-		<Subgroup>
-		<Name>c2.3</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d2.3</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>III</Name>
-<Number_of_Students>188</Number_of_Students>
-	<Group>
-	<Name>C 10304</Name>
-	<Number_of_Students>28</Number_of_Students>
-		<Subgroup>
-		<Name>a3.1</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b3.1</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>C 10305</Name>
-	<Number_of_Students>30</Number_of_Students>
-		<Subgroup>
-		<Name>c3.1</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d3.1</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>C 10306</Name>
-	<Number_of_Students>32</Number_of_Students>
-		<Subgroup>
-		<Name>e3.1</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>f3.1</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE 10307</Name>
-	<Number_of_Students>21</Number_of_Students>
-		<Subgroup>
-		<Name>a3.2</Name>
-		<Number_of_Students>10</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b3.2</Name>
-		<Number_of_Students>11</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE 10308</Name>
-	<Number_of_Students>27</Number_of_Students>
-		<Subgroup>
-		<Name>c3.2</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d3.2</Name>
-		<Number_of_Students>13</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>TC 10312</Name>
-	<Number_of_Students>24</Number_of_Students>
-		<Subgroup>
-		<Name>a3.3</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b3.3</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>TC 10313</Name>
-	<Number_of_Students>26</Number_of_Students>
-		<Subgroup>
-		<Name>c3.3</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d3.3</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>IV</Name>
-<Number_of_Students>119</Number_of_Students>
-	<Group>
-	<Name>C-SSC 10403</Name>
-	<Number_of_Students>37</Number_of_Students>
-		<Subgroup>
-		<Name>a4.1</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b4.1</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>c4.1</Name>
-		<Number_of_Students>13</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>C-SW 10404</Name>
-	<Number_of_Students>37</Number_of_Students>
-		<Subgroup>
-		<Name>d4.1</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>e4.1</Name>
-		<Number_of_Students>12</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>f4.1</Name>
-		<Number_of_Students>13</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE-SW 10406</Name>
-	<Number_of_Students>30</Number_of_Students>
-		<Subgroup>
-		<Name>b4.2</Name>
-		<Number_of_Students>14</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>c4.2</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE-SSC 10405</Name>
-	<Number_of_Students>15</Number_of_Students>
-		<Subgroup>
-		<Name>a4.2</Name>
-		<Number_of_Students>15</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>V</Name>
-<Number_of_Students>116</Number_of_Students>
-	<Group>
-	<Name>C-SW 10503</Name>
-	<Number_of_Students>32</Number_of_Students>
-		<Subgroup>
-		<Name>a5.1</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>b5.1</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>C-SW 10504</Name>
-	<Number_of_Students>31</Number_of_Students>
-		<Subgroup>
-		<Name>c5.1</Name>
-		<Number_of_Students>15</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>d5.1</Name>
-		<Number_of_Students>16</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>C-SSC 10505</Name>
-	<Number_of_Students>21</Number_of_Students>
-		<Subgroup>
-		<Name>e5.1</Name>
-		<Number_of_Students>10</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>f5.1</Name>
-		<Number_of_Students>11</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE-SW 10506</Name>
-	<Number_of_Students>17</Number_of_Students>
-		<Subgroup>
-		<Name>a5.2</Name>
-		<Number_of_Students>17</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CE-SSC 10507</Name>
-	<Number_of_Students>15</Number_of_Students>
-		<Subgroup>
-		<Name>b5.2</Name>
-		<Number_of_Students>15</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>VI</Name>
-<Number_of_Students>19</Number_of_Students>
-	<Group>
-	<Name>Master I</Name>
+	<Name>VI</Name>
 	<Number_of_Students>19</Number_of_Students>
+	<Group>
+		<Name>Master I</Name>
+		<Number_of_Students>19</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>VII</Name>
-<Number_of_Students>17</Number_of_Students>
-	<Group>
-	<Name>Master II</Name>
+	<Name>VII</Name>
 	<Number_of_Students>17</Number_of_Students>
+	<Group>
+		<Name>Master II</Name>
+		<Number_of_Students>17</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

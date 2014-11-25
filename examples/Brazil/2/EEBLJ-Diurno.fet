@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.20.2">
+<fet version="5.24.0">
 
 <Institution_Name>EEB Leopoldo Jacobsen</Institution_Name>
 
 <Comments>Horário do periodo  Diurno</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Segunda</Name>
+	<Name>Terça</Name>
+	<Name>Quarta</Name>
+	<Name>Quinta</Name>
+	<Name>Sexta</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>15</Number>
@@ -25,150 +34,141 @@
 	<Name>5ª 16:35</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Segunda</Name>
-	<Name>Terça</Name>
-	<Name>Quarta</Name>
-	<Name>Quinta</Name>
-	<Name>Sexta</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>1 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>1 EF1</Name>
+	<Name>1 EF</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>1 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1 EF2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>1 EM</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>1 EM 1</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>1 EM 2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>1 EM 3</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>1 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>2 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>2 EF1</Name>
+	<Name>1 EM</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>1 EM 1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>2 EF2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>2 EM</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>2 EM 1</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>1 EM 2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>2 EM 2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>1 EM 3</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>3 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>3 EF1</Name>
+	<Name>2 EF</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>2 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3 EF2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>3 EM</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>3 EM 1</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>3 EM 2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>2 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>4 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>4 EF1</Name>
+	<Name>2 EM</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>2 EM 1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>4 EF2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>5 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5 EF1</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>5 EF2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>2 EM 2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>6 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6 EF1</Name>
+	<Name>3 EF</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>3 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>6 EF2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>7 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>7 EF1</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>7 EF2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>3 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>8 EF</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>8 EF1</Name>
+	<Name>3 EM</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>3 EM 1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>8 EF2</Name>
+		<Name>3 EM 2</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>4 EF</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>4 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>5 EF</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>5 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>6 EF</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>6 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>7 EF</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>7 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>7 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>8 EF</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>8 EF1</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>8 EF2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

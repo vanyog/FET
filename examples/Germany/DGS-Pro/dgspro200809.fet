@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>DGS Probsteierhagen</Institution_Name>
 
 <Comments>Stundenplan voraussichtlich bis Herbst 2008</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Montag</Name>
+	<Name>Dienstag</Name>
+	<Name>Mittwoch</Name>
+	<Name>Donnerstag</Name>
+	<Name>Freitag</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>6</Number>
@@ -16,187 +25,178 @@
 	<Name>12:10</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Montag</Name>
-	<Name>Dienstag</Name>
-	<Name>Mittwoch</Name>
-	<Name>Donnerstag</Name>
-	<Name>Freitag</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>1</Name>
-<Number_of_Students>60</Number_of_Students>
+	<Name>1</Name>
+	<Number_of_Students>60</Number_of_Students>
 	<Group>
-	<Name>1a</Name>
-	<Number_of_Students>20</Number_of_Students>
+		<Name>1a</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1aDS</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>1aDS</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1b</Name>
-	<Number_of_Students>20</Number_of_Students>
+		<Name>1b</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1bDS</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>1bDS</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1c</Name>
-	<Number_of_Students>20</Number_of_Students>
+		<Name>1c</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1cDS</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>2</Name>
-<Number_of_Students>60</Number_of_Students>
-	<Group>
-	<Name>2a</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2aDS</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2b</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2bDS</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2c</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2cDS</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>1cDS</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>3</Name>
-<Number_of_Students>80</Number_of_Students>
+	<Name>2</Name>
+	<Number_of_Students>60</Number_of_Students>
 	<Group>
-	<Name>3a</Name>
-	<Number_of_Students>20</Number_of_Students>
+		<Name>2a</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3b</Name>
-	<Number_of_Students>20</Number_of_Students>
+		<Name>2aDS</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3c</Name>
-	<Number_of_Students>20</Number_of_Students>
+		<Name>2b</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3d</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>4</Name>
-<Number_of_Students>60</Number_of_Students>
-	<Group>
-	<Name>4a</Name>
-	<Number_of_Students>20</Number_of_Students>
+		<Name>2bDS</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>4aDS</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>2c</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>4b</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4bDS</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4c</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4cDS</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>2cDS</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>6/7</Name>
-<Number_of_Students>20</Number_of_Students>
+	<Name>3</Name>
+	<Number_of_Students>80</Number_of_Students>
 	<Group>
-	<Name>6g</Name>
-	<Number_of_Students>10</Number_of_Students>
+		<Name>3a</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>7g</Name>
-	<Number_of_Students>10</Number_of_Students>
+		<Name>3b</Name>
+		<Number_of_Students>20</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>3c</Name>
+		<Number_of_Students>20</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>3d</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>8</Name>
-<Number_of_Students>15</Number_of_Students>
+	<Name>4</Name>
+	<Number_of_Students>60</Number_of_Students>
 	<Group>
-	<Name>8g</Name>
+		<Name>4a</Name>
+		<Number_of_Students>20</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4aDS</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4b</Name>
+		<Number_of_Students>20</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4bDS</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4c</Name>
+		<Number_of_Students>20</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4cDS</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>6/7</Name>
+	<Number_of_Students>20</Number_of_Students>
+	<Group>
+		<Name>6g</Name>
+		<Number_of_Students>10</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>7g</Name>
+		<Number_of_Students>10</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>8</Name>
 	<Number_of_Students>15</Number_of_Students>
+	<Group>
+		<Name>8g</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>9</Name>
-<Number_of_Students>15</Number_of_Students>
-	<Group>
-	<Name>9g</Name>
+	<Name>9</Name>
 	<Number_of_Students>15</Number_of_Students>
+	<Group>
+		<Name>9g</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>z</Name>
-<Number_of_Students>60</Number_of_Students>
+	<Name>z</Name>
+	<Number_of_Students>60</Number_of_Students>
 	<Group>
-	<Name>z1</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>z1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>z2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>z2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>z3</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>Lia</Name>
-<Number_of_Students>8</Number_of_Students>
-	<Group>
-	<Name>Lia-Fri</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Lia-ThH</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Lia-Sce</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Lia-Gar</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>z3</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>1aDS_</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>Lia</Name>
+	<Number_of_Students>8</Number_of_Students>
+	<Group>
+		<Name>Lia-Fri</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Lia-ThH</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Lia-Sce</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Lia-Gar</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>1aDS_</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 </Students_List>
 

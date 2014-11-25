@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Van Rhyn PS</Institution_Name>
 
 <Comments>Default comments</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Monday</Name>
+	<Name>Tuesday</Name>
+	<Name>Wednesday</Name>
+	<Name>Thursday</Name>
+	<Name>Friday</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>9</Number>
@@ -19,182 +28,173 @@
 	<Name>8th Period</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Monday</Name>
-	<Name>Tuesday</Name>
-	<Name>Wednesday</Name>
-	<Name>Thursday</Name>
-	<Name>Friday</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>5A</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5A Girls</Name>
+	<Name>5A</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5A Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5A Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>5B</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5B Girls</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>5B Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5A Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>5C</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5C Girls</Name>
+	<Name>5B</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5B Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5C Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>5D</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5D Girls</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>5D Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5B Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>5E</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5E Girls</Name>
+	<Name>5C</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5C Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5E Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>6A</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6A Girls</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>6A Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5C Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>6B</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6B Girls</Name>
+	<Name>5D</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5D Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>6B Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>6C</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6C Girls</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>6C Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5D Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>6D</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6D Girls</Name>
+	<Name>5E</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5E Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>6D Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>6E</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6E Girls</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>6E Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>5E Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>7A</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>7A Girls</Name>
+	<Name>6A</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6A Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>7A Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>7B</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>7B Girls</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>7B Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>6A Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>7C</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>7C Girls</Name>
+	<Name>6B</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6B Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>7C Boys</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>6B Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>7D</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>7D Girls</Name>
+	<Name>6C</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6C Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>7D Boys</Name>
+		<Name>6C Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>6D</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6D Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>6D Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>6E</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6E Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>6E Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>7A</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>7A Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>7A Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>7B</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>7B Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>7B Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>7C</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>7C Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>7C Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>7D</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>7D Girls</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>7D Boys</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

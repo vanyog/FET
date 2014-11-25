@@ -1,21 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.23.3">
+<fet version="5.24.0">
 
 <Institution_Name>Trường THCS Đức Hợp_(33331517)</Institution_Name>
 
 <Comments>2014-2015_(2014)
 Học kỳ 1_(01)
 VEMIS_Timetable_(1.2.0)</Comments>
-
-<Hours_List>
-	<Number>5</Number>
-	<Name>Tiết 1</Name>
-	<Name>Tiết 2</Name>
-	<Name>Tiết 3</Name>
-	<Name>Tiết 4</Name>
-	<Name>Tiết 5</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>6</Number>
@@ -27,57 +18,66 @@ VEMIS_Timetable_(1.2.0)</Comments>
 	<Name>Thứ Bảy</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>5</Number>
+	<Name>Tiết 1</Name>
+	<Name>Tiết 2</Name>
+	<Name>Tiết 3</Name>
+	<Name>Tiết 4</Name>
+	<Name>Tiết 5</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>Lớp 6</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>6A</Name>
+	<Name>Lớp 6</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>6A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>6B</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>Lớp 7</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>7A</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>7B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>6B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>Lớp 8</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>8A</Name>
+	<Name>Lớp 7</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>7A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>8B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>7B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>Lớp 9</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>9A</Name>
+	<Name>Lớp 8</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>8A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>9B</Name>
+		<Name>8B</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>Lớp 9</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>9A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>9C</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>9B</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>9C</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

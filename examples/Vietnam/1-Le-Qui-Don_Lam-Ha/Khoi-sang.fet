@@ -1,21 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.23.3">
+<fet version="5.24.0">
 
 <Institution_Name>Trường THPT Lê Quý Đôn - Lâm Hà</Institution_Name>
 
 <Comments>2012-2013_(2012)
 Học kỳ 1_(01)
 VEMIS_Timetable_(1.2.0)</Comments>
-
-<Hours_List>
-	<Number>5</Number>
-	<Name>T1</Name>
-	<Name>T2</Name>
-	<Name>T3</Name>
-	<Name>T4</Name>
-	<Name>T5</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>6</Number>
@@ -27,109 +18,118 @@ VEMIS_Timetable_(1.2.0)</Comments>
 	<Name>Thứ 7</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>5</Number>
+	<Name>T1</Name>
+	<Name>T2</Name>
+	<Name>T3</Name>
+	<Name>T4</Name>
+	<Name>T5</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>Lớp 11</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>11A1</Name>
+	<Name>Lớp 11</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>11A1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>11A2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>11A2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>11A3</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>11A3</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>11A4</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>11A4</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>11A5</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>11A5</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>11A6</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>11A6</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>11A7</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>Lớp 12</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>12A1</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>12A2</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>12A3</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>12A4</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>12A5</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>12A6</Name>
-	<Number_of_Students>0</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>12A7</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>11A7</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>Lớp 10</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>10A1</Name>
+	<Name>Lớp 12</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>12A1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A2</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>12A2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A3</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>12A3</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A4</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>12A4</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A5</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>12A5</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A6</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>12A6</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A7</Name>
+		<Name>12A7</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>Lớp 10</Name>
 	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>10A1</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A8</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>10A2</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>10A9</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>10A3</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>10A4</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>10A5</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>10A6</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>10A7</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>10A8</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>10A9</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

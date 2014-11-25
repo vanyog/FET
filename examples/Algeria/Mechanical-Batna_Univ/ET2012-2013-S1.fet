@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.19.4">
+<fet version="5.24.0">
 
 <Institution_Name>Département de Mécanique - Filière Mécanique. Emplois du temps S1 (2012/2013)</Institution_Name>
 
 <Comments>Emplois du temps S1 : Année Universitaire 2012/2013</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Dimanche</Name>
+	<Name>Lundi</Name>
+	<Name>Mardi</Name>
+	<Name>Mercredi</Name>
+	<Name>Jeudi</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>6</Number>
@@ -16,155 +25,146 @@
 	<Name>15:45</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Dimanche</Name>
-	<Name>Lundi</Name>
-	<Name>Mardi</Name>
-	<Name>Mercredi</Name>
-	<Name>Jeudi</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>5 SDM</Name>
-<Number_of_Students>15</Number_of_Students>
-</Year>
-<Year>
-<Name>L2 AERO</Name>
-<Number_of_Students>30</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 AERO</Name>
-<Number_of_Students>30</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 BIO</Name>
-<Number_of_Students>26</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 CMAO</Name>
-<Number_of_Students>19</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 GEN</Name>
-<Number_of_Students>40</Number_of_Students>
-	<Group>
-	<Name>Gr1</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Gr2</Name>
-	<Number_of_Students>20</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>L3 GMM</Name>
-<Number_of_Students>24</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 MSP</Name>
-<Number_of_Students>30</Number_of_Students>
-	<Group>
-	<Name>L3 MER</Name>
+	<Name>5 SDM</Name>
 	<Number_of_Students>15</Number_of_Students>
+</Year>
+<Year>
+	<Name>L2 AERO</Name>
+	<Number_of_Students>30</Number_of_Students>
+</Year>
+<Year>
+	<Name>L3 AERO</Name>
+	<Number_of_Students>30</Number_of_Students>
+</Year>
+<Year>
+	<Name>L3 BIO</Name>
+	<Number_of_Students>26</Number_of_Students>
+</Year>
+<Year>
+	<Name>L3 CMAO</Name>
+	<Number_of_Students>19</Number_of_Students>
+</Year>
+<Year>
+	<Name>L3 GEN</Name>
+	<Number_of_Students>40</Number_of_Students>
+	<Group>
+		<Name>Gr1</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>L3 MMTH</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>Gr2</Name>
+		<Number_of_Students>20</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>L3 PM</Name>
-<Number_of_Students>22</Number_of_Students>
+	<Name>L3 GMM</Name>
+	<Number_of_Students>24</Number_of_Students>
 </Year>
 <Year>
-<Name>M1 BIO</Name>
-<Number_of_Students>16</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 CSM</Name>
-<Number_of_Students>15</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 EN</Name>
-<Number_of_Students>14</Number_of_Students>
+	<Name>L3 MSP</Name>
+	<Number_of_Students>30</Number_of_Students>
 	<Group>
-	<Name>G1</Name>
-	<Number_of_Students>8</Number_of_Students>
+		<Name>L3 MER</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>G2</Name>
-	<Number_of_Students>14</Number_of_Students>
+		<Name>L3 MMTH</Name>
+		<Number_of_Students>15</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>M1 GMM</Name>
-<Number_of_Students>22</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 IES</Name>
-<Number_of_Students>12</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 MP</Name>
-<Number_of_Students>30</Number_of_Students>
-	<Group>
-	<Name>M1 MER</Name>
+	<Name>L3 PM</Name>
 	<Number_of_Students>22</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>M1 MMTH</Name>
-	<Number_of_Students>11</Number_of_Students>
-	</Group>
 </Year>
 <Year>
-<Name>M1 PM</Name>
-<Number_of_Students>15</Number_of_Students>
+	<Name>M1 BIO</Name>
+	<Number_of_Students>16</Number_of_Students>
 </Year>
 <Year>
-<Name>M1 TA</Name>
-<Number_of_Students>27</Number_of_Students>
-</Year>
-<Year>
-<Name>M2 BIO</Name>
-<Number_of_Students>27</Number_of_Students>
-</Year>
-<Year>
-<Name>M2 CSM</Name>
-<Number_of_Students>13</Number_of_Students>
-</Year>
-<Year>
-<Name>M2 EN</Name>
-<Number_of_Students>16</Number_of_Students>
-</Year>
-<Year>
-<Name>M2 GMM</Name>
-<Number_of_Students>14</Number_of_Students>
-</Year>
-<Year>
-<Name>M2 MP</Name>
-<Number_of_Students>16</Number_of_Students>
-	<Group>
-	<Name>M2 MER</Name>
+	<Name>M1 CSM</Name>
 	<Number_of_Students>15</Number_of_Students>
+</Year>
+<Year>
+	<Name>M1 EN</Name>
+	<Number_of_Students>14</Number_of_Students>
+	<Group>
+		<Name>G1</Name>
+		<Number_of_Students>8</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>M2 MMTH</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>G2</Name>
+		<Number_of_Students>14</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>M2 PM</Name>
-<Number_of_Students>19</Number_of_Students>
+	<Name>M1 GMM</Name>
+	<Number_of_Students>22</Number_of_Students>
 </Year>
 <Year>
-<Name>M2 IES</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>M1 IES</Name>
+	<Number_of_Students>12</Number_of_Students>
 </Year>
 <Year>
-<Name>M2 TA</Name>
-<Number_of_Students>20</Number_of_Students>
+	<Name>M1 MP</Name>
+	<Number_of_Students>30</Number_of_Students>
+	<Group>
+		<Name>M1 MER</Name>
+		<Number_of_Students>22</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>M1 MMTH</Name>
+		<Number_of_Students>11</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>M1 PM</Name>
+	<Number_of_Students>15</Number_of_Students>
+</Year>
+<Year>
+	<Name>M1 TA</Name>
+	<Number_of_Students>27</Number_of_Students>
+</Year>
+<Year>
+	<Name>M2 BIO</Name>
+	<Number_of_Students>27</Number_of_Students>
+</Year>
+<Year>
+	<Name>M2 CSM</Name>
+	<Number_of_Students>13</Number_of_Students>
+</Year>
+<Year>
+	<Name>M2 EN</Name>
+	<Number_of_Students>16</Number_of_Students>
+</Year>
+<Year>
+	<Name>M2 GMM</Name>
+	<Number_of_Students>14</Number_of_Students>
+</Year>
+<Year>
+	<Name>M2 MP</Name>
+	<Number_of_Students>16</Number_of_Students>
+	<Group>
+		<Name>M2 MER</Name>
+		<Number_of_Students>15</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>M2 MMTH</Name>
+		<Number_of_Students>15</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>M2 PM</Name>
+	<Number_of_Students>19</Number_of_Students>
+</Year>
+<Year>
+	<Name>M2 IES</Name>
+	<Number_of_Students>10</Number_of_Students>
+</Year>
+<Year>
+	<Name>M2 TA</Name>
+	<Number_of_Students>20</Number_of_Students>
 </Year>
 </Students_List>
 

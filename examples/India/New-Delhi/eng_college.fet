@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Engineering College</Institution_Name>
 
 <Comments></Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>MON</Name>
+	<Name>TUE</Name>
+	<Name>WED</Name>
+	<Name>THU</Name>
+	<Name>FRI</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>9</Number>
@@ -19,293 +28,284 @@
 	<Name>16:10-17:00</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>MON</Name>
-	<Name>TUE</Name>
-	<Name>WED</Name>
-	<Name>THU</Name>
-	<Name>FRI</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>First Year</Name>
-<Number_of_Students>960</Number_of_Students>
+	<Name>First Year</Name>
+	<Number_of_Students>960</Number_of_Students>
 	<Group>
-	<Name>CE A</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>CE A</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>CE A1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CE A1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>CE A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CE A2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>CE B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>CE B</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>CE B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CE B1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>CE B2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>CS A</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>CS A1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>CS A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CE B2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>CS B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>CS A</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>CS B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CS A1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>CS B2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>EC A</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>EC A1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>EC A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CS A2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>EC B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>CS B</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>EC B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CS B1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>EC B2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>EE</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>EE 1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>EE 2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>CS B2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>EEE A</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>EC A</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>EEE A1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EC A1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>EEE A2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>EEE B</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>EEE B1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>EEE B2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EC A2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>EI A</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>EC B</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>EI A1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EC B1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>EI A2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>EI B</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>EI B1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>EI B2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EC B2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>IC</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>EE</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>IC 1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EE 1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>IC 2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>IT A</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>IT A1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>IT A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EE 2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>IT B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>EEE A</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>IT B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EEE A1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>IT B2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>ME A</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>ME A1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ME A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EEE A2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>ME B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>EEE B</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>ME B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EEE B1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>ME B2</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>Second year</Name>
-<Number_of_Students>120</Number_of_Students>
-	<Group>
-	<Name>III A</Name>
-	<Number_of_Students>60</Number_of_Students>
-		<Subgroup>
-		<Name>III A1</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>III A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EEE B2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>III B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>EI A</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>III B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EI A1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>III B2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>EI A2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>EI B</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>EI B1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>EI B2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>IC</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>IC 1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>IC 2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>IT A</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>IT A1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>IT A2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>IT B</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>IT B1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>IT B2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>ME A</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>ME A1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ME A2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>ME B</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>ME B1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ME B2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>Third Year</Name>
-<Number_of_Students>120</Number_of_Students>
+	<Name>Second year</Name>
+	<Number_of_Students>120</Number_of_Students>
 	<Group>
-	<Name>V A</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>III A</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>V A1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>III A1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>V A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>III A2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>V B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>III B</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>V B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>III B1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>V B2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>III B2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>Fourth Year</Name>
-<Number_of_Students>120</Number_of_Students>
+	<Name>Third Year</Name>
+	<Number_of_Students>120</Number_of_Students>
 	<Group>
-	<Name>VII A</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>V A</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>VII A1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>V A1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>VII A2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>V A2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>VII B</Name>
-	<Number_of_Students>60</Number_of_Students>
+		<Name>V B</Name>
+		<Number_of_Students>60</Number_of_Students>
 		<Subgroup>
-		<Name>VII B1</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>V B1</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>VII B2</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>V B2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>Fourth Year</Name>
+	<Number_of_Students>120</Number_of_Students>
+	<Group>
+		<Name>VII A</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>VII A1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>VII A2</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>VII B</Name>
+		<Number_of_Students>60</Number_of_Students>
+		<Subgroup>
+			<Name>VII B1</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>VII B2</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

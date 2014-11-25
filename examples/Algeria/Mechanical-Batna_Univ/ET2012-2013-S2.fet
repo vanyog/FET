@@ -1,19 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.19.4">
+<fet version="5.24.0">
 
 <Institution_Name>Département de Mécanique - Filière Mécanique. Emplois du temps S2 (2012/2013)</Institution_Name>
 
 <Comments>Emplois du temps S2 : Année Universitaire 2012/2013</Comments>
-
-<Hours_List>
-	<Number>5</Number>
-	<Name>08:00</Name>
-	<Name>09:35</Name>
-	<Name>11:10</Name>
-	<Name>14:00</Name>
-	<Name>15:45</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>5</Number>
@@ -24,168 +15,177 @@
 	<Name>Jeudi</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>5</Number>
+	<Name>08:00</Name>
+	<Name>09:35</Name>
+	<Name>11:10</Name>
+	<Name>14:00</Name>
+	<Name>15:45</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>L2 AERO</Name>
-<Number_of_Students>32</Number_of_Students>
+	<Name>L2 AERO</Name>
+	<Number_of_Students>32</Number_of_Students>
 </Year>
 <Year>
-<Name>L3 AERO</Name>
-<Number_of_Students>40</Number_of_Students>
+	<Name>L3 AERO</Name>
+	<Number_of_Students>40</Number_of_Students>
 </Year>
 <Year>
-<Name>L3 BIO</Name>
-<Number_of_Students>17</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 CMAO</Name>
-<Number_of_Students>18</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 GEN</Name>
-<Number_of_Students>30</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 GMM</Name>
-<Number_of_Students>25</Number_of_Students>
-</Year>
-<Year>
-<Name>L3 MSP</Name>
-<Number_of_Students>30</Number_of_Students>
-	<Group>
-	<Name>L3 MER</Name>
-	<Number_of_Students>16</Number_of_Students>
-		<Subgroup>
-		<Name>SG1</Name>
-		<Number_of_Students>9</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>SG2</Name>
-		<Number_of_Students>9</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>L3 MMTH</Name>
-	<Number_of_Students>14</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>L3 PM</Name>
-<Number_of_Students>17</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 BIO</Name>
-<Number_of_Students>28</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 CSM</Name>
-<Number_of_Students>25</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 EN</Name>
-<Number_of_Students>23</Number_of_Students>
-	<Group>
-	<Name>Groupe1</Name>
-	<Number_of_Students>12</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Groupe2</Name>
-	<Number_of_Students>12</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>M1 GMM</Name>
-<Number_of_Students>22</Number_of_Students>
-</Year>
-<Year>
-<Name>M1 MP</Name>
-<Number_of_Students>38</Number_of_Students>
-	<Group>
-	<Name>M1 MER</Name>
-	<Number_of_Students>21</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>M1 MMTH</Name>
+	<Name>L3 BIO</Name>
 	<Number_of_Students>17</Number_of_Students>
-	</Group>
 </Year>
 <Year>
-<Name>M1 PM</Name>
-<Number_of_Students>24</Number_of_Students>
+	<Name>L3 CMAO</Name>
+	<Number_of_Students>18</Number_of_Students>
+</Year>
+<Year>
+	<Name>L3 GEN</Name>
+	<Number_of_Students>30</Number_of_Students>
+</Year>
+<Year>
+	<Name>L3 GMM</Name>
+	<Number_of_Students>25</Number_of_Students>
+</Year>
+<Year>
+	<Name>L3 MSP</Name>
+	<Number_of_Students>30</Number_of_Students>
 	<Group>
-	<Name>Grp1</Name>
-	<Number_of_Students>12</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>Grp2</Name>
-	<Number_of_Students>12</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>M1IES</Name>
-<Number_of_Students>8</Number_of_Students>
-</Year>
-<Year>
-<Name>M1TA</Name>
-<Number_of_Students>25</Number_of_Students>
-</Year>
-<Year>
-<Name>ST</Name>
-<Number_of_Students>380</Number_of_Students>
-	<Group>
-	<Name>ST Sec 1</Name>
-	<Number_of_Students>160</Number_of_Students>
+		<Name>L3 MER</Name>
+		<Number_of_Students>16</Number_of_Students>
 		<Subgroup>
-		<Name>Gr9</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>SG1</Name>
+			<Number_of_Students>9</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Gr10</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Gr11</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Gr12</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Gr13</Name>
-		<Number_of_Students>30</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Gr14</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>SG2</Name>
+			<Number_of_Students>9</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>ST Sec 2</Name>
-	<Number_of_Students>160</Number_of_Students>
+		<Name>L3 MMTH</Name>
+		<Number_of_Students>14</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>L3 PM</Name>
+	<Number_of_Students>17</Number_of_Students>
+</Year>
+<Year>
+	<Name>M1 BIO</Name>
+	<Number_of_Students>28</Number_of_Students>
+</Year>
+<Year>
+	<Name>M1 CSM</Name>
+	<Number_of_Students>25</Number_of_Students>
+</Year>
+<Year>
+	<Name>M1 EN</Name>
+	<Number_of_Students>23</Number_of_Students>
+	<Group>
+		<Name>Groupe1</Name>
+		<Number_of_Students>12</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Groupe2</Name>
+		<Number_of_Students>12</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>M1 GMM</Name>
+	<Number_of_Students>22</Number_of_Students>
+</Year>
+<Year>
+	<Name>M1 MP</Name>
+	<Number_of_Students>38</Number_of_Students>
+	<Group>
+		<Name>M1 MER</Name>
+		<Number_of_Students>21</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>M1 MMTH</Name>
+		<Number_of_Students>17</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>M1 PM</Name>
+	<Number_of_Students>24</Number_of_Students>
+	<Group>
+		<Name>Grp1</Name>
+		<Number_of_Students>12</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Grp2</Name>
+		<Number_of_Students>12</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>M1IES</Name>
+	<Number_of_Students>8</Number_of_Students>
+</Year>
+<Year>
+	<Name>M1TA</Name>
+	<Number_of_Students>25</Number_of_Students>
+</Year>
+<Year>
+	<Name>ST</Name>
+	<Number_of_Students>380</Number_of_Students>
+	<Group>
+		<Name>ST Sec 1</Name>
+		<Number_of_Students>160</Number_of_Students>
 		<Subgroup>
-		<Name>Gr15</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>Gr9</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Gr16</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>Gr10</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Gr17</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>Gr11</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Gr18</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>Gr12</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Gr19</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>Gr13</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Gr20</Name>
-		<Number_of_Students>30</Number_of_Students>
+			<Name>Gr14</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>ST Sec 2</Name>
+		<Number_of_Students>160</Number_of_Students>
+		<Subgroup>
+			<Name>Gr15</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Gr16</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Gr17</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Gr18</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Gr19</Name>
+			<Number_of_Students>30</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Gr20</Name>
+			<Number_of_Students>30</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.21.0">
+<fet version="5.24.0">
 
 <Institution_Name>Instituto San José Ñ12</Institution_Name>
 
 <Comments>Nivel Secundario</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Lunes</Name>
+	<Name>Martes</Name>
+	<Name>Miércoles</Name>
+	<Name>Jueves</Name>
+	<Name>Viernes</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>7</Number>
@@ -17,39 +26,30 @@
 	<Name>7º 11:55-12:35</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Lunes</Name>
-	<Name>Martes</Name>
-	<Name>Miércoles</Name>
-	<Name>Jueves</Name>
-	<Name>Viernes</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>1º A</Name>
-<Number_of_Students>35</Number_of_Students>
+	<Name>1º A</Name>
+	<Number_of_Students>35</Number_of_Students>
 </Year>
 <Year>
-<Name>1º B</Name>
-<Number_of_Students>35</Number_of_Students>
+	<Name>1º B</Name>
+	<Number_of_Students>35</Number_of_Students>
 </Year>
 <Year>
-<Name>2º A</Name>
-<Number_of_Students>35</Number_of_Students>
+	<Name>2º A</Name>
+	<Number_of_Students>35</Number_of_Students>
 </Year>
 <Year>
-<Name>2º B</Name>
-<Number_of_Students>35</Number_of_Students>
+	<Name>2º B</Name>
+	<Number_of_Students>35</Number_of_Students>
 </Year>
 <Year>
-<Name>3º A</Name>
-<Number_of_Students>35</Number_of_Students>
+	<Name>3º A</Name>
+	<Number_of_Students>35</Number_of_Students>
 </Year>
 <Year>
-<Name>3º B</Name>
-<Number_of_Students>35</Number_of_Students>
+	<Name>3º B</Name>
+	<Number_of_Students>35</Number_of_Students>
 </Year>
 </Students_List>
 

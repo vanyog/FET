@@ -1,20 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.18.3">
+<fet version="5.24.0">
 
 <Institution_Name>Institution</Institution_Name>
 
 <Comments>Comments</Comments>
-
-<Hours_List>
-	<Number>6</Number>
-	<Name>الفترة الأولى(08:30)</Name>
-	<Name>الفترة الثانية(10:30)</Name>
-	<Name>الفترة الثالثة(1)</Name>
-	<Name>الفترة الرابعة(3)</Name>
-	<Name>الفترة الخامسة(5)</Name>
-	<Name>الفترة السادسة(7)</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>6</Number>
@@ -26,413 +16,423 @@
 	<Name>الخميس</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>6</Number>
+	<Name>الفترة الأولى(08:30)</Name>
+	<Name>الفترة الثانية(10:30)</Name>
+	<Name>الفترة الثالثة(1)</Name>
+	<Name>الفترة الرابعة(3)</Name>
+	<Name>الفترة الخامسة(5)</Name>
+	<Name>الفترة السادسة(7)</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>الفرقة الأولى</Name>
-<Number_of_Students>600</Number_of_Students>
+	<Name>الفرقة الأولى</Name>
+	<Number_of_Students>600</Number_of_Students>
 	<Group>
-	<Name>مجموعة( أ )-أولى</Name>
-	<Number_of_Students>300</Number_of_Students>
+		<Name>مجموعة( أ )-أولى</Name>
+		<Number_of_Students>300</Number_of_Students>
 		<Subgroup>
-		<Name>أولى-مج1</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج1</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج2</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج2</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج3</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج3</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج4</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج4</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج5</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج5</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج6</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج6</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج7</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج7</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج8</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج8</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج9</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج9</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج10</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج10</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج11</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج11</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج12</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج12</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>مجموعة( ب )-أولى</Name>
-	<Number_of_Students>300</Number_of_Students>
+		<Name>مجموعة( ب )-أولى</Name>
+		<Number_of_Students>300</Number_of_Students>
 		<Subgroup>
-		<Name>أولى-مج13</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج13</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج14</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج14</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج15</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج15</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج16</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج16</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج17</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج17</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج18</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج18</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج19</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج19</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج20</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج20</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج21</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج21</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج22</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج22</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج23</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج23</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>أولى-مج24</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>الفرقة الثانية</Name>
-<Number_of_Students>600</Number_of_Students>
-	<Group>
-	<Name>مجموعة( أ ) فرقة ثانية</Name>
-	<Number_of_Students>300</Number_of_Students>
-		<Subgroup>
-		<Name>ثانية-مج1</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج2</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج3</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج4</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج5</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج6</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج7</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج8</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج9</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج10</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج11</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>مجموعة( ب ) فرقة ثانية</Name>
-	<Number_of_Students>300</Number_of_Students>
-		<Subgroup>
-		<Name>ثانية-مج12</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج13</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج14</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج15</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج16</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج17</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج18</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج19</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج20</Name>
-		<Number_of_Students>27</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>ثانية-مج21</Name>
-		<Number_of_Students>27</Number_of_Students>
+			<Name>أولى-مج24</Name>
+			<Number_of_Students>27</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>الفرقة الثالثة-علوم حاسب</Name>
-<Number_of_Students>30</Number_of_Students>
+	<Name>الفرقة الثانية</Name>
+	<Number_of_Students>600</Number_of_Students>
 	<Group>
-	<Name>ثالثةع-مج1</Name>
-	<Number_of_Students>33</Number_of_Students>
+		<Name>مجموعة( أ ) فرقة ثانية</Name>
+		<Number_of_Students>300</Number_of_Students>
+		<Subgroup>
+			<Name>ثانية-مج1</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج2</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج3</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج4</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج5</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج6</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج7</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج8</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج9</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج10</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج11</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>مجموعة( ب ) فرقة ثانية</Name>
+		<Number_of_Students>300</Number_of_Students>
+		<Subgroup>
+			<Name>ثانية-مج12</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج13</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج14</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج15</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج16</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج17</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج18</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج19</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج20</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>ثانية-مج21</Name>
+			<Number_of_Students>27</Number_of_Students>
+		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>الفرقة الثالثة-نظم</Name>
-<Number_of_Students>30</Number_of_Students>
+	<Name>الفرقة الثالثة-علوم حاسب</Name>
+	<Number_of_Students>30</Number_of_Students>
 	<Group>
-	<Name>ثالثة ن-مج1</Name>
-	<Number_of_Students>24</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>ثالثة ن-مج2</Name>
-	<Number_of_Students>24</Number_of_Students>
+		<Name>ثالثةع-مج1</Name>
+		<Number_of_Students>33</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>الفرقة الثالثة-تكنولوجيا</Name>
-<Number_of_Students>30</Number_of_Students>
+	<Name>الفرقة الثالثة-نظم</Name>
+	<Number_of_Students>30</Number_of_Students>
 	<Group>
-	<Name>ثالثة تك-مج1</Name>
-	<Number_of_Students>22</Number_of_Students>
+		<Name>ثالثة ن-مج1</Name>
+		<Number_of_Students>24</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>ثالثة تك-مج2</Name>
-	<Number_of_Students>22</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>الفرقة الرابعة-علوم حاسب</Name>
-<Number_of_Students>150</Number_of_Students>
-	<Group>
-	<Name>رابعةع-مج1</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةع-مج2</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةع-مج3</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةع-مج4</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةع-مج5</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةع-مج6</Name>
-	<Number_of_Students>26</Number_of_Students>
+		<Name>ثالثة ن-مج2</Name>
+		<Number_of_Students>24</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>الفرقة الرابعة-نظم</Name>
-<Number_of_Students>180</Number_of_Students>
+	<Name>الفرقة الثالثة-تكنولوجيا</Name>
+	<Number_of_Students>30</Number_of_Students>
 	<Group>
-	<Name>رابعةن-مج1</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>ثالثة تك-مج1</Name>
+		<Number_of_Students>22</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>رابعةن-مج2</Name>
-	<Number_of_Students>27</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةن-مج3</Name>
-	<Number_of_Students>27</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةن-مج4</Name>
-	<Number_of_Students>27</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةن-مج5</Name>
-	<Number_of_Students>27</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>رابعةن-مج6</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>ثالثة تك-مج2</Name>
+		<Number_of_Students>22</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>الفرقة الرابعة-تكنولوجيا</Name>
-<Number_of_Students>150</Number_of_Students>
+	<Name>الفرقة الرابعة-علوم حاسب</Name>
+	<Number_of_Students>150</Number_of_Students>
 	<Group>
-	<Name>رابعةتك-مج1</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>رابعةع-مج1</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>رابعةتك-مج2</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>رابعةع-مج2</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>رابعةتك-مج3</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>رابعةع-مج3</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>رابعةتك-مج4</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>رابعةع-مج4</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>رابعةتك-مج5</Name>
-	<Number_of_Students>27</Number_of_Students>
+		<Name>رابعةع-مج5</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>رابعةتك-مج6</Name>
-	<Number_of_Students>27</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>تمهيدي علوم حاسب</Name>
-<Number_of_Students>10</Number_of_Students>
-	<Group>
-	<Name>تمهيدي علوم حاسب-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>رابعةع-مج6</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>تمهيدي نظم</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>الفرقة الرابعة-نظم</Name>
+	<Number_of_Students>180</Number_of_Students>
 	<Group>
-	<Name>تمهيدي نظم-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>رابعةن-مج1</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةن-مج2</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةن-مج3</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةن-مج4</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةن-مج5</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةن-مج6</Name>
+		<Number_of_Students>27</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>تمهيدي تكنولوجيا</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>الفرقة الرابعة-تكنولوجيا</Name>
+	<Number_of_Students>150</Number_of_Students>
 	<Group>
-	<Name>تمهيدي تكنولوجيا-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>رابعةتك-مج1</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةتك-مج2</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةتك-مج3</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةتك-مج4</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةتك-مج5</Name>
+		<Number_of_Students>27</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>رابعةتك-مج6</Name>
+		<Number_of_Students>27</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم علوم-الفرقة الأولي</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>تمهيدي علوم حاسب</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم علوم-الفرقة الأولي-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>تمهيدي علوم حاسب-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم نظم-الفرقة الأولي</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>تمهيدي نظم</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم نظم-الفرقة الأولي-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>تمهيدي نظم-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم تكنولوجيا-الفرقة الأولي</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>تمهيدي تكنولوجيا</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم تكنولوجيا-الفرقة الأولي-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>تمهيدي تكنولوجيا-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم علوم-الفرقة الثانية</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>دبلوم علوم-الفرقة الأولي</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم علوم-الفرقة الثانية-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>دبلوم علوم-الفرقة الأولي-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم نظم-الفرقة الثانية</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>دبلوم نظم-الفرقة الأولي</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم نظم-الفرقة الثانية-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>دبلوم نظم-الفرقة الأولي-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم تكنولوجيا-الفرقة الثانية</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>دبلوم تكنولوجيا-الفرقة الأولي</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم تكنولوجيا-الفرقة الثانية-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>دبلوم تكنولوجيا-الفرقة الأولي-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم مهني-الفرقة الأولى</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>دبلوم علوم-الفرقة الثانية</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم مهني-الفرقة الأولى-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>دبلوم علوم-الفرقة الثانية-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>دبلوم مهني-الفرقة الثانية</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>دبلوم نظم-الفرقة الثانية</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>دبلوم مهني-الفرقة الثانية-مج</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>دبلوم نظم-الفرقة الثانية-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>دبلوم تكنولوجيا-الفرقة الثانية</Name>
+	<Number_of_Students>10</Number_of_Students>
+	<Group>
+		<Name>دبلوم تكنولوجيا-الفرقة الثانية-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>دبلوم مهني-الفرقة الأولى</Name>
+	<Number_of_Students>10</Number_of_Students>
+	<Group>
+		<Name>دبلوم مهني-الفرقة الأولى-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>دبلوم مهني-الفرقة الثانية</Name>
+	<Number_of_Students>10</Number_of_Students>
+	<Group>
+		<Name>دبلوم مهني-الفرقة الثانية-مج</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

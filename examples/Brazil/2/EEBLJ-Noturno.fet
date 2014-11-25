@@ -1,19 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.20.2">
+<fet version="5.24.0">
 
 <Institution_Name>EEB Leopoldo Jacobsen</Institution_Name>
 
 <Comments>Default comments</Comments>
-
-<Hours_List>
-	<Number>5</Number>
-	<Name>19:00</Name>
-	<Name>19:40</Name>
-	<Name>20:30</Name>
-	<Name>21:10</Name>
-	<Name>21:50</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>5</Number>
@@ -24,18 +15,27 @@
 	<Name>Sexta</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>5</Number>
+	<Name>19:00</Name>
+	<Name>19:40</Name>
+	<Name>20:30</Name>
+	<Name>21:10</Name>
+	<Name>21:50</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>1 em 4</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>1 em 4</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>2 em 3</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>2 em 3</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>3 em 3</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>3 em 3</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 </Students_List>
 

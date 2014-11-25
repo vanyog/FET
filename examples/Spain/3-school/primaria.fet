@@ -1,12 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.19.0">
+<fet version="5.24.0">
 
 <Institution_Name>Colegio de Fitero</Institution_Name>
 
 <Comments>El colegio es público de infantil y primaria desde los 3 a los 12 años.
 Tiene una línea, pero en 3º Primaria hay dos cursos: 3ºA y 3ºB
 La complegidad de este horario está en que es muy pequeño y hay muchos profedores con reducciones de jornada y con preferencias de horas muy específicas. También porque el centro ha empezado un programa de aprendizaje del inglés desde infantil y las horas de inglés deben preferiblemente estar al comienzo de la jornada.</Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Lunes</Name>
+	<Name>Martes</Name>
+	<Name>Miércoles</Name>
+	<Name>Jueves</Name>
+	<Name>Viernes</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>8</Number>
@@ -20,59 +29,50 @@ La complegidad de este horario está en que es muy pequeño y hay muchos profedo
 	<Name>6ª SESION</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Lunes</Name>
-	<Name>Martes</Name>
-	<Name>Miércoles</Name>
-	<Name>Jueves</Name>
-	<Name>Viernes</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>3 AÑOS</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>4 AÑOS</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>5 AÑOS</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>1º</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>2º</Name>
-<Number_of_Students>0</Number_of_Students>
-</Year>
-<Year>
-<Name>3º</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>3º A</Name>
+	<Name>3 AÑOS</Name>
 	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>4 AÑOS</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>5 AÑOS</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>1º</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>2º</Name>
+	<Number_of_Students>0</Number_of_Students>
+</Year>
+<Year>
+	<Name>3º</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>3º A</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3º B</Name>
-	<Number_of_Students>0</Number_of_Students>
+		<Name>3º B</Name>
+		<Number_of_Students>0</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>4º</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>4º</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>5º</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>5º</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>6º</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>6º</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 </Students_List>
 

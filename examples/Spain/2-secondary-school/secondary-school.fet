@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Instituto de Educación Secundaria</Institution_Name>
 
@@ -30,6 +30,15 @@ Por ejemplo:
 
 </Comments>
 
+<Days_List>
+	<Number>5</Number>
+	<Name>Lunes</Name>
+	<Name>Martes</Name>
+	<Name>Miércoles</Name>
+	<Name>Jueves</Name>
+	<Name>Viernes</Name>
+</Days_List>
+
 <Hours_List>
 	<Number>7</Number>
 	<Name>1ª</Name>
@@ -41,2075 +50,2066 @@ Por ejemplo:
 	<Name>6ª</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Lunes</Name>
-	<Name>Martes</Name>
-	<Name>Miércoles</Name>
-	<Name>Jueves</Name>
-	<Name>Viernes</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>1º Bach A</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º Bach A</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º Bach A Est Asist</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach A GH Est Asist</Name>
+		<Name>1º Bach A Est Asist</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach A GH Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º Bach A HU Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach A HU Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º Bach A MU Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach A MU Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º Bach A GH</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach A GH Rel</Name>
+		<Name>1º Bach A GH</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach A GH Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º Bach A GH Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º Bach A HU</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach A HU Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º Bach A HU Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach A GH Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º Bach A MU</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach A MU Rel</Name>
+		<Name>1º Bach A HU</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach A HU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º Bach A MU Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º Bach A Rel</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach A GH Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º Bach A HU Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º Bach A MU Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>1º Bach B</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>1º Bach B CI</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach B CI Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º Bach B CI Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach A HU Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º Bach B CS</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach B CS Rel</Name>
+		<Name>1º Bach A MU</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach A MU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º Bach B CS Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º Bach B Rel</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach B CI Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º Bach B CS Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach A MU Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º Bach B Est Asist</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º Bach B CI Est Asist</Name>
+		<Name>1º Bach A Rel</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach A GH Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º Bach B CS Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach A HU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>1º Bach A MU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º Comercio</Name>
-<Number_of_Students>1000</Number_of_Students>
-</Year>
-<Year>
-<Name>1º ESO A</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º Bach B</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO A Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A Fr REL</Name>
+		<Name>1º Bach B CI</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach B CI Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO A Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach B CI Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO A Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A Ref REL</Name>
+		<Name>1º Bach B CS</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach B CS Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO A Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO A REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO A Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º Bach B CS Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO A EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A Fr EST</Name>
+		<Name>1º Bach B Rel</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach B CI Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO A Ref EST</Name>
+			<Name>1º Bach B CS Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>1º Bach B Est Asist</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º Bach B CI Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>1º Bach B CS Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º ESO A BIL</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º Comercio</Name>
+	<Number_of_Students>1000</Number_of_Students>
+</Year>
+<Year>
+	<Name>1º ESO A</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO A BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A BIL Fr REL</Name>
+		<Name>1º ESO A Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO A BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO A Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO A BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A BIL Ref REL</Name>
+		<Name>1º ESO A Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO A BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO A BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO A BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO A Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO A BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO A BIL Fr EST</Name>
+		<Name>1º ESO A REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO A BIL Ref EST</Name>
+			<Name>1º ESO A Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>1º ESO A EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>1º ESO A Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º ESO B</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO A BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO B Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B Fr REL</Name>
+		<Name>1º ESO A BIL Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO B Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO A BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO B Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B Ref REL</Name>
+		<Name>1º ESO A BIL Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO B Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO B REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO B Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO A BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO B EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B Fr EST</Name>
+		<Name>1º ESO A BIL REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO B Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>1º ESO B BIL</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>1º ESO B BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO B BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO A BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO B BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B BIL Ref REL</Name>
+		<Name>1º ESO A BIL EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO A BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO B BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO B BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO B BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO B BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO B BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO B BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO A BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º ESO C</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO B</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO C Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C Fr REL</Name>
+		<Name>1º ESO B Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO C Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO C Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C Ref REL</Name>
+		<Name>1º ESO B Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO C Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO C REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO C Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO C EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C Fr EST</Name>
+		<Name>1º ESO B REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO C Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>1º ESO C BIL</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>1º ESO C BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO C BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO C BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C BIL Ref REL</Name>
+		<Name>1º ESO B EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO C BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO C BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO C BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO C BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO C BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO C BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º ESO D</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO B BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO D Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D Fr REL</Name>
+		<Name>1º ESO B BIL Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO D Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO D Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D Ref REL</Name>
+		<Name>1º ESO B BIL Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO D Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO D REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO D Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO D EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D Fr EST</Name>
+		<Name>1º ESO B BIL REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO D Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>1º ESO D BIL</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>1º ESO D BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO D BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO D BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D BIL Ref REL</Name>
+		<Name>1º ESO B BIL EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO B BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO D BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO D BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO D BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO D BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO D BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO D BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO B BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º ESO E</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO C</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO E Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Fr REL</Name>
+		<Name>1º ESO C Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO E Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO E Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Ref REL</Name>
+		<Name>1º ESO C Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO E Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO E REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO E Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO E EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Fr EST</Name>
+		<Name>1º ESO C REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO E Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>1º ESO E Apoyo</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>1º ESO E Apoyo Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Apoyo Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO E Apoyo Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO E Apoyo Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Apoyo Ref REL</Name>
+		<Name>1º ESO C EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO E Apoyo Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO E Apoyo REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Apoyo Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO E Apoyo Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO E Apoyo EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO E Apoyo Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO E Apoyo Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º ESO EAE</Name>
-<Number_of_Students>10</Number_of_Students>
+	<Name>1º ESO C BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO EAE Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO EAE Fr REL</Name>
+		<Name>1º ESO C BIL Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO EAE Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO EAE Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO EAE Ref REL</Name>
+		<Name>1º ESO C BIL Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO EAE Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO EAE REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO EAE Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO EAE Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO EAE EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO EAE Fr EST</Name>
+		<Name>1º ESO C BIL REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO EAE Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>1º ESO F1</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>1º ESO F1 Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F1 Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO F1 Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO F1 Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F1 Ref REL</Name>
+		<Name>1º ESO C BIL EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO C BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO F1 Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO F1 REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F1 Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO F1 Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO F1 EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F1 Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO F1 Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO C BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>1º ESO F2</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO D</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>1º ESO F2 Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F2 Fr REL</Name>
+		<Name>1º ESO D Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO F2 Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO F2 Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F2 Ref REL</Name>
+		<Name>1º ESO D Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO F2 Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>1º ESO F2 REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F2 Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>1º ESO F2 Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1º ESO F2 EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1º ESO F2 Fr EST</Name>
+		<Name>1º ESO D REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>1º ESO F2 Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>2º Bach A</Name>
-<Number_of_Students>1000</Number_of_Students>
-	<Group>
-	<Name>2º Bach A MU</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A MU Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A MU Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º Bach A GHA</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A GHA Rel</Name>
+		<Name>1º ESO D EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º Bach A GHA Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A GHM</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A GHM Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A GHM Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A HUI</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A HUI Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HUI Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A HUG</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A HUG Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HUG Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A ECOA</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A ECOA Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A ECOA Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A ECOM</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A ECOM Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A ECOM Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A HU</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A HU Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HU Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A Rel</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A MU Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A GHA Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A GHM Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HUI Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HUG Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A ECOA Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A ECOM Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HU Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach A Est</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach A MU Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A GHA Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A GHM Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HUI Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HUG Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A ECOA Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A ECOM Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach A HU Est</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>2º Bach B</Name>
-<Number_of_Students>1000</Number_of_Students>
+	<Name>1º ESO D BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>2º Bach B CSCT</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach B CSCT Rel</Name>
+		<Name>1º ESO D BIL Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º Bach B CSCT Est</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º Bach B CSF</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach B CSF Rel</Name>
+		<Name>1º ESO D BIL Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º Bach B CSF Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º Bach B DT</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach B DT Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach B DT Est</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º Bach B Rel</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach B CSCT Rel</Name>
+		<Name>1º ESO D BIL REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º Bach B CSF Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach B DT Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º Bach B Est</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º Bach B CSCT Est</Name>
+		<Name>1º ESO D BIL EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO D BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º Bach B CSF Est</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º Bach B DT Est</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO D BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>2º Comercio</Name>
-<Number_of_Students>1000</Number_of_Students>
-</Year>
-<Year>
-<Name>2º ESO A</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO E</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>2º ESO A Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A Fr REL</Name>
+		<Name>1º ESO E Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO A Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO E Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO A Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A Ref REL</Name>
+		<Name>1º ESO E Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO A Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO A REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO A Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO E Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO A EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A Fr EST</Name>
+		<Name>1º ESO E REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO A Ref EST</Name>
+			<Name>1º ESO E Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>1º ESO E EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>1º ESO E Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>2º ESO A BIL</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO E Apoyo</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>2º ESO A BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A BIL Fr REL</Name>
+		<Name>1º ESO E Apoyo Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Apoyo Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO A BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO E Apoyo Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO A BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A BIL Ref REL</Name>
+		<Name>1º ESO E Apoyo Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Apoyo Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO A BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO A BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO A BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO E Apoyo Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO A BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO A BIL Fr EST</Name>
+		<Name>1º ESO E Apoyo REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Apoyo Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO A BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>2º ESO B</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>2º ESO B Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO B Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO E Apoyo Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO B Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B Ref REL</Name>
+		<Name>1º ESO E Apoyo EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO E Apoyo Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO B Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO B REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO B Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO B EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO B Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO E Apoyo Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>2º ESO B BIL</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO EAE</Name>
+	<Number_of_Students>10</Number_of_Students>
 	<Group>
-	<Name>2º ESO B BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B BIL Fr REL</Name>
+		<Name>1º ESO EAE Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO EAE Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO B BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO EAE Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO B BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B BIL Ref REL</Name>
+		<Name>1º ESO EAE Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO EAE Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO B BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO B BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO B BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO EAE Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO B BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO B BIL Fr EST</Name>
+		<Name>1º ESO EAE REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO EAE Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO B BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>2º ESO C</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>2º ESO C Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO C Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO EAE Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO C Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Ref REL</Name>
+		<Name>1º ESO EAE EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO EAE Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO C Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO C REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO C Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO C EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO C Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO EAE Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>2º ESO C Apoyo</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO F1</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>2º ESO C Apoyo Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Apoyo Fr REL</Name>
+		<Name>1º ESO F1 Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F1 Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO C Apoyo Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F1 Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO C Apoyo Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Apoyo Ref REL</Name>
+		<Name>1º ESO F1 Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F1 Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO C Apoyo Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO C Apoyo REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Apoyo Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO C Apoyo Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F1 Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO C Apoyo EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO C Apoyo Fr EST</Name>
+		<Name>1º ESO F1 REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F1 Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO C Apoyo Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>2º ESO D</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>2º ESO D Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO D Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO D Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F1 Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>2º ESO D Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO D Ref REL</Name>
+		<Name>1º ESO F1 EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F1 Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>2º ESO D Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO D REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO D Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO D Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2º ESO D EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2º ESO D Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>2º ESO D Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F1 Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>3º ESO A</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>1º ESO F2</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>3º ESO A Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A Fr REL</Name>
+		<Name>1º ESO F2 Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F2 Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO A Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F2 Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO A Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A Ref REL</Name>
+		<Name>1º ESO F2 Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F2 Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO A Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO A REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO A Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F2 Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO A EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A Fr EST</Name>
+		<Name>1º ESO F2 REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F2 Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO A Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>3º ESO A BIL</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>3º ESO A BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO A BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F2 Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO A BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A BIL Ref REL</Name>
+		<Name>1º ESO F2 EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1º ESO F2 Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO A BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO A BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO A BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO A BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO A BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO A BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1º ESO F2 Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>3º ESO B</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>2º Bach A</Name>
+	<Number_of_Students>1000</Number_of_Students>
 	<Group>
-	<Name>3º ESO B Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B Fr REL</Name>
+		<Name>2º Bach A MU</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A MU Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO B Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A MU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO B Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B Ref REL</Name>
+		<Name>2º Bach A GHA</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A GHA Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO B Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO B REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO B Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A GHA Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO B EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B Fr EST</Name>
+		<Name>2º Bach A GHM</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A GHM Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO B Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>3º ESO B BIL</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>3º ESO B BIL Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO B BIL Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A GHM Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO B BIL Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B BIL Ref REL</Name>
+		<Name>2º Bach A HUI</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A HUI Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO B BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO B BIL REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B BIL Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO B BIL Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A HUI Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO B BIL EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO B BIL Fr EST</Name>
+		<Name>2º Bach A HUG</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A HUG Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO B BIL Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>3º ESO C</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>3º ESO C Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO C Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A HUG Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO C Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C Ref REL</Name>
+		<Name>2º Bach A ECOA</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A ECOA Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO C Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO C REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO C Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A ECOA Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO C EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C Fr EST</Name>
+		<Name>2º Bach A ECOM</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A ECOM Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO C Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>3º ESO C DIV</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>3º ESO C DIV Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C DIV Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO C DIV Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A ECOM Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO C DIV Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C DIV Ref REL</Name>
+		<Name>2º Bach A HU</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A HU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO C DIV Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO C DIV REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C DIV Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO C DIV Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach A HU Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO C DIV EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO C DIV Fr EST</Name>
+		<Name>2º Bach A Rel</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A MU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO C DIV Ref EST</Name>
+			<Name>2º Bach A GHA Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A GHM Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A HUI Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A HUG Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A ECOA Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A ECOM Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A HU Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º Bach A Est</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach A MU Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A GHA Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A GHM Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A HUI Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A HUG Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A ECOA Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A ECOM Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach A HU Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>3º ESO D</Name>
-<Number_of_Students>100</Number_of_Students>
+	<Name>2º Bach B</Name>
+	<Number_of_Students>1000</Number_of_Students>
 	<Group>
-	<Name>3º ESO D Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D Fr REL</Name>
+		<Name>2º Bach B CSCT</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach B CSCT Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO D Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach B CSCT Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO D Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D Ref REL</Name>
+		<Name>2º Bach B CSF</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach B CSF Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO D Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO D REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO D Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach B CSF Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO D EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D Fr EST</Name>
+		<Name>2º Bach B DT</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach B DT Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO D Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>3º ESO D DIV</Name>
-<Number_of_Students>100</Number_of_Students>
-	<Group>
-	<Name>3º ESO D DIV Fr</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D DIV Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>3º ESO D DIV Fr EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach B DT Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO D DIV Ref</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D DIV Ref REL</Name>
+		<Name>2º Bach B Rel</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach B CSCT Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO D DIV Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>3º ESO D DIV REL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D DIV Fr REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach B CSF Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO D DIV Ref REL</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach B DT Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3º ESO D DIV EST</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3º ESO D DIV Fr EST</Name>
+		<Name>2º Bach B Est</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º Bach B CSCT Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>3º ESO D DIV Ref EST</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º Bach B CSF Est</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º Bach B DT Est</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>4º ESO A</Name>
-<Number_of_Students>1000</Number_of_Students>
+	<Name>2º Comercio</Name>
+	<Number_of_Students>1000</Number_of_Students>
+</Year>
+<Year>
+	<Name>2º ESO A</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>4º ESO A BIO</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO A BIO Rel</Name>
+		<Name>2º ESO A Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO A BIO Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>4º ESO A DIB</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO A DIB Rel</Name>
+		<Name>2º ESO A Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO A DIB Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4º ESO A DIV</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO A DIV Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A DIV Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>4º ESO A LAT</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO A LAT Rel</Name>
+		<Name>2º ESO A REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO A LAT Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4º ESO A TEC</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO A TEC Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A TEC Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>4º ESO A Rel</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO A BIO Rel</Name>
+		<Name>2º ESO A EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO A DIB Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A DIV Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A LAT Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A TEC Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4º ESO A Est Asist</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO A BIO Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A DIB Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A DIV Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A LAT Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO A TEC Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>4º ESO B</Name>
-<Number_of_Students>1000</Number_of_Students>
+	<Name>2º ESO A BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
 	<Group>
-	<Name>4º ESO B BIO BIL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO B BIO BIL Rel</Name>
+		<Name>2º ESO A BIL Fr</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO B BIO BIL Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>4º ESO B DIB BIL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO B DIB BIL Rel</Name>
+		<Name>2º ESO A BIL Ref</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO B DIB BIL Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4º ESO B DIV</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO B DIV Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B DIV Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>4º ESO B LAT BIL</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO B LAT BIL Rel</Name>
+		<Name>2º ESO A BIL REL</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO B LAT BIL Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4º ESO B TEC</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO B TEC Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B TEC Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>4º ESO B Rel</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO B BIO BIL Rel</Name>
+		<Name>2º ESO A BIL EST</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO A BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>4º ESO B DIB BIL Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B DIV Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B LAT BIL Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B TEC Rel</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4º ESO B Est Asist</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4º ESO B BIO BIL Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B DIB BIL Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B DIV Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B LAT BIL Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>4º ESO B TEC Est Asist</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2º ESO A BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>PCPI</Name>
-<Number_of_Students>1000</Number_of_Students>
+	<Name>2º ESO B</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>2º ESO B Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO B Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO B REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO B EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>2º ESO B BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>2º ESO B BIL Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO B BIL Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO B BIL REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO B BIL EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO B BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO B BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>2º ESO C</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>2º ESO C Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO C Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO C REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO C EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>2º ESO C Apoyo</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>2º ESO C Apoyo Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO C Apoyo Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO C Apoyo REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO C Apoyo EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO C Apoyo Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>2º ESO D</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>2º ESO D Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO D Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO D Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO D Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO D Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO D Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO D REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO D Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO D Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>2º ESO D EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2º ESO D Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>2º ESO D Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO A</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO A Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO A Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO A REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO A EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO A BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO A BIL Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO A BIL Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO A BIL REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO A BIL EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO A BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO A BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO B</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO B Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO B Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO B REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO B EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO B BIL</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO B BIL Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO B BIL Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO B BIL REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B BIL Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B BIL Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO B BIL EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO B BIL Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO B BIL Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO C</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO C Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO C Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO C REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO C EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO C DIV</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO C DIV Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C DIV Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C DIV Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO C DIV Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C DIV Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C DIV Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO C DIV REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C DIV Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C DIV Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO C DIV EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO C DIV Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO C DIV Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO D</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO D Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO D Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO D REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO D EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>3º ESO D DIV</Name>
+	<Number_of_Students>100</Number_of_Students>
+	<Group>
+		<Name>3º ESO D DIV Fr</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D DIV Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D DIV Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO D DIV Ref</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D DIV Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D DIV Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO D DIV REL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D DIV Fr REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D DIV Ref REL</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3º ESO D DIV EST</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3º ESO D DIV Fr EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>3º ESO D DIV Ref EST</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>4º ESO A</Name>
+	<Number_of_Students>1000</Number_of_Students>
+	<Group>
+		<Name>4º ESO A BIO</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO A BIO Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A BIO Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO A DIB</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO A DIB Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A DIB Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO A DIV</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO A DIV Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A DIV Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO A LAT</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO A LAT Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A LAT Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO A TEC</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO A TEC Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A TEC Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO A Rel</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO A BIO Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A DIB Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A DIV Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A LAT Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A TEC Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO A Est Asist</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO A BIO Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A DIB Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A DIV Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A LAT Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO A TEC Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>4º ESO B</Name>
+	<Number_of_Students>1000</Number_of_Students>
+	<Group>
+		<Name>4º ESO B BIO BIL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO B BIO BIL Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B BIO BIL Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO B DIB BIL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO B DIB BIL Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B DIB BIL Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO B DIV</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO B DIV Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B DIV Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO B LAT BIL</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO B LAT BIL Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B LAT BIL Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO B TEC</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO B TEC Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B TEC Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO B Rel</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO B BIO BIL Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B DIB BIL Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B DIV Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B LAT BIL Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B TEC Rel</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4º ESO B Est Asist</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4º ESO B BIO BIL Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B DIB BIL Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B DIV Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B LAT BIL Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>4º ESO B TEC Est Asist</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>PCPI</Name>
+	<Number_of_Students>1000</Number_of_Students>
 </Year>
 </Students_List>
 

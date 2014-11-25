@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Γυμνάσιο Βαρθολομιού</Institution_Name>
 
 <Comments></Comments>
+
+<Days_List>
+	<Number>5</Number>
+	<Name>Δευτέρα</Name>
+	<Name>Τρίτη</Name>
+	<Name>Τετάρτη</Name>
+	<Name>Πέμπτη</Name>
+	<Name>Παρασκευή</Name>
+</Days_List>
 
 <Hours_List>
 	<Number>7</Number>
@@ -17,53 +26,44 @@
 	<Name>7</Name>
 </Hours_List>
 
-<Days_List>
-	<Number>5</Number>
-	<Name>Δευτέρα</Name>
-	<Name>Τρίτη</Name>
-	<Name>Τετάρτη</Name>
-	<Name>Πέμπτη</Name>
-	<Name>Παρασκευή</Name>
-</Days_List>
-
 <Students_List>
 <Year>
-<Name>2008-2009</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>Α</Name>
+	<Name>2008-2009</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>Α1</Name>
+	<Group>
+		<Name>Α</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>Α1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Α2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Α2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Β</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>Β1</Name>
+		<Name>Β</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>Β1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Β2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Β2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Γ</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>Γ1</Name>
+		<Name>Γ</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>Γ1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Γ2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Γ2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

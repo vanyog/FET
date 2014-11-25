@@ -1,19 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.21.2">
+<fet version="5.24.0">
 
 <Institution_Name>Institutie implicita</Institution_Name>
 
 <Comments>Comentarii implicite</Comments>
-
-<Hours_List>
-	<Number>5</Number>
-	<Name>0</Name>
-	<Name>1</Name>
-	<Name>2</Name>
-	<Name>3</Name>
-	<Name>4</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>5</Number>
@@ -24,70 +15,79 @@
 	<Name>Vineri</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>5</Number>
+	<Name>0</Name>
+	<Name>1</Name>
+	<Name>2</Name>
+	<Name>3</Name>
+	<Name>4</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>101</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>101</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>102</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>102</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>103</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>103</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>104</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>104</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>111</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>111</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>201</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>201</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>202</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>202</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>203</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>203</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>204</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>204</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>205</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>205</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>206</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>206</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>301</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>301</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>302</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>302</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>303</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>303</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>304</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>304</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 <Year>
-<Name>305</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>305</Name>
+	<Number_of_Students>0</Number_of_Students>
 </Year>
 </Students_List>
 

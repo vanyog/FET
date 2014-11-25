@@ -1,20 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Liceo Scientifico Mazzini - Ancona</Institution_Name>
 
 <Comments>Orario prodotto con FET - a free evolutionary timetabling program</Comments>
-
-<Hours_List>
-	<Number>6</Number>
-	<Name>08:00</Name>
-	<Name>09:00</Name>
-	<Name>10:00</Name>
-	<Name>11:00</Name>
-	<Name>12:00</Name>
-	<Name>13:00</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>6</Number>
@@ -26,192 +16,202 @@
 	<Name>Sabato</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>6</Number>
+	<Name>08:00</Name>
+	<Name>09:00</Name>
+	<Name>10:00</Name>
+	<Name>11:00</Name>
+	<Name>12:00</Name>
+	<Name>13:00</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>1</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>1 A</Name>
+	<Name>1</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1A</Name>
+	<Group>
+		<Name>1 A</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1A</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1 B</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1B</Name>
+		<Name>1 B</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1B</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1 C</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1C</Name>
+		<Name>1 C</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1C</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1 D</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1D</Name>
+		<Name>1 D</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>1D</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>1 E</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>1E</Name>
+		<Name>1 E</Name>
 		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>2</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>2 A</Name>
-	<Number_of_Students>0</Number_of_Students>
 		<Subgroup>
-		<Name>2A</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2 B</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2B</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2 C</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2C</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2 D</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2D</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>2 E</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>2E</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>1E</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>3</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>3 A</Name>
+	<Name>2</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3A</Name>
+	<Group>
+		<Name>2 A</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2A</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3 B</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3B</Name>
+		<Name>2 B</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2B</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3 C</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3C</Name>
+		<Name>2 C</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>2C</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>3 D</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>3D</Name>
+		<Name>2 D</Name>
 		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>4</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>4 A</Name>
-	<Number_of_Students>0</Number_of_Students>
 		<Subgroup>
-		<Name>4A</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2D</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>4 B</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4B</Name>
+		<Name>2 E</Name>
 		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4 C</Name>
-	<Number_of_Students>0</Number_of_Students>
 		<Subgroup>
-		<Name>4C</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>4 D</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>4D</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>2E</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>5</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>5 CD</Name>
+	<Name>3</Name>
 	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>5CD</Name>
+	<Group>
+		<Name>3 A</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3A</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>5 A</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>5A</Name>
+		<Name>3 B</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3B</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 	<Group>
-	<Name>5 B</Name>
-	<Number_of_Students>0</Number_of_Students>
-		<Subgroup>
-		<Name>5B</Name>
+		<Name>3 C</Name>
 		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3C</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>3 D</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>3D</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>4</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>4 A</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4A</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4 B</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4B</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4 C</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4C</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>4 D</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>4D</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+</Year>
+<Year>
+	<Name>5</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5 CD</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>5CD</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>5 A</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>5A</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>5 B</Name>
+		<Number_of_Students>0</Number_of_Students>
+		<Subgroup>
+			<Name>5B</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>

@@ -1,17 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Nile Theological College, Khartoum North - Bahri</Institution_Name>
 
 <Comments>Go and make disciples (Matth.28:19)</Comments>
-
-<Hours_List>
-	<Number>3</Number>
-	<Name>1st</Name>
-	<Name>2nd</Name>
-	<Name>3rd</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>5</Number>
@@ -22,189 +15,196 @@
 	<Name>Saturday</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>3</Number>
+	<Name>1st</Name>
+	<Name>2nd</Name>
+	<Name>3rd</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>Senior English</Name>
-<Number_of_Students>15</Number_of_Students>
-	<Group>
-	<Name>Senior English PX</Name>
-	<Number_of_Students>5</Number_of_Students>
-		<Subgroup>
-		<Name>Senior English PX elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior English PX elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior English PG</Name>
-	<Number_of_Students>4</Number_of_Students>
-		<Subgroup>
-		<Name>Senior English PG elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior English PG elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior English CE</Name>
-	<Number_of_Students>3</Number_of_Students>
-		<Subgroup>
-		<Name>Senior English CE elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior English CE elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior English elective 1</Name>
-	<Number_of_Students>4</Number_of_Students>
-		<Subgroup>
-		<Name>Senior English PX elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior English PG elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior English CE elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior English elective 2</Name>
-	<Number_of_Students>8</Number_of_Students>
-		<Subgroup>
-		<Name>Senior English PX elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior English PG elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior English CE elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-</Year>
-<Year>
-<Name>Senior Arabic</Name>
-<Number_of_Students>23</Number_of_Students>
-	<Group>
-	<Name>Senior Arabic/PX</Name>
-	<Number_of_Students>5</Number_of_Students>
-		<Subgroup>
-		<Name>Senior Arabic/PX/elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior Arabic/PX/elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior Arabic/PG</Name>
-	<Number_of_Students>10</Number_of_Students>
-		<Subgroup>
-		<Name>Senior Arabic/PG/elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior Arabic/PG/elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior Arabic/CE</Name>
-	<Number_of_Students>7</Number_of_Students>
-		<Subgroup>
-		<Name>Senior Arabic/CE/elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior Arabic/CE/elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior Arabic/elective 1</Name>
-	<Number_of_Students>7</Number_of_Students>
-		<Subgroup>
-		<Name>Senior Arabic/PX/elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior Arabic/PG/elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-		<Subgroup>
-		<Name>Senior Arabic/CE/elective 1</Name>
-		<Number_of_Students>0</Number_of_Students>
-		</Subgroup>
-	</Group>
-	<Group>
-	<Name>Senior Arabic/elective 2</Name>
+	<Name>Senior English</Name>
 	<Number_of_Students>15</Number_of_Students>
+	<Group>
+		<Name>Senior English PX</Name>
+		<Number_of_Students>5</Number_of_Students>
 		<Subgroup>
-		<Name>Senior Arabic/PX/elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Senior English PX elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Senior Arabic/PG/elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Senior English PX elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Senior English PG</Name>
+		<Number_of_Students>4</Number_of_Students>
+		<Subgroup>
+			<Name>Senior English PG elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 		<Subgroup>
-		<Name>Senior Arabic/CE/elective 2</Name>
-		<Number_of_Students>0</Number_of_Students>
+			<Name>Senior English PG elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Senior English CE</Name>
+		<Number_of_Students>3</Number_of_Students>
+		<Subgroup>
+			<Name>Senior English CE elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior English CE elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Senior English elective 1</Name>
+		<Number_of_Students>4</Number_of_Students>
+		<Subgroup>
+			<Name>Senior English PX elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior English PG elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior English CE elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Senior English elective 2</Name>
+		<Number_of_Students>8</Number_of_Students>
+		<Subgroup>
+			<Name>Senior English PX elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior English PG elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior English CE elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
 		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>Junior English</Name>
-<Number_of_Students>24</Number_of_Students>
+	<Name>Senior Arabic</Name>
+	<Number_of_Students>23</Number_of_Students>
 	<Group>
-	<Name>Junior English BS </Name>
-	<Number_of_Students>4</Number_of_Students>
+		<Name>Senior Arabic/PX</Name>
+		<Number_of_Students>5</Number_of_Students>
+		<Subgroup>
+			<Name>Senior Arabic/PX/elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior Arabic/PX/elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Junior English T/CH</Name>
-	<Number_of_Students>3</Number_of_Students>
+		<Name>Senior Arabic/PG</Name>
+		<Number_of_Students>10</Number_of_Students>
+		<Subgroup>
+			<Name>Senior Arabic/PG/elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior Arabic/PG/elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Junior English PM </Name>
-	<Number_of_Students>10</Number_of_Students>
+		<Name>Senior Arabic/CE</Name>
+		<Number_of_Students>7</Number_of_Students>
+		<Subgroup>
+			<Name>Senior Arabic/CE/elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior Arabic/CE/elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
 	</Group>
 	<Group>
-	<Name>Junior English CE</Name>
-	<Number_of_Students>7</Number_of_Students>
+		<Name>Senior Arabic/elective 1</Name>
+		<Number_of_Students>7</Number_of_Students>
+		<Subgroup>
+			<Name>Senior Arabic/PX/elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior Arabic/PG/elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior Arabic/CE/elective 1</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+	</Group>
+	<Group>
+		<Name>Senior Arabic/elective 2</Name>
+		<Number_of_Students>15</Number_of_Students>
+		<Subgroup>
+			<Name>Senior Arabic/PX/elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior Arabic/PG/elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
+		<Subgroup>
+			<Name>Senior Arabic/CE/elective 2</Name>
+			<Number_of_Students>0</Number_of_Students>
+		</Subgroup>
 	</Group>
 </Year>
 <Year>
-<Name>Junior Arabic</Name>
-<Number_of_Students>13</Number_of_Students>
+	<Name>Junior English</Name>
+	<Number_of_Students>24</Number_of_Students>
 	<Group>
-	<Name>Junior Arabic BS</Name>
-	<Number_of_Students>3</Number_of_Students>
+		<Name>Junior English BS </Name>
+		<Number_of_Students>4</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Junior Arabic T/CH</Name>
-	<Number_of_Students>2</Number_of_Students>
+		<Name>Junior English T/CH</Name>
+		<Number_of_Students>3</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Junior Arabic PM</Name>
-	<Number_of_Students>3</Number_of_Students>
+		<Name>Junior English PM </Name>
+		<Number_of_Students>10</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>Junior Arabic CE</Name>
-	<Number_of_Students>5</Number_of_Students>
+		<Name>Junior English CE</Name>
+		<Number_of_Students>7</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>Junior Arabic</Name>
+	<Number_of_Students>13</Number_of_Students>
+	<Group>
+		<Name>Junior Arabic BS</Name>
+		<Number_of_Students>3</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Junior Arabic T/CH</Name>
+		<Number_of_Students>2</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Junior Arabic PM</Name>
+		<Number_of_Students>3</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>Junior Arabic CE</Name>
+		<Number_of_Students>5</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>

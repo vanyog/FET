@@ -1,19 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<fet version="5.16.0">
+<fet version="5.24.0">
 
 <Institution_Name>Liceo Scientifico - Italia</Institution_Name>
 
 <Comments>Commenti</Comments>
-
-<Hours_List>
-	<Number>5</Number>
-	<Name>08:00</Name>
-	<Name>09:00</Name>
-	<Name>10:00</Name>
-	<Name>11:00</Name>
-	<Name>12:00</Name>
-</Hours_List>
 
 <Days_List>
 	<Number>6</Number>
@@ -25,145 +16,154 @@
 	<Name>Sabato</Name>
 </Days_List>
 
+<Hours_List>
+	<Number>5</Number>
+	<Name>08:00</Name>
+	<Name>09:00</Name>
+	<Name>10:00</Name>
+	<Name>11:00</Name>
+	<Name>12:00</Name>
+</Hours_List>
+
 <Students_List>
 <Year>
-<Name>1</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>1</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>1 A</Name>
-	<Number_of_Students>26</Number_of_Students>
+		<Name>1 A</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1 B</Name>
-	<Number_of_Students>26</Number_of_Students>
+		<Name>1 B</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1 C</Name>
-	<Number_of_Students>26</Number_of_Students>
+		<Name>1 C</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1 D</Name>
-	<Number_of_Students>26</Number_of_Students>
+		<Name>1 D</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1 E</Name>
-	<Number_of_Students>26</Number_of_Students>
+		<Name>1 E</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>1 F</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>2</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>2 A</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2 B</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2 C</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2 D</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2 E</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>2 F</Name>
-	<Number_of_Students>26</Number_of_Students>
+		<Name>1 F</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>3</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>2</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>3 A</Name>
-	<Number_of_Students>28</Number_of_Students>
+		<Name>2 A</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3 B</Name>
-	<Number_of_Students>28</Number_of_Students>
+		<Name>2 B</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3 C</Name>
-	<Number_of_Students>28</Number_of_Students>
+		<Name>2 C</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3 D</Name>
-	<Number_of_Students>28</Number_of_Students>
+		<Name>2 D</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>3 E</Name>
-	<Number_of_Students>28</Number_of_Students>
-	</Group>
-</Year>
-<Year>
-<Name>4</Name>
-<Number_of_Students>0</Number_of_Students>
-	<Group>
-	<Name>4 A</Name>
-	<Number_of_Students>18</Number_of_Students>
+		<Name>2 E</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>4 B</Name>
-	<Number_of_Students>22</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4 C</Name>
-	<Number_of_Students>26</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4 D</Name>
-	<Number_of_Students>25</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4 E</Name>
-	<Number_of_Students>21</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4 F</Name>
-	<Number_of_Students>28</Number_of_Students>
-	</Group>
-	<Group>
-	<Name>4 G</Name>
-	<Number_of_Students>23</Number_of_Students>
+		<Name>2 F</Name>
+		<Number_of_Students>26</Number_of_Students>
 	</Group>
 </Year>
 <Year>
-<Name>5</Name>
-<Number_of_Students>0</Number_of_Students>
+	<Name>3</Name>
+	<Number_of_Students>0</Number_of_Students>
 	<Group>
-	<Name>5 A</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>3 A</Name>
+		<Number_of_Students>28</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5 B</Name>
-	<Number_of_Students>15</Number_of_Students>
+		<Name>3 B</Name>
+		<Number_of_Students>28</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5 C</Name>
-	<Number_of_Students>23</Number_of_Students>
+		<Name>3 C</Name>
+		<Number_of_Students>28</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5 D</Name>
-	<Number_of_Students>14</Number_of_Students>
+		<Name>3 D</Name>
+		<Number_of_Students>28</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5 E</Name>
-	<Number_of_Students>23</Number_of_Students>
+		<Name>3 E</Name>
+		<Number_of_Students>28</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>4</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>4 A</Name>
+		<Number_of_Students>18</Number_of_Students>
 	</Group>
 	<Group>
-	<Name>5 F</Name>
-	<Number_of_Students>17</Number_of_Students>
+		<Name>4 B</Name>
+		<Number_of_Students>22</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4 C</Name>
+		<Number_of_Students>26</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4 D</Name>
+		<Number_of_Students>25</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4 E</Name>
+		<Number_of_Students>21</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4 F</Name>
+		<Number_of_Students>28</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>4 G</Name>
+		<Number_of_Students>23</Number_of_Students>
+	</Group>
+</Year>
+<Year>
+	<Name>5</Name>
+	<Number_of_Students>0</Number_of_Students>
+	<Group>
+		<Name>5 A</Name>
+		<Number_of_Students>15</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>5 B</Name>
+		<Number_of_Students>15</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>5 C</Name>
+		<Number_of_Students>23</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>5 D</Name>
+		<Number_of_Students>14</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>5 E</Name>
+		<Number_of_Students>23</Number_of_Students>
+	</Group>
+	<Group>
+		<Name>5 F</Name>
+		<Number_of_Students>17</Number_of_Students>
 	</Group>
 </Year>
 </Students_List>
