@@ -29282,7 +29282,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3228"/>
         <source>In case the Help/Online menus do not function, please write down these addresses and open them in an internet browser:</source>
-        <translation>В случай, че командите в менюто &quot;Помощ&quot;-&quot;В интернет&quot; не работят, моля, запишете си тези адреси и ги отворете в интерент браузър:</translation>
+        <translation>В случай, че командите в менюто &quot;Помощ&quot;-&quot;В интернет&quot; не работят, моля, запишете сиследните адреси и ги отворете с интерент браузър:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3230"/>

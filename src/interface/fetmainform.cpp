@@ -446,6 +446,7 @@ FetMainForm::FetMainForm()
 
 	//toolBox->setCurrentIndex(0);
 	tabWidget->setVisible(SHOW_SHORTCUTS_ON_MAIN_WINDOW);
+    MAIN_FORM_SHORTCUTS_TAB_POSITION = settings.value(QString("FetMainForm/CurrentTabIndex"),0).toInt();
 	tabWidget->setCurrentIndex(MAIN_FORM_SHORTCUTS_TAB_POSITION);
 	
 	shortcutBasicMenu=new QMenu();
@@ -871,6 +872,7 @@ FetMainForm::~FetMainForm()
 
 // Change made by Vanyo Georgiev
     settings.setValue(QString("FetMainForm/LastOpenedFETXMLFile"), INPUT_FILENAME_XML);
+    settings.setValue(QString("FetMainForm/CurrentTabIndex"), MAIN_FORM_SHORTCUTS_TAB_POSITION);
 // End of changes
 
 	shortcutBasicMenu->clear();
