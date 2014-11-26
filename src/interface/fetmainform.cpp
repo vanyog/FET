@@ -276,6 +276,7 @@ const QString PROGRAM=QString("fettimetabling");
 bool USE_GUI_COLORS=false;
 
 bool SHOW_SHORTCUTS_ON_MAIN_WINDOW=true;
+bool REMEMBER_CURRENT_BUTTON_GROUP=false;
 
 bool ENABLE_ACTIVITY_TAG_MAX_HOURS_DAILY=false;
 bool ENABLE_STUDENTS_MAX_GAPS_PER_DAY=false;
@@ -447,7 +448,7 @@ FetMainForm::FetMainForm()
 	//toolBox->setCurrentIndex(0);
 	tabWidget->setVisible(SHOW_SHORTCUTS_ON_MAIN_WINDOW);
     MAIN_FORM_SHORTCUTS_TAB_POSITION = settings.value(QString("FetMainForm/CurrentTabIndex"),0).toInt();
-	tabWidget->setCurrentIndex(MAIN_FORM_SHORTCUTS_TAB_POSITION);
+    if (REMEMBER_CURRENT_BUTTON_GROUP) tabWidget->setCurrentIndex(MAIN_FORM_SHORTCUTS_TAB_POSITION);
 	
 	shortcutBasicMenu=new QMenu();
 	shortcutBasicMenu->addMenu(menuInstitution_information);
@@ -527,7 +528,8 @@ FetMainForm::FetMainForm()
 	
 	settingsShowShortcutsOnMainWindowAction->setCheckable(true);
 	settingsShowShortcutsOnMainWindowAction->setChecked(SHOW_SHORTCUTS_ON_MAIN_WINDOW);
-	
+    settingsRememberCurrentButtonGroup->setChecked(REMEMBER_CURRENT_BUTTON_GROUP);
+
 	checkForUpdatesAction->setCheckable(true);
 	checkForUpdatesAction->setChecked(checkForUpdates);
 	
@@ -739,6 +741,11 @@ void FetMainForm::on_settingsShowShortcutsOnMainWindowAction_toggled()
 {
 	SHOW_SHORTCUTS_ON_MAIN_WINDOW=settingsShowShortcutsOnMainWindowAction->isChecked();
 	tabWidget->setVisible(SHOW_SHORTCUTS_ON_MAIN_WINDOW);
+}
+
+void FetMainForm::on_settingsRememberCurrentButtonGroup_toggled()
+{
+    REMEMBER_CURRENT_BUTTON_GROUP=settingsRememberCurrentButtonGroup->isChecked();
 }
 
 void FetMainForm::on_settingsDivideTimetablesByDaysAction_toggled()

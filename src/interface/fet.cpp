@@ -316,7 +316,8 @@ void readSimulationParameters()
 	//MAIN_FORM_SHORTCUTS_TAB_POSITION=newSettings.value("FetMainForm/shortcuts-tab-position", "0").toInt();
 	MAIN_FORM_SHORTCUTS_TAB_POSITION=0; //always restoring to the first page, as suggested by a user
 	SHOW_SHORTCUTS_ON_MAIN_WINDOW=newSettings.value("FetMainForm/show-shortcuts", "true").toBool();
-	
+    REMEMBER_CURRENT_BUTTON_GROUP=newSettings.value("FetMainForm/remember-current-button-group", "false").toBool();
+
 	if(VERBOSE){
 		cout<<"Settings read"<<endl;
 	}
@@ -363,6 +364,7 @@ void writeSimulationParameters()
 	//settings.setValue("FetMainForm/shortcuts-tab-position", MAIN_FORM_SHORTCUTS_TAB_POSITION);
 	//settings.setValue("FetMainForm/shortcuts-tab-position", 0); //always starting on the first page, as suggested by a user
 	settings.setValue("FetMainForm/show-shortcuts", SHOW_SHORTCUTS_ON_MAIN_WINDOW);
+    settings.setValue("FetMainForm/remember-current-button-group", REMEMBER_CURRENT_BUTTON_GROUP);
 }
 #endif
 

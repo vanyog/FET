@@ -156,6 +156,7 @@ public slots:
 	void on_helpSettingsAction_triggered();
 	void on_settingsUseColorsAction_toggled();
 	void on_settingsShowShortcutsOnMainWindowAction_toggled();
+    void on_settingsRememberCurrentButtonGroup_toggled();
 
 	//////confirmations
 	void on_settingsConfirmActivityPlanningAction_toggled();

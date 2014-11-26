@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>560</width>
-    <height>322</height>
+    <height>352</height>
    </rect>
   </property>
   <widget class="QWidget" name="mainwidget">
@@ -852,7 +852,7 @@
      <x>0</x>
      <y>0</y>
      <width>560</width>
-     <height>28</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="helpMenu">
@@ -1238,6 +1238,7 @@
      <addaction name="settingsUseColorsAction"/>
      <addaction name="separator"/>
      <addaction name="settingsShowShortcutsOnMainWindowAction"/>
+     <addaction name="settingsRememberCurrentButtonGroup"/>
     </widget>
     <widget class="QMenu" name="menuTimetables">
      <property name="title">
@@ -2382,6 +2383,14 @@
    </property>
    <property name="text">
     <string>Warn if using group activities in initial order</string>
+   </property>
+  </action>
+  <action name="settingsRememberCurrentButtonGroup">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Remember current button group</string>
    </property>
   </action>
  </widget>
