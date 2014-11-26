@@ -62,7 +62,7 @@ Some other details follow:
 
 First of all, you need a version of Qt Linguist.
 
-Qt homepage: http://qt-project.org/
+Qt homepage: http://www.qt.io/
 
 For GNU/Linux it is available if you type "linguist" (this is part of Qt development tools).
 For Windows, you will have to download the latest Qt from the Qt homepage.

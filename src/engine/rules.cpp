@@ -5729,7 +5729,7 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 						xmlReader.raiseError(tr("%1 is incorrect").arg("Number"));
 					}
 					else if(nDaysPerWeek>MAX_DAYS_PER_WEEK){
-						xmlReader.raiseError(tr("%1 is too large").arg("Number"));
+						xmlReader.raiseError(tr("%1 is too large. Maximum allowed is %2.").arg("Number").arg(MAX_DAYS_PER_WEEK));
 					}
 					else{
 						assert(this->nDaysPerWeek>0 && nDaysPerWeek<=MAX_DAYS_PER_WEEK);
@@ -5737,7 +5737,7 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 				}
 				else if(xmlReader.name()=="Name"){
 					if(tmp>=MAX_DAYS_PER_WEEK){
-						xmlReader.raiseError(tr("Too many %1").arg("Name"));
+						xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg("Name").arg(MAX_DAYS_PER_WEEK));
 						xmlReader.skipCurrentElement();
 					}
 					else{
@@ -5775,7 +5775,7 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 						xmlReader.raiseError(tr("%1 is incorrect").arg("Number"));
 					}
 					else if(nHoursPerDay>MAX_HOURS_PER_DAY){
-						xmlReader.raiseError(tr("%1 is too large").arg("Number"));
+						xmlReader.raiseError(tr("%1 is too large. Maximum allowed is %2.").arg("Number").arg(MAX_HOURS_PER_DAY));
 					}
 					else{
 						assert(this->nHoursPerDay>0 && nHoursPerDay<=MAX_HOURS_PER_DAY);
@@ -5783,7 +5783,7 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 				}
 				else if(xmlReader.name()=="Name"){
 					if(tmp>=MAX_HOURS_PER_DAY){
-						xmlReader.raiseError(tr("Too many %1").arg("Name"));
+						xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg("Name").arg(MAX_HOURS_PER_DAY));
 						xmlReader.skipCurrentElement();
 					}
 					else{

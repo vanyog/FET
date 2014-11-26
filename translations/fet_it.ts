@@ -44303,6 +44303,18 @@ Tieni presente che il valore predefinito di peso percentuale dei vincoli minimoi
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/engine/rules.cpp" line="5732"/>
+        <location filename="../src/engine/rules.cpp" line="5778"/>
+        <source>%1 is too large. Maximum allowed is %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="5740"/>
+        <location filename="../src/engine/rules.cpp" line="5786"/>
+        <source>Too many %1 items. Maximum allowed is %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/engine/rules.cpp" line="5757"/>
         <location filename="../src/engine/rules.cpp" line="5803"/>
         <source>%1: %2 and the number of %3 read do not correspond</source>
@@ -44532,18 +44544,6 @@ Tieni presente che il valore predefinito di peso percentuale dei vincoli minimoi
         <location filename="../src/engine/rules.cpp" line="3845"/>
         <source>Activities with group_Id=%1 contain %2 duplicate activity tags - please correct that</source>
         <translation>Le attività della classe (gruppo) =%1 contengono %2 chiavi dell&apos;attività duplicate - per favore correggi</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5732"/>
-        <location filename="../src/engine/rules.cpp" line="5778"/>
-        <source>%1 is too large</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5740"/>
-        <location filename="../src/engine/rules.cpp" line="5786"/>
-        <source>Too many %1</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="6252"/>

@@ -44004,6 +44004,18 @@ Note: teacher not available and break are not counted as gaps.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/engine/rules.cpp" line="5732"/>
+        <location filename="../src/engine/rules.cpp" line="5778"/>
+        <source>%1 is too large. Maximum allowed is %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="5740"/>
+        <location filename="../src/engine/rules.cpp" line="5786"/>
+        <source>Too many %1 items. Maximum allowed is %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/engine/rules.cpp" line="5757"/>
         <location filename="../src/engine/rules.cpp" line="5803"/>
         <source>%1: %2 and the number of %3 read do not correspond</source>
@@ -44245,18 +44257,6 @@ Note: teacher not available and break are not counted as gaps.</source>
         <source>Opening older file - it will be converted to latest format, automatically assigning weight percentages to constraints and dropping parity for activities. You are adviced to make a backup of your old file before saving in new format.
 
 Please note that the default weight percentage of constraints min days between activities will be 95% (mainly satisfied, not always) and &apos;force consecutive if same day&apos; will be set to true (meaning that if the activities are in the same day, they will be placed continuously, in a bigger duration activity). If you want, you can modify this percent to be 100%, manually in the fet input file or from the interface</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5732"/>
-        <location filename="../src/engine/rules.cpp" line="5778"/>
-        <source>%1 is too large</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5740"/>
-        <location filename="../src/engine/rules.cpp" line="5786"/>
-        <source>Too many %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

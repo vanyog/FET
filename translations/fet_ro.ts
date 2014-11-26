@@ -44631,10 +44631,22 @@ Vă rog luaţi aminte că importanţa procentuală predefinită a constrângeril
         <translation>%1 este incorect</translation>
     </message>
     <message>
+        <location filename="../src/engine/rules.cpp" line="5732"/>
+        <location filename="../src/engine/rules.cpp" line="5778"/>
+        <source>%1 is too large. Maximum allowed is %2.</source>
+        <translation>%1 este prea mare. Maximul permis este %2.</translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="5740"/>
+        <location filename="../src/engine/rules.cpp" line="5786"/>
+        <source>Too many %1 items. Maximum allowed is %2.</source>
+        <translation>Prea multe elemente %1. Maximul permis este %2.</translation>
+    </message>
+    <message>
         <location filename="../src/engine/rules.cpp" line="5757"/>
         <location filename="../src/engine/rules.cpp" line="5803"/>
         <source>%1: %2 and the number of %3 read do not correspond</source>
-        <translation>%1Ş %2 şi numărul de %3 citite nu corespunde</translation>
+        <translation>%1: %2 şi numărul de %3 citite nu corespunde</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="5835"/>
@@ -44866,18 +44878,6 @@ Vă rog luaţi aminte că importanţa procentuală predefinită a constrângeril
         <location filename="../src/engine/rules.cpp" line="3845"/>
         <source>Activities with group_Id=%1 contain %2 duplicate activity tags - please correct that</source>
         <translation>Activităţile cu Id grup=%1 conţin %2 etichete activitate duplicat - vă rog corectaţi aceasta</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5732"/>
-        <location filename="../src/engine/rules.cpp" line="5778"/>
-        <source>%1 is too large</source>
-        <translation>%1 este prea mare</translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5740"/>
-        <location filename="../src/engine/rules.cpp" line="5786"/>
-        <source>Too many %1</source>
-        <translation>Prea multe %1</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="6252"/>

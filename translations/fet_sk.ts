@@ -44161,6 +44161,18 @@ Note: teacher not available and break are not counted as gaps.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/engine/rules.cpp" line="5732"/>
+        <location filename="../src/engine/rules.cpp" line="5778"/>
+        <source>%1 is too large. Maximum allowed is %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/engine/rules.cpp" line="5740"/>
+        <location filename="../src/engine/rules.cpp" line="5786"/>
+        <source>Too many %1 items. Maximum allowed is %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../src/engine/rules.cpp" line="5835"/>
         <source>Duplicate teacher %1 found - ignoring</source>
         <translation type="unfinished"></translation>
@@ -44451,18 +44463,6 @@ Please note that the default weight percentage of constraints min days between a
         <location filename="../src/engine/rules.cpp" line="14674"/>
         <location filename="../src/engine/rules.cpp" line="15022"/>
         <source>%1 is incorrect</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5732"/>
-        <location filename="../src/engine/rules.cpp" line="5778"/>
-        <source>%1 is too large</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/engine/rules.cpp" line="5740"/>
-        <location filename="../src/engine/rules.cpp" line="5786"/>
-        <source>Too many %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
