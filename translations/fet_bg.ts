@@ -798,20 +798,20 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1744"/>
         <source>Subjects</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Дисциплини</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1745"/>
         <source>Students</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1946"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1949"/>
         <source>Delete all?</source>
         <comment>It refers to activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване не всички?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1946"/>
@@ -29867,7 +29867,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="604"/>
         <source>Subjects and tags</source>
         <comment>Tags means activity tags, but I want to keep it short. It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Дисциплини и етикети</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="657"/>
@@ -29890,18 +29890,18 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="740"/>
         <source>Conflicts</source>
         <comment>It means show soft conflicts, but I want to keep field short. It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Конфликти</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="761"/>
         <source>Print</source>
-        <translation type="unfinished"></translation>
+        <translation>Печат</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="768"/>
         <source>Locking</source>
         <comment>Refers to timetable locking, means locking/unlocking activities, but we need to keep the field short.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Заключване</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="860"/>
@@ -29951,7 +29951,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="931"/>
         <source>Advanced lock/unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Разширено заключване/отключване</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="959"/>
@@ -29967,13 +29967,13 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="978"/>
         <source>Time constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>Времеви ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="982"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1091"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished"></translation>
+        <translation>Допълнителни</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="989"/>
@@ -29991,12 +29991,12 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1045"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1103"/>
         <source>Activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1087"/>
         <source>Space constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>Пространствени ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1097"/>
@@ -30011,18 +30011,18 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1120"/>
         <source>Subjects and activity tags</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикети на дисциплини и дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1157"/>
         <source>Activity tags</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикети да дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1173"/>
         <source>Stu&amp;dents</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Subjects, Activity ta&amp;gs, &amp;Teachers, Stu&amp;dents, &amp;Activities, &amp;Modify subactivities, &amp;Buildings, &amp;Rooms, All t&amp;ime constraints, All s&amp;pace constraints must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Сту&amp;денти</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1181"/>
@@ -30053,7 +30053,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1260"/>
         <source>Confirmations</source>
         <comment>This is a submenu, contains these settings: if a user wants to deactivate/activate a confirmation (instructions) dialog that appears before an advanced dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Потвърждаване</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1308"/>
@@ -30369,7 +30369,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1596"/>
         <source>Subjects statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>Статистики за дисциплини</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1601"/>
@@ -34231,12 +34231,12 @@ Add another constraint: min 1 day between activities with id-s 2 and 3, consecut
         <location filename="../src/interface/helpfaqform_template.ui" line="14"/>
         <source>Frequently asked questions</source>
         <extracomment>This is the title of the dialog for FAQ help</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Често задаване въпроси</translation>
     </message>
     <message>
         <location filename="../src/interface/helpfaqform_template.ui" line="23"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -34244,12 +34244,12 @@ Add another constraint: min 1 day between activities with id-s 2 and 3, consecut
     <message>
         <location filename="../src/interface/helpinstructionsform.cpp" line="47"/>
         <source>Instructions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Инструкции.</translation>
     </message>
     <message>
         <location filename="../src/interface/helpinstructionsform.cpp" line="49"/>
         <source>Last modified on %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Последна промяна %1.</translation>
     </message>
     <message>
         <location filename="../src/interface/helpinstructionsform.cpp" line="49"/>
@@ -45803,7 +45803,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/engine/statisticsexport.cpp" line="541"/>
         <location filename="../src/engine/statisticsexport.cpp" line="558"/>
         <source>Subjects</source>
-        <translation type="unfinished"></translation>
+        <translation>Дисциплини</translation>
     </message>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="548"/>
@@ -45830,7 +45830,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="666"/>
         <source>Teachers - Subjects Matrix</source>
-        <translation type="unfinished"></translation>
+        <translation>Матрица Преподавател-дисциплина</translation>
     </message>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="683"/>
@@ -45847,7 +45847,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/engine/statisticsexport.cpp" line="2203"/>
         <source>Sum</source>
         <comment>This means the sum of more values, the total</comment>
-        <translation type="unfinished"></translation>
+        <translation>Сума</translation>
     </message>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="689"/>
@@ -45878,7 +45878,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="942"/>
         <source>Subjects - Teachers Matrix</source>
-        <translation type="unfinished"></translation>
+        <translation>Матрица Преподавател-дисциплина</translation>
     </message>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="966"/>
@@ -45908,7 +45908,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="1763"/>
         <source>Subjects - Students Matrix</source>
-        <translation type="unfinished"></translation>
+        <translation>Матрица Студент-дисциплина</translation>
     </message>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="1787"/>
@@ -45918,7 +45918,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="2036"/>
         <source>Students -Subjects Matrix</source>
-        <translation type="unfinished"></translation>
+        <translation>Матрица Студент-дисциплина</translation>
     </message>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="2060"/>
@@ -46974,22 +46974,22 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/subjectsform_template.ui" line="14"/>
         <source>Subjects</source>
         <extracomment>Title of dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Дисцеплини</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform_template.ui" line="39"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform_template.ui" line="46"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Преименуване</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform_template.ui" line="53"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform_template.ui" line="62"/>
@@ -47004,12 +47004,12 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subjectsform_template.ui" line="78"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform_template.ui" line="85"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -47017,7 +47017,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subjectsstatisticsform.cpp" line="50"/>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsstatisticsform.cpp" line="51"/>
