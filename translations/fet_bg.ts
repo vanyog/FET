@@ -29282,40 +29282,40 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3228"/>
         <source>In case the Help/Online menus do not function, please write down these addresses and open them in an internet browser:</source>
-        <translation type="unfinished"></translation>
+        <translation>В случай, че командите в менюто &quot;Помощ&quot;-&quot;В интернет&quot; не работят, моля, запишете си тези адреси и ги отворете в интерент браузър:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3230"/>
         <source>FET homepage: %1</source>
         <comment>%1 is FET homepage, begins with http://...</comment>
-        <translation type="unfinished"></translation>
+        <translation>Начална страница на FET: %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3232"/>
         <source>Documentation (online help contents): %1</source>
         <comment>%1 is web page of FET Doc(umentation), which is the contents of the online help, it begins with http://...</comment>
-        <translation type="unfinished"></translation>
+        <translation>Документация (съдържание на онлайн помощта): %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3234"/>
         <source>Forum: %1</source>
         <comment>%1 is web page of FET forum, begins with http://...</comment>
-        <translation type="unfinished"></translation>
+        <translation>Форум: %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3236"/>
         <source>Additionally, you may find on the FET homepage other contact information.</source>
-        <translation type="unfinished"></translation>
+        <translation>В допълнение на страниците на FET може да намерите друга информация за контакт.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3238"/>
         <source>In case these addresses do not function, maybe the FET webpage has temporary problems, so try again later. Or maybe the FET webpage has changed, so search for the new page on the internet.</source>
-        <translation type="unfinished"></translation>
+        <translation>В случай, че тези адреси не се отварят, може би страниците на FET може би имет временни проблеми, тка че опитайте отново. Или може би страниците са преместени, така че потърсете новите им адреси в Интернет.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3240"/>
         <source>FET web addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>Интернет адреси на FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3288"/>
@@ -30404,12 +30404,12 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1631"/>
         <source>Instructions</source>
-        <translation type="unfinished"></translation>
+        <translation>Инструкции</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1642"/>
         <source>Search for updates on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Търсене на актуализации при старт</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1647"/>
@@ -30460,7 +30460,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1692"/>
         <source>Help on statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>Помощ за статистики</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1697"/>
@@ -30606,7 +30606,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1837"/>
         <source>Important tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Важни указания</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1842"/>
@@ -30794,7 +30794,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2034"/>
         <source>Help on settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Помощ за настройки</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2039"/>
@@ -30901,25 +30901,25 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="2190"/>
         <source>Help contents</source>
         <extracomment>menu Help-&gt;Online-&gt;Help contents, opens the webpage of FET documentation</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Съдържание</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2195"/>
         <source>Forum</source>
         <extracomment>menu Help-&gt;Forum, opens the webpage of FET forum</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Форум</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2200"/>
         <source>Web addresses</source>
         <extracomment>menu Help-&gt;Online-&gt;Web addresses, shows the web addresses of FET homepage, documentation and forum</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Интернет адреси</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2205"/>
         <source>Homepage</source>
         <extracomment>menu Help-&gt;Online-&gt;Homepage, opens the homepage of FET</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Начална страница</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2216"/>
