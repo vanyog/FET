@@ -944,22 +944,22 @@
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="132"/>
         <source>Are you sure you want to delete this activity tag?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте, че искате да изтриете този етикет на дейност?</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="133"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="133"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="170"/>
         <source>Rename activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Преименуване на етикет на дайност</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="170"/>
@@ -10825,17 +10825,17 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/buildingsform.cpp" line="127"/>
         <source>Are you sure you want to delete this building?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте, че искате да изтриете тази сграда?</translation>
     </message>
     <message>
         <location filename="../src/interface/buildingsform.cpp" line="128"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/buildingsform.cpp" line="128"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Не</translation>
     </message>
 </context>
 <context>
@@ -10844,32 +10844,32 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/buildingsform_template.ui" line="14"/>
         <source>Buildings</source>
         <extracomment>The dialog to list all buildings</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Сгради</translation>
     </message>
     <message>
         <location filename="../src/interface/buildingsform_template.ui" line="39"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/buildingsform_template.ui" line="46"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/buildingsform_template.ui" line="57"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/buildingsform_template.ui" line="64"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <location filename="../src/interface/buildingsform_template.ui" line="73"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -46876,12 +46876,12 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="91"/>
         <source>Add subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="91"/>
         <source>Please enter subject&apos;s name</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, въведете името на учебната дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="97"/>
@@ -46930,27 +46930,27 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="130"/>
         <source>Are you sure you want to delete this subject and all related activities and constraints?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте че искате да изтриете тази дисциплина и всички свързани с нея дейности?</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="131"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="131"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="168"/>
         <source>Modify subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Промяна на дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="168"/>
         <source>Please enter new subject&apos;s name</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, въведете ново име на дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/subjectsform.cpp" line="175"/>
@@ -47073,12 +47073,12 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="89"/>
         <source>Add teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="89"/>
         <source>Please enter teacher&apos;s name</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, въведете името на преподавателя</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="95"/>
@@ -47126,32 +47126,32 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="128"/>
         <source>Are you sure you want to delete this teacher and all related activities and constraints?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте, че искате да изтриете този преподавател и всички свързани дейности?</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="129"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="129"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="165"/>
         <source>Modify teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>Промяна на преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="165"/>
         <source>Please enter new teacher&apos;s name</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, въведете ново име на преподавателя</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="171"/>
         <source>Teacher modification dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Диалог за смяна името на преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="172"/>
