@@ -1681,22 +1681,22 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="14"/>
         <source>Add building</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на сграда</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="22"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Име</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="39"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform_template.ui" line="49"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -1707,7 +1707,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="143"/>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="146"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="111"/>
@@ -3276,7 +3276,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomsform_template.ui" line="106"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomsform_template.ui" line="129"/>
@@ -3783,7 +3783,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform_template.ui" line="64"/>
@@ -5699,7 +5699,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform_template.ui" line="64"/>
@@ -6984,7 +6984,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform_template.ui" line="54"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform_template.ui" line="77"/>
@@ -7143,7 +7143,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform_template.ui" line="64"/>
@@ -7452,7 +7452,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform_template.ui" line="64"/>
@@ -9900,32 +9900,32 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addstudentsgroupform_template.ui" line="14"/>
         <source>Add students group</source>
         <extracomment>This is the title of the dialog to add a students group</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на група студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform_template.ui" line="22"/>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Година</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform_template.ui" line="43"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Означение</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform_template.ui" line="60"/>
         <source>Number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform_template.ui" line="87"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform_template.ui" line="94"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -10000,37 +10000,37 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addstudentssubgroupform_template.ui" line="14"/>
         <source>Add students subgroup</source>
         <extracomment>The title of the dialog to add a students subgroup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на подгрупа студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentssubgroupform_template.ui" line="22"/>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Година</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentssubgroupform_template.ui" line="43"/>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Група</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentssubgroupform_template.ui" line="64"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Означение</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentssubgroupform_template.ui" line="81"/>
         <source>Number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentssubgroupform_template.ui" line="108"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentssubgroupform_template.ui" line="115"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -10088,27 +10088,27 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addstudentsyearform_template.ui" line="14"/>
         <source>Add students year</source>
         <extracomment>Title of the dialog of adding a students year</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на година студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsyearform_template.ui" line="22"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Означение</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsyearform_template.ui" line="39"/>
         <source>Number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsyearform_template.ui" line="66"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsyearform_template.ui" line="73"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -29790,13 +29790,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="590"/>
         <source>Tags</source>
         <comment>It means activity tags, but I want to keep it short. It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Етикети</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="280"/>
         <source>Space</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short. It contains submenu for buildings and rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation>Пространство</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="287"/>
@@ -29810,7 +29810,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="294"/>
         <source>Subactivities</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Поддейности</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="301"/>
@@ -29822,7 +29822,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="354"/>
         <source>Time</source>
         <comment>It is a tab for shortcut buttons to time constraints, so it refers to time constraints, but we need to keep it short, that is why I don&apos;t add also &apos;constraints&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation>Време</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="409"/>
@@ -29848,7 +29848,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="497"/>
         <source>Space</source>
         <comment>It is a tab for shortcut buttons to space constraints, so it refers to space constraints, but we need to keep it short, that is why I don&apos;t add also &apos;constraints&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation>Пространство</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="555"/>
@@ -30077,7 +30077,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1319"/>
         <source>Ctrl+O</source>
         <extracomment>This is the shortcut for menu item File-&gt;Open. It is recommended to translate with Ctrl+O, the same as original, or with Ctrl+other letter you prefer (do not make duplicates with other shortcuts). All shortcuts are: Ctrl+N (New), Ctrl+O (Open), Ctrl+S (Save), Ctrl+Q (Quit), Ctrl+G (Generate), Ctrl+P (Print). Please use the English keyboard modifiers name, for instance Ctrl, because otherwise the shortcuts do not work (so, even if your keyboard has another name for the Ctrl key, write &apos;Ctrl&apos;. It will work OK on all platforms. Even if you are on German keyboard, write &apos;Ctrl&apos; as in English). Maybe it would be good to translate with &apos;Ctrl+O&apos;, the same as the English original, to keep things standard.</extracomment>
-        <translation>Ctrl+О</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1324"/>
@@ -32648,7 +32648,7 @@ Please modify your data correspondingly and try again</source>
         <location filename="../src/interface/groupsform.cpp" line="280"/>
         <location filename="../src/interface/groupsform.cpp" line="286"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform.cpp" line="93"/>
@@ -32658,7 +32658,7 @@ Please modify your data correspondingly and try again</source>
         <location filename="../src/interface/groupsform.cpp" line="254"/>
         <location filename="../src/interface/groupsform.cpp" line="273"/>
         <source>Invalid selected year</source>
-        <translation type="unfinished"></translation>
+        <translation>Избраната година е невалидна</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform.cpp" line="121"/>
@@ -32666,28 +32666,28 @@ Please modify your data correspondingly and try again</source>
         <location filename="../src/interface/groupsform.cpp" line="261"/>
         <location filename="../src/interface/groupsform.cpp" line="280"/>
         <source>Invalid selected group</source>
-        <translation type="unfinished"></translation>
+        <translation>Избраната група е невалидна</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform.cpp" line="129"/>
         <location filename="../src/interface/groupsform.cpp" line="153"/>
         <source>FET</source>
-        <translation type="unfinished"></translation>
+        <translation>FET</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform.cpp" line="130"/>
         <source>Are you sure you want to delete group %1 and all related subgroups, activities and constraints?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте, че искате да изтриете група %1 и всички свързани подгрупи, дейности и ограничения?</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform.cpp" line="131"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform.cpp" line="131"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform.cpp" line="153"/>
@@ -32711,42 +32711,42 @@ Please modify your data correspondingly and try again</source>
         <location filename="../src/interface/groupsform_template.ui" line="14"/>
         <source>FET - groups of students</source>
         <extracomment>The title of the form which lists the students groups</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>FET - групи студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="33"/>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Година</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="50"/>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Група</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="67"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Подробности</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="88"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="95"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="102"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="109"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="118"/>
@@ -32761,7 +32761,7 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/interface/groupsform_template.ui" line="132"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -34966,7 +34966,7 @@ Add another constraint: min 1 day between activities with id-s 2 and 3, consecut
     <message>
         <location filename="../src/interface/hoursform_template.ui" line="866"/>
         <source>Cancel</source>
-        <translation>Оказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -37520,7 +37520,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform_template.ui" line="64"/>
@@ -37967,7 +37967,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform_template.ui" line="64"/>
@@ -39569,7 +39569,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform_template.ui" line="64"/>
@@ -40640,7 +40640,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform_template.ui" line="54"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform_template.ui" line="77"/>
@@ -40775,7 +40775,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform_template.ui" line="64"/>
@@ -41036,7 +41036,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform_template.ui" line="41"/>
         <source>Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform_template.ui" line="64"/>
@@ -42960,32 +42960,32 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifystudentsgroupform_template.ui" line="14"/>
         <source>Modify students group</source>
         <extracomment>The dialog to modify a students group</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне на група  студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsgroupform_template.ui" line="22"/>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Година</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsgroupform_template.ui" line="49"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Означение</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsgroupform_template.ui" line="66"/>
         <source>Number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsgroupform_template.ui" line="93"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsgroupform_template.ui" line="100"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -42994,7 +42994,7 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifystudentssubgroupform.cpp" line="64"/>
         <location filename="../src/interface/modifystudentssubgroupform.cpp" line="72"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentssubgroupform.cpp" line="64"/>
@@ -43013,37 +43013,37 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifystudentssubgroupform_template.ui" line="14"/>
         <source>Modify students subgroup</source>
         <extracomment>Title of the dialog to modify a students subgroup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне на подгрупа  студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentssubgroupform_template.ui" line="22"/>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Година</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentssubgroupform_template.ui" line="43"/>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Група</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentssubgroupform_template.ui" line="64"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Означение</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentssubgroupform_template.ui" line="81"/>
         <source>Number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentssubgroupform_template.ui" line="108"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentssubgroupform_template.ui" line="115"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -43052,7 +43052,7 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifystudentsyearform.cpp" line="59"/>
         <location filename="../src/interface/modifystudentsyearform.cpp" line="63"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsyearform.cpp" line="59"/>
@@ -43071,27 +43071,27 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifystudentsyearform_template.ui" line="14"/>
         <source>Modify students year</source>
         <extracomment>Title of dialog to modify a students year</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне на година студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsyearform_template.ui" line="22"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Означение</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsyearform_template.ui" line="39"/>
         <source>Number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>Брой студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsyearform_template.ui" line="66"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifystudentsyearform_template.ui" line="73"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -43641,37 +43641,37 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/roomsform_template.ui" line="14"/>
         <source>Rooms</source>
         <extracomment>The name of the rooms dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Стаи</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform_template.ui" line="26"/>
         <source>NOTE: each room can hold a single activity at the same time (you can add more rooms representing a very large room)</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАБЕЛЕЖКА: всяка стая може да помещава само една дейност в едно и също време (можете да добавите повече стаи за да направите голяма стая за повече дейности)</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform_template.ui" line="58"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform_template.ui" line="65"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform_template.ui" line="76"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform_template.ui" line="83"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform_template.ui" line="92"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -46716,7 +46716,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/subgroupsform.cpp" line="362"/>
         <location filename="../src/interface/subgroupsform.cpp" line="368"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="95"/>
@@ -46726,7 +46726,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/subgroupsform.cpp" line="318"/>
         <location filename="../src/interface/subgroupsform.cpp" line="346"/>
         <source>Invalid selected year</source>
-        <translation type="unfinished"></translation>
+        <translation>Избраната година е невалидна</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="103"/>
@@ -46736,7 +46736,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/subgroupsform.cpp" line="326"/>
         <location filename="../src/interface/subgroupsform.cpp" line="354"/>
         <source>Invalid selected group</source>
-        <translation type="unfinished"></translation>
+        <translation>Избраната група е невалидна</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="140"/>
@@ -46744,28 +46744,28 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/subgroupsform.cpp" line="334"/>
         <location filename="../src/interface/subgroupsform.cpp" line="362"/>
         <source>Invalid selected subgroup</source>
-        <translation type="unfinished"></translation>
+        <translation>Избраната подгрупа е невалидна</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="148"/>
         <location filename="../src/interface/subgroupsform.cpp" line="172"/>
         <source>FET</source>
-        <translation type="unfinished"></translation>
+        <translation>FET</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="149"/>
         <source>Are you sure you want to delete subgroup %1 and all related activities and constraints?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте че искате да изтриете подгрупа %1 и всички свързани дейности и ограничения?</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="150"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="150"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform.cpp" line="172"/>
@@ -46789,47 +46789,47 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/subgroupsform_template.ui" line="14"/>
         <source>Subgroups of students</source>
         <extracomment>The name of the dialog which lists the subgroups of students</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Подгрупи студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="33"/>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Година</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="50"/>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Група</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="67"/>
         <source>Subgroup</source>
-        <translation type="unfinished"></translation>
+        <translation>Подгрупа</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="84"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Подробности</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="105"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="112"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="119"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="126"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="135"/>
@@ -46844,7 +46844,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subgroupsform_template.ui" line="149"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -50037,17 +50037,17 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/yearsform.cpp" line="116"/>
         <source>Are you sure you want to delete year %1 and all related groups, subgroups, activities and constraints?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте, че искате да изтриете година %1 и всички свързани групи, дейности и ограничения?</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform.cpp" line="117"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform.cpp" line="117"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/yearsform.cpp" line="209"/>
