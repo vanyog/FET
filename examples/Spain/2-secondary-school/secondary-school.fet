@@ -31,23 +31,47 @@ Por ejemplo:
 </Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Lunes</Name>
+</Day>
+<Day>
 	<Name>Martes</Name>
+</Day>
+<Day>
 	<Name>Miércoles</Name>
+</Day>
+<Day>
 	<Name>Jueves</Name>
+</Day>
+<Day>
 	<Name>Viernes</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>7</Number>
+<Number_of_Hours>7</Number_of_Hours>
+<Hour>
 	<Name>1ª</Name>
+</Hour>
+<Hour>
 	<Name>2ª</Name>
+</Hour>
+<Hour>
 	<Name>3ª</Name>
+</Hour>
+<Hour>
 	<Name>Recreo</Name>
+</Hour>
+<Hour>
 	<Name>4ª</Name>
+</Hour>
+<Hour>
 	<Name>5ª</Name>
+</Hour>
+<Hour>
 	<Name>6ª</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

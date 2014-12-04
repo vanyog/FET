@@ -7,23 +7,47 @@
 <Comments>Comments</Comments>
 
 <Days_List>
-	<Number>6</Number>
+<Number_of_Days>6</Number_of_Days>
+<Day>
 	<Name>السبت</Name>
+</Day>
+<Day>
 	<Name>الأحد</Name>
+</Day>
+<Day>
 	<Name>الاثنين</Name>
+</Day>
+<Day>
 	<Name>الثلاثاء</Name>
+</Day>
+<Day>
 	<Name>الأربعاء</Name>
+</Day>
+<Day>
 	<Name>الخميس</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>6</Number>
+<Number_of_Hours>6</Number_of_Hours>
+<Hour>
 	<Name>الفترة الأولى(08:30)</Name>
+</Hour>
+<Hour>
 	<Name>الفترة الثانية(10:30)</Name>
+</Hour>
+<Hour>
 	<Name>الفترة الثالثة(1)</Name>
+</Hour>
+<Hour>
 	<Name>الفترة الرابعة(3)</Name>
+</Hour>
+<Hour>
 	<Name>الفترة الخامسة(5)</Name>
+</Hour>
+<Hour>
 	<Name>الفترة السادسة(7)</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

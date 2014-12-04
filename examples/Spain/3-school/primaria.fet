@@ -9,24 +9,50 @@ Tiene una línea, pero en 3º Primaria hay dos cursos: 3ºA y 3ºB
 La complegidad de este horario está en que es muy pequeño y hay muchos profedores con reducciones de jornada y con preferencias de horas muy específicas. También porque el centro ha empezado un programa de aprendizaje del inglés desde infantil y las horas de inglés deben preferiblemente estar al comienzo de la jornada.</Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Lunes</Name>
+</Day>
+<Day>
 	<Name>Martes</Name>
+</Day>
+<Day>
 	<Name>Miércoles</Name>
+</Day>
+<Day>
 	<Name>Jueves</Name>
+</Day>
+<Day>
 	<Name>Viernes</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>8</Number>
+<Number_of_Hours>8</Number_of_Hours>
+<Hour>
 	<Name>1ª SESION</Name>
+</Hour>
+<Hour>
 	<Name>2ª SESION</Name>
+</Hour>
+<Hour>
 	<Name>RECREO</Name>
+</Hour>
+<Hour>
 	<Name>3ª SESION</Name>
+</Hour>
+<Hour>
 	<Name>4ª SESION</Name>
+</Hour>
+<Hour>
 	<Name>COMIDA</Name>
+</Hour>
+<Hour>
 	<Name>5ª SESION</Name>
+</Hour>
+<Hour>
 	<Name>6ª SESION</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

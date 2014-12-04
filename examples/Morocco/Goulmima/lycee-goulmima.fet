@@ -8,26 +8,56 @@
 ثانوية محمد الخامس التاهيلية - كلميمة - الرشيدية</Comments>
 
 <Days_List>
-	<Number>11</Number>
+<Number_of_Days>11</Number_of_Days>
+<Day>
 	<Name>الإثنين ص</Name>
+</Day>
+<Day>
 	<Name>الإثنين م</Name>
+</Day>
+<Day>
 	<Name>الثلاثاء ص</Name>
+</Day>
+<Day>
 	<Name>الثلاثاء م</Name>
+</Day>
+<Day>
 	<Name>الأربعاء ص</Name>
+</Day>
+<Day>
 	<Name>الأربعاء م</Name>
+</Day>
+<Day>
 	<Name>الخميس ص</Name>
+</Day>
+<Day>
 	<Name>الخميس م</Name>
+</Day>
+<Day>
 	<Name>الجمعة ص</Name>
+</Day>
+<Day>
 	<Name>الجمعة م</Name>
+</Day>
+<Day>
 	<Name>السبت ص</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>4</Number>
+<Number_of_Hours>4</Number_of_Hours>
+<Hour>
 	<Name>س 1</Name>
+</Hour>
+<Hour>
 	<Name>س 2</Name>
+</Hour>
+<Hour>
 	<Name>س 3</Name>
+</Hour>
+<Hour>
 	<Name>س 4</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

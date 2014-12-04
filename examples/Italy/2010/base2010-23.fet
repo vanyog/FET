@@ -7,26 +7,56 @@
 <Comments>Esempio reale relativo all&apos;anno 2010/2011</Comments>
 
 <Days_List>
-	<Number>6</Number>
+<Number_of_Days>6</Number_of_Days>
+<Day>
 	<Name>Lunedì</Name>
+</Day>
+<Day>
 	<Name>Martedì</Name>
+</Day>
+<Day>
 	<Name>Mercoledì</Name>
+</Day>
+<Day>
 	<Name>Giovedì</Name>
+</Day>
+<Day>
 	<Name>Venerdì</Name>
+</Day>
+<Day>
 	<Name>Sabato</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>9</Number>
+<Number_of_Hours>9</Number_of_Hours>
+<Hour>
 	<Name>1-07:50</Name>
+</Hour>
+<Hour>
 	<Name>2-08:50</Name>
+</Hour>
+<Hour>
 	<Name>&gt;09:50</Name>
+</Hour>
+<Hour>
 	<Name>4-10.55</Name>
+</Hour>
+<Hour>
 	<Name>5-11.50</Name>
+</Hour>
+<Hour>
 	<Name>6-12.50</Name>
+</Hour>
+<Hour>
 	<Name>7-14:00</Name>
+</Hour>
+<Hour>
 	<Name>8-15:00</Name>
+</Hour>
+<Hour>
 	<Name>9-16:00</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

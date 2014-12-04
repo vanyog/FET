@@ -1730,6 +1730,7 @@ Versions 5.24.0 - 5.24.x
 - Version 5.24.0
 	- Code improvement in reading the .fet XML files: converted from the obsolete Qt classes QDom* to QXmlStreamReader. It might
 	bring a speed and memory improvement when reading the input file, and ensures FET source compatibility with future Qt versions.
-	Also error reporting when reading a corrupt file is improved.
+	Also error reporting when reading a corrupt file is improved. The structure of the .fet XML files is slightly changed,
+	but of course older files are opened correctly.
 	- It is now allowed to have constraints preferred/home rooms with a single room (suggested by liquid and Volker Dirr).
 	- Added a new example file from Vietnam, by nguyenhuuduyet.

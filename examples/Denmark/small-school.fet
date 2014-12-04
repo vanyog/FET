@@ -7,16 +7,26 @@
 <Comments>Default comments</Comments>
 
 <Days_List>
-	<Number>1</Number>
+<Number_of_Days>1</Number_of_Days>
+<Day>
 	<Name>Daily</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>4</Number>
+<Number_of_Hours>4</Number_of_Hours>
+<Hour>
 	<Name>13.30 - 14.30</Name>
+</Hour>
+<Hour>
 	<Name>14.40 - 15.40</Name>
+</Hour>
+<Hour>
 	<Name>15.50 - 16.50</Name>
+</Hour>
+<Hour>
 	<Name>17.00 - 18.00</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

@@ -48,22 +48,44 @@
 </Comments>
 
 <Days_List>
-	<Number>9</Number>
+<Number_of_Days>9</Number_of_Days>
+<Day>
 	<Name>ح1</Name>
+</Day>
+<Day>
 	<Name>ث1</Name>
+</Day>
+<Day>
 	<Name>ل1</Name>
+</Day>
+<Day>
 	<Name>ر1</Name>
+</Day>
+<Day>
 	<Name>خ1</Name>
+</Day>
+<Day>
 	<Name>ح2</Name>
+</Day>
+<Day>
 	<Name>ث2</Name>
+</Day>
+<Day>
 	<Name>ل2</Name>
+</Day>
+<Day>
 	<Name>ر2</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>2</Number>
+<Number_of_Hours>2</Number_of_Hours>
+<Hour>
 	<Name>1</Name>
+</Hour>
+<Hour>
 	<Name>2</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

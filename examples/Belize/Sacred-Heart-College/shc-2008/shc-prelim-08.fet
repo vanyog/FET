@@ -7,24 +7,50 @@
 <Comments>Hour Block 2008</Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>A</Name>
+</Day>
+<Day>
 	<Name>B</Name>
+</Day>
+<Day>
 	<Name>C</Name>
+</Day>
+<Day>
 	<Name>D</Name>
+</Day>
+<Day>
 	<Name>E</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>8</Number>
+<Number_of_Hours>8</Number_of_Hours>
+<Hour>
 	<Name>08:00</Name>
+</Hour>
+<Hour>
 	<Name>09:00</Name>
+</Hour>
+<Hour>
 	<Name>10:10</Name>
+</Hour>
+<Hour>
 	<Name>11:10</Name>
+</Hour>
+<Hour>
 	<Name>12:10</Name>
+</Hour>
+<Hour>
 	<Name>01:00</Name>
+</Hour>
+<Hour>
 	<Name>02:00</Name>
+</Hour>
+<Hour>
 	<Name>03:00</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

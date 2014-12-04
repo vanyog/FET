@@ -7,25 +7,53 @@
 <Comments>Semestrul 1, 2008-2009</Comments>
 
 <Days_List>
-	<Number>6</Number>
+<Number_of_Days>6</Number_of_Days>
+<Day>
 	<Name>Luni</Name>
+</Day>
+<Day>
 	<Name>Marti</Name>
+</Day>
+<Day>
 	<Name>Miercuri</Name>
+</Day>
+<Day>
 	<Name>Joi</Name>
+</Day>
+<Day>
 	<Name>Vineri</Name>
+</Day>
+<Day>
 	<Name>Sambata</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>8</Number>
+<Number_of_Hours>8</Number_of_Hours>
+<Hour>
 	<Name>08:00-09:40</Name>
+</Hour>
+<Hour>
 	<Name>09:40-11:30</Name>
+</Hour>
+<Hour>
 	<Name>11:30-13:10</Name>
+</Hour>
+<Hour>
 	<Name>13:10-14:50</Name>
+</Hour>
+<Hour>
 	<Name>14:50-16:30</Name>
+</Hour>
+<Hour>
 	<Name>16:30-18:10</Name>
+</Hour>
+<Hour>
 	<Name>18:10-19:50</Name>
+</Hour>
+<Hour>
 	<Name>19:50-21:30</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

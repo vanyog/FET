@@ -8,25 +8,53 @@
 </Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Day1</Name>
+</Day>
+<Day>
 	<Name>Day2</Name>
+</Day>
+<Day>
 	<Name>Day3</Name>
+</Day>
+<Day>
 	<Name>Day4</Name>
+</Day>
+<Day>
 	<Name>Day5</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>9</Number>
+<Number_of_Hours>9</Number_of_Hours>
+<Hour>
 	<Name>Pd1</Name>
+</Hour>
+<Hour>
 	<Name>Pd2</Name>
+</Hour>
+<Hour>
 	<Name>Pd3</Name>
+</Hour>
+<Hour>
 	<Name>Pd4</Name>
+</Hour>
+<Hour>
 	<Name>Pd5</Name>
+</Hour>
+<Hour>
 	<Name>Brk</Name>
+</Hour>
+<Hour>
 	<Name>Pd6</Name>
+</Hour>
+<Hour>
 	<Name>Pd7</Name>
+</Hour>
+<Hour>
 	<Name>Pd8</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

@@ -7,21 +7,41 @@
 <Comments>Default comments</Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Segunda</Name>
+</Day>
+<Day>
 	<Name>Terça</Name>
+</Day>
+<Day>
 	<Name>Quarta</Name>
+</Day>
+<Day>
 	<Name>Quinta</Name>
+</Day>
+<Day>
 	<Name>Sexta</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>5</Number>
+<Number_of_Hours>5</Number_of_Hours>
+<Hour>
 	<Name>19:00</Name>
+</Hour>
+<Hour>
 	<Name>19:40</Name>
+</Hour>
+<Hour>
 	<Name>20:30</Name>
+</Hour>
+<Hour>
 	<Name>21:10</Name>
+</Hour>
+<Hour>
 	<Name>21:50</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

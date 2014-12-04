@@ -3235,15 +3235,30 @@ From Vanyo Georgiev (on forum):
 
 The last opened FET XML file is opened again at start up.
 
-Vanyo Georgiev provided the necessary code changes to do this.
+(Vanyo Georgiev provided the necessary code changes to do this.)
 
 203---------------------------------------------------------
 From Vanyo Georgiev (on forum):
 
 One more place to check for a language .qm file - the work path.
 
-Vanyo Georgiev provided the necessary code changes to do this:
+(Vanyo Georgiev provided the necessary code changes to do this:
 	translation_loaded=translator.load("fet_"+FET_LANGUAGE, QDir::currentPath());
-in fet.cpp.
+in fet.cpp.)
 
 This change makes possible by setting the Working directory of the exe file in QtCreator to test the current translation without copying the .qm file to another directory.
+
+204---------------------------------------------------------
+From Vanyo Georgiev (on forum):
+
+Save and restore tabWidget current page at start up.
+
+(Vanyo Georgiev provided the necessary code changes to do this.)
+
+Liviu: See the ChangeLog for FET-5.19.0: "- When starting FET, the first shortcuts tab section (File) is selected (suggested by a user)." Previously, I saved the main tab widget position (as you do), but a user suggested that it is better to start always with the File tab selected.
+
+Anyway, I'll add this in the TODO, as your suggestion.
+
+Vanyo Georgiev: May be there must be a setting: 'Remember current page' and each user to choose his own preference. I'll try to do so.
+
+(Vanyo Georgiev provided the necessary code changes to do this.)

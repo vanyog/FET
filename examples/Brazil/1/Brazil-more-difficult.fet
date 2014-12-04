@@ -7,21 +7,41 @@
 <Comments>Comentarii implicite</Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Luni</Name>
+</Day>
+<Day>
 	<Name>Marti</Name>
+</Day>
+<Day>
 	<Name>Miercuri</Name>
+</Day>
+<Day>
 	<Name>Joi</Name>
+</Day>
+<Day>
 	<Name>Vineri</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>5</Number>
+<Number_of_Hours>5</Number_of_Hours>
+<Hour>
 	<Name>0</Name>
+</Hour>
+<Hour>
 	<Name>1</Name>
+</Hour>
+<Hour>
 	<Name>2</Name>
+</Hour>
+<Hour>
 	<Name>3</Name>
+</Hour>
+<Hour>
 	<Name>4</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

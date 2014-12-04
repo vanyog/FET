@@ -9,22 +9,44 @@ Học kỳ 1_(01)
 VEMIS_Timetable_(1.2.0)</Comments>
 
 <Days_List>
-	<Number>6</Number>
+<Number_of_Days>6</Number_of_Days>
+<Day>
 	<Name>Thứ Hai</Name>
+</Day>
+<Day>
 	<Name>Thứ Ba</Name>
+</Day>
+<Day>
 	<Name>Thứ Tư</Name>
+</Day>
+<Day>
 	<Name>Thứ Năm</Name>
+</Day>
+<Day>
 	<Name>Thứ Sáu</Name>
+</Day>
+<Day>
 	<Name>Thứ Bảy</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>5</Number>
+<Number_of_Hours>5</Number_of_Hours>
+<Hour>
 	<Name>Tiết 1</Name>
+</Hour>
+<Hour>
 	<Name>Tiết 2</Name>
+</Hour>
+<Hour>
 	<Name>Tiết 3</Name>
+</Hour>
+<Hour>
 	<Name>Tiết 4</Name>
+</Hour>
+<Hour>
 	<Name>Tiết 5</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

@@ -7,34 +7,80 @@
 <Comments>Default comments</Comments>
 
 <Days_List>
-	<Number>10</Number>
+<Number_of_Days>10</Number_of_Days>
+<Day>
 	<Name>Monday</Name>
+</Day>
+<Day>
 	<Name>Tuesday</Name>
+</Day>
+<Day>
 	<Name>Wednesday</Name>
+</Day>
+<Day>
 	<Name>Thursday</Name>
+</Day>
+<Day>
 	<Name>Friday</Name>
+</Day>
+<Day>
 	<Name>Monday2</Name>
+</Day>
+<Day>
 	<Name>Tuesday2</Name>
+</Day>
+<Day>
 	<Name>Wednesday2</Name>
+</Day>
+<Day>
 	<Name>Thursday2</Name>
+</Day>
+<Day>
 	<Name>Friday2</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>13</Number>
+<Number_of_Hours>13</Number_of_Hours>
+<Hour>
 	<Name>07:50 - 08:18</Name>
+</Hour>
+<Hour>
 	<Name>08:18 - 08:46</Name>
+</Hour>
+<Hour>
 	<Name>08:46 - 09:14</Name>
+</Hour>
+<Hour>
 	<Name>09:14 - 09:42</Name>
+</Hour>
+<Hour>
 	<Name>09:42 - 10:15</Name>
+</Hour>
+<Hour>
 	<Name>10:15 - 10:40</Name>
+</Hour>
+<Hour>
 	<Name>10:40 - 11:08</Name>
+</Hour>
+<Hour>
 	<Name>11:08 - 11:36</Name>
+</Hour>
+<Hour>
 	<Name>11:36 - 12:04</Name>
+</Hour>
+<Hour>
 	<Name>12:04 - 12:32</Name>
+</Hour>
+<Hour>
 	<Name>12:32 - 13:00</Name>
+</Hour>
+<Hour>
 	<Name>13:00 - 13:28</Name>
+</Hour>
+<Hour>
 	<Name>13:28 - 13:56</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

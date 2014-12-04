@@ -7,24 +7,50 @@
 <Comments>versiunea 08.09.2006</Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Luni</Name>
+</Day>
+<Day>
 	<Name>Marti</Name>
+</Day>
+<Day>
 	<Name>Miercuri</Name>
+</Day>
+<Day>
 	<Name>Joi</Name>
+</Day>
+<Day>
 	<Name>Vineri</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>8</Number>
+<Number_of_Hours>8</Number_of_Hours>
+<Hour>
 	<Name>7</Name>
+</Hour>
+<Hour>
 	<Name>8</Name>
+</Hour>
+<Hour>
 	<Name>9</Name>
+</Hour>
+<Hour>
 	<Name>10</Name>
+</Hour>
+<Hour>
 	<Name>11</Name>
+</Hour>
+<Hour>
 	<Name>12</Name>
+</Hour>
+<Hour>
 	<Name>13</Name>
+</Hour>
+<Hour>
 	<Name>14</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

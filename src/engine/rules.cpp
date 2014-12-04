@@ -5715,29 +5715,35 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 		}
 		else if(xmlReader.name()=="Days_List"){
 			int tmp=0;
+			bool numberWasFound=false;
 			assert(xmlReader.isStartElement());
+			QString numberString="Number_of_Days", dayString="Name";
 			while(xmlReader.readNextStartElement()){
 				xmlReadingLog+="   Found "+xmlReader.name().toString()+" tag\n";
-				if(xmlReader.name()=="Number"){
+				if(xmlReader.name()=="Number" || xmlReader.name()=="Number_of_Days" ){
+					numberString=xmlReader.name().toString();
 					QString text=xmlReader.readElementText();
 					this->nDaysPerWeek=text.toInt();
+					numberWasFound=true;
 					xmlReadingLog+="   Found the number of days per week = "+
 					 CustomFETString::number(this->nDaysPerWeek)+"\n";
 					reducedXmlLog+="Added "+
 					 CustomFETString::number(this->nDaysPerWeek)+" days per week\n";
 					if(nDaysPerWeek<=0){
-						xmlReader.raiseError(tr("%1 is incorrect").arg("Number"));
+						xmlReader.raiseError(tr("%1 is incorrect").arg(numberString));
 					}
 					else if(nDaysPerWeek>MAX_DAYS_PER_WEEK){
-						xmlReader.raiseError(tr("%1 is too large. Maximum allowed is %2.").arg("Number").arg(MAX_DAYS_PER_WEEK));
+						xmlReader.raiseError(tr("%1 is too large. Maximum allowed is %2.").arg(numberString).arg(MAX_DAYS_PER_WEEK));
 					}
 					else{
 						assert(this->nDaysPerWeek>0 && nDaysPerWeek<=MAX_DAYS_PER_WEEK);
 					}
 				}
+				//old .fet XML format
 				else if(xmlReader.name()=="Name"){
+					dayString=xmlReader.name().toString();
 					if(tmp>=MAX_DAYS_PER_WEEK){
-						xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg("Name").arg(MAX_DAYS_PER_WEEK));
+						xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg(dayString).arg(MAX_DAYS_PER_WEEK));
 						xmlReader.skipCurrentElement();
 					}
 					else{
@@ -5747,32 +5753,62 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 						tmp++;
 					}
 				}
+				//end old .fet XML format
+				else if(xmlReader.name()=="Day"){
+					assert(xmlReader.isStartElement());
+					while(xmlReader.readNextStartElement()){
+						xmlReadingLog+="   Found "+xmlReader.name().toString()+" tag\n";
+						if(xmlReader.name()=="Name"){
+							dayString=xmlReader.name().toString();
+							if(tmp>=MAX_DAYS_PER_WEEK){
+								xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg(dayString).arg(MAX_DAYS_PER_WEEK));
+								xmlReader.skipCurrentElement();
+							}
+							else{
+								QString text=xmlReader.readElementText();
+								this->daysOfTheWeek[tmp]=text;
+								xmlReadingLog+="   Found day "+this->daysOfTheWeek[tmp]+"\n";
+								tmp++;
+							}
+						}
+						else{
+							xmlReader.skipCurrentElement();
+							xmlReaderNumberOfUnrecognizedFields++;
+						}
+					}
+				}
 				else{
 					xmlReader.skipCurrentElement();
 					xmlReaderNumberOfUnrecognizedFields++;
 				}
 			}
 			if(!xmlReader.error()){
-				if(!(tmp==nDaysPerWeek))
-					xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Days_List").arg("Number").arg("Name"));
+				if(!numberWasFound)
+					xmlReader.raiseError(tr("%1 not found").arg(numberString));
+				else if(!(tmp==nDaysPerWeek))
+					xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Days_List").arg(numberString).arg(dayString));
 				else
 					assert(tmp==this->nDaysPerWeek);
 			}
 		}
 		else if(xmlReader.name()=="Hours_List"){
 			int tmp=0;
+			bool numberWasFound=false;
 			assert(xmlReader.isStartElement());
+			QString numberString="Number_of_Hours", hourString="Name";
 			while(xmlReader.readNextStartElement()){
 				xmlReadingLog+="   Found "+xmlReader.name().toString()+" tag\n";
-				if(xmlReader.name()=="Number"){
+				if(xmlReader.name()=="Number" || xmlReader.name()=="Number_of_Hours"){
+					numberString=xmlReader.name().toString();
 					QString text=xmlReader.readElementText();
 					this->nHoursPerDay=text.toInt();
+					numberWasFound=true;
 					xmlReadingLog+="   Found the number of hours per day = "+
 					 CustomFETString::number(this->nHoursPerDay)+"\n";
 					reducedXmlLog+="Added "+
 					 CustomFETString::number(this->nHoursPerDay)+" hours per day\n";
 					if(nHoursPerDay<=0){
-						xmlReader.raiseError(tr("%1 is incorrect").arg("Number"));
+						xmlReader.raiseError(tr("%1 is incorrect").arg(numberString));
 					}
 					else if(nHoursPerDay>MAX_HOURS_PER_DAY){
 						xmlReader.raiseError(tr("%1 is too large. Maximum allowed is %2.").arg("Number").arg(MAX_HOURS_PER_DAY));
@@ -5781,9 +5817,11 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 						assert(this->nHoursPerDay>0 && nHoursPerDay<=MAX_HOURS_PER_DAY);
 					}
 				}
+				//old .fet XML format
 				else if(xmlReader.name()=="Name"){
+					hourString=xmlReader.name().toString();
 					if(tmp>=MAX_HOURS_PER_DAY){
-						xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg("Name").arg(MAX_HOURS_PER_DAY));
+						xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg(hourString).arg(MAX_HOURS_PER_DAY));
 						xmlReader.skipCurrentElement();
 					}
 					else{
@@ -5793,17 +5831,52 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 						tmp++;
 					}
 				}
+				//end old .fet XML format
+				else if(xmlReader.name()=="Hour"){
+					assert(xmlReader.isStartElement());
+					while(xmlReader.readNextStartElement()){
+						xmlReadingLog+="    Found "+xmlReader.name().toString()+" tag\n";
+						if(xmlReader.name()=="Name"){
+							hourString=xmlReader.name().toString();
+							if(tmp>=MAX_HOURS_PER_DAY){
+								xmlReader.raiseError(tr("Too many %1 items. Maximum allowed is %2.").arg(hourString).arg(MAX_HOURS_PER_DAY));
+								xmlReader.skipCurrentElement();
+							}
+							else{
+								QString text=xmlReader.readElementText();
+								this->hoursOfTheDay[tmp]=text;
+								xmlReadingLog+="    Found hour "+this->hoursOfTheDay[tmp]+"\n";
+								tmp++;
+							}
+						}
+						else{
+							xmlReader.skipCurrentElement();
+							xmlReaderNumberOfUnrecognizedFields++;
+						}
+					}
+				}
 				else{
 					xmlReader.skipCurrentElement();
 					xmlReaderNumberOfUnrecognizedFields++;
 				}
 			}
 			if(!xmlReader.error()){
-				if(!(tmp==nHoursPerDay || tmp==nHoursPerDay+1))
-					xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg("Number").arg("Name"));
-				else
-					assert(tmp==nHoursPerDay || tmp==nHoursPerDay+1);
-				//don't do assert tmp == nHoursPerDay, because some older files contain also the end of day hour, so tmp==nHoursPerDay+1 in this case
+				if(!numberWasFound)
+					xmlReader.raiseError(tr("%1 not found").arg(numberString));
+				else if(numberString=="Number"){
+					//some older files contain also the end of day hour, so tmp==nHoursPerDay+1 in this case
+					if(!(tmp==nHoursPerDay || tmp==nHoursPerDay+1))
+						xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg(numberString).arg(hourString));
+					else
+						assert(tmp==nHoursPerDay || tmp==nHoursPerDay+1);
+				}
+				else{
+					assert(numberString=="Number_of_Hours");
+					if(!(tmp==nHoursPerDay))
+						xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg(numberString).arg(hourString));
+					else
+						assert(tmp==nHoursPerDay);
+				}
 			}
 		}
 		else if(xmlReader.name()=="Teachers_List"){
@@ -7630,13 +7703,20 @@ bool Rules::write(QWidget* parent, const QString& filename)
 	tos<<"<Comments>"+protect(this->comments)+"</Comments>\n\n";
 
 	//the days and the hours
-	tos<<"<Days_List>\n	<Number>"+CustomFETString::number(this->nDaysPerWeek)+"</Number>\n";
-	for(int i=0; i<this->nDaysPerWeek; i++)
+	tos<<"<Days_List>\n<Number_of_Days>"+CustomFETString::number(this->nDaysPerWeek)+"</Number_of_Days>\n";
+	for(int i=0; i<this->nDaysPerWeek; i++){
+		tos<<"<Day>\n";
 		tos<<"	<Name>"+protect(this->daysOfTheWeek[i])+"</Name>\n";
+		tos<<"</Day>\n";
+	}
 	tos<<"</Days_List>\n\n";
-	tos<<"<Hours_List>\n	<Number>"+CustomFETString::number(this->nHoursPerDay)+"</Number>\n";
-	for(int i=0; i<this->nHoursPerDay; i++)
+	
+	tos<<"<Hours_List>\n<Number_of_Hours>"+CustomFETString::number(this->nHoursPerDay)+"</Number_of_Hours>\n";
+	for(int i=0; i<this->nHoursPerDay; i++){
+		tos<<"<Hour>\n";
 		tos<<"	<Name>"+protect(this->hoursOfTheDay[i])+"</Name>\n";
+		tos<<"</Hour>\n";
+	}
 	tos<<"</Hours_List>\n\n";
 
 	//students list

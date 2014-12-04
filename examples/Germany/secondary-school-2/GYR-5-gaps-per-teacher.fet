@@ -7,28 +7,62 @@
 <Comments>Default comments</Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Mo</Name>
+</Day>
+<Day>
 	<Name>Di</Name>
+</Day>
+<Day>
 	<Name>Mi</Name>
+</Day>
+<Day>
 	<Name>Do</Name>
+</Day>
+<Day>
 	<Name>Fr</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>12</Number>
+<Number_of_Hours>12</Number_of_Hours>
+<Hour>
 	<Name>1</Name>
+</Hour>
+<Hour>
 	<Name>2</Name>
+</Hour>
+<Hour>
 	<Name>3</Name>
+</Hour>
+<Hour>
 	<Name>4</Name>
+</Hour>
+<Hour>
 	<Name>5</Name>
+</Hour>
+<Hour>
 	<Name>6</Name>
+</Hour>
+<Hour>
 	<Name>7</Name>
+</Hour>
+<Hour>
 	<Name>8</Name>
+</Hour>
+<Hour>
 	<Name>9</Name>
+</Hour>
+<Hour>
 	<Name>10</Name>
+</Hour>
+<Hour>
 	<Name>11</Name>
+</Hour>
+<Hour>
 	<Name>12</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

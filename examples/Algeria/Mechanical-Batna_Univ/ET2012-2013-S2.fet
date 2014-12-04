@@ -7,21 +7,41 @@
 <Comments>Emplois du temps S2 : Année Universitaire 2012/2013</Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Dimanche</Name>
+</Day>
+<Day>
 	<Name>Lundi</Name>
+</Day>
+<Day>
 	<Name>Mardi</Name>
+</Day>
+<Day>
 	<Name>Mercredi</Name>
+</Day>
+<Day>
 	<Name>Jeudi</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>5</Number>
+<Number_of_Hours>5</Number_of_Hours>
+<Hour>
 	<Name>08:00</Name>
+</Hour>
+<Hour>
 	<Name>09:35</Name>
+</Hour>
+<Hour>
 	<Name>11:10</Name>
+</Hour>
+<Hour>
 	<Name>14:00</Name>
+</Hour>
+<Hour>
 	<Name>15:45</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

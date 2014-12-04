@@ -7,23 +7,47 @@
 <Comments></Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Δευτέρα</Name>
+</Day>
+<Day>
 	<Name>Τρίτη</Name>
+</Day>
+<Day>
 	<Name>Τετάρτη</Name>
+</Day>
+<Day>
 	<Name>Πέμπτη</Name>
+</Day>
+<Day>
 	<Name>Παρασκευή</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>7</Number>
+<Number_of_Hours>7</Number_of_Hours>
+<Hour>
 	<Name>1</Name>
+</Hour>
+<Hour>
 	<Name>2</Name>
+</Hour>
+<Hour>
 	<Name>3</Name>
+</Hour>
+<Hour>
 	<Name>4</Name>
+</Hour>
+<Hour>
 	<Name>5</Name>
+</Hour>
+<Hour>
 	<Name>6</Name>
+</Hour>
+<Hour>
 	<Name>7</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

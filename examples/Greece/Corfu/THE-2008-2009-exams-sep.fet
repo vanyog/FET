@@ -7,43 +7,107 @@
 <Comments>Πρόγραμμα Εξετάσεων Ιουνίου 2009</Comments>
 
 <Days_List>
-	<Number>18</Number>
+<Number_of_Days>18</Number_of_Days>
+<Day>
 	<Name>Δευτέρα 7/9</Name>
+</Day>
+<Day>
 	<Name>Τρίτη 8/9</Name>
+</Day>
+<Day>
 	<Name>Τετάρτη 9/9</Name>
+</Day>
+<Day>
 	<Name>Πέμπτη 10/9</Name>
+</Day>
+<Day>
 	<Name>Παρασκευή 11/9</Name>
+</Day>
+<Day>
 	<Name>Δευτερα 14/9</Name>
+</Day>
+<Day>
 	<Name>Τρίτη 15/9</Name>
+</Day>
+<Day>
 	<Name>Τετάρτη 16/9</Name>
+</Day>
+<Day>
 	<Name>Πέμπτη 17/9</Name>
+</Day>
+<Day>
 	<Name>Παρασκευή 18/9</Name>
+</Day>
+<Day>
 	<Name>Δευτέρα 21/9</Name>
+</Day>
+<Day>
 	<Name>Τρίτη 22/9</Name>
+</Day>
+<Day>
 	<Name>Τετάρτη 23/9</Name>
+</Day>
+<Day>
 	<Name>Πέμπτη 24/9</Name>
+</Day>
+<Day>
 	<Name>Παρασκευή 25/9</Name>
+</Day>
+<Day>
 	<Name>Δευτέρα 28/9</Name>
+</Day>
+<Day>
 	<Name>Τρίτη 29/9</Name>
+</Day>
+<Day>
 	<Name>Τετάρτη 30/9</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>14</Number>
+<Number_of_Hours>14</Number_of_Hours>
+<Hour>
 	<Name>08:00</Name>
+</Hour>
+<Hour>
 	<Name>09:00</Name>
+</Hour>
+<Hour>
 	<Name>10:00</Name>
+</Hour>
+<Hour>
 	<Name>11:00</Name>
+</Hour>
+<Hour>
 	<Name>12:00</Name>
+</Hour>
+<Hour>
 	<Name>13:00</Name>
+</Hour>
+<Hour>
 	<Name>14:00</Name>
+</Hour>
+<Hour>
 	<Name>15:00</Name>
+</Hour>
+<Hour>
 	<Name>16:00</Name>
+</Hour>
+<Hour>
 	<Name>17:00</Name>
+</Hour>
+<Hour>
 	<Name>18:00</Name>
+</Hour>
+<Hour>
 	<Name>19:00</Name>
+</Hour>
+<Hour>
 	<Name>20:00</Name>
+</Hour>
+<Hour>
 	<Name>21:00</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>

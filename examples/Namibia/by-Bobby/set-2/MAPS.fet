@@ -7,25 +7,53 @@
 <Comments></Comments>
 
 <Days_List>
-	<Number>5</Number>
+<Number_of_Days>5</Number_of_Days>
+<Day>
 	<Name>Mon</Name>
+</Day>
+<Day>
 	<Name>Tue</Name>
+</Day>
+<Day>
 	<Name>Wed</Name>
+</Day>
+<Day>
 	<Name>Thu</Name>
+</Day>
+<Day>
 	<Name>Fri</Name>
+</Day>
 </Days_List>
 
 <Hours_List>
-	<Number>9</Number>
+<Number_of_Hours>9</Number_of_Hours>
+<Hour>
 	<Name>P1</Name>
+</Hour>
+<Hour>
 	<Name>P2</Name>
+</Hour>
+<Hour>
 	<Name>P3</Name>
+</Hour>
+<Hour>
 	<Name>P4</Name>
+</Hour>
+<Hour>
 	<Name>Brk</Name>
+</Hour>
+<Hour>
 	<Name>P5</Name>
+</Hour>
+<Hour>
 	<Name>P6</Name>
+</Hour>
+<Hour>
 	<Name>P7</Name>
+</Hour>
+<Hour>
 	<Name>P8</Name>
+</Hour>
 </Hours_List>
 
 <Students_List>
