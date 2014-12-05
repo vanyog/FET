@@ -27993,32 +27993,32 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/export.cpp" line="89"/>
         <location filename="../src/engine/export.cpp" line="954"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="91"/>
         <source>File %1 exists - are you sure you want to overwrite existing file?</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл %1 съществува - сигурни ли сте, че искате да запишете върху него?</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="156"/>
         <source>Export aborted</source>
-        <translation type="unfinished"></translation>
+        <translation>Експортирането прекратено</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="173"/>
         <source>CSV files were exported to directory %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>CSV файловете са експортирани в директория %1.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="175"/>
         <source>Exported complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Експортирането задърши</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="177"/>
         <source>Export incomplete</source>
-        <translation type="unfinished"></translation>
+        <translation>Експортирането е непълно</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="277"/>
@@ -28029,58 +28029,59 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/export.cpp" line="294"/>
         <source>FET question</source>
-        <translation type="unfinished"></translation>
+        <translation>Вапрос от FET</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="299"/>
         <source>Please keep the default settings.
 Import of data will be easier with these settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля запазете настройките по подразбиране.
+Импортирането на данни ще бъде по-лесно с тези настройки.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="302"/>
         <source>Please specify the separator between fields:</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, определете разделителя между полетата:</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="309"/>
         <source>Use field separator:</source>
-        <translation type="unfinished"></translation>
+        <translation>Разделител между полетата:</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="316"/>
         <source>Please specify the text quote of text fields:</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, определете символа за заграждане на полетата:</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="323"/>
         <source>Use textquote:</source>
-        <translation type="unfinished"></translation>
+        <translation>Символ за заграждане:</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="330"/>
         <source>Please specify the contents of the first line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, определете съдържанието на първия ред:</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="332"/>
         <source>The first line is the heading.</source>
-        <translation type="unfinished"></translation>
+        <translation>Първият съдържа имената на полетата.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="333"/>
         <source>The first line contains data. Don&apos;t export heading.</source>
-        <translation type="unfinished"></translation>
+        <translation>Първият ред съдържа данни. Няма да се експортират имената на полета.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="339"/>
         <source>OK</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="340"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="458"/>
@@ -28092,7 +28093,7 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/engine/export.cpp" line="994"/>
         <location filename="../src/engine/export.cpp" line="1074"/>
         <source>FET critical. Cannot open file %1 for writing. Please check your disk&apos;s free space. Saving of %1 aborted.</source>
-        <translation type="unfinished"></translation>
+        <translation>FET грешка. Не може да се отвори файл %1 за запис. Моля, проверете мястото на диска. Записването на %1 е прекратено.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="471"/>
@@ -28101,12 +28102,12 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/engine/export.cpp" line="674"/>
         <location filename="../src/engine/export.cpp" line="684"/>
         <source>Warning! Import of activities will fail, because %1 include set separator +.</source>
-        <translation type="unfinished"></translation>
+        <translation>Внимание! Импортирането на дейности ще пропадне, защото %1 съдържа разделител +.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="474"/>
         <source>%1 activity tags exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 етикети на дейности са експортирани.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="476"/>
@@ -28118,42 +28119,42 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/engine/export.cpp" line="1047"/>
         <location filename="../src/engine/export.cpp" line="1157"/>
         <source>FET critical. Writing %1 gave error code %2, which means saving is compromised. Please check your disk&apos;s free space.</source>
-        <translation type="unfinished"></translation>
+        <translation>FET грешка. При запис в %1 - код на грешка %2, което означава, че записа е неуспешен. Моля, проверете свободното място на диска.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="524"/>
         <source>%1 rooms (with buildings) exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 стаи (със сградите) са експортирани.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="526"/>
         <source>Warning! Only %1 of %2 building names are exported, because %3 buildings don&apos;t contain any room.</source>
-        <translation type="unfinished"></translation>
+        <translation>Внимание! Само %1 от %2 сгради са експортирани, защото %3 сгради не съдържат стаи.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="571"/>
         <source>%1 subjects exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 дисциплини са експортирани.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="616"/>
         <source>%1 teachers exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 преподаватели са експортирани.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="689"/>
         <source>%1 years exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 години са експортирани.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="690"/>
         <source>%1 groups exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 групи са експортирани.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="691"/>
         <source>%1 subgroups exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 подгрупи са експортирани.</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="787"/>
@@ -28164,7 +28165,7 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/engine/export.cpp" line="817"/>
         <location filename="../src/engine/export.cpp" line="823"/>
         <source>Note: Constraint</source>
-        <translation type="unfinished"></translation>
+        <translation>Бележка: Ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="787"/>
@@ -28192,22 +28193,22 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/engine/export.cpp" line="851"/>
         <source>different teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>различни преподаватели</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="853"/>
         <source>different subject</source>
-        <translation type="unfinished"></translation>
+        <translation>различни дисциплини</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="855"/>
         <source>different activity tags</source>
-        <translation type="unfinished"></translation>
+        <translation>различни етикети на дейности</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="857"/>
         <source>different students</source>
-        <translation type="unfinished"></translation>
+        <translation>различни студенти</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="859"/>
@@ -28217,12 +28218,12 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/engine/export.cpp" line="861"/>
         <source>different number of students</source>
-        <translation type="unfinished"></translation>
+        <translation>различен брой студенти</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="863"/>
         <source>different active flag</source>
-        <translation type="unfinished"></translation>
+        <translation>различни флагове за активност</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="867"/>
@@ -43938,7 +43939,7 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/engine/rules.cpp" line="11471"/>
         <location filename="../src/engine/rules.cpp" line="15179"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="3742"/>
