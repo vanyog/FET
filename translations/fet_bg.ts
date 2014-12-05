@@ -29426,14 +29426,14 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3659"/>
         <source>Use colors in FET graphical user interface will be %1</source>
         <comment>%1 is true or false</comment>
-        <translation type="unfinished"></translation>
+        <translation>Използването на цветове в грахичния интерфейс на FET ще бъде %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3663"/>
         <location filename="../src/interface/fetmainform.cpp" line="3684"/>
         <source>Language will be %1</source>
         <comment>%1 is the default language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Езикъта ще баде %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3688"/>
@@ -29444,19 +29444,19 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3691"/>
         <source>Working directory will be %1</source>
         <comment>%1 is the directory</comment>
-        <translation type="unfinished"></translation>
+        <translation>Работната директория ще бъде %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3694"/>
         <source>Output directory will be %1</source>
         <comment>%1 is the directory</comment>
-        <translation type="unfinished"></translation>
+        <translation>Изходната директория ще бъде %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3697"/>
         <source>Import directory will be %1</source>
         <comment>%1 is the directory</comment>
-        <translation type="unfinished"></translation>
+        <translation>Входната директория ще бъде %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3700"/>
@@ -29612,24 +29612,24 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="4048"/>
         <source>Choose results (output) directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Избиране на директория за резултати (изход)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="4057"/>
         <source>You don&apos;t have write permissions in this directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Вие нямате право за запис в тази директория</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="4098"/>
         <location filename="../src/interface/fetmainform.cpp" line="4128"/>
         <source>These kinds of constraints are good, but not perfectly optimized. Adding such constraints may make your timetable solve too slow or even impossible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Този тип ограничения са добри, но не са напълно оптимизирани. Добавяне на такова ограничение може да направи генерирането на график много бавно или дори невъзможно.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="4101"/>
         <location filename="../src/interface/fetmainform.cpp" line="4131"/>
         <source>It is recommended to use such constraints only at the end, after you generated successfully with all the other constraints.</source>
-        <translation type="unfinished"></translation>
+        <translation>Препоръчва се да използвате такива ограничения само накрая, след като успешно сте генерирали график с всички останали ограничения.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="4103"/>
@@ -30779,7 +30779,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2050"/>
         <source>Select output directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Избиране на изходна директория</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2055"/>
@@ -30814,12 +30814,12 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2091"/>
         <source>Seed of random number generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Начално число на псевдослучайните редици</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2102"/>
         <source>Use colors in interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Използване на цветове в интерфейса</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2110"/>
@@ -30894,7 +30894,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2217"/>
         <source>Show shortcut buttons in main window</source>
-        <translation type="unfinished"></translation>
+        <translation>Показване на бутони в главния прозорец</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2228"/>
@@ -31017,7 +31017,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2393"/>
         <source>Remember current button group</source>
-        <translation type="unfinished"></translation>
+        <translation>Запомняне текущата група бутони</translation>
     </message>
 </context>
 <context>
@@ -43252,121 +43252,121 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="306"/>
         <source>Random seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Начално число</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="308"/>
         <source>Random seed X component:</source>
         <comment>Means the X component of the random seed (random seed has 2 components, X and Y). Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Начално число X компонента:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="310"/>
         <source>Random seed Y component:</source>
         <comment>Means the Y component of the random seed (random seed has 2 components, X and Y). Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Начално число Y компонента:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="312"/>
         <source>OK</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="314"/>
         <source>Help</source>
-        <translation type="unfinished">Помощ</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="315"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="317"/>
         <location filename="../src/interface/fetmainform.cpp" line="318"/>
         <source>Allowed minimum %1 to maximum %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Позволено от минимум %1 до максимум %2</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="365"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="366"/>
         <source>You can control the random behaviour of FET with this function</source>
-        <translation type="unfinished"></translation>
+        <translation>С тази функция можете да управлявате случайното поведение на FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="367"/>
         <source>The random seed is the state of the random number generator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Началното число е състоянието на генератора на случайни числа.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="368"/>
         <source>It has two components, X and Y.</source>
-        <translation type="unfinished"></translation>
+        <translation>То има две компоненти X и Y.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="369"/>
         <source>X is a value at least %1 and at most %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>X е стойност от %1 до %2.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="370"/>
         <source>Y is a value at least %1 and at most %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Y е стойност от %1 до %2.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="371"/>
         <source>The random seed before the generation of a timetable (the X and Y components) is saved on disk in the corresponding timetables directory, so that you can simulate again the same generation after that.</source>
-        <translation type="unfinished"></translation>
+        <translation>Началното число (X и Y компонентите), преди генерирането на график се запазва на диска в директорията със съответните графици, така че можете да генерирате същите графици и след това.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="373"/>
         <source>Mode of operation: to obtain the same timetable twice, give the random seed two values (say X=1234, Y=12345), then generate single, then make it again the same values (X=1234 and Y=12345), then generate single again. The timetables will be the same. If you generate multiple instead of single, the first set of timetables will be the same as the second set (if you generate the same number of timetables) but of course timetables inside each set will be different. If you enter the same random seed (X and Y) on different computers (but using the same FET version, see note below) and generate single, the timetables will be the same (if you generate multiple, the sets of timetables will correspond, the first timetable from simulation 1 with first timetable from simulation 2, etc.)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ред за работа за получаване отново на същия график: задайте на началното число две стойности (например X=1234, Y=12345), след това ганерирайте единичен график. После задайте същите начални числа (X=1234 и Y=12345) и генерирайте единичен график отново. Графиците ще бъдат еднакви. Ако генерирате множествени вместо единични графици еднакви ще бъдат двата комплекта графици, но разбира се, графиците във всеки комплект ще са различни. Ако въведете еднакви начални числа на различни компютри (но използвайки една и съща версия на FET, вижте забележката по-долу) и тенерирате единични графици, те ще са еднакви (ако генерирате множествени графици, графиците от двата комплекта ще си съответстват, първият гравик от комплект 1 ще съвпада с първия график от комплект 2 и т.н.)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="382"/>
         <source>Note: of course you need exactly the same conditions to duplicate the same simulations (so, you need exactly the same data - activities, constraints, etc.).</source>
-        <translation type="unfinished"></translation>
+        <translation>Забележка: разбира се, трябва да имете напълно аднакви условия, за да повторите еднакво генериране (напълно еднакви данни - дейности, ограничения и т.н.).</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="384"/>
         <source>Note: for different versions of FET, the behavior of generation may be totally different, even for the same data and the same random seed (same X and same Y), due to possible changes in the algorithm. You need to consider this as a precaution.</source>
-        <translation type="unfinished"></translation>
+        <translation>Забележка: за различни версии на FET поради възможна промяна на алгоритъма, генерирането може да е напълно различно, дори и при еднакви данни и еднакви начални числа (аднакви X и Y). Имайте предвид това като предпазна мярка.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="387"/>
         <source>Note: when you start FET, each time, the random seed X is the number of seconds elapsed since 1 January 1970 and the random seed Y is the next number in the Y series, after the number of seconds elapsed since 1 January 1970</source>
-        <translation type="unfinished"></translation>
+        <translation>Забележка: когато стартирате FET, всеки път, началното число X е броя на секундите от 1 януари 1970 г. до момента, а началното число Y е следващото псевдосулчайно число от редицата след броя на секундите от 1 януари 1970 г</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="390"/>
         <source>After you generate (even partially), the random seed (X and Y components) will change (each call of the random number generator updates the random seed components to the next numbers in the sequence, and there are many calls to this random generating routine in the generate function)</source>
-        <translation type="unfinished"></translation>
+        <translation>След като генерирате график (дори и непълно) началното число (X и Y компонентите) ще се променят (всяко създаване на случайно число от генератора прави началното число равно на следващото число от редицата, а се генерират много случайни числа от функцията за генериране на график)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="393"/>
         <source>This setting is useful for more things, maybe one thing is bug report: send you file along with the random seed at the start of generating (the two components, X and Y, are saved in the timetable directory at the start of generation)</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази настройка е полезна за много неща, може би, за съобщаване на бъгове: Изпращайте заедно със своя файл с данни и началното число (двете компоненти X и Y са записани в директорията за графици преди започване на генерирането)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="402"/>
         <location filename="../src/interface/fetmainform.cpp" line="408"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="402"/>
         <source>The random seed X component must be at least %1 and at most %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Началното число X компонента трябва да е от %1 до %2</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="408"/>
         <source>The random seed Y component must be at least %1 and at most %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Началното число Y компонента трябва да е от %1 до %2</translation>
     </message>
 </context>
 <context>
