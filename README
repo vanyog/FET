@@ -1,4 +1,4 @@
-This is FET version 5.24.0-snapshot-3-dec-2014-21_13
+This is FET version 5.24.0-snapshot-5-dec-2014-21_50
 
 
 Program description:
@@ -15,7 +15,8 @@ Program description:
 Requirements:
 
 	FET is created in the following environment: openSUSE 13.2 GNU/Linux distribution, Linux 3.16.6, Xfce 4.10,
-	Midnight Commander 4.8.13, KDiff3 0.9.97, Qt 5.3.2, gcc 4.8.3, g++ 4.8.3, make 4.0, Valgrind 3.10.0, other great free tools.
+	Midnight Commander 4.8.13, KDiff3 0.9.97, Qt 5.3.2, gcc 4.8.3, g++ 4.8.3, make 4.0, Valgrind 3.10.0,
+	Coverity Scan 7.5.0, Cppcheck 1.67, other great free tools.
 	FET can be run on any platform supported by the free software Qt (GNU/Linux, Windows, Mac OS X).
 
 	GNU/Linux, Mac OS X:
@@ -79,13 +80,21 @@ Getting - compiling - installing Qt:
 
 Compiling FET:
 
-	Note: compilation takes long (maybe even 1 hour, if you are using an older computer). The file
+	Note: if after unpacking the tar.bz2 sources archive you obtain some files with incomplete/truncated file names in the sources directories,
+	you might need to use a better (un)packer (probably a recent version of the official tar and bzip2 should be fine).
+	For GNU/Linux and maybe Mac OS X, "tar -jxvf fet-v.v.v.tar.bz2" should work correctly.
+	For Windows, either use a modern good (un)packer, or, advice from a user:
+		1. download mingw-get-setup.exe from http://sourceforge.net/projects/mingw/files
+		2. run mingw-get-setup.exe
+		3. check msys-base to be installed, Apply Changes from Installation menu and close MinGW Installation Manager
+		4. run C:\MinGW\msys\1.0\msys.bat
+		5. $ cd to the directory where the .tar.bz2 file is
+		6. $ tar -jxvf fet-v.v.v.bz2
+
+	Note2: compilation takes long (maybe even 1 hour, if you are using an older computer). The file
 	rules.cpp takes the longest time to compile, maybe even 1 minute or more.
 
-	Note: if after unpacking the tar.bz2 sources archive you obtain some files with incomplete/truncated file names in the sources directories,
-	you might need to use a better unpacker (probably a recent version of the official tar and bzip2 should be fine).
-
-	Note2: the following situation may appear under GNU/Linux, but it could be met also on other platforms.
+	Note3: the following situation may appear under GNU/Linux, but it could be met also on other platforms.
 	Depending on your Qt installation, it may happen that the FET intermediary files and executables are very large (~100 MB for the fet executable
 	instead of ~10 MB). It is not sure if this affects the FET speed and performance, but anyway it is unpleasant. In this case, you may want to
 	modify some files in your system (Qt files) to improve this. You need to change some Qt configuration files and recompile FET from the beginning
@@ -121,7 +130,7 @@ Compiling FET:
 	all the intermediary files and recompile), and also if you did not use FET on this machine or if you remove the settings file/registry entry for FET
 	(otherwise FET will retain the language which was already saved in its settings).
 	
-	Note3: If you get the error:
+	Note4: If you get the error:
 	In file included from ../../Qt5.3.2/5.3/gcc_64/include/QtGui/qopenglcontext.h:62:0,
 		from ../../Qt5.3.2/5.3/gcc_64/include/QtGui/QtGui:32,
 		from ../../Qt5.3.2/5.3/gcc_64/include/QtWidgets/QtWidgetsDepends:3,
@@ -138,7 +147,7 @@ Compiling FET:
 	- You will need Qt 5.3.2 or compatible to compile this program.
 	- type "qmake fet.pro" or simply "qmake". You have to use qmake from Qt 5 series, which on some systems
 	might be named qmake-qt5 (this command is executed very fast, so don't worry if you get immediate return from it)
-	See also notes NUseSystemLocale and Note3 above.
+	See also notes NUseSystemLocale and Note4 above.
 	- type "make" (this takes a long time, maybe even 1 hour). See also note NMkJobs above.
 	To remove the compiled objects/executable: "make clean" and/or "make distclean".
 
@@ -153,7 +162,7 @@ Compiling FET:
 	- IMPORTANT: you might need to write: "qmake -spec macx-g++ fet.pro", if "qmake fet.pro"
 	does not produce a correct makefile. Please see 
 	http://lists.trolltech.com/qt-interest/2007-04/thread01126-0.html for details.
-	See also notes NUseSystemLocale and Note3 above.
+	See also notes NUseSystemLocale and Note4 above.
 	- type "make" (this takes a long time, maybe even 1 hour). See also note NMkJobs above.
 	To remove the compiled objects/executable: "make clean" and/or "make distclean".
 
@@ -171,7 +180,7 @@ Compiling FET:
 	immediate return from it) and then, if you are using MinGW, "mingw32-make" (this takes a long time, maybe even 1 hour)
 	in a command line in the FET directory.
 	See also note NUseSystemLocale above.
-	See also Note3 above.
+	See also Note4 above.
 	See also note NMkJobs above.
 	(You can use the command line prompt of Windows or the Qt command line prompt shortcut in the Qt shortcuts menu.)
 	Then, you can remove the directories "src" and "tmp", to save up space, if you want.

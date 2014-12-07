@@ -1118,7 +1118,6 @@ ConstraintActivitiesSameStartingTime::ConstraintActivitiesSameStartingTime()
 	: TimeConstraint()
 {
 	type=CONSTRAINT_ACTIVITIES_SAME_STARTING_TIME;
-	n_activities=0;
 }
 
 ConstraintActivitiesSameStartingTime::ConstraintActivitiesSameStartingTime(double wp, int nact, const QList<int>& act)
@@ -1424,7 +1423,6 @@ ConstraintActivitiesNotOverlapping::ConstraintActivitiesNotOverlapping()
 	: TimeConstraint()
 {
 	type=CONSTRAINT_ACTIVITIES_NOT_OVERLAPPING;
-	n_activities=0;
 }
 
 ConstraintActivitiesNotOverlapping::ConstraintActivitiesNotOverlapping(double wp, int nact, const QList<int>& act)
@@ -1745,7 +1743,6 @@ ConstraintMinDaysBetweenActivities::ConstraintMinDaysBetweenActivities()
 	: TimeConstraint()
 {
 	type=CONSTRAINT_MIN_DAYS_BETWEEN_ACTIVITIES;
-	n_activities=0;
 }
 
 ConstraintMinDaysBetweenActivities::ConstraintMinDaysBetweenActivities(double wp, bool cisd, int nact, const QList<int>& act, int n)
@@ -2110,7 +2107,6 @@ ConstraintMaxDaysBetweenActivities::ConstraintMaxDaysBetweenActivities()
 	: TimeConstraint()
 {
 	type=CONSTRAINT_MAX_DAYS_BETWEEN_ACTIVITIES;
-	n_activities=0;
 }
 
 ConstraintMaxDaysBetweenActivities::ConstraintMaxDaysBetweenActivities(double wp, int nact, const QList<int>& act, int n)
@@ -2446,7 +2442,6 @@ ConstraintMinGapsBetweenActivities::ConstraintMinGapsBetweenActivities()
 	: TimeConstraint()
 {
 	type=CONSTRAINT_MIN_GAPS_BETWEEN_ACTIVITIES;
-	n_activities=0;
 }
 
 ConstraintMinGapsBetweenActivities::ConstraintMinGapsBetweenActivities(double wp, int nact, const QList<int>& actList, int ngaps)
@@ -11629,7 +11624,6 @@ ConstraintActivitiesSameStartingHour::ConstraintActivitiesSameStartingHour()
 	: TimeConstraint()
 {
 	type=CONSTRAINT_ACTIVITIES_SAME_STARTING_HOUR;
-	n_activities=0;
 }
 
 ConstraintActivitiesSameStartingHour::ConstraintActivitiesSameStartingHour(double wp, int nact, const QList<int>& act)
@@ -11934,7 +11928,6 @@ ConstraintActivitiesSameStartingDay::ConstraintActivitiesSameStartingDay()
 	: TimeConstraint()
 {
 	type=CONSTRAINT_ACTIVITIES_SAME_STARTING_DAY;
-	n_activities=0;
 }
 
 ConstraintActivitiesSameStartingDay::ConstraintActivitiesSameStartingDay(double wp, int nact, const QList<int>& act)

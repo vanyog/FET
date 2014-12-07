@@ -3262,3 +3262,82 @@ Anyway, I'll add this in the TODO, as your suggestion.
 Vanyo Georgiev: May be there must be a setting: 'Remember current page' and each user to choose his own preference. I'll try to do so.
 
 (Vanyo Georgiev provided the necessary code changes to do this.)
+
+205---------------------------------------------------------
+From bharatstank (on forum): ( http://lalescu.ro/liviu/fet/forum/index.php?topic=1826 )
+
+bharatstank:
+
+I have below created a Student structure (having 60 students):-
+
+(Student) Year - Group - Sub Group
+
+Year                    Group                    Sub Group
+MBACPM (60)       MBA CPM L (60)     MBACPM G1 (30)
+                                                       MBACPM G2 (30)
+Activity Tags:
+Lecture
+Tutorial
+Practical
+
+Activities created are as follows:-
+1. MBA CPM L (Lecture) of a SUBJECT1 for 2 hours duration is conducted by a FACULTY1 for all the 60 students
+2. MBA CPM G1 (Tutorial) of a SAME SUBJECT1 for 2 hours is conducted by SAME FACULTY1 for 30 students
+3. MBA CPM G2 (Tutorial) of a SAME SUBJECT1 for 2 hours is conducted by SAME FACULTY1 for 30 students
+4. MBA CPM G1 (Practical) of a SAME SUBJECT1 for 2 hours is conducted by SAME FACULTY1 for 30 students
+5. MBA CPM G2 (Practical) of a SAME SUBJECT1 for 2 hours is conducted by SAME FACULTY1 for 30 students
+
+6. MBA CPM L (Lecture) of a SUBJECT2 for 2 hours duration is conducted by a FACULTY2 for all the 60 students
+7. MBA CPM G1 (Tutorial) of a SAME SUBJECT2 for 2 hours is conducted by SAME FACULTY2 for 30 students
+8. MBA CPM G2 (Tutorial) of a SAME SUBJECT2 for 2 hours is conducted by SAME FACULTY2 for 30 students
+9. MBA CPM G1 (Practical) of a SAME SUBJECT2 for 2 hours is conducted by SAME FACULTY2 for 30 students
+10. MBA CPM G2 (Practical) of a SAME SUBJECT2 for 2 hours is conducted by SAME FACULTY2 for 30 students
+
+and so on...
+
+How to place the activities - so that:-
+1. For Subject1 - Lecture followed by Tutorial followed by Practical is conducted in sequence in a day and FET do NOT place tutorial or practical before Lecture
+
+I want to use this process as a template for every subject (Lecture -> Tutorial -> Practical). So that FET places all the possible activities according to this template.  and constraints are only applied in case of specific activities or exceptions.
+
+How to achieve this scenario.
+
+---
+
+Liviu:
+
+I am not sure I understand well, but I think you can use a constraint three activities grouped and two constraints two activities ordered.
+
+---
+
+bharatstank:
+
+using "constraint three activities grouped and two constraints two activities ordered." - here I need to create manual constraints for all the approx. 200 activities.
+
+is there a way - where I can create a Standardised constraints using Activity Tag.
+I have defined 3 activity tag (which needs to follow the below sequence):-
+1. Lecture
+2. Tutorial
+3. Practical
+
+As per the guideline - for subject1 - First lecture is conducted, Then its Tutorial is conducted and then its Practical is conducted.
+
+In my case FET does not places activity like (Subject1 lecture -> Subject1 Tutorial -> Subject1 Practical) in sequence but most of the time it places the activity like (Subject1 Lecture -> Subject2 Tutorial -> Subject3 Practical or vice versa)
+
+how to resolve this issue.
+I have also attached the timetable screenshot:-
+
+1. Correctly placed activity shown in Green circle
+2. Wrongly placed activity shown in Red Circle
+
+Here it is not important that Subject1 (lecture, Tutorial, Practical) should be consecutive but has to follow activity tag order (for a particular subject). otherwise timetable starts with Tutorial or Practical without Lecture - which is not feasible.
+
+---
+
+Liviu:
+
+I do not understand the picture in your attachment.
+
+If it is not important that the three kinds of activities are grouped, you might need to add only two constraints two activities ordered. You might want to add also a constraint activities same starting day.
+
+About making this automatic for activity tags - I have added this in the TODO list.

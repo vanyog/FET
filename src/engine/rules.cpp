@@ -5783,12 +5783,15 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 				}
 			}
 			if(!xmlReader.error()){
-				if(!numberWasFound)
+				if(!numberWasFound){
 					xmlReader.raiseError(tr("%1 not found").arg(numberString));
-				else if(!(tmp==nDaysPerWeek))
-					xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Days_List").arg(numberString).arg(dayString));
-				else
-					assert(tmp==this->nDaysPerWeek);
+				}
+				else{
+					if(!(tmp==nDaysPerWeek))
+						xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Days_List").arg(numberString).arg(dayString));
+					else
+						assert(tmp==this->nDaysPerWeek);
+				}
 			}
 		}
 		else if(xmlReader.name()=="Hours_List"){
@@ -5861,21 +5864,24 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 				}
 			}
 			if(!xmlReader.error()){
-				if(!numberWasFound)
+				if(!numberWasFound){
 					xmlReader.raiseError(tr("%1 not found").arg(numberString));
-				else if(numberString=="Number"){
-					//some older files contain also the end of day hour, so tmp==nHoursPerDay+1 in this case
-					if(!(tmp==nHoursPerDay || tmp==nHoursPerDay+1))
-						xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg(numberString).arg(hourString));
-					else
-						assert(tmp==nHoursPerDay || tmp==nHoursPerDay+1);
 				}
 				else{
-					assert(numberString=="Number_of_Hours");
-					if(!(tmp==nHoursPerDay))
-						xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg(numberString).arg(hourString));
-					else
-						assert(tmp==nHoursPerDay);
+					if(numberString=="Number"){
+						//some older files contain also the end of day hour, so tmp==nHoursPerDay+1 in this case
+						if(!(tmp==nHoursPerDay || tmp==nHoursPerDay+1))
+							xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg(numberString).arg(hourString));
+						else
+							assert(tmp==nHoursPerDay || tmp==nHoursPerDay+1);
+					}
+					else{
+						assert(numberString=="Number_of_Hours");
+						if(!(tmp==nHoursPerDay))
+							xmlReader.raiseError(tr("%1: %2 and the number of %3 read do not correspond").arg("Hours_List").arg(numberString).arg(hourString));
+						else
+							assert(tmp==nHoursPerDay);
+					}
 				}
 			}
 		}
@@ -9401,6 +9407,7 @@ TimeConstraint* Rules::readMinNDaysBetweenActivities(QWidget* parent, QXmlStream
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintMinNDaysBetweenActivities");
 	
 	ConstraintMinDaysBetweenActivities* cn=new ConstraintMinDaysBetweenActivities();
+	cn->n_activities=0;
 	bool foundCISD=false;
 	int n_act=0;
 	cn->activitiesId.clear();
@@ -9539,6 +9546,7 @@ TimeConstraint* Rules::readMinDaysBetweenActivities(QWidget* parent, QXmlStreamR
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintMinDaysBetweenActivities");
 	
 	ConstraintMinDaysBetweenActivities* cn=new ConstraintMinDaysBetweenActivities();
+	cn->n_activities=0;
 	bool foundCISD=false;
 	int n_act=0;
 	cn->activitiesId.clear();
@@ -9677,6 +9685,7 @@ TimeConstraint* Rules::readMaxDaysBetweenActivities(QXmlStreamReader& xmlReader,
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintMaxDaysBetweenActivities");
 	
 	ConstraintMaxDaysBetweenActivities* cn=new ConstraintMaxDaysBetweenActivities();
+	cn->n_activities=0;
 	int n_act=0;
 	cn->activitiesId.clear();
 	while(xmlReader.readNextStartElement()){
@@ -9732,6 +9741,7 @@ TimeConstraint* Rules::readMaxDaysBetweenActivities(QXmlStreamReader& xmlReader,
 TimeConstraint* Rules::readMinGapsBetweenActivities(QXmlStreamReader& xmlReader, FakeString& xmlReadingLog){
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintMinGapsBetweenActivities");
 	ConstraintMinGapsBetweenActivities* cn=new ConstraintMinGapsBetweenActivities();
+	cn->n_activities=0;
 	int n_act=0;
 	cn->activitiesId.clear();
 	while(xmlReader.readNextStartElement()){
@@ -9786,6 +9796,7 @@ TimeConstraint* Rules::readMinGapsBetweenActivities(QXmlStreamReader& xmlReader,
 TimeConstraint* Rules::readActivitiesNotOverlapping(QXmlStreamReader& xmlReader, FakeString& xmlReadingLog){
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintActivitiesNotOverlapping");
 	ConstraintActivitiesNotOverlapping* cn=new ConstraintActivitiesNotOverlapping();
+	cn->n_activities=0;
 	int n_act=0;
 	cn->activitiesId.clear();
 	while(xmlReader.readNextStartElement()){
@@ -9855,6 +9866,7 @@ TimeConstraint* Rules::readActivitiesNotOverlapping(QXmlStreamReader& xmlReader,
 TimeConstraint* Rules::readActivitiesSameStartingTime(QXmlStreamReader& xmlReader, FakeString& xmlReadingLog){
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintActivitiesSameStartingTime");
 	ConstraintActivitiesSameStartingTime* cn=new ConstraintActivitiesSameStartingTime();
+	cn->n_activities=0;
 	int n_act=0;
 	cn->activitiesId.clear();
 	while(xmlReader.readNextStartElement()){
@@ -9924,6 +9936,7 @@ TimeConstraint* Rules::readActivitiesSameStartingTime(QXmlStreamReader& xmlReade
 TimeConstraint* Rules::readActivitiesSameStartingHour(QXmlStreamReader& xmlReader, FakeString& xmlReadingLog){
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintActivitiesSameStartingHour");
 	ConstraintActivitiesSameStartingHour* cn=new ConstraintActivitiesSameStartingHour();
+	cn->n_activities=0;
 	int n_act=0;
 	cn->activitiesId.clear();
 	while(xmlReader.readNextStartElement()){
@@ -9993,6 +10006,7 @@ TimeConstraint* Rules::readActivitiesSameStartingHour(QXmlStreamReader& xmlReade
 TimeConstraint* Rules::readActivitiesSameStartingDay(QXmlStreamReader& xmlReader, FakeString& xmlReadingLog){
 	assert(xmlReader.isStartElement() && xmlReader.name()=="ConstraintActivitiesSameStartingDay");
 	ConstraintActivitiesSameStartingDay* cn=new ConstraintActivitiesSameStartingDay();
+	cn->n_activities=0;
 	int n_act=0;
 	cn->activitiesId.clear();
 	while(xmlReader.readNextStartElement()){
