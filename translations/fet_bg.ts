@@ -11433,62 +11433,62 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="44"/>
         <source>Constraints</source>
-        <translation type="unfinished">Ограничения</translation>
+        <translation>Ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="61"/>
         <source>Current constraint</source>
-        <translation type="unfinished">Текущо ограничение</translation>
+        <translation>Текущо ограничение</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="76"/>
         <source>Filter</source>
-        <translation type="unfinished">Филтър</translation>
+        <translation>Филтър</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="82"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="95"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="108"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="121"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="139"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="146"/>
         <source>Modify</source>
-        <translation type="unfinished">Променяне</translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="153"/>
         <source>Remove</source>
-        <translation type="unfinished">Изтриване</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="160"/>
         <source>Help</source>
-        <translation type="unfinished">Помощ</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform_template.ui" line="167"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -11628,57 +11628,57 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="26"/>
         <source>Constraints</source>
-        <translation type="unfinished">Ограничения</translation>
+        <translation>Ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="36"/>
         <source>Current constraint</source>
-        <translation type="unfinished">Текущо ограничение</translation>
+        <translation>Текущо ограничение</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="52"/>
         <source>Filter</source>
-        <translation type="unfinished">Филтър</translation>
+        <translation>Филтър</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="58"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="71"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="84"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="97"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="115"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="122"/>
         <source>Modify</source>
-        <translation type="unfinished">Променяне</translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="129"/>
         <source>Remove</source>
-        <translation type="unfinished">Изтриване</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintactivitiesnotoverlappingform_template.ui" line="136"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -11741,12 +11741,12 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/spaceconstraint.cpp" line="7042"/>
         <source>Active=%1</source>
         <comment>Refers to a constraint</comment>
-        <translation type="unfinished">Активна=%1</translation>
+        <translation>Активна=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7046"/>
         <source>Comments=%1</source>
-        <translation type="unfinished">Бележки=%1</translation>
+        <translation>Бележки=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7084"/>
