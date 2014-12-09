@@ -38,22 +38,22 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="409"/>
         <source>different teachers</source>
-        <translation type="unfinished">различни преподаватели</translation>
+        <translation>различни преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="411"/>
         <source>different subject</source>
-        <translation type="unfinished">различни дисциплини</translation>
+        <translation>различни дисциплини</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="413"/>
         <source>different activity tags</source>
-        <translation type="unfinished">различни етикети на дейности</translation>
+        <translation>различни етикети на дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="415"/>
         <source>different students</source>
-        <translation type="unfinished">различни студенти</translation>
+        <translation>различни студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="417"/>
@@ -63,7 +63,7 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="419"/>
         <source>different number of students</source>
-        <translation type="unfinished">различен брой студенти</translation>
+        <translation>различен брой студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="422"/>
@@ -181,12 +181,12 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="578"/>
         <source>OK</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="580"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -29808,7 +29808,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="416"/>
         <source>Break</source>
         <comment>Refers to break constraints (it is a button in the shortcuts tab on main form)</comment>
-        <translation type="unfinished"></translation>
+        <translation>Прекъсване</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="444"/>
@@ -30145,19 +30145,19 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1403"/>
         <source>View (&amp;students)</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Generate new, View (&amp;teachers), View (&amp;students), View (&amp;rooms), Show soft &amp;conflicts, &amp;Print, Generate &amp;multiple, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Преглед (&amp;студенти)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1408"/>
         <source>View (&amp;teachers)</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Generate new, View (&amp;teachers), View (&amp;students), View (&amp;rooms), Show soft &amp;conflicts, &amp;Print, Generate &amp;multiple, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Преглед (&amp;преподаватели)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1413"/>
         <source>Show soft &amp;conflicts</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Generate new, View (&amp;teachers), View (&amp;students), View (&amp;rooms), Show soft &amp;conflicts, &amp;Print, Generate &amp;multiple, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Преглед на слабите &amp;конфликти</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1418"/>
