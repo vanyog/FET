@@ -33,7 +33,7 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="400"/>
         <source>Cannot modify this large activity, because it contains more than %1 activities.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не можете да промените тази голяма дейност, защото тя съдържа повече от %1 дейности.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="409"/>
@@ -68,12 +68,12 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="422"/>
         <source>The current split activity has subactivities which were individually modified. It is recommended to abort now and modify individual subactivities from the corresponding menu. Otherwise you will modify the fields for all the subactivities from this larger split activity.</source>
-        <translation type="unfinished"></translation>
+        <translation>Текущата разделена дейност има поддейности, които са променени поотделно. Препоръчва се сега да прекъснете и да промените отделните поддейности от съответното меню. Иначе ще промените полетата за всички поддейности на тази голяма дейност.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="426"/>
         <source>The fields which are different are: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Различните полета са: %1</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
@@ -83,12 +83,12 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Прекъсване</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="428"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Продължаване</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="473"/>
@@ -138,45 +138,45 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="541"/>
         <source>Explanation of the short description of an activity: first comes the id. If the activity is inactive, an X follows. Then the duration. Then, if the activity is split, a slash and the total duration. Then teachers, subject, activity tag (if it is not void) and students. Then the number of students (if specified).</source>
-        <translation type="unfinished"></translation>
+        <translation>Обяснение на едноредовото описание на всяка дейност от списъка: Пръв стои номера на дейността. Ако дейността не е активирана, след номера има Х. Следва продължителността. Ако дейността е разделена, има и наклонена черта и след нея - общата продължителност. Следват: преподавателите, дисциплините, етикетите на дейности (ако не са празни) и студентите. Накрая - броя на студентите (ако е зададен).</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="545"/>
         <source>The activities which are inactive:</source>
         <comment>This is the help for activities which are inactive, after this field there come explanations for how inactive activities are displayed.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Дейности, които не са активирани:</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="548"/>
         <source>have an X mark after the id.</source>
         <comment>It refers to inactive activities, which have this mark after the id.</comment>
-        <translation type="unfinished"></translation>
+        <translation>имат знак Х след номера си.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="551"/>
         <source>if you use colors in interface (see Settings/Interface menu), they will appear with different background color.</source>
         <comment>It refers to inactive activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>ако използвате цветове в интерфейса (вижте меню &quot;Настройки&quot;-&quot;Интерфейс&quot;), те ще се виждат на различен цветен фон.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="553"/>
         <source>To modify an activity, you can also double click it.</source>
-        <translation type="unfinished"></translation>
+        <translation>За да промените някоя поддейност, можете също да щракнете двойно върху нея.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="555"/>
         <source>Show related: if you select this, there will be listed activities for groups and subgroups contained also in the current set (if the current set is a year or a group) and also higher ranked year or group (if the current set is a group or a subgroup).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако сте избрали &quot;Показване на съответните&quot; ще се показват и поддейностите за групите и подгрупите, садържащи се в текущото множество (ако текущото множество е година или група) и също годината или групата от по-висок раанг (ако текущото множество е група или подгрупа).</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="558"/>
         <source>FET Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Помощ за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="576"/>
         <source>Activity comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Бележки за дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="578"/>
@@ -1330,7 +1330,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addactivityform_template.ui" line="154"/>
         <source>Activity tags</source>
-        <translation type="unfinished">Етикети на дейности</translation>
+        <translation>Етикети на дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addactivityform_template.ui" line="171"/>
@@ -1663,17 +1663,17 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="50"/>
         <source>Could not insert item. Must be a duplicate</source>
-        <translation type="unfinished">Не може да се вмъкне. Трябва да се дублира</translation>
+        <translation>Не може да се вмъкне. Трябва да се дублира</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="54"/>
         <source>Building insertion dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Диалог за вмъкване на сграда</translation>
     </message>
     <message>
         <location filename="../src/interface/addbuildingform.cpp" line="55"/>
         <source>Building added</source>
-        <translation type="unfinished"></translation>
+        <translation>Сградата е добавена</translation>
     </message>
 </context>
 <context>
@@ -1712,12 +1712,12 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="111"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="116"/>
         <source>Invalid weight (percentage) - must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation>Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="140"/>
@@ -1924,7 +1924,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="181"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="187"/>
@@ -2149,7 +2149,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesoccupymaxtimeslotsfromselectionform.cpp" line="280"/>
         <source>Empty list of activities</source>
-        <translation type="unfinished">Празен списък дейности</translation>
+        <translation>Празен списък дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesoccupymaxtimeslotsfromselectionform.cpp" line="295"/>
@@ -2268,7 +2268,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredstartingtimesform.cpp" line="257"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredstartingtimesform.cpp" line="282"/>
@@ -2407,7 +2407,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredtimeslotsform.cpp" line="257"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredtimeslotsform.cpp" line="282"/>
@@ -2645,17 +2645,17 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform.cpp" line="182"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform.cpp" line="188"/>
         <source>Empty list of simultaneous activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък едновременни дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform.cpp" line="193"/>
         <source>Only one selected activity - impossible</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Само една избрана дейност - невъзможно</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform.cpp" line="211"/>
@@ -2753,7 +2753,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform.cpp" line="183"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform.cpp" line="189"/>
@@ -3009,7 +3009,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivityendsstudentsdayform.cpp" line="173"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivityendsstudentsdayform.cpp" line="178"/>
@@ -3110,7 +3110,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomform.cpp" line="215"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomform.cpp" line="224"/>
@@ -3206,7 +3206,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="192"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="198"/>
@@ -3314,7 +3314,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimeform.cpp" line="190"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimeform.cpp" line="197"/>
@@ -3434,7 +3434,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimesform.cpp" line="317"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimesform.cpp" line="329"/>
@@ -3547,7 +3547,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredtimeslotsform.cpp" line="316"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredtimeslotsform.cpp" line="328"/>
@@ -3661,7 +3661,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="79"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="94"/>
@@ -3671,7 +3671,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="102"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="111"/>
@@ -3700,7 +3700,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform_template.ui" line="50"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform_template.ui" line="89"/>
@@ -3732,7 +3732,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="84"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="90"/>
@@ -3813,7 +3813,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform.cpp" line="56"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform.cpp" line="62"/>
@@ -3869,7 +3869,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform.cpp" line="56"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform.cpp" line="62"/>
@@ -3998,7 +3998,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform.cpp" line="193"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform.cpp" line="199"/>
@@ -4112,7 +4112,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintmindaysbetweenactivitiesform.cpp" line="187"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmindaysbetweenactivitiesform.cpp" line="193"/>
@@ -4263,7 +4263,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintmingapsbetweenactivitiesform.cpp" line="189"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmingapsbetweenactivitiesform.cpp" line="195"/>
@@ -4405,13 +4405,14 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="47"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="70"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="95"/>
@@ -4454,7 +4455,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="73"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="82"/>
@@ -4494,7 +4495,8 @@ force activities consecutive</source>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform_template.ui" line="118"/>
@@ -4524,7 +4526,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="73"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="82"/>
@@ -4564,7 +4566,8 @@ force activities consecutive</source>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform_template.ui" line="118"/>
@@ -4595,12 +4598,12 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsearlymaxbeginningsatsecondhourform.cpp" line="62"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsearlymaxbeginningsatsecondhourform.cpp" line="67"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsearlymaxbeginningsatsecondhourform.cpp" line="76"/>
@@ -4674,7 +4677,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform.cpp" line="93"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform.cpp" line="98"/>
@@ -4870,7 +4873,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxdaysperweekform.cpp" line="64"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxdaysperweekform.cpp" line="69"/>
@@ -5064,7 +5067,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhourscontinuouslyform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhourscontinuouslyform.cpp" line="71"/>
@@ -5089,7 +5092,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintstudentsmaxhourscontinuouslyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhourscontinuouslyform_template.ui" line="56"/>
@@ -5119,7 +5123,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhoursdailyform.cpp" line="61"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhoursdailyform.cpp" line="72"/>
@@ -5144,7 +5148,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintstudentsmaxhoursdailyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhoursdailyform_template.ui" line="56"/>
@@ -5241,7 +5246,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsminhoursdailyform.cpp" line="65"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsminhoursdailyform.cpp" line="70"/>
@@ -5337,7 +5342,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="96"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="105"/>
@@ -5348,7 +5353,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="106"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="113"/>
@@ -5419,7 +5424,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="97"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="106"/>
@@ -5430,7 +5435,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="107"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="114"/>
@@ -5503,17 +5508,17 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="79"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="84"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="92"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="101"/>
@@ -5649,7 +5654,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="92"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="98"/>
@@ -5734,7 +5739,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="115"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="120"/>
@@ -5744,7 +5749,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="130"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="138"/>
@@ -5834,7 +5839,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperdayform.cpp" line="92"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperdayform.cpp" line="101"/>
@@ -5899,7 +5904,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperweekform.cpp" line="92"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperweekform.cpp" line="101"/>
@@ -5960,7 +5965,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="87"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="92"/>
@@ -5970,7 +5975,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="102"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="111"/>
@@ -6397,7 +6402,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetminhoursdailyform.cpp" line="89"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetminhoursdailyform.cpp" line="94"/>
@@ -6423,7 +6428,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetminhoursdailyform.cpp" line="114"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetminhoursdailyform.cpp" line="123"/>
@@ -6606,7 +6611,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform.cpp" line="244"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform.cpp" line="278"/>
@@ -6718,7 +6723,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="245"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="279"/>
@@ -6833,7 +6838,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="91"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="98"/>
@@ -6848,7 +6853,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="114"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="123"/>
@@ -6882,7 +6887,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform_template.ui" line="72"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform_template.ui" line="111"/>
@@ -6915,7 +6920,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="90"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="96"/>
@@ -7007,7 +7012,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform.cpp" line="79"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform.cpp" line="86"/>
@@ -7017,7 +7022,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform.cpp" line="94"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform.cpp" line="103"/>
@@ -7046,7 +7051,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform_template.ui" line="50"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform_template.ui" line="89"/>
@@ -7078,7 +7083,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="83"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="89"/>
@@ -7158,7 +7163,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="81"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="89"/>
@@ -7209,7 +7214,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform_template.ui" line="109"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform_template.ui" line="150"/>
@@ -7239,7 +7245,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform.cpp" line="82"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform.cpp" line="90"/>
@@ -7290,7 +7296,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform_template.ui" line="109"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform_template.ui" line="150"/>
@@ -7321,12 +7328,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomform.cpp" line="76"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomform.cpp" line="86"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomform.cpp" line="95"/>
@@ -7350,7 +7357,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomform_template.ui" line="28"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomform_template.ui" line="54"/>
@@ -7386,7 +7393,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="82"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="88"/>
@@ -7471,7 +7478,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherintervalmaxdaysperweekform.cpp" line="106"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherintervalmaxdaysperweekform.cpp" line="111"/>
@@ -7697,7 +7704,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform.cpp" line="78"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform.cpp" line="83"/>
@@ -7769,12 +7776,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperdayform.cpp" line="71"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperdayform.cpp" line="76"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperdayform.cpp" line="84"/>
@@ -7846,12 +7853,12 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperweekform.cpp" line="71"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperweekform.cpp" line="76"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperweekform.cpp" line="84"/>
@@ -7922,7 +7929,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhourscontinuouslyform.cpp" line="75"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhourscontinuouslyform.cpp" line="83"/>
@@ -7957,7 +7964,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachermaxhourscontinuouslyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhourscontinuouslyform_template.ui" line="118"/>
@@ -7988,7 +7996,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhoursdailyform.cpp" line="75"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhoursdailyform.cpp" line="83"/>
@@ -8023,7 +8031,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachermaxhoursdailyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhoursdailyform_template.ui" line="118"/>
@@ -8055,7 +8064,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermindaysperweekform.cpp" line="72"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermindaysperweekform.cpp" line="77"/>
@@ -8194,7 +8203,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherminhoursdailyform.cpp" line="75"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherminhoursdailyform.cpp" line="80"/>
@@ -8385,7 +8394,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="73"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="81"/>
@@ -8426,7 +8435,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform_template.ui" line="80"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform_template.ui" line="121"/>
@@ -8455,7 +8465,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform.cpp" line="74"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform.cpp" line="82"/>
@@ -8496,7 +8506,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform_template.ui" line="80"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform_template.ui" line="121"/>
@@ -8535,7 +8546,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersintervalmaxdaysperweekform.cpp" line="92"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersintervalmaxdaysperweekform.cpp" line="97"/>
@@ -8728,7 +8739,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxdaysperweekform.cpp" line="64"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxdaysperweekform.cpp" line="69"/>
@@ -8788,12 +8799,12 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperdayform.cpp" line="62"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperdayform.cpp" line="67"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperdayform.cpp" line="76"/>
@@ -8854,12 +8865,12 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperweekform.cpp" line="62"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperweekform.cpp" line="67"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperweekform.cpp" line="76"/>
@@ -8919,7 +8930,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhourscontinuouslyform.cpp" line="66"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhourscontinuouslyform.cpp" line="77"/>
@@ -8944,7 +8955,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachersmaxhourscontinuouslyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhourscontinuouslyform_template.ui" line="56"/>
@@ -8974,7 +8986,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhoursdailyform.cpp" line="66"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhoursdailyform.cpp" line="77"/>
@@ -8999,7 +9011,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachersmaxhoursdailyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhoursdailyform_template.ui" line="56"/>
@@ -9030,7 +9043,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmindaysperweekform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmindaysperweekform.cpp" line="65"/>
@@ -9146,7 +9159,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersminhoursdailyform.cpp" line="66"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersminhoursdailyform.cpp" line="71"/>
@@ -9229,7 +9242,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintthreeactivitiesgroupedform.cpp" line="188"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintthreeactivitiesgroupedform.cpp" line="198"/>
@@ -9306,7 +9319,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintthreeactivitiesgroupedform_template.ui" line="216"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintthreeactivitiesgroupedform_template.ui" line="238"/>
@@ -9334,7 +9348,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesconsecutiveform.cpp" line="185"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesconsecutiveform.cpp" line="195"/>
@@ -9405,7 +9419,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstrainttwoactivitiesconsecutiveform_template.ui" line="177"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesconsecutiveform_template.ui" line="199"/>
@@ -9433,7 +9448,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesgroupedform.cpp" line="185"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesgroupedform.cpp" line="195"/>
@@ -9504,7 +9519,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstrainttwoactivitiesgroupedform_template.ui" line="177"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesgroupedform_template.ui" line="199"/>
@@ -9532,7 +9548,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesorderedform.cpp" line="185"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesorderedform.cpp" line="195"/>
@@ -9603,7 +9619,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstrainttwoactivitiesorderedform_template.ui" line="177"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesorderedform_template.ui" line="199"/>
@@ -10424,7 +10441,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="466"/>
         <source>FET critical</source>
-        <translation type="unfinished">FET грешка</translation>
+        <translation>FET грешка</translation>
     </message>
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="466"/>
@@ -10439,17 +10456,17 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="504"/>
         <source>FET confirmation</source>
-        <translation type="unfinished">Информация от FET</translation>
+        <translation>Потвърждаване за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="505"/>
         <source>Yes</source>
-        <translation type="unfinished">Да</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="505"/>
         <source>No</source>
-        <translation type="unfinished">Не</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="513"/>
@@ -10470,7 +10487,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="520"/>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="672"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="539"/>
@@ -10506,12 +10523,12 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="745"/>
         <source>OK</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/allspaceconstraintsform.cpp" line="747"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -10583,7 +10600,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="977"/>
         <source>%1 / %2 time constraints</source>
         <comment>%1 represents the number of visible active time constraints, %2 represents the total number of visible time constraints</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2 времеви ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="333"/>
@@ -10606,7 +10623,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="742"/>
         <source>FET critical</source>
-        <translation type="unfinished">FET грешка</translation>
+        <translation>FET грешка</translation>
     </message>
     <message>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="742"/>
@@ -10652,7 +10669,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="799"/>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="951"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="818"/>
@@ -10688,12 +10705,12 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="1024"/>
         <source>OK</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="1026"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -11148,7 +11165,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15750"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15753"/>
@@ -11312,7 +11329,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17939"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17940"/>
@@ -11546,7 +11563,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1558"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1559"/>
@@ -11719,7 +11736,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7031"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7032"/>
@@ -11756,7 +11773,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7086"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -11958,7 +11975,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17570"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17571"/>
@@ -12286,7 +12303,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10961"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10964"/>
@@ -12541,7 +12558,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9690"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9693"/>
@@ -12678,7 +12695,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7303"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7304"/>
@@ -12710,7 +12727,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7366"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -12867,7 +12884,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12065"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12066"/>
@@ -13052,7 +13069,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11760"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11761"/>
@@ -13217,7 +13234,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1255"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1256"/>
@@ -13416,7 +13433,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13499"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13500"/>
@@ -13598,7 +13615,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="845"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="847"/>
@@ -13641,7 +13658,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="911"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -13801,7 +13818,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1099"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1101"/>
@@ -13834,7 +13851,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1162"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -14027,7 +14044,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8957"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8959"/>
@@ -14232,7 +14249,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10529"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10532"/>
@@ -14438,7 +14455,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9248"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9251"/>
@@ -14613,7 +14630,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3432"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3433"/>
@@ -14645,7 +14662,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3494"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -14778,7 +14795,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3678"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3679"/>
@@ -14810,7 +14827,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3747"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -14903,7 +14920,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="151"/>
         <source>Basic compulsory constraints (space)</source>
-        <translation type="unfinished"></translation>
+        <translation>Основни задължителни ограничения (пространствени)</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="153"/>
@@ -14914,70 +14931,70 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="162"/>
         <source>These are the basic compulsory constraints (referring to rooms allocation) for any timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Това са основни задължителни ограничения, отнясащи се до ползването на стаите за всички графици</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="163"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Процентно тегло=%1%</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="165"/>
         <source>The basic space constraints try to avoid:</source>
-        <translation type="unfinished"></translation>
+        <translation>Основните задължителни пространствени ограничения осигуряват:</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="166"/>
         <source>rooms assigned to more than one activity simultaneously</source>
-        <translation type="unfinished"></translation>
+        <translation>да не се сложат дейности в една и съща стая по едно и също време</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="167"/>
         <source>activities with more students than the capacity of the room</source>
-        <translation type="unfinished"></translation>
+        <translation>да не се сложат дейности в стаи с недостатъчно места</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="170"/>
         <source>Active=%1</source>
         <comment>Refers to a constraint</comment>
-        <translation type="unfinished">Активна=%1</translation>
+        <translation>Активно=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="174"/>
         <source>Comments=%1</source>
-        <translation type="unfinished">Бележки=%1</translation>
+        <translation>Бележки=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="278"/>
         <source>Space constraint basic compulsory broken: unallocated activity with id=%1 (%2)</source>
         <comment>%2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation>Нарушено е основно задължително пространствено ограничение: дайност №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="281"/>
         <source>this increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>това увеличава броя на конфликтите с %1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="309"/>
         <source>Space constraint basic compulsory: room %1 has allocated activity with id %2 (%3) and the capacity of the room is overloaded</source>
         <comment>%2 is act id, %3 is detailed description of activity</comment>
-        <translation type="unfinished"></translation>
+        <translation>Основно пространствено ограничение: в стая %1 е сложена дейност № %2 (%3) и е надхвърлен капацитета на стаята</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="315"/>
         <source>This increases conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Това увеличава броя на конфликтите с %1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="334"/>
         <source>Space constraint basic compulsory: room with name %1 has more than one allocated activity on day %2, hour %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Основно пространствено ограничение: в стая %1 са сложени повече от една дейности в ден %2, час %3.</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="339"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -14986,7 +15003,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="112"/>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="139"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="112"/>
@@ -15002,17 +15019,17 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="150"/>
         <source>FET confirmation</source>
-        <translation type="unfinished">Информация от FET</translation>
+        <translation>Потвърждаване за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="151"/>
         <source>Yes</source>
-        <translation type="unfinished">Да</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="151"/>
         <source>No</source>
-        <translation type="unfinished">Не</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="158"/>
@@ -15032,7 +15049,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform.cpp" line="165"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
 </context>
 <context>
@@ -15046,32 +15063,32 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="28"/>
         <source>Constraints</source>
-        <translation type="unfinished">Ограничения</translation>
+        <translation>Ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="45"/>
         <source>Current constraint</source>
-        <translation type="unfinished">Текущо ограничение</translation>
+        <translation>Текущо ограничение</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="62"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="69"/>
         <source>Modify</source>
-        <translation type="unfinished">Променяне</translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished">Изтриване</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="83"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -15085,7 +15102,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="192"/>
         <source>Basic compulsory constraints (time)</source>
-        <translation type="unfinished"></translation>
+        <translation>Основни задължителни ограничения (време)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="192"/>
@@ -15096,78 +15113,78 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="199"/>
         <source>These are the basic compulsory constraints (referring to time allocation) for any timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Това са основни задължителни ограничения, отнясащи се до времето на дейностите за всички графици</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="202"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation>Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="203"/>
         <source>The basic time constraints try to avoid:</source>
-        <translation type="unfinished"></translation>
+        <translation>Основните задължителни времеви ограничения осигуряват:</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="204"/>
         <source>teachers assigned to more than one activity simultaneously</source>
-        <translation type="unfinished"></translation>
+        <translation>преподавателите да нямат повече от една дейност по едно и също време</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="205"/>
         <source>students assigned to more than one activity simultaneously</source>
-        <translation type="unfinished"></translation>
+        <translation>студентите да нямат повече от една дейност по едно и също време</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="208"/>
         <source>Active=%1</source>
         <comment>Refers to a constraint</comment>
-        <translation type="unfinished">Активна=%1</translation>
+        <translation>Активно=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="212"/>
         <source>Comments=%1</source>
-        <translation type="unfinished">Бележки=%1</translation>
+        <translation>Бележки=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="326"/>
         <source>Time constraint basic compulsory broken: unallocated activity with id=%1 (%2)</source>
         <comment>%2 is the detailed description of activity - teachers, subject, students</comment>
-        <translation type="unfinished"></translation>
+        <translation>Нарушено е основно задължително времево ограничение: дайност №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="330"/>
         <source>this increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>това увеличава броя на конфликтите с %1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="356"/>
         <location filename="../src/engine/timeconstraint.cpp" line="387"/>
         <location filename="../src/engine/timeconstraint.cpp" line="417"/>
         <source>Time constraint basic compulsory</source>
-        <translation type="unfinished"></translation>
+        <translation>Основно задължително времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="358"/>
         <source>activity with id=%1 is late.</source>
-        <translation type="unfinished"></translation>
+        <translation>дейност с №=%1 закъснява.</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="361"/>
         <location filename="../src/engine/timeconstraint.cpp" line="394"/>
         <location filename="../src/engine/timeconstraint.cpp" line="424"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Това увеличава броя на конфликтите с %1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="389"/>
         <source>teacher with name %1 has more than one allocated activity on day %2, hour %3</source>
-        <translation type="unfinished"></translation>
+        <translation>преподавател с име %1 има повече от една дейности в ден %2, час %3</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="419"/>
         <source>subgroup %1 has more than one allocated activity on day %2, hour %3</source>
-        <translation type="unfinished"></translation>
+        <translation>подрупа %1 има повече от една дейност в ден %2, час %3</translation>
     </message>
 </context>
 <context>
@@ -15192,17 +15209,17 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform.cpp" line="152"/>
         <source>FET confirmation</source>
-        <translation type="unfinished">Информация от FET</translation>
+        <translation>Потвърждаване за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform.cpp" line="153"/>
         <source>Yes</source>
-        <translation type="unfinished">Да</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform.cpp" line="153"/>
         <source>No</source>
-        <translation type="unfinished">Не</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform.cpp" line="160"/>
@@ -15222,7 +15239,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform.cpp" line="167"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
 </context>
 <context>
@@ -15231,37 +15248,37 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/constraintbasiccompulsorytimeform_template.ui" line="14"/>
         <source>Constraints basic compulsory time</source>
         <extracomment>This is the title of the dialog to see the list of all constraints of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Основни задължителни времеви ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform_template.ui" line="28"/>
         <source>Constraints</source>
-        <translation type="unfinished">Ограничения</translation>
+        <translation>Ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform_template.ui" line="45"/>
         <source>Current constraint</source>
-        <translation type="unfinished">Текущо ограничение</translation>
+        <translation>Текущо ограничение</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform_template.ui" line="62"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform_template.ui" line="69"/>
         <source>Modify</source>
-        <translation type="unfinished">Променяне</translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform_template.ui" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished">Изтриване</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsorytimeform_template.ui" line="83"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -15298,7 +15315,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5550"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5552"/>
@@ -15309,12 +15326,12 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="5568"/>
         <source>Active=%1</source>
         <comment>Refers to a constraint</comment>
-        <translation type="unfinished">Активна=%1</translation>
+        <translation>Активно=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5572"/>
         <source>Comments=%1</source>
-        <translation type="unfinished">Бележки=%1</translation>
+        <translation>Бележки=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5586"/>
@@ -15342,7 +15359,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5650"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -15480,7 +15497,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2245"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2246"/>
@@ -15717,7 +15734,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1902"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1903"/>
@@ -15991,7 +16008,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2579"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2580"/>
@@ -16196,7 +16213,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="515"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="516"/>
@@ -16257,7 +16274,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="624"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -16371,7 +16388,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7807"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7808"/>
@@ -16404,7 +16421,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="7882"/>
         <location filename="../src/engine/timeconstraint.cpp" line="7910"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -16529,7 +16546,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16477"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16478"/>
@@ -16560,7 +16577,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16547"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -16694,7 +16711,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6290"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6293"/>
@@ -16874,7 +16891,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15429"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15430"/>
@@ -16911,7 +16928,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15491"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -17026,7 +17043,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4186"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4188"/>
@@ -17052,7 +17069,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4264"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -17167,7 +17184,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4710"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4712"/>
@@ -17193,7 +17210,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4788"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -17308,7 +17325,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18443"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18444"/>
@@ -17334,7 +17351,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18497"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -17460,7 +17477,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16988"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16989"/>
@@ -17611,7 +17628,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5817"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5818"/>
@@ -17747,7 +17764,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7279"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7280"/>
@@ -17775,7 +17792,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="7330"/>
         <location filename="../src/engine/timeconstraint.cpp" line="7357"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -17890,7 +17907,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6823"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6824"/>
@@ -18026,7 +18043,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5245"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5247"/>
@@ -18052,7 +18069,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5327"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -18178,7 +18195,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8397"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8398"/>
@@ -18323,7 +18340,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8052"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8053"/>
@@ -18372,7 +18389,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="8206"/>
         <location filename="../src/engine/timeconstraint.cpp" line="8233"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -18497,7 +18514,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16691"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16692"/>
@@ -18544,7 +18561,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16841"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -18695,7 +18712,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6583"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6584"/>
@@ -18848,7 +18865,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1356"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1358"/>
@@ -18880,7 +18897,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1430"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -19018,7 +19035,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1637"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1639"/>
@@ -19050,7 +19067,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1717"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -19232,7 +19249,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15179"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15180"/>
@@ -19274,7 +19291,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15242"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -19411,7 +19428,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3949"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3951"/>
@@ -19442,7 +19459,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4029"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -19579,7 +19596,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4473"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4475"/>
@@ -19610,7 +19627,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4553"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -19747,7 +19764,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18247"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18248"/>
@@ -19778,7 +19795,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18303"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -19926,7 +19943,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17252"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17253"/>
@@ -20104,7 +20121,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6077"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6078"/>
@@ -20256,7 +20273,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7500"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7501"/>
@@ -20300,7 +20317,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="7609"/>
         <location filename="../src/engine/timeconstraint.cpp" line="7636"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -20426,7 +20443,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7019"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7020"/>
@@ -20600,7 +20617,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4996"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="4998"/>
@@ -20631,7 +20648,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5080"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -20768,7 +20785,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8617"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8618"/>
@@ -20975,7 +20992,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="953"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="955"/>
@@ -21012,7 +21029,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1019"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -21258,7 +21275,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11434"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11437"/>
@@ -21563,7 +21580,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10180"/>
         <source>Weight (percentage)=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1 {1?}</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10183"/>
@@ -21753,7 +21770,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2934"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2935"/>
@@ -21790,7 +21807,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2997"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -21929,7 +21946,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3188"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3189"/>
@@ -21966,7 +21983,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3258"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -22099,7 +22116,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2440"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2441"/>
@@ -22131,7 +22148,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2501"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -22264,7 +22281,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2685"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2686"/>
@@ -22296,7 +22313,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2753"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -22410,7 +22427,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3984"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3985"/>
@@ -22448,7 +22465,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="4059"/>
         <location filename="../src/engine/timeconstraint.cpp" line="4087"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -22573,7 +22590,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16233"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16234"/>
@@ -22609,7 +22626,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16303"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -22746,7 +22763,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1908"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1910"/>
@@ -22778,7 +22795,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1981"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -22916,7 +22933,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2187"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2189"/>
@@ -22948,7 +22965,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2267"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -23123,7 +23140,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14620"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14621"/>
@@ -23165,7 +23182,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14683"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -23302,7 +23319,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5507"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5509"/>
@@ -23333,7 +23350,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5588"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -23470,7 +23487,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5995"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5997"/>
@@ -23501,7 +23518,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6077"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -23627,7 +23644,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4234"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4235"/>
@@ -23658,7 +23675,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4325"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -23789,7 +23806,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5334"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5335"/>
@@ -23946,7 +23963,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4922"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4923"/>
@@ -24098,7 +24115,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3470"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3471"/>
@@ -24131,7 +24148,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="3522"/>
         <location filename="../src/engine/timeconstraint.cpp" line="3549"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -24257,7 +24274,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3027"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3028"/>
@@ -24288,7 +24305,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3095"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -24414,7 +24431,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14180"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14181"/>
@@ -24445,7 +24462,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14233"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -24582,7 +24599,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6483"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6485"/>
@@ -24613,7 +24630,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6568"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -24760,7 +24777,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13956"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13957"/>
@@ -24796,7 +24813,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14027"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -24922,7 +24939,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="589"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="590"/>
@@ -24988,7 +25005,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="702"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -25102,7 +25119,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3714"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3715"/>
@@ -25135,7 +25152,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="3788"/>
         <location filename="../src/engine/timeconstraint.cpp" line="3816"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -25260,7 +25277,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15993"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15994"/>
@@ -25291,7 +25308,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16062"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -25470,7 +25487,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14872"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14873"/>
@@ -25507,7 +25524,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14932"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -25622,7 +25639,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5745"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5747"/>
@@ -25648,7 +25665,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="5823"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -25763,7 +25780,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6233"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6235"/>
@@ -25789,7 +25806,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6312"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -25904,7 +25921,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4468"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4469"/>
@@ -25930,7 +25947,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4566"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -26050,7 +26067,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5126"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5127"/>
@@ -26191,7 +26208,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4713"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4714"/>
@@ -26327,7 +26344,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3241"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3242"/>
@@ -26355,7 +26372,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="3292"/>
         <location filename="../src/engine/timeconstraint.cpp" line="3319"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -26470,7 +26487,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2807"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2808"/>
@@ -26496,7 +26513,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2875"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -26611,7 +26628,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14379"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14380"/>
@@ -26637,7 +26654,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14434"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -26752,7 +26769,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6733"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6735"/>
@@ -26778,7 +26795,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6815"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -26914,7 +26931,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13714"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13715"/>
@@ -26945,7 +26962,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13785"/>
         <source>This increases the conflicts total by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Това увеличава броя на конфликтите с %1</translation>
     </message>
 </context>
 <context>
@@ -27094,7 +27111,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12934"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12936"/>
@@ -27280,7 +27297,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12350"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12352"/>
@@ -27460,7 +27477,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12623"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12625"/>
@@ -27640,7 +27657,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13278"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13280"/>
@@ -32748,12 +32765,12 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="14"/>
         <source>About FET - Free Timetabling Software</source>
-        <translation type="unfinished"></translation>
+        <translation>Относно FET - Free Timetabling Software</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="27"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Относно</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="48"/>
@@ -32776,7 +32793,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="69"/>
         <source>Authors</source>
-        <translation type="unfinished"></translation>
+        <translation>Автори</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="90"/>
@@ -32800,7 +32817,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="112"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Преводачи</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="133"/>
@@ -32921,7 +32938,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="252"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Цитирания</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="273"/>
@@ -32936,7 +32953,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="286"/>
         <source>Thanks to</source>
-        <translation type="unfinished"></translation>
+        <translation>Благодарности</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="307"/>
@@ -33321,7 +33338,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="708"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -36211,12 +36228,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiesendstudentsdayform.cpp" line="154"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiesendstudentsdayform.cpp" line="159"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
 </context>
 <context>
@@ -36394,7 +36411,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiesnotoverlappingform.cpp" line="190"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiesnotoverlappingform.cpp" line="196"/>
@@ -36702,7 +36719,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform.cpp" line="305"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform.cpp" line="326"/>
@@ -36824,7 +36841,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="304"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="325"/>
@@ -37033,7 +37050,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform.cpp" line="198"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform.cpp" line="204"/>
@@ -37129,7 +37146,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform.cpp" line="197"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform.cpp" line="203"/>
@@ -37225,7 +37242,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingtimeform.cpp" line="193"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingtimeform.cpp" line="199"/>
@@ -37321,12 +37338,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivityendsstudentsdayform.cpp" line="185"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivityendsstudentsdayform.cpp" line="190"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivityendsstudentsdayform.cpp" line="199"/>
@@ -37401,7 +37418,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomform.cpp" line="101"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomform.cpp" line="108"/>
@@ -37411,7 +37428,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomform.cpp" line="116"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
 </context>
 <context>
@@ -37425,7 +37442,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomform_template.ui" line="33"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomform_template.ui" line="55"/>
@@ -37470,7 +37487,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="96"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform.cpp" line="102"/>
@@ -37541,7 +37558,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimeform.cpp" line="212"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimeform.cpp" line="219"/>
@@ -37649,7 +37666,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform.cpp" line="332"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform.cpp" line="340"/>
@@ -37750,7 +37767,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="332"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="340"/>
@@ -37852,7 +37869,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomform.cpp" line="96"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomform.cpp" line="103"/>
@@ -37862,7 +37879,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomform.cpp" line="111"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
 </context>
 <context>
@@ -37881,7 +37898,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomform_template.ui" line="50"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomform_template.ui" line="72"/>
@@ -37911,7 +37928,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="97"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform.cpp" line="103"/>
@@ -37980,7 +37997,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsoryspaceform.cpp" line="56"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsoryspaceform.cpp" line="62"/>
@@ -38024,7 +38041,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform.cpp" line="58"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform.cpp" line="64"/>
@@ -38129,7 +38146,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform.cpp" line="198"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform.cpp" line="204"/>
@@ -38232,7 +38249,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="198"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="204"/>
@@ -38376,7 +38393,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintmingapsbetweenactivitiesform.cpp" line="195"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmingapsbetweenactivitiesform.cpp" line="201"/>
@@ -38477,12 +38494,12 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform.cpp" line="232"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform.cpp" line="239"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
 </context>
 <context>
@@ -38496,13 +38513,14 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform_template.ui" line="28"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform_template.ui" line="70"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform_template.ui" line="95"/>
@@ -38544,7 +38562,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="83"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="90"/>
@@ -38569,7 +38587,8 @@ force activities consecutive</source>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhourscontinuouslyform_template.ui" line="80"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhourscontinuouslyform_template.ui" line="121"/>
@@ -38598,7 +38617,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="84"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="91"/>
@@ -38623,7 +38642,8 @@ force activities consecutive</source>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhoursdailyform_template.ui" line="80"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhoursdailyform_template.ui" line="121"/>
@@ -38652,12 +38672,12 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsearlymaxbeginningsatsecondhourform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsearlymaxbeginningsatsecondhourform.cpp" line="65"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
 </context>
 <context>
@@ -38719,7 +38739,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentsintervalmaxdaysperweekform.cpp" line="83"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsintervalmaxdaysperweekform.cpp" line="88"/>
@@ -38877,7 +38897,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxdaysperweekform.cpp" line="67"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxdaysperweekform.cpp" line="72"/>
@@ -38925,12 +38945,12 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxgapsperdayform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxgapsperdayform.cpp" line="65"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
 </context>
 <context>
@@ -38981,12 +39001,12 @@ IMPORTANT: if you want 0 total gaps, it is strongly recommended NOT to use this 
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxgapsperweekform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxgapsperweekform.cpp" line="65"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
 </context>
 <context>
@@ -39034,7 +39054,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxhourscontinuouslyform.cpp" line="62"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
 </context>
 <context>
@@ -39049,7 +39069,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintstudentsmaxhourscontinuouslyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxhourscontinuouslyform_template.ui" line="56"/>
@@ -39077,7 +39098,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxhoursdailyform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
 </context>
 <context>
@@ -39092,7 +39113,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintstudentsmaxhoursdailyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxhoursdailyform_template.ui" line="56"/>
@@ -39174,7 +39196,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsminhoursdailyform.cpp" line="69"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsminhoursdailyform.cpp" line="74"/>
@@ -39260,12 +39282,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="116"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="124"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="131"/>
@@ -39295,7 +39317,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhourscontinuouslyform_template.ui" line="112"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhourscontinuouslyform_template.ui" line="153"/>
@@ -39325,12 +39348,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="119"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="127"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="134"/>
@@ -39360,7 +39383,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhoursdailyform_template.ui" line="112"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhoursdailyform_template.ui" line="153"/>
@@ -39390,17 +39414,17 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="90"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="95"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="103"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -39459,12 +39483,12 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomform.cpp" line="109"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomform.cpp" line="119"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
 </context>
 <context>
@@ -39488,7 +39512,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomform_template.ui" line="40"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomform_template.ui" line="69"/>
@@ -39512,7 +39536,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform.cpp" line="110"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform.cpp" line="116"/>
@@ -39585,7 +39609,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetintervalmaxdaysperweekform.cpp" line="117"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetintervalmaxdaysperweekform.cpp" line="122"/>
@@ -39595,7 +39619,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetintervalmaxdaysperweekform.cpp" line="132"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetintervalmaxdaysperweekform.cpp" line="140"/>
@@ -39673,7 +39697,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxbuildingchangesperdayform.cpp" line="105"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -39726,7 +39750,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxbuildingchangesperweekform.cpp" line="105"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -39775,7 +39799,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxdaysperweekform.cpp" line="101"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxdaysperweekform.cpp" line="106"/>
@@ -39785,7 +39809,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxdaysperweekform.cpp" line="116"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -39834,17 +39858,17 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxgapsperdayform.cpp" line="98"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxgapsperdayform.cpp" line="103"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxgapsperdayform.cpp" line="111"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -39901,17 +39925,17 @@ IMPORTANT: if you want 0 total gaps, it is strongly recommended NOT to use this 
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxgapsperweekform.cpp" line="97"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxgapsperweekform.cpp" line="102"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxgapsperweekform.cpp" line="110"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -39965,12 +39989,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhourscontinuouslyform.cpp" line="97"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhourscontinuouslyform.cpp" line="105"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -39990,7 +40014,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhourscontinuouslyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhourscontinuouslyform_template.ui" line="118"/>
@@ -40019,12 +40044,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhoursdailyform.cpp" line="97"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhoursdailyform.cpp" line="105"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -40044,7 +40069,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhoursdailyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxhoursdailyform_template.ui" line="118"/>
@@ -40078,7 +40104,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmingapsbetweenbuildingchangesform.cpp" line="105"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
 </context>
 <context>
@@ -40138,7 +40164,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetminhoursdailyform.cpp" line="106"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetminhoursdailyform.cpp" line="111"/>
@@ -40164,7 +40190,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetminhoursdailyform.cpp" line="129"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetminhoursdailyform.cpp" line="156"/>
@@ -40239,7 +40265,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetnotavailabletimesform.cpp" line="247"/>
         <source>Invalid students set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetnotavailabletimesform.cpp" line="256"/>
@@ -40309,7 +40335,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredstartingtimesform.cpp" line="308"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredstartingtimesform.cpp" line="342"/>
@@ -40399,7 +40425,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredtimeslotsform.cpp" line="308"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredtimeslotsform.cpp" line="342"/>
@@ -40492,7 +40518,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomform.cpp" line="114"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomform.cpp" line="121"/>
@@ -40507,7 +40533,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomform.cpp" line="137"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
 </context>
 <context>
@@ -40531,7 +40557,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomform_template.ui" line="83"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomform_template.ui" line="105"/>
@@ -40562,7 +40588,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="111"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform.cpp" line="117"/>
@@ -40642,7 +40668,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomform.cpp" line="96"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomform.cpp" line="103"/>
@@ -40652,7 +40678,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomform.cpp" line="111"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
 </context>
 <context>
@@ -40671,7 +40697,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomform_template.ui" line="50"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomform_template.ui" line="87"/>
@@ -40701,7 +40727,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="94"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform.cpp" line="100"/>
@@ -40769,7 +40795,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="94"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="103"/>
@@ -40810,7 +40836,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhourscontinuouslyform_template.ui" line="112"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhourscontinuouslyform_template.ui" line="153"/>
@@ -40838,7 +40865,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhoursdailyform.cpp" line="95"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhoursdailyform.cpp" line="104"/>
@@ -40879,7 +40906,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhoursdailyform_template.ui" line="112"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhoursdailyform_template.ui" line="153"/>
@@ -40908,12 +40936,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomform.cpp" line="94"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomform.cpp" line="104"/>
         <source>Invalid room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидна стая</translation>
     </message>
 </context>
 <context>
@@ -40937,7 +40965,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomform_template.ui" line="40"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomform_template.ui" line="69"/>
@@ -40961,7 +40989,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform.cpp" line="94"/>
         <source>Invalid weight</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform.cpp" line="100"/>
@@ -41034,7 +41062,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherintervalmaxdaysperweekform.cpp" line="102"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherintervalmaxdaysperweekform.cpp" line="107"/>
@@ -41224,7 +41252,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxdaysperweekform.cpp" line="86"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxdaysperweekform.cpp" line="91"/>
@@ -41283,12 +41311,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxgapsperdayform.cpp" line="76"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxgapsperdayform.cpp" line="81"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxgapsperdayform.cpp" line="93"/>
@@ -41348,12 +41376,12 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxgapsperweekform.cpp" line="76"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxgapsperweekform.cpp" line="81"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxgapsperweekform.cpp" line="93"/>
@@ -41412,7 +41440,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxhourscontinuouslyform.cpp" line="81"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxhourscontinuouslyform.cpp" line="91"/>
@@ -41437,7 +41465,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachermaxhourscontinuouslyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxhourscontinuouslyform_template.ui" line="118"/>
@@ -41466,7 +41495,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxhoursdailyform.cpp" line="83"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxhoursdailyform.cpp" line="93"/>
@@ -41491,7 +41520,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachermaxhoursdailyform_template.ui" line="77"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxhoursdailyform_template.ui" line="118"/>
@@ -41521,7 +41551,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermindaysperweekform.cpp" line="78"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermindaysperweekform.cpp" line="83"/>
@@ -41635,7 +41665,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherminhoursdailyform.cpp" line="85"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherminhoursdailyform.cpp" line="90"/>
@@ -41789,7 +41819,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="81"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="90"/>
@@ -41819,7 +41849,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhourscontinuouslyform_template.ui" line="80"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhourscontinuouslyform_template.ui" line="121"/>
@@ -41847,7 +41878,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhoursdailyform.cpp" line="82"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhoursdailyform.cpp" line="91"/>
@@ -41877,7 +41908,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhoursdailyform_template.ui" line="80"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhoursdailyform_template.ui" line="121"/>
@@ -41914,7 +41946,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersintervalmaxdaysperweekform.cpp" line="84"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersintervalmaxdaysperweekform.cpp" line="89"/>
@@ -42073,7 +42105,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxdaysperweekform.cpp" line="67"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxdaysperweekform.cpp" line="72"/>
@@ -42122,12 +42154,12 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxgapsperdayform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxgapsperdayform.cpp" line="65"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
 </context>
 <context>
@@ -42176,12 +42208,12 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxgapsperweekform.cpp" line="60"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxgapsperweekform.cpp" line="65"/>
         <source>Invalid weight (percentage) - it must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
 </context>
 <context>
@@ -42229,7 +42261,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxhourscontinuouslyform.cpp" line="65"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
 </context>
 <context>
@@ -42244,7 +42276,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersmaxhourscontinuouslyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxhourscontinuouslyform_template.ui" line="56"/>
@@ -42272,7 +42305,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxhoursdailyform.cpp" line="65"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
 </context>
 <context>
@@ -42287,7 +42320,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersmaxhoursdailyform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxhoursdailyform_template.ui" line="56"/>
@@ -42316,7 +42350,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmindaysperweekform.cpp" line="63"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmindaysperweekform.cpp" line="68"/>
@@ -42409,7 +42443,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersminhoursdailyform.cpp" line="69"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersminhoursdailyform.cpp" line="74"/>
@@ -42480,7 +42514,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintthreeactivitiesgroupedform.cpp" line="138"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintthreeactivitiesgroupedform.cpp" line="147"/>
@@ -42515,7 +42549,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintthreeactivitiesgroupedform_template.ui" line="28"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintthreeactivitiesgroupedform_template.ui" line="56"/>
@@ -42556,7 +42591,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesconsecutiveform.cpp" line="124"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesconsecutiveform.cpp" line="133"/>
@@ -42595,7 +42630,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstrainttwoactivitiesconsecutiveform_template.ui" line="46"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesconsecutiveform_template.ui" line="90"/>
@@ -42621,7 +42657,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesgroupedform.cpp" line="124"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesgroupedform.cpp" line="133"/>
@@ -42661,7 +42697,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstrainttwoactivitiesgroupedform_template.ui" line="46"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesgroupedform_template.ui" line="90"/>
@@ -42687,7 +42724,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesorderedform.cpp" line="124"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesorderedform.cpp" line="133"/>
@@ -42727,7 +42764,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstrainttwoactivitiesorderedform_template.ui" line="46"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstrainttwoactivitiesorderedform_template.ui" line="90"/>
@@ -43525,7 +43563,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/engine/room.cpp" line="64"/>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Стая</translation>
     </message>
     <message>
         <location filename="../src/engine/room.cpp" line="66"/>
@@ -46480,72 +46518,72 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/subactivitiesform.cpp" line="321"/>
         <location filename="../src/interface/subactivitiesform.cpp" line="423"/>
         <source>Invalid selected subactivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Избраната поддейност е невалидна</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="381"/>
         <source>Useful instructions/tips:</source>
-        <translation type="unfinished">Важни указания/подсказки:</translation>
+        <translation>Важни указания/подсказки:</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="384"/>
         <source>Above the (sub)activities list, we have 2 labels, containing 4 numbers. The first label contains text: No: a / b. The first number a is the number of active (sub)activities (we number each individual subactivity as 1), while the second number b is the number of total (sub)activities. The second label contains text: Dur: c / d. The third number c is the duration of active (sub)activities, in periods (or FET hours), while the fourth number d is the duration of total (sub)activities, in periods (or FET hours). So, No means number and Dur means duration.</source>
-        <translation type="unfinished">След &quot;Брой&quot; първото число е брой на активираните (под)дейности, а второто е броя на всички (под)дейности. След &quot;Продължителност&quot; първото число е продължителността на активираните (под)дейностти, а второто е продължителността на всички (под)дейности.</translation>
+        <translation>След &quot;Брой&quot; първото число е брой на активираните (под)дейности, а второто е броя на всички (под)дейности. След &quot;Продължителност&quot; първото число е продължителността на активираните (под)дейностти, измерена в брой периоди (или FET часове), а второто е продължителността на всички (под)дейности.</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="390"/>
         <source>Example: No: 100 / 102, Dur: 114 / 117. They represent: 100 - the number of active (sub)activities, then 102 - the number of total (sub)activities, 114 - the duration of active activities (in periods or FET hours) and 117 - the duration of total activities (in periods or FET hours). In this example we have 2 inactive activities with their combined duration being 3 periods.</source>
-        <translation type="unfinished">Пример: &quot;Брой: 100 / 102   Продължителност: 114 / 117&quot;.  Това означава: 100 активирани (под)дейности от общо 102, с продължителност на активните (под)дейности 114, от обща продължителност на всички (под)дейности 117 часа (периода). Имаме 2 неактивирани дейности с обща продължителност 3 периода.</translation>
+        <translation>Пример: &quot;Брой: 100 / 102   Продължителност: 114 / 117&quot;.  Това означава: 100 активирани (под)дейности от общо 102, с продължителност на активните (под)дейности 114, от обща продължителност на всички (под)дейности 117 часа (периода). Имаме 2 неактивирани дейности с обща продължителност 3 периода.</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="396"/>
         <source>Explanation of the short description of an activity: first comes the id. If the activity is inactive, an X follows. Then the duration. Then, if the activity is split, a slash and the total duration. Then teachers, subject, activity tag (if it is not void) and students. Then the number of students (if specified).</source>
-        <translation type="unfinished"></translation>
+        <translation>Обяснение на едноредовото описание на всяка дейност: Пръв стои номера на дейността. Ако дейността не е активиране след номера има Х. Следва продължителността. Ако дейността е разделена има и наклонена черта и след нея - общата продължителност. Следват: преподавателите, дисциплините, етикетите на дейности (ако не са празни) и студентите. Накрая - броя на студентите (ако е зададен).</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="400"/>
         <source>The activities which are inactive:</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейности, които не са активирани:</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="403"/>
         <source>have an X mark after the id.</source>
-        <translation type="unfinished"></translation>
+        <translation>имат знак Х след номера си.</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="409"/>
         <source>if you use colors in interface (see Settings/Interface menu), they will appear with different background color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако използвате цветове в интерфейса (вижте меню &quot;Настройки&quot;-&quot;Интерфейс&quot;), те ще се виждат на цветен фон.</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="411"/>
         <source>To modify a subactivity, you can also double click it.</source>
-        <translation type="unfinished"></translation>
+        <translation>За да промените някоя поддейност, можете също да щракнете двойно върху нея.</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="413"/>
         <source>Show related: if you select this, there will be listed subactivities for groups and subgroups contained also in the current set (if the current set is a year or a group) and also higher ranked year or group (if the current set is a group or a subgroup).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако сте избрали &quot;Показване на съответните&quot; ще се показват и поддейностите за групите и подгрупите, садържащи се в текущото множество (ако текущото множество е година или група) и също годината или групата от по-висок раанг (ако текущото множество е група или подгрупа).</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="416"/>
         <source>FET Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Помощ за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="434"/>
         <source>Subactivity comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Бележки за поддейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="436"/>
         <source>OK</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="438"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
