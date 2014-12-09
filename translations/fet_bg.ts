@@ -15041,7 +15041,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="14"/>
         <source>Constraints basic compulsory space</source>
         <extracomment>This is the title of the dialog to see the list of all constraints of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Основни задължителни пространствени ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbasiccompulsoryspaceform_template.ui" line="28"/>
@@ -30115,7 +30115,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1380"/>
         <source>&amp;Groups</source>
         <extracomment>Accelerator key (letter after ampersand) must be different for &amp;Years, &amp;Groups, &amp;Subgroups</extracomment>
-        <translation type="unfinished">Г&amp;рупи</translation>
+        <translation>Г&amp;рупи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1385"/>
@@ -30219,7 +30219,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1474"/>
         <source>Basic compulsory time constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>Основни задължителни времеви ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1479"/>
@@ -30280,7 +30280,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1537"/>
         <source>Basic compulsory space constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>Основни задължителни пространствени ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1542"/>
