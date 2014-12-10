@@ -128,7 +128,7 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="529"/>
         <source>Above the (sub)activities list, we have 2 labels, containing 4 numbers. The first label contains text: No: a / b. The first number a is the number of active (sub)activities (we number each individual subactivity as 1), while the second number b is the number of total (sub)activities. The second label contains text: Dur: c / d. The third number c is the duration of active (sub)activities, in periods (or FET hours), while the fourth number d is the duration of total (sub)activities, in periods (or FET hours). So, No means number and Dur means duration.</source>
-        <translation>След &quot;Брой&quot; първото число е брой на активираните (под)дейности, а второто е броя на всички (под)дейности. След &quot;Продължителност&quot; първото число е продължителността на активираните (под)дейностти, а второто е продължителността на всички (под)дейности.</translation>
+        <translation>След &quot;Брой&quot; първото число е броят на активираните (под)дейности, а второто е броя на всички (под)дейности. След &quot;Продължителност&quot; първото число е продължителността на активираните (под)дейностти, а второто е продължителността на всички (под)дейности.</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="535"/>
@@ -3943,7 +3943,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="14"/>
         <source>Add break times</source>
         <extracomment>This is the title of the dialog to add a new constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне време за прекъсване</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="26"/>
@@ -3953,19 +3953,19 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="44"/>
         <source>Weight percentage (necessary: 100%)</source>
-        <translation type="unfinished">Процентно тегло (необходимо: 100%)</translation>
+        <translation>Процентно тегло (необходимо: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="68"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation>Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="75"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="82"/>
@@ -3976,12 +3976,12 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="89"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform_template.ui" line="96"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -4405,26 +4405,26 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="47"/>
         <source>Room</source>
-        <translation type="unfinished">Стая</translation>
+        <translation>Стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="70"/>
         <source>Weight percentage
 (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished">Процентно тегло
+        <translation>Процентно тегло
 (препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="95"/>
         <source>Set all available</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation>Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="102"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="109"/>
@@ -4435,12 +4435,12 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="116"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="123"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -4450,17 +4450,17 @@ force activities consecutive</source>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="90"/>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="93"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="73"/>
         <source>Invalid weight</source>
-        <translation type="unfinished">Невалидно тегло</translation>
+        <translation>Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="82"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="82"/>
@@ -6575,7 +6575,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintstudentssetnotavailabletimesform_template.ui" line="127"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetnotavailabletimesform_template.ui" line="134"/>
@@ -6692,7 +6692,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform_template.ui" line="184"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform_template.ui" line="191"/>
@@ -6703,12 +6703,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform_template.ui" line="198"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform_template.ui" line="205"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -6718,17 +6718,17 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="294"/>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="297"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="245"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="279"/>
         <source>FET question</source>
-        <translation type="unfinished">Вапрос от FET</translation>
+        <translation>Вапрос от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="280"/>
@@ -6804,7 +6804,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform_template.ui" line="184"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform_template.ui" line="191"/>
@@ -6815,12 +6815,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform_template.ui" line="198"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform_template.ui" line="205"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -6833,12 +6833,12 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="126"/>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="129"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="91"/>
         <source>Invalid weight</source>
-        <translation type="unfinished">Невалидно тегло</translation>
+        <translation>Невалидно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="98"/>
@@ -6853,7 +6853,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="114"/>
         <source>Invalid room</source>
-        <translation type="unfinished">Невалидна стая</translation>
+        <translation>Невалидна стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="123"/>
@@ -8342,24 +8342,24 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="78"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="98"/>
         <source>Weight percentage (necessary: 100%)</source>
-        <translation type="unfinished">Процентно тегло (необходимо: 100%)</translation>
+        <translation>Процентно тегло (необходимо: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="124"/>
         <source>Set all available</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="131"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="138"/>
@@ -8370,17 +8370,17 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="145"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="152"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform_template.ui" line="159"/>
         <source>Help</source>
-        <translation type="unfinished">Помощ</translation>
+        <translation>Помощ</translation>
     </message>
 </context>
 <context>
@@ -8389,23 +8389,23 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="72"/>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="80"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="73"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="81"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="91"/>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="94"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="92"/>
@@ -11110,7 +11110,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15720"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation>Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15721"/>
@@ -11319,7 +11319,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17937"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation>Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17938"/>
@@ -11340,7 +11340,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="17942"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation>Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17947"/>
@@ -11574,7 +11574,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="1561"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation>Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1567"/>
@@ -14029,22 +14029,22 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8950"/>
         <source>has a preferred starting time:</source>
-        <translation type="unfinished"></translation>
+        <translation>има предпочитано време за начало:</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8952"/>
         <source>Day=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ден=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8954"/>
         <source>Hour=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Час=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8957"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished">Процентно тегло=%1</translation>
+        <translation>Процентно тегло=%1%</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8959"/>
@@ -15403,37 +15403,37 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/constraintbreaktimesform_template.ui" line="14"/>
         <source>Constraints break times</source>
         <extracomment>This is the title of the dialog to see the list of all constraints of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ограничения времена за прекъсване</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbreaktimesform_template.ui" line="28"/>
         <source>Constraints</source>
-        <translation type="unfinished">Ограничения</translation>
+        <translation>Ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbreaktimesform_template.ui" line="45"/>
         <source>Current constraint</source>
-        <translation type="unfinished">Текущо ограничение</translation>
+        <translation>Текущо ограничение</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbreaktimesform_template.ui" line="62"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbreaktimesform_template.ui" line="69"/>
         <source>Modify</source>
-        <translation type="unfinished">Променяне</translation>
+        <translation>Променяне</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbreaktimesform_template.ui" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished">Изтриване</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintbreaktimesform_template.ui" line="83"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -15441,7 +15441,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2154"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation>Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2155"/>
@@ -15497,7 +15497,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2245"/>
         <source>Weight (percentage)=%1%</source>
-        <translation type="unfinished">Процентно тегло=%1</translation>
+        <translation>Процентно тегло=%1%</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2246"/>
@@ -15519,12 +15519,12 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="2256"/>
         <source>Active=%1</source>
         <comment>Refers to a constraint</comment>
-        <translation type="unfinished">Активна=%1</translation>
+        <translation>Активно=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2260"/>
         <source>Comments=%1</source>
-        <translation type="unfinished">Бележки=%1</translation>
+        <translation>Бележки=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2344"/>
@@ -15689,7 +15689,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1887"/>
         <source>Min days between activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Мин. дни между дейностите</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1888"/>
@@ -28191,19 +28191,19 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/engine/export.cpp" line="787"/>
         <source>was skipped, because it refers not to a whole larger container activity</source>
-        <translation type="unfinished"></translation>
+        <translation>пропуснато е, защото не се отнася за цяла по-голяма дейност</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="796"/>
         <location filename="../src/engine/export.cpp" line="800"/>
         <source>was skipped, because there exists another constraint of this type with larger weight percentage, referring to the same activities</source>
-        <translation type="unfinished"></translation>
+        <translation>пропуснато е, защото има друго ограничение от този тип с по-голямо процентно тегло за същата дейност</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="806"/>
         <location filename="../src/engine/export.cpp" line="811"/>
         <source>was skipped, because there exists another constraint of this type with same weight percentage and higher number of min days, referring to the same activities</source>
-        <translation type="unfinished"></translation>
+        <translation>пропуснато е, защото има друго ограничение от този тип със същото процентно тегло и по голям Мин. брой дни за същата дейност</translation>
     </message>
     <message>
         <location filename="../src/engine/export.cpp" line="817"/>
@@ -29165,7 +29165,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1759"/>
         <source>Enable activity tag max hours daily:</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешаване на Макс. часове дневно за етикет на дейност:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1761"/>
@@ -29175,7 +29175,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1764"/>
         <source>Enable students max gaps per day:</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешаване на Макс. дупки за студентите на ден:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1766"/>
@@ -29196,7 +29196,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1776"/>
         <source>Enable students min hours daily with empty days:</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешаване на Мин. часове на ден за студенти със свободни дни:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1778"/>
@@ -29525,13 +29525,13 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3721"/>
         <source>Enable activity tag max hours daily will be %1</source>
         <comment>%1 is true or false</comment>
-        <translation type="unfinished"></translation>
+        <translation>Разрешените Макс. часове дневно за етикет на дейност ще бъдат %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3724"/>
         <source>Enable students max gaps per day will be %1</source>
         <comment>%1 is true or false</comment>
-        <translation type="unfinished"></translation>
+        <translation>Разрешените Макс. дупки за студентите на ден ще бъдат %1</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3727"/>
@@ -30246,7 +30246,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1484"/>
         <source>Break times (all teachers+all students not available)</source>
-        <translation type="unfinished"></translation>
+        <translation>Време за прекъсване (всички преподаватели+всички студенти са недостъпни)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1489"/>
@@ -30632,7 +30632,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1873"/>
         <source>Import activity tags from CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>Импортиране на етикети на дейности от CSV файл</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1878"/>
@@ -30875,12 +30875,12 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2161"/>
         <source>Enable students max gaps per day</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешаване на Макс. дупки за студентите на ден</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2172"/>
         <source>Enable activity tag max hours daily</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешаване на Макс. часове дневно за етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2183"/>
@@ -30926,7 +30926,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2239"/>
         <source>Enable students min hours daily with empty days</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешаване на Мин. часове на ден за студенти със свободни дни</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2250"/>
@@ -36785,34 +36785,34 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="41"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="54"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="64"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="87"/>
         <source>Weight percentage (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished">Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
+        <translation>Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="108"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation>Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="115"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="122"/>
@@ -36823,12 +36823,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="129"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredstartingtimesform_template.ui" line="136"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -36836,12 +36836,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="303"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="304"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="325"/>
@@ -36849,7 +36849,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="359"/>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="390"/>
         <source>FET question</source>
-        <translation type="unfinished">Вапрос от FET</translation>
+        <translation>Вапрос от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform.cpp" line="326"/>
@@ -36907,34 +36907,34 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="41"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="54"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="64"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="87"/>
         <source>Weight percentage (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished">Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
+        <translation>Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="108"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation>Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="115"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="122"/>
@@ -36945,12 +36945,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="129"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiespreferredtimeslotsform_template.ui" line="136"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -36960,22 +36960,22 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform.cpp" line="139"/>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform.cpp" line="144"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform.cpp" line="132"/>
         <source>Invalid weight (percentage). It has to be 100</source>
-        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
+        <translation>Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform.cpp" line="140"/>
         <source>Empty list of activities</source>
-        <translation type="unfinished">Празен списък дейности</translation>
+        <translation>Празен списък дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform.cpp" line="145"/>
         <source>Only one selected activity</source>
-        <translation type="unfinished">Само една избрана дейност</translation>
+        <translation>Само една избрана дейност</translation>
     </message>
 </context>
 <context>
@@ -36984,58 +36984,58 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="14"/>
         <source>Modify activities same room if consecutive</source>
         <extracomment>This is the title of the dialog to add a new constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне дейности в една стая ако са последователни</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="20"/>
         <source>Filter</source>
-        <translation type="unfinished">Филтър</translation>
+        <translation>Филтър</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="26"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="36"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="46"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="56"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="89"/>
         <source>Weight percentage (necessary: 100%)</source>
-        <translation type="unfinished">Процентно тегло (необходимо: 100%)</translation>
+        <translation>Процентно тегло (необходимо: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="110"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="117"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="133"/>
         <source>All</source>
         <comment>Text on a button. It refers to adding all activities from the list above this button into the current constraint</comment>
-        <translation type="unfinished">Всички</translation>
+        <translation>Всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessameroomifconsecutiveform_template.ui" line="147"/>
         <source>Clear</source>
-        <translation type="unfinished">Почистване</translation>
+        <translation>Почистване</translation>
     </message>
 </context>
 <context>
@@ -37045,22 +37045,22 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform.cpp" line="203"/>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform.cpp" line="208"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform.cpp" line="198"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform.cpp" line="204"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform.cpp" line="209"/>
         <source>Only one selected activity</source>
-        <translation type="unfinished">Само една избрана дейност</translation>
+        <translation>Само една избрана дейност</translation>
     </message>
 </context>
 <context>
@@ -37074,38 +37074,38 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="20"/>
         <source>Filter</source>
-        <translation type="unfinished">Филтър</translation>
+        <translation>Филтър</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="26"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="36"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="46"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="56"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="91"/>
         <source>Activities</source>
-        <translation type="unfinished">Дейности</translation>
+        <translation>Дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="104"/>
         <source>All</source>
         <comment>Text on a button. It refers to adding all activities from the list above this button into the current constraint</comment>
-        <translation type="unfinished">Всички</translation>
+        <translation>Всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="121"/>
@@ -37116,22 +37116,22 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="134"/>
         <source>Clear</source>
-        <translation type="unfinished">Почистване</translation>
+        <translation>Почистване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="153"/>
         <source>Weight percentage (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished">Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
+        <translation>Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="174"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="181"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -37141,22 +37141,22 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform.cpp" line="202"/>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform.cpp" line="207"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform.cpp" line="197"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform.cpp" line="203"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform.cpp" line="208"/>
         <source>Only one selected activity</source>
-        <translation type="unfinished">Само една избрана дейност</translation>
+        <translation>Само една избрана дейност</translation>
     </message>
 </context>
 <context>
@@ -37695,22 +37695,22 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="20"/>
         <source>Filter</source>
-        <translation type="unfinished">Филтър</translation>
+        <translation>Филтър</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="26"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="36"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="52"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="62"/>
@@ -37720,12 +37720,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="83"/>
         <source>Activity</source>
-        <translation type="unfinished">Дейност</translation>
+        <translation>Дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="125"/>
         <source>Weight percentage (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished">Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
+        <translation>Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="146"/>
@@ -37737,7 +37737,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="153"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="160"/>
@@ -37748,12 +37748,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="167"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="174"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -37762,22 +37762,22 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="331"/>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="339"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="332"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="340"/>
         <source>Invalid activity</source>
-        <translation type="unfinished">Невалидна дейност</translation>
+        <translation>Невалидна дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="359"/>
         <source>FET question</source>
-        <translation type="unfinished">Вапрос от FET</translation>
+        <translation>Вапрос от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform.cpp" line="360"/>
@@ -38011,23 +38011,24 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintbasiccompulsoryspaceform_template.ui" line="14"/>
         <source>Modify basic compulsory space</source>
         <extracomment>This is the title of the dialog to modify a constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне на основно задължително пространствено</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsoryspaceform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation>Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsoryspaceform_template.ui" line="50"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsoryspaceform_template.ui" line="57"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -38036,17 +38037,17 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform.cpp" line="57"/>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform.cpp" line="63"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform.cpp" line="58"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform.cpp" line="64"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation>Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
 </context>
 <context>
@@ -38055,23 +38056,24 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform_template.ui" line="14"/>
         <source>Modify basic compulsory time</source>
         <extracomment>This is the title of the dialog to modify a constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне на основно задължително времево</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation>Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform_template.ui" line="50"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsorytimeform_template.ui" line="57"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -38079,12 +38081,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform.cpp" line="205"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform.cpp" line="206"/>
         <source>Invalid weight (percentage). It has to be 100</source>
-        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
+        <translation>Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
 </context>
 <context>
@@ -38093,7 +38095,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="14"/>
         <source>Modify break times</source>
         <extracomment>This is the title of the dialog to modify a constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне на време за прекъсване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="26"/>
@@ -38103,13 +38105,13 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="44"/>
         <source>Weight percentage (necessary: 100%)</source>
-        <translation type="unfinished">Процентно тегло (необходимо: 100%)</translation>
+        <translation>Процентно тегло (необходимо: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="68"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation>Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="75"/>
@@ -38126,12 +38128,12 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="89"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="96"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -38141,22 +38143,22 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform.cpp" line="203"/>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform.cpp" line="208"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform.cpp" line="198"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform.cpp" line="204"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform.cpp" line="209"/>
         <source>Only one selected activity</source>
-        <translation type="unfinished">Само една избрана дейност</translation>
+        <translation>Само една избрана дейност</translation>
     </message>
 </context>
 <context>
@@ -38165,75 +38167,75 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="14"/>
         <source>Modify max days between activities</source>
         <extracomment>This is the title of the dialog to modify a constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Променяне макс. дни между дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="20"/>
         <source>Filter</source>
-        <translation type="unfinished">Филтър</translation>
+        <translation>Филтър</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="26"/>
         <source>Teacher</source>
-        <translation type="unfinished">Преподавател</translation>
+        <translation>Преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="36"/>
         <source>Students set</source>
-        <translation type="unfinished">Множество студенти</translation>
+        <translation>Множество студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="46"/>
         <source>Subject</source>
-        <translation type="unfinished">Дисциплина</translation>
+        <translation>Дисциплина</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="56"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="91"/>
         <source>Activities</source>
-        <translation type="unfinished">Дейности</translation>
+        <translation>Дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="104"/>
         <source>All</source>
         <comment>Text on a button. It refers to adding all activities from the list above this button into the current constraint</comment>
-        <translation type="unfinished">Всички</translation>
+        <translation>Всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="134"/>
         <source>Clear</source>
-        <translation type="unfinished">Почистване</translation>
+        <translation>Почистване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="156"/>
         <source>Max days</source>
         <comment>It refers to maximum number of days between activities.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Макс. дни</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="176"/>
         <source>Weight percentage (recommended: 0.0%-100.0%)</source>
-        <translation type="unfinished">Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
+        <translation>Процентно тегло (препоръчително: 0.0%-100.0%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="197"/>
         <source>Ok</source>
-        <translation type="unfinished">Запазване</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmaxdaysbetweenactivitiesform_template.ui" line="204"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -38244,12 +38246,12 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="208"/>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="268"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="198"/>
         <source>Invalid weight (percentage)</source>
-        <translation type="unfinished">Невалидно процентно тегло</translation>
+        <translation>Невалидно процентно тегло</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="204"/>
@@ -38259,7 +38261,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="209"/>
         <source>Only one selected activity</source>
-        <translation type="unfinished">Само една избрана дейност</translation>
+        <translation>Само една избрана дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="215"/>
@@ -38289,7 +38291,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="236"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="268"/>
@@ -43522,7 +43524,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/removeredundantform_template.ui" line="46"/>
         <source>Min days between activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Мин. дни между дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantform_template.ui" line="52"/>
@@ -46528,7 +46530,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="384"/>
         <source>Above the (sub)activities list, we have 2 labels, containing 4 numbers. The first label contains text: No: a / b. The first number a is the number of active (sub)activities (we number each individual subactivity as 1), while the second number b is the number of total (sub)activities. The second label contains text: Dur: c / d. The third number c is the duration of active (sub)activities, in periods (or FET hours), while the fourth number d is the duration of total (sub)activities, in periods (or FET hours). So, No means number and Dur means duration.</source>
-        <translation>След &quot;Брой&quot; първото число е брой на активираните (под)дейности, а второто е броя на всички (под)дейности. След &quot;Продължителност&quot; първото число е продължителността на активираните (под)дейностти, измерена в брой периоди (или FET часове), а второто е продължителността на всички (под)дейности.</translation>
+        <translation>След &quot;Брой&quot; първото число е броят на активираните (под)дейности, а второто е броя на всички (под)дейности. След &quot;Продължителност&quot; първото число е продължителността на активираните (под)дейностти, измерена в брой периоди (или FET часове), а второто е продължителността на всички (под)дейности.</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="390"/>
@@ -46553,7 +46555,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="409"/>
         <source>if you use colors in interface (see Settings/Interface menu), they will appear with different background color.</source>
-        <translation>Ако използвате цветове в интерфейса (вижте меню &quot;Настройки&quot;-&quot;Интерфейс&quot;), те ще се виждат на цветен фон.</translation>
+        <translation>ако използвате цветове в интерфейса (вижте меню &quot;Настройки&quot;-&quot;Интерфейс&quot;), те ще се виждат на цветен фон.</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform.cpp" line="411"/>
@@ -46597,7 +46599,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/subactivitiesform_template.ui" line="60"/>
         <source>Current subactivity</source>
-        <translation>Текуща поддейности</translation>
+        <translation>Текуща поддейност</translation>
     </message>
     <message>
         <location filename="../src/interface/subactivitiesform_template.ui" line="73"/>
