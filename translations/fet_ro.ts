@@ -35678,7 +35678,7 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
         <location filename="../src/engine/import.cpp" line="775"/>
         <location filename="../src/engine/import.cpp" line="784"/>
         <location filename="../src/engine/import.cpp" line="833"/>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET warning</source>
         <translation>FET - avertisment</translation>
     </message>
@@ -35709,10 +35709,10 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="846"/>
-        <location filename="../src/engine/import.cpp" line="1675"/>
-        <location filename="../src/engine/import.cpp" line="1733"/>
-        <location filename="../src/engine/import.cpp" line="1803"/>
-        <location filename="../src/engine/import.cpp" line="2271"/>
+        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1735"/>
+        <location filename="../src/engine/import.cpp" line="1805"/>
+        <location filename="../src/engine/import.cpp" line="2273"/>
         <source>Importing</source>
         <comment>Title of a progress dialog</comment>
         <translation>Importare</translation>
@@ -35769,20 +35769,20 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1329"/>
-        <location filename="../src/engine/import.cpp" line="1424"/>
-        <location filename="../src/engine/import.cpp" line="1433"/>
-        <location filename="../src/engine/import.cpp" line="1529"/>
-        <location filename="../src/engine/import.cpp" line="1600"/>
+        <location filename="../src/engine/import.cpp" line="1426"/>
+        <location filename="../src/engine/import.cpp" line="1435"/>
+        <location filename="../src/engine/import.cpp" line="1531"/>
+        <location filename="../src/engine/import.cpp" line="1602"/>
         <source>%1 is already in FET data.</source>
         <translation>%1 este deja în datele FET.</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1349"/>
-        <location filename="../src/engine/import.cpp" line="1479"/>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2337"/>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="1481"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>FET information</source>
         <translation>FET - informaţie</translation>
     </message>
@@ -35792,112 +35792,112 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
         <translation>%1 etichete activitate adăugate. Vă rog verificaţi dialogul etichete activitate.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="2242"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="2244"/>
         <source>%1 subjects added. Please check subjects form.</source>
         <translation>%1 discipline adăugate. Vă rog verificaţi dialogul disciplinelor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2227"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2229"/>
         <source>%1 teachers added. Please check teachers form.</source>
         <translation>%1 profesori adăugaţi. Vă rog verificaţi dialogul profesorilor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1679"/>
         <source>Checking CSV</source>
         <translation>Verific CSV</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1683"/>
+        <location filename="../src/engine/import.cpp" line="1685"/>
         <source>Checking CSV canceled by user.</source>
         <translation>Verificare CSV anulată de user.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1734"/>
+        <location filename="../src/engine/import.cpp" line="1736"/>
         <source>Checking data</source>
         <translation>Verific datele</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1743"/>
-        <location filename="../src/engine/import.cpp" line="1757"/>
-        <location filename="../src/engine/import.cpp" line="1773"/>
+        <location filename="../src/engine/import.cpp" line="1745"/>
+        <location filename="../src/engine/import.cpp" line="1759"/>
+        <location filename="../src/engine/import.cpp" line="1775"/>
         <source>Checking data canceled by user.</source>
         <translation>Verificare date întrerupta de utilizator.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1748"/>
+        <location filename="../src/engine/import.cpp" line="1750"/>
         <source>Year %1 is already in FET data.</source>
         <translation>Anul %1 este deja în datele FET.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1750"/>
+        <location filename="../src/engine/import.cpp" line="1752"/>
         <source>Can&apos;t import group %1. Name is already taken for a year.</source>
         <translation>Nu pot importa grupul %1. Numele este deja luat de un an.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1752"/>
+        <location filename="../src/engine/import.cpp" line="1754"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a year.</source>
         <translation>Nu pot importa subgrupul %1. Numele este deja luat de un an.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1763"/>
+        <location filename="../src/engine/import.cpp" line="1765"/>
         <source>Can&apos;t import year %1. Name is already taken for a group.</source>
         <translation>Nu pot importa anul %1. Numele este luat de un grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1765"/>
+        <location filename="../src/engine/import.cpp" line="1767"/>
         <source>Group name %1 is already in FET data (In the same or in an other year).</source>
         <translation>Grupul cu numele %1 este deja în datele FET (în acelaşi an sau în alt an).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1767"/>
+        <location filename="../src/engine/import.cpp" line="1769"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a group.</source>
         <translation>Nu pot importa subgrupul %1. Numele este luat de un grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1779"/>
+        <location filename="../src/engine/import.cpp" line="1781"/>
         <source>Can&apos;t import year %1. Name is already taken for a subgroup.</source>
         <translation>Nu pot importa anul %1. Numele este luat de un subgrup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1781"/>
+        <location filename="../src/engine/import.cpp" line="1783"/>
         <source>Can&apos;t import group %1. Name is taken for a subgroup.</source>
         <translation>Nu pot importa grupul %1. Numele este luat de un subgrup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1783"/>
+        <location filename="../src/engine/import.cpp" line="1785"/>
         <source>Subgroup name %1 is already in FET data (In the same or in an other group).</source>
         <translation>Subgrupul cu numele %1 este deja în datele FET (în acelaşi sau în alt grup).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1804"/>
+        <location filename="../src/engine/import.cpp" line="1806"/>
         <source>Importing data</source>
         <translation>Import datele</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1812"/>
-        <location filename="../src/engine/import.cpp" line="2281"/>
+        <location filename="../src/engine/import.cpp" line="1814"/>
+        <location filename="../src/engine/import.cpp" line="2283"/>
         <source>Importing data canceled by user.</source>
         <translation>Importare date întreruptă de utilizator.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2116"/>
+        <location filename="../src/engine/import.cpp" line="2118"/>
         <source>I recommend to import also teachers, rooms, buildings, subjects and activity tags before importing activities. It is not needed, because FET will automatically do it, but you can check the activity csv file by that.</source>
         <translation>Recomand de asemenea să importaţi profesorii, sălile, clădirile, disciplinele şi etichetele activitate înainte de importarea activităţilor. Nu este necesar, pentru că FET va face aceasta automat, dar puteţi verifica fişierul csv prin aceasta.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2272"/>
+        <location filename="../src/engine/import.cpp" line="2274"/>
         <source>Importing activities</source>
         <translation>Import activităţile</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2337"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
         <source>Activity NOT added - please report error</source>
         <translation>Activitate NEadăugată - eroare</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>Split activity NOT added - error???</source>
         <translation>Activitatea împărţită NU poate fi adăugată - eroare???</translation>
     </message>
@@ -35938,10 +35938,10 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
         <location filename="../src/engine/import.cpp" line="961"/>
         <location filename="../src/engine/import.cpp" line="986"/>
         <location filename="../src/engine/import.cpp" line="1321"/>
-        <location filename="../src/engine/import.cpp" line="1411"/>
-        <location filename="../src/engine/import.cpp" line="1417"/>
-        <location filename="../src/engine/import.cpp" line="1521"/>
-        <location filename="../src/engine/import.cpp" line="1592"/>
+        <location filename="../src/engine/import.cpp" line="1413"/>
+        <location filename="../src/engine/import.cpp" line="1419"/>
+        <location filename="../src/engine/import.cpp" line="1523"/>
+        <location filename="../src/engine/import.cpp" line="1594"/>
         <source>Skipped line %1: Field &apos;%2&apos; is empty.</source>
         <translation>Ignorat linia %1: câmpul &apos;%2&apos; este gol.</translation>
     </message>
@@ -35974,94 +35974,94 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1395"/>
-        <location filename="../src/engine/import.cpp" line="1403"/>
+        <location filename="../src/engine/import.cpp" line="1404"/>
         <source>Skipped line %1: Field &apos;%2&apos; is already in a previous line.</source>
         <translation>Ignorat linia %1: câmpul &apos;%2&apos; există deja pe o linie precedentă.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%1 buildings added. Please check rooms form.</source>
         <translation>%1 clădiri adăugate. Vă rog verificaţi dialogul sălilor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%2 rooms added. Please check rooms form.</source>
         <translation>%2 săli adăugate. Vă rog verificaţi dialogul sălilor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1710"/>
+        <location filename="../src/engine/import.cpp" line="1712"/>
         <source>Problem in line %1: Year name %2 is taken for a group - please consider another name</source>
         <translation>Problemă în linia %1: numele anului %2 este luat de un grup - vă rog consideraţi un alt nume</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1718"/>
+        <location filename="../src/engine/import.cpp" line="1720"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a year - please consider another name</source>
         <translation>Problemă în linia %1: numele subgrupului %2 este luat de un an - vă rog consideraţi un alt nume</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1720"/>
+        <location filename="../src/engine/import.cpp" line="1722"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a group - please consider another name</source>
         <translation>Problemă în linia %1: numele subgrupului %2 este luat de un grup - vă rog consideraţi un alt nume</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1722"/>
+        <location filename="../src/engine/import.cpp" line="1724"/>
         <source>Problem in line %1: Group name %2 is taken for a subgroup - please consider another name</source>
         <translation>Problemă în linia %1: numele grupului %2 este luat de un subgrup - vă rog consideraţi un alt nume</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1724"/>
+        <location filename="../src/engine/import.cpp" line="1726"/>
         <source>Problem in line %1: Year name %2 is taken for a subgroup - please consider another name</source>
         <translation>Problemă în linia %1: numele anului %2 este luat de un subgrup - vă rog consideraţi un alt nume</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1872"/>
-        <location filename="../src/engine/import.cpp" line="1875"/>
+        <location filename="../src/engine/import.cpp" line="1874"/>
+        <location filename="../src/engine/import.cpp" line="1877"/>
         <source>Group name %1 exists in another year. It means that some years share the same group.</source>
         <translation>Grupul %1 există în alt an. Înseamnă că unii ani împărtăşesc acelaşi grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1916"/>
+        <location filename="../src/engine/import.cpp" line="1918"/>
         <source>Subgroup name %1 exists in another group. It means that some groups share the same subgroup.</source>
         <translation>Subgrupul %1 există în alt grup. Înseamnă că unele grupuri împărtăşesc acelaşi subgrup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1943"/>
-        <location filename="../src/engine/import.cpp" line="2403"/>
+        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="2405"/>
         <source>Notes:</source>
         <translation>Note:</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1944"/>
+        <location filename="../src/engine/import.cpp" line="1946"/>
         <source>%1 subgroups added. Please check subgroups form.</source>
         <translation>%1 subgrupuri adăugate. Vă rog verificaţi dialogul subgrupurilor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="1947"/>
         <source>%1 groups added. Please check groups form.</source>
         <translation>%1 grupuri adăugate. Vă rog verificaţi dialogul grupurilor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1946"/>
+        <location filename="../src/engine/import.cpp" line="1948"/>
         <source>%1 years added. Please check years form.</source>
         <translation>%1 ani adăugaţi. Vă rog verificaţi dialogul anilor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2121"/>
+        <location filename="../src/engine/import.cpp" line="2123"/>
         <source>Student set %1 doesn&apos;t exist. You must add (or import) years, groups and subgroups first.</source>
         <translation>Setul de studenţi %1 nu există. Trebuie să adăugaţi (sau importaţi) ani, grupuri şi subgrupuri întâi.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2257"/>
+        <location filename="../src/engine/import.cpp" line="2259"/>
         <source>%1 activity tags added. Please check activity tags form.</source>
         <translation>%1 etichete activitate adăugate. Vă rog verificaţi dialogul etichetelor activitate.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2327"/>
+        <location filename="../src/engine/import.cpp" line="2329"/>
         <source>Activity %1 already exists. A duplicate activity is imported. Please check the dataset!</source>
         <translation>Activitatea %1 există deja. O activitate duplicat este importată. Vă rog verificaţi setul de date!</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2405"/>
+        <location filename="../src/engine/import.cpp" line="2407"/>
         <source>%1 container activities (%2 total activities) added. Please check activity form.</source>
         <translation>%1 activităţi container (%2 activităţi totale) adăugate. Vă rog verificaţi dialogul activităţilor.</translation>
     </message>
@@ -36071,19 +36071,19 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
         <translation>Ignorat linia %1: câmpurile &apos;%2&apos; şi &apos;%3&apos; nu au aceeaşi valoare.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1708"/>
+        <location filename="../src/engine/import.cpp" line="1710"/>
         <source>Problem in line %1: Group name %2 is taken for a year - please consider another name</source>
         <translation>Problemă în linia %1: grupul %2 este luat de un an - vă rog consideraţi un alt nume</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2114"/>
+        <location filename="../src/engine/import.cpp" line="2116"/>
         <source>FET can&apos;t import activities, because FET needs to know the stucture of the students sets. You must add (or import) years, groups and subgroups first.</source>
         <translation>FET nu poate importa activităţile, pentru că FET trebuie să ştie structura seturilor de studenţi. Trebuie să adăugaţi (sau importaţi) ani, grupuri şi subgrupuri înainte.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2158"/>
-        <location filename="../src/engine/import.cpp" line="2175"/>
-        <location filename="../src/engine/import.cpp" line="2197"/>
+        <location filename="../src/engine/import.cpp" line="2160"/>
+        <location filename="../src/engine/import.cpp" line="2177"/>
+        <location filename="../src/engine/import.cpp" line="2199"/>
         <source>%1 %2 will be added.</source>
         <comment>For instance &apos;Subject Math will be added&apos;, so use singular</comment>
         <translation>%1 %2 va fi adăugat.</translation>
@@ -36104,7 +36104,7 @@ Probabil, în practică această problemă nu va apărea şi nu trebuie să vă 
         <translation>Notă despre linia %1: date existente în o linie precedentă. Aşa că datele vor fi importate din nou.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET needs to know %1 or %2 if you import %3.</source>
         <translation>FET trebuie să ştie %1 sau %2 dacă importaţi %3.</translation>
     </message>
@@ -36202,7 +36202,7 @@ este:</translation>
         <translation>Prima linie a fişierului este goala. Vă rugăm reparaţi aceasta.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2399"/>
+        <location filename="../src/engine/import.cpp" line="2401"/>
         <source>Warning: found tags for the &apos;consecutive&apos; field of min days which are not a valid boolean value (%1) - making them %2</source>
         <translation>Atenţie: am găsit taguri pentru câmpul &apos;consecutiv&apos; al constrângerilor min zile care nu sunt o valoare booleană validă (%1) - le facem %2</translation>
     </message>

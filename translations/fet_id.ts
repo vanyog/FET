@@ -35717,7 +35717,7 @@ adalah:</translation>
         <location filename="../src/engine/import.cpp" line="775"/>
         <location filename="../src/engine/import.cpp" line="784"/>
         <location filename="../src/engine/import.cpp" line="833"/>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET warning</source>
         <translation>Peringatan FET</translation>
     </message>
@@ -35748,10 +35748,10 @@ adalah:</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="846"/>
-        <location filename="../src/engine/import.cpp" line="1675"/>
-        <location filename="../src/engine/import.cpp" line="1733"/>
-        <location filename="../src/engine/import.cpp" line="1803"/>
-        <location filename="../src/engine/import.cpp" line="2271"/>
+        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1735"/>
+        <location filename="../src/engine/import.cpp" line="1805"/>
+        <location filename="../src/engine/import.cpp" line="2273"/>
         <source>Importing</source>
         <comment>Title of a progress dialog</comment>
         <translation>Import</translation>
@@ -35788,10 +35788,10 @@ adalah:</translation>
         <location filename="../src/engine/import.cpp" line="961"/>
         <location filename="../src/engine/import.cpp" line="986"/>
         <location filename="../src/engine/import.cpp" line="1321"/>
-        <location filename="../src/engine/import.cpp" line="1411"/>
-        <location filename="../src/engine/import.cpp" line="1417"/>
-        <location filename="../src/engine/import.cpp" line="1521"/>
-        <location filename="../src/engine/import.cpp" line="1592"/>
+        <location filename="../src/engine/import.cpp" line="1413"/>
+        <location filename="../src/engine/import.cpp" line="1419"/>
+        <location filename="../src/engine/import.cpp" line="1523"/>
+        <location filename="../src/engine/import.cpp" line="1594"/>
         <source>Skipped line %1: Field &apos;%2&apos; is empty.</source>
         <translation>Abaikan baris %1: Field &apos;%2&apos; kosong.</translation>
     </message>
@@ -35903,20 +35903,20 @@ adalah:</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1329"/>
-        <location filename="../src/engine/import.cpp" line="1424"/>
-        <location filename="../src/engine/import.cpp" line="1433"/>
-        <location filename="../src/engine/import.cpp" line="1529"/>
-        <location filename="../src/engine/import.cpp" line="1600"/>
+        <location filename="../src/engine/import.cpp" line="1426"/>
+        <location filename="../src/engine/import.cpp" line="1435"/>
+        <location filename="../src/engine/import.cpp" line="1531"/>
+        <location filename="../src/engine/import.cpp" line="1602"/>
         <source>%1 is already in FET data.</source>
         <translation>%1 ada pada data FET.</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1349"/>
-        <location filename="../src/engine/import.cpp" line="1479"/>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2337"/>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="1481"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>FET information</source>
         <translation>Informasi FET</translation>
     </message>
@@ -35927,232 +35927,232 @@ adalah:</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1395"/>
-        <location filename="../src/engine/import.cpp" line="1403"/>
+        <location filename="../src/engine/import.cpp" line="1404"/>
         <source>Skipped line %1: Field &apos;%2&apos; is already in a previous line.</source>
         <translation>Abaikan baris %1: Field &apos;%2&apos; telah ada di baris sebelumnya.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%1 buildings added. Please check rooms form.</source>
         <translation>Gedung %1 telah ditambah. Silahkan periksa form ruang.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%2 rooms added. Please check rooms form.</source>
         <translation>Ruang %2 telah ditambah. Silahkan periksa form ruang.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="2242"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="2244"/>
         <source>%1 subjects added. Please check subjects form.</source>
         <translation>Mata pelajaran %1 telah ditambah. Silahkan periksa form mata pelajaran.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2227"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2229"/>
         <source>%1 teachers added. Please check teachers form.</source>
         <translation>Guru %1 telah ditambah. Silahkan periksa form guru.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1679"/>
         <source>Checking CSV</source>
         <translation>Periksa CSV</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1683"/>
+        <location filename="../src/engine/import.cpp" line="1685"/>
         <source>Checking CSV canceled by user.</source>
         <translation>Pemeriksaan CSV dibatalkan oleh pengguna.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1708"/>
+        <location filename="../src/engine/import.cpp" line="1710"/>
         <source>Problem in line %1: Group name %2 is taken for a year - please consider another name</source>
         <translation>Masalah pada baris %1: Nama Kelas Paralel %2 telah digunakan oleh kelas - silahkan gunakan nama lain</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1710"/>
+        <location filename="../src/engine/import.cpp" line="1712"/>
         <source>Problem in line %1: Year name %2 is taken for a group - please consider another name</source>
         <translation>Masalah pada baris %1: Nama Kelas %2 telah digunakan oleh kelas paralel - silahkan gunakan nama lain</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1718"/>
+        <location filename="../src/engine/import.cpp" line="1720"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a year - please consider another name</source>
         <translation>Masalah pada baris %1: Nama Grup %2 telah digunakan oleh kelas - silahkan gunakan nama lain</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1720"/>
+        <location filename="../src/engine/import.cpp" line="1722"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a group - please consider another name</source>
         <translation>Masalah pada baris %1: Nama Grup %2 telah digunakan oleh kelas paralel - silahkan gunakan nama lain</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1722"/>
+        <location filename="../src/engine/import.cpp" line="1724"/>
         <source>Problem in line %1: Group name %2 is taken for a subgroup - please consider another name</source>
         <translation>Masalah pada baris %1: Nama kelas paralel %2 telah digunakan oleh grup - silahkan gunakan nama lain</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1724"/>
+        <location filename="../src/engine/import.cpp" line="1726"/>
         <source>Problem in line %1: Year name %2 is taken for a subgroup - please consider another name</source>
         <translation>Masalah pada baris %1: Nama kelas %2 telah digunakan oleh grup - silahkan gunakan nama lain</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1734"/>
+        <location filename="../src/engine/import.cpp" line="1736"/>
         <source>Checking data</source>
         <translation>Pemeriksaan data</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1743"/>
-        <location filename="../src/engine/import.cpp" line="1757"/>
-        <location filename="../src/engine/import.cpp" line="1773"/>
+        <location filename="../src/engine/import.cpp" line="1745"/>
+        <location filename="../src/engine/import.cpp" line="1759"/>
+        <location filename="../src/engine/import.cpp" line="1775"/>
         <source>Checking data canceled by user.</source>
         <translation>Pemeriksaan data dibatalkan oleh pengguna.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1748"/>
+        <location filename="../src/engine/import.cpp" line="1750"/>
         <source>Year %1 is already in FET data.</source>
         <translation>Kelas %1 telah ada di data FET.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1750"/>
+        <location filename="../src/engine/import.cpp" line="1752"/>
         <source>Can&apos;t import group %1. Name is already taken for a year.</source>
         <translation>Tidak dapat impor kelas paralel %1. Nama telah digunakan oleh kelas.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1752"/>
+        <location filename="../src/engine/import.cpp" line="1754"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a year.</source>
         <translation>Tidak dapat impor grup %1. Nama telah digunakan oleh kelas.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1763"/>
+        <location filename="../src/engine/import.cpp" line="1765"/>
         <source>Can&apos;t import year %1. Name is already taken for a group.</source>
         <translation>Tidak dapat impor kelas %1. Nama telah digunakan oleh kelas paralel.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1765"/>
+        <location filename="../src/engine/import.cpp" line="1767"/>
         <source>Group name %1 is already in FET data (In the same or in an other year).</source>
         <translation>Nama kelas paralel %1 telah ada di data FET (pada kelas yang sama atau yang lain).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1767"/>
+        <location filename="../src/engine/import.cpp" line="1769"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a group.</source>
         <translation>Tidak dapat impor grup %1. Nama telah digunakan untuk kelas paralel.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1779"/>
+        <location filename="../src/engine/import.cpp" line="1781"/>
         <source>Can&apos;t import year %1. Name is already taken for a subgroup.</source>
         <translation>Tidak dapat impor kelas %1. Nama telah digunakan oleh grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1781"/>
+        <location filename="../src/engine/import.cpp" line="1783"/>
         <source>Can&apos;t import group %1. Name is taken for a subgroup.</source>
         <translation>Tidak dapat impor kelas paralel %1. Nama telah digunakan oleh grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1783"/>
+        <location filename="../src/engine/import.cpp" line="1785"/>
         <source>Subgroup name %1 is already in FET data (In the same or in an other group).</source>
         <translation>Nama grup %1 telah ada di data FET (pada kelas paralel yang sama atau yang lain).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1804"/>
+        <location filename="../src/engine/import.cpp" line="1806"/>
         <source>Importing data</source>
         <translation>Impor data</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1812"/>
-        <location filename="../src/engine/import.cpp" line="2281"/>
+        <location filename="../src/engine/import.cpp" line="1814"/>
+        <location filename="../src/engine/import.cpp" line="2283"/>
         <source>Importing data canceled by user.</source>
         <translation>Impor data dibatalkan oleh pengguna.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1872"/>
-        <location filename="../src/engine/import.cpp" line="1875"/>
+        <location filename="../src/engine/import.cpp" line="1874"/>
+        <location filename="../src/engine/import.cpp" line="1877"/>
         <source>Group name %1 exists in another year. It means that some years share the same group.</source>
         <translation>Nama kelas paralel %1 telah ada di kelas lain. Artinya beberapa kelas menggunakan kelas paralel yang sama.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1916"/>
+        <location filename="../src/engine/import.cpp" line="1918"/>
         <source>Subgroup name %1 exists in another group. It means that some groups share the same subgroup.</source>
         <translation>Nama grup %1 telah ada di kelas paralel lain. Artinya beberapa kelas paralel menggunakan grup yang sama.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1943"/>
-        <location filename="../src/engine/import.cpp" line="2403"/>
+        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="2405"/>
         <source>Notes:</source>
         <translation>Catatan:</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1944"/>
+        <location filename="../src/engine/import.cpp" line="1946"/>
         <source>%1 subgroups added. Please check subgroups form.</source>
         <translation>Grup %1 ditambah. Silahkan periksa form grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="1947"/>
         <source>%1 groups added. Please check groups form.</source>
         <translation>Kelas paralel %1 telah ditambah. Silahkan periksa form kelas paralel.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1946"/>
+        <location filename="../src/engine/import.cpp" line="1948"/>
         <source>%1 years added. Please check years form.</source>
         <translation>Kelas %1 telah ditambah. Silahkan periksa form kelas.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET needs to know %1 or %2 if you import %3.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2114"/>
+        <location filename="../src/engine/import.cpp" line="2116"/>
         <source>FET can&apos;t import activities, because FET needs to know the stucture of the students sets. You must add (or import) years, groups and subgroups first.</source>
         <translation>FET tidak dapat impor kegiatan karena FET perlu mengetahui struktur dari kelas paralel. Anda harus menambah ( atau impor) kelas, kelas paralel dan grup dulu.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2116"/>
+        <location filename="../src/engine/import.cpp" line="2118"/>
         <source>I recommend to import also teachers, rooms, buildings, subjects and activity tags before importing activities. It is not needed, because FET will automatically do it, but you can check the activity csv file by that.</source>
         <translation>Saya sarankan untuk mengimpor juga guru, ruang, bangunan, mata pelajaran dan kegiatan sebelum mengimpor tag kegiatan. Hal ini tidak diperlukan, karena FET secara otomatis akan melakukannya, tapi Anda dapat memeriksa file csv aktivitas oleh itu.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2121"/>
+        <location filename="../src/engine/import.cpp" line="2123"/>
         <source>Student set %1 doesn&apos;t exist. You must add (or import) years, groups and subgroups first.</source>
         <translation>Kelas paralel %1 tidak ada. Anda harus menambah ( atau impor) kelas, kelas paralel dan grup dulu.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2158"/>
-        <location filename="../src/engine/import.cpp" line="2175"/>
-        <location filename="../src/engine/import.cpp" line="2197"/>
+        <location filename="../src/engine/import.cpp" line="2160"/>
+        <location filename="../src/engine/import.cpp" line="2177"/>
+        <location filename="../src/engine/import.cpp" line="2199"/>
         <source>%1 %2 will be added.</source>
         <comment>For instance &apos;Subject Math will be added&apos;, so use singular</comment>
         <translation>%1 %2 telah ditambah.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2257"/>
+        <location filename="../src/engine/import.cpp" line="2259"/>
         <source>%1 activity tags added. Please check activity tags form.</source>
         <translation>Kegiatan %1 telah ditambah. Silahkan periksa form tag kegiatan.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2272"/>
+        <location filename="../src/engine/import.cpp" line="2274"/>
         <source>Importing activities</source>
         <translation>Impor kegiatan</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2327"/>
+        <location filename="../src/engine/import.cpp" line="2329"/>
         <source>Activity %1 already exists. A duplicate activity is imported. Please check the dataset!</source>
         <translation>Kegiatan %1 telah ada. Kegiatan yang dobel telah diimpor. Silahkan periksa data!</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2337"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
         <source>Activity NOT added - please report error</source>
         <translation>Kegiatan TIDAK ditambah - silahkan laporkan error</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>Split activity NOT added - error???</source>
         <translation>Kegiatan pecah TIDAK ditambahkan - error???</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2399"/>
+        <location filename="../src/engine/import.cpp" line="2401"/>
         <source>Warning: found tags for the &apos;consecutive&apos; field of min days which are not a valid boolean value (%1) - making them %2</source>
         <translation>Peringatan: tag ditemukan untuk &apos;berurutan&apos; hari min bidang yang tidak valid nilai boolean (%1) - membuat mereka %2</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2405"/>
+        <location filename="../src/engine/import.cpp" line="2407"/>
         <source>%1 container activities (%2 total activities) added. Please check activity form.</source>
         <translation>Kontainer kegiatan %1 ( total kegiatan %2) ditambah. Silahkan periksa form kegiatan.</translation>
     </message>

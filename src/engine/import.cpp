@@ -937,7 +937,7 @@ int Import::readFields(QWidget* parent){
 							//if(i==FIELD_ACTIVITY_TAG_NAME) is OK
 							//if(i==FIELD_ROOM_NAME) is OK
 							if(i==FIELD_ROOM_CAPACITY){
-								itemOfField[i]==fieldDefaultItem[i];
+								itemOfField[i]=fieldDefaultItem[i];
 							}
 							if(i==FIELD_MIN_DAYS){
 								itemOfField[i]="0";
@@ -1390,19 +1390,21 @@ void Import::importCSVRoomsAndBuildings(QWidget* parent){
 	QStringList duplicatesCheck;
 	//check duplicates of rooms in cvs
 	if(fieldNumber[FIELD_ROOM_NAME]!=DO_NOT_IMPORT)
-		for(int i=0; i<fieldList[FIELD_ROOM_NAME].size(); i++)
+		for(int i=0; i<fieldList[FIELD_ROOM_NAME].size(); i++){
 			if(duplicatesCheck.contains(fieldList[FIELD_ROOM_NAME][i]))
 				warnText+=Import::tr("Skipped line %1: Field '%2' is already in a previous line.").arg(fieldList[FIELD_LINE_NUMBER][i]).arg(fieldName[FIELD_ROOM_NAME])+"\n";
 			else
 				duplicatesCheck<<fieldList[FIELD_ROOM_NAME][i];
+		}
 	duplicatesCheck.clear();
 	//check duplicates of buildings in cvs. only if no room is imported.
 	if(fieldNumber[FIELD_ROOM_NAME]==DO_NOT_IMPORT&&fieldNumber[FIELD_BUILDING_NAME]!=DO_NOT_IMPORT)
-		for(int i=0; i<fieldList[FIELD_BUILDING_NAME].size(); i++)
+		for(int i=0; i<fieldList[FIELD_BUILDING_NAME].size(); i++){
 			if(duplicatesCheck.contains(fieldList[FIELD_BUILDING_NAME][i]))
 				warnText+=Import::tr("Skipped line %1: Field '%2' is already in a previous line.").arg(fieldList[FIELD_LINE_NUMBER][i]).arg(fieldName[FIELD_BUILDING_NAME])+"\n";
 			else
 				duplicatesCheck<<fieldList[FIELD_BUILDING_NAME][i];
+		}
 	duplicatesCheck.clear();
 	//check empty rooms (start)
 	if(fieldNumber[FIELD_ROOM_NAME!=DO_NOT_IMPORT])
