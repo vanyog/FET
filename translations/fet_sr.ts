@@ -35335,7 +35335,7 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <location filename="../src/engine/import.cpp" line="775"/>
         <location filename="../src/engine/import.cpp" line="784"/>
         <location filename="../src/engine/import.cpp" line="833"/>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET warning</source>
         <translation>FET упозорење</translation>
     </message>
@@ -35366,10 +35366,10 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="846"/>
-        <location filename="../src/engine/import.cpp" line="1675"/>
-        <location filename="../src/engine/import.cpp" line="1733"/>
-        <location filename="../src/engine/import.cpp" line="1803"/>
-        <location filename="../src/engine/import.cpp" line="2271"/>
+        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1735"/>
+        <location filename="../src/engine/import.cpp" line="1805"/>
+        <location filename="../src/engine/import.cpp" line="2273"/>
         <source>Importing</source>
         <comment>Title of a progress dialog</comment>
         <translation>Увоз</translation>
@@ -35426,20 +35426,20 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1329"/>
-        <location filename="../src/engine/import.cpp" line="1424"/>
-        <location filename="../src/engine/import.cpp" line="1433"/>
-        <location filename="../src/engine/import.cpp" line="1529"/>
-        <location filename="../src/engine/import.cpp" line="1600"/>
+        <location filename="../src/engine/import.cpp" line="1426"/>
+        <location filename="../src/engine/import.cpp" line="1435"/>
+        <location filename="../src/engine/import.cpp" line="1531"/>
+        <location filename="../src/engine/import.cpp" line="1602"/>
         <source>%1 is already in FET data.</source>
         <translation>%1 је већ у FET података.</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1349"/>
-        <location filename="../src/engine/import.cpp" line="1479"/>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2337"/>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="1481"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>FET information</source>
         <translation>FET обавештење</translation>
     </message>
@@ -35449,117 +35449,117 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <translation>%1 врсте делатности је додато. Проверите форму делатности.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="2242"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="2244"/>
         <source>%1 subjects added. Please check subjects form.</source>
         <translation>%1 предмет је додато. Проверите форму предмета.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2227"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2229"/>
         <source>%1 teachers added. Please check teachers form.</source>
         <translation>%1 наставника је додато. Проверите форму наставника.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1679"/>
         <source>Checking CSV</source>
         <translation>Провера CSV</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1683"/>
+        <location filename="../src/engine/import.cpp" line="1685"/>
         <source>Checking CSV canceled by user.</source>
         <translation>Провера CSV је отказана од стране корисника.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1734"/>
+        <location filename="../src/engine/import.cpp" line="1736"/>
         <source>Checking data</source>
         <translation>Провера података</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1743"/>
-        <location filename="../src/engine/import.cpp" line="1757"/>
-        <location filename="../src/engine/import.cpp" line="1773"/>
+        <location filename="../src/engine/import.cpp" line="1745"/>
+        <location filename="../src/engine/import.cpp" line="1759"/>
+        <location filename="../src/engine/import.cpp" line="1775"/>
         <source>Checking data canceled by user.</source>
         <translation>Провера података је отказана од стране корисника.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1748"/>
+        <location filename="../src/engine/import.cpp" line="1750"/>
         <source>Year %1 is already in FET data.</source>
         <translation>Година %1 је већ у FET подацима.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1750"/>
+        <location filename="../src/engine/import.cpp" line="1752"/>
         <source>Can&apos;t import group %1. Name is already taken for a year.</source>
         <translation>Није могу&apos;ће увести групу %1. Име је већ заузето за годину.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1752"/>
+        <location filename="../src/engine/import.cpp" line="1754"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a year.</source>
         <translation>Није могу&apos;ће увести подгрупу %1. Име је већ заузето за годину.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1763"/>
+        <location filename="../src/engine/import.cpp" line="1765"/>
         <source>Can&apos;t import year %1. Name is already taken for a group.</source>
         <translation>Није могу&apos;ће увести годину %1. Име је већ заузето за групу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1765"/>
+        <location filename="../src/engine/import.cpp" line="1767"/>
         <source>Group name %1 is already in FET data (In the same or in an other year).</source>
         <translation>Назив групе %1 је већ у FET подацима (У истој или у другој години).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1767"/>
+        <location filename="../src/engine/import.cpp" line="1769"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a group.</source>
         <translation>Није могу&apos;ће увести подгрупу %1. Име је већ заузето за групу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1779"/>
+        <location filename="../src/engine/import.cpp" line="1781"/>
         <source>Can&apos;t import year %1. Name is already taken for a subgroup.</source>
         <translation>Није могу&apos;ће увести годину %1. Име је већ заузето за подгрупу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1781"/>
+        <location filename="../src/engine/import.cpp" line="1783"/>
         <source>Can&apos;t import group %1. Name is taken for a subgroup.</source>
         <translation>Није могу&apos;ће увести групу %1. Име је узето за подгрупу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1783"/>
+        <location filename="../src/engine/import.cpp" line="1785"/>
         <source>Subgroup name %1 is already in FET data (In the same or in an other group).</source>
         <translation>Назив подгрупе %1 је већ у FET подацима (У истој или у другој групи).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1804"/>
+        <location filename="../src/engine/import.cpp" line="1806"/>
         <source>Importing data</source>
         <translation>Увожење података</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1812"/>
-        <location filename="../src/engine/import.cpp" line="2281"/>
+        <location filename="../src/engine/import.cpp" line="1814"/>
+        <location filename="../src/engine/import.cpp" line="2283"/>
         <source>Importing data canceled by user.</source>
         <translation>Увоз података је отказан од стране корисника.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET needs to know %1 or %2 if you import %3.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2116"/>
+        <location filename="../src/engine/import.cpp" line="2118"/>
         <source>I recommend to import also teachers, rooms, buildings, subjects and activity tags before importing activities. It is not needed, because FET will automatically do it, but you can check the activity csv file by that.</source>
         <translation>Препоручујем да се увоз наставника, просторије, зграде, предмете и врсзе делатности увезу пре делатности. Није потребно, јер ће FET аутоматски урадити, али можете да означите csv датотеку.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2272"/>
+        <location filename="../src/engine/import.cpp" line="2274"/>
         <source>Importing activities</source>
         <translation>Увожење делатности</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2337"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
         <source>Activity NOT added - please report error</source>
         <translation>Делатност НИЈЕ додата - молим извештај о грешци</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>Split activity NOT added - error???</source>
         <translation>Подељена делатност НИЈЕ додата - грешка???</translation>
     </message>
@@ -35600,10 +35600,10 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <location filename="../src/engine/import.cpp" line="961"/>
         <location filename="../src/engine/import.cpp" line="986"/>
         <location filename="../src/engine/import.cpp" line="1321"/>
-        <location filename="../src/engine/import.cpp" line="1411"/>
-        <location filename="../src/engine/import.cpp" line="1417"/>
-        <location filename="../src/engine/import.cpp" line="1521"/>
-        <location filename="../src/engine/import.cpp" line="1592"/>
+        <location filename="../src/engine/import.cpp" line="1413"/>
+        <location filename="../src/engine/import.cpp" line="1419"/>
+        <location filename="../src/engine/import.cpp" line="1523"/>
+        <location filename="../src/engine/import.cpp" line="1594"/>
         <source>Skipped line %1: Field &apos;%2&apos; is empty.</source>
         <translation>Прескочена је линија %1: Поље &apos;%2&apos; је празно.</translation>
     </message>
@@ -35636,99 +35636,99 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1395"/>
-        <location filename="../src/engine/import.cpp" line="1403"/>
+        <location filename="../src/engine/import.cpp" line="1404"/>
         <source>Skipped line %1: Field &apos;%2&apos; is already in a previous line.</source>
         <translation>Прескочена је линија %1: Поље &apos;%2&apos; је већ у претходном реду.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%1 buildings added. Please check rooms form.</source>
         <translation>%1 зграде додате. Молим да проверите врсту собе.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%2 rooms added. Please check rooms form.</source>
         <translation>%2 просторије додате. Молим да проверите врсту собе.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1710"/>
+        <location filename="../src/engine/import.cpp" line="1712"/>
         <source>Problem in line %1: Year name %2 is taken for a group - please consider another name</source>
         <translation>Проблем у линији %1: Назив године %2 је узет за групу - молим да размотрите друго име</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1718"/>
+        <location filename="../src/engine/import.cpp" line="1720"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a year - please consider another name</source>
         <translation>Проблем у линији %1: Назив подгрупе %2 је узет за годину - молим да размотрите друго име</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1720"/>
+        <location filename="../src/engine/import.cpp" line="1722"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a group - please consider another name</source>
         <translation>Проблем у линији %1: Назив подгрупе %2 је узет за групу - молим да размотрите друго име</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1722"/>
+        <location filename="../src/engine/import.cpp" line="1724"/>
         <source>Problem in line %1: Group name %2 is taken for a subgroup - please consider another name</source>
         <translation>Проблем у линији %1: Назив групе %2 је узет за подгрупу - молим да размотрите друго име</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1724"/>
+        <location filename="../src/engine/import.cpp" line="1726"/>
         <source>Problem in line %1: Year name %2 is taken for a subgroup - please consider another name</source>
         <translation>Проблем у линији %1: Назив године %2 је узет за подгрупу - молим да размотрите друго име</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1872"/>
-        <location filename="../src/engine/import.cpp" line="1875"/>
+        <location filename="../src/engine/import.cpp" line="1874"/>
+        <location filename="../src/engine/import.cpp" line="1877"/>
         <source>Group name %1 exists in another year. It means that some years share the same group.</source>
         <translation>Назив групе %1 постоји у другој години. То значи да неколико година деле исту групу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1916"/>
+        <location filename="../src/engine/import.cpp" line="1918"/>
         <source>Subgroup name %1 exists in another group. It means that some groups share the same subgroup.</source>
         <translation>Назив подгрупе %1 постоји у другој групи. То значи да неке групе деле исту подгрупу.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1943"/>
-        <location filename="../src/engine/import.cpp" line="2403"/>
+        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="2405"/>
         <source>Notes:</source>
         <translation>Напомене:</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1944"/>
+        <location filename="../src/engine/import.cpp" line="1946"/>
         <source>%1 subgroups added. Please check subgroups form.</source>
         <translation>%1 подгрупа је додато. Проверите форму подгрупе.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="1947"/>
         <source>%1 groups added. Please check groups form.</source>
         <translation>%1 група је додата. Проверите форму групе.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1946"/>
+        <location filename="../src/engine/import.cpp" line="1948"/>
         <source>%1 years added. Please check years form.</source>
         <translation>%1 година је додата. Проверите форму године.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2121"/>
+        <location filename="../src/engine/import.cpp" line="2123"/>
         <source>Student set %1 doesn&apos;t exist. You must add (or import) years, groups and subgroups first.</source>
         <translation>Разред %1 не посто&apos;ји. Морате да додате (или увезете) године, групе и подгрупе на првом месту.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2257"/>
+        <location filename="../src/engine/import.cpp" line="2259"/>
         <source>%1 activity tags added. Please check activity tags form.</source>
         <translation>%1 ознаке делатности додате. Молим да проверите ознаке обрасца делатности.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2327"/>
+        <location filename="../src/engine/import.cpp" line="2329"/>
         <source>Activity %1 already exists. A duplicate activity is imported. Please check the dataset!</source>
         <translation>Активност %1 већ постоји. Двострука активност се увози. Молим проверите скуп података!</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2399"/>
+        <location filename="../src/engine/import.cpp" line="2401"/>
         <source>Warning: found tags for the &apos;consecutive&apos; field of min days which are not a valid boolean value (%1) - making them %2</source>
         <translation>Упозорење: нашао је ознаке &apos;редом&apos; за области од најмање дана које нису важеће за Булову вредност (%1) - чинећи их %2</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2405"/>
+        <location filename="../src/engine/import.cpp" line="2407"/>
         <source>%1 container activities (%2 total activities) added. Please check activity form.</source>
         <translation>%1 контејнер делатности (%2 укупно делатности) додато. Молим да проверите облик делатности.</translation>
     </message>
@@ -35738,19 +35738,19 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <translation>Прескочена је линија %1: Поље &apos;%2&apos; и &apos;%3&apos; нису исте вредности.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1708"/>
+        <location filename="../src/engine/import.cpp" line="1710"/>
         <source>Problem in line %1: Group name %2 is taken for a year - please consider another name</source>
         <translation>Проблем у линији %1: Назив групе %2 је узет за годину - молим да размотрите друго име</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2114"/>
+        <location filename="../src/engine/import.cpp" line="2116"/>
         <source>FET can&apos;t import activities, because FET needs to know the stucture of the students sets. You must add (or import) years, groups and subgroups first.</source>
         <translation>FET не може&apos;те да увезете делатности, јер FET мора да зна структуру скупа ученика. Морате да додате (или увозете) године, групе и подгрупе прво.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2158"/>
-        <location filename="../src/engine/import.cpp" line="2175"/>
-        <location filename="../src/engine/import.cpp" line="2197"/>
+        <location filename="../src/engine/import.cpp" line="2160"/>
+        <location filename="../src/engine/import.cpp" line="2177"/>
+        <location filename="../src/engine/import.cpp" line="2199"/>
         <source>%1 %2 will be added.</source>
         <comment>For instance &apos;Subject Math will be added&apos;, so use singular</comment>
         <translation>%1 %2 ће бити додато.</translation>
