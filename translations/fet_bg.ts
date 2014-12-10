@@ -29273,7 +29273,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3248"/>
         <source>In case the Help/Online menus do not function, please write down these addresses and open them in an internet browser:</source>
-        <translation>В случай, че командите в менюто &quot;Помощ&quot;-&quot;В интернет&quot; не работят, моля, запишете сиследните адреси и ги отворете с интерент браузър:</translation>
+        <translation>В случай, че командите в менюто &quot;Помощ&quot;-&quot;В интернет&quot; не работят, моля, запишете си следните адреси и ги отворете с интерент браузър:</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3250"/>
@@ -29301,7 +29301,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3258"/>
         <source>In case these addresses do not function, maybe the FET webpage has temporary problems, so try again later. Or maybe the FET webpage has changed, so search for the new page on the internet.</source>
-        <translation>В случай, че тези адреси не се отварят, може би страниците на FET може би имет временни проблеми, тка че опитайте отново. Или може би страниците са преместени, така че потърсете новите им адреси в Интернет.</translation>
+        <translation>В случай, че тези адреси не се отварят, може би страниците на FET имат временни проблеми, така че опитайте отново. Или може би страниците са преместени, така че потърсете новите им адреси в Интернет.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3260"/>
