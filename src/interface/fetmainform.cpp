@@ -3224,7 +3224,19 @@ void FetMainForm::on_helpHomepageAction_triggered()
 
 void FetMainForm::on_helpContentsAction_triggered()
 {
-	bool tds=QDesktopServices::openUrl(QUrl("http://lalescu.ro/liviu/fet/doc/"));
+
+    QHash<QString,QString> urls;
+    urls["ar"]=QString("http://www.lalescu.ro/liviu/fet/doc/international/ar/FET-manual-ar.html");
+    urls["bg"]=QString("https://github.com/vanyog/FET/wiki/%D0%9D%D0%B0-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8#bg-manual");
+    urls["ca"]=QString("http://www.lalescu.ro/liviu/fet/doc/international/ca/manual_catalan.html");
+    urls["gr"]=QString("http://www.labschool.eu/lab-software/organization-and-administration-of-school/fet-timetables-schools.html");
+    urls["fa"]=QString("http://www.lalescu.ro/liviu/fet/doc/international/fa/persian_manual.html");
+    urls["it"]=QString("https://sites.google.com/site/ilpassodellupo/");
+    urls["ro"]=QString("http://www.lalescu.ro/liviu/fet/doc/international/ro/tutorialimport.html");
+
+    QString url=urls.value(FET_LANGUAGE,QString("http://lalescu.ro/liviu/fet/doc/"));
+
+    bool tds=QDesktopServices::openUrl(QUrl(url));
 
 	if(!tds){
 		QMessageBox::warning(this, tr("FET warning"), tr("Could not start the default internet browser (trying to open the link %1)."
