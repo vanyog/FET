@@ -29061,7 +29061,7 @@ Please stop simulation before this.</source>
         <location filename="../src/interface/fetmainform.cpp" line="1306"/>
         <location filename="../src/interface/fetmainform.cpp" line="1314"/>
         <source>It seems that you have an incomplete timetable. Saving of timetable does not work for incomplete timetables. Please generate a complete timetable</source>
-        <translation>Изглежда имате непълен график. Записване на непълен график не се прави. Моля, генерирайте пълен график</translation>
+        <translation type="unfinished">Изглежда имате непълен график. Записване на непълен график не се прави. Моля, генерирайте пълен график</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="1350"/>
@@ -29334,7 +29334,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3506"/>
         <location filename="../src/interface/fetmainform.cpp" line="3516"/>
         <source>Please generate, firstly</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, първо генерирайте</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3357"/>
@@ -31321,21 +31321,21 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/engine/generate_pre.cpp" line="7710"/>
         <location filename="../src/engine/generate_pre.cpp" line="8165"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="785"/>
         <location filename="../src/engine/generate_pre.cpp" line="808"/>
         <location filename="../src/engine/generate_pre.cpp" line="831"/>
         <source>Yes</source>
-        <translation type="unfinished">Да</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="785"/>
         <location filename="../src/engine/generate_pre.cpp" line="808"/>
         <location filename="../src/engine/generate_pre.cpp" line="831"/>
         <source>No</source>
-        <translation type="unfinished">Не</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="798"/>
@@ -31360,7 +31360,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="826"/>
         <source>Use with caution.</source>
-        <translation type="unfinished">Използвайте с внимание.</translation>
+        <translation>Използвайте с внимание.</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="891"/>
@@ -32319,24 +32319,24 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8421"/>
         <source>This is the initial evaluation order of activities computed by FET. If the generation gets stuck after a certain number of activities, please check the activity corresponding to this number+1. You might find errors in your input.</source>
-        <translation type="unfinished"></translation>
+        <translation>Това е първоначалния ред на дейностите, определен от FET. Ако генерирането спре след определен брой дейности, моля проверете дейността, съответстваща на този брой+1. Може да откриете грешка във въведената информация.</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8425"/>
         <source>The initial order of activities (id-s):</source>
-        <translation type="unfinished"></translation>
+        <translation>Първоначален ред на дейностите по номера:</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8430"/>
         <source>No: %1</source>
         <comment>Number</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8434"/>
         <source>Id: %1</source>
         <comment>Id of activity</comment>
-        <translation type="unfinished"></translation>
+        <translation>№: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8437"/>
@@ -32346,17 +32346,17 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8439"/>
         <source>Subject: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Дисциплина: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8442"/>
         <source>Activity tags: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикети на дейност: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8444"/>
         <source>Students: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Студенти: %1</translation>
     </message>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8448"/>
@@ -32376,7 +32376,7 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/engine/generate_pre.cpp" line="8462"/>
         <source>End - the order of activities (id-s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Край - ред на дейностите по номера</translation>
     </message>
 </context>
 <context>
@@ -48049,12 +48049,12 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="138"/>
         <source>FET warning</source>
-        <translation type="unfinished">FET Внимание</translation>
+        <translation>FET Внимание</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="138"/>
         <source>Data is wrong. Please correct and try again</source>
-        <translation type="unfinished"></translation>
+        <translation>Данните са лоши. Моля поправете и опитайте отново</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="144"/>
@@ -48063,7 +48063,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="800"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="847"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="145"/>
@@ -48073,12 +48073,12 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="151"/>
         <source>Entering simulation....precomputing, please be patient</source>
-        <translation type="unfinished"></translation>
+        <translation>Започване на симулация...перварителни изчисления, моля чакайте</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="157"/>
         <source>Cannot generate - please modify your data</source>
-        <translation type="unfinished"></translation>
+        <translation>Не може да се генерира - моля променете данните</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="161"/>
@@ -48093,7 +48093,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="819"/>
         <source>Conflicts</source>
         <comment>Title of dialog</comment>
-        <translation type="unfinished">Конфликти</translation>
+        <translation>Конфликти</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="211"/>
@@ -48111,38 +48111,38 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="778"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="825"/>
         <source>Conflicts listing (in decreasing order):</source>
-        <translation type="unfinished"></translation>
+        <translation>Списък конфликти (в намаляващ ред):</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="223"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="374"/>
         <source>Simulation interrupted! FET could not find a timetable. Maybe you can consider lowering the constraints.</source>
-        <translation type="unfinished"></translation>
+        <translation>Симулирането е спряно! FET не намира график. Може би трябва да понижите ограниченията.</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="240"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="521"/>
         <source>The partial results were saved in the directory %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Частично направения график е запазен в директория %1</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="245"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="396"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="526"/>
         <source>Additional information relating impossible to schedule activities:</source>
-        <translation type="unfinished"></translation>
+        <translation>Допълнителна информация относно невъзможността за поставяне на дейностите в график:</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="248"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="399"/>
         <source>FET managed to schedule correctly the first %1 most difficult activities. You can see initial order of placing the activities in the generate dialog. The activity which might cause problems might be the next activity in the initial order of evaluation. This activity is listed below:</source>
-        <translation type="unfinished"></translation>
+        <translation>FET успя да намери коректни места за първите %1 най-трудни дейности. Можете да видите първоначалния ред на дейностите от диалога за генериране. Дейностите, които може да предизвикат проблеми са следващите в първоначалния ред. Те са следните:</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="255"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="406"/>
         <source>Please check constraints related to following possibly problematic activity (or teacher(s), or students set(s)):</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, проверете ограниченията, отнасящи се до следната възможно проблемна дайност (или преподавател(и), или студенти):</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="264"/>
@@ -48158,12 +48158,12 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="269"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="420"/>
         <source>Difficult activity cannot be computed - please report possible bug</source>
-        <translation type="unfinished"></translation>
+        <translation>Трудна дейност не може да бъде нагласена - моля съобщете за бъг</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="276"/>
         <source>Please check the constraints related to the last activities in the list below, which might be impossible to schedule:</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, проверете ограниченията, отнасящи се до последните дейности в следващия списък, които може да е невъзможно да се поставят в график:</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="279"/>
@@ -48181,7 +48181,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="302"/>
         <source>Generation stopped</source>
         <comment>The title of a dialog, meaning that the generation of the timetable was stopped.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Генерирането е спряно</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="308"/>
@@ -48190,7 +48190,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="898"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="930"/>
         <source>OK</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="391"/>
@@ -48201,7 +48201,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="429"/>
         <source>Generation stopped (highest stage)</source>
         <comment>The title of a dialog, meaning that the generation of the timetable was stopped and highest stage timetable written.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Генерирането е спряно (най-висок етап)</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="505"/>
@@ -48217,7 +48217,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="550"/>
         <source>Generation impossible</source>
         <comment>The title of a dialog, meaning that the generation of the timetable is impossible.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Генерирането е невъзможно</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="606"/>
@@ -48238,7 +48238,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="645"/>
         <source>Generation successful!</source>
-        <translation type="unfinished"></translation>
+        <translation>Генерирането е успешно!</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="647"/>
@@ -48248,94 +48248,94 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="649"/>
         <source>Results were saved in the directory %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Резултатите са запазени в директория %1</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="672"/>
         <source>%1 out of %2 activities placed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 от общо %2 дейности са поставени в графика</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="674"/>
         <source>Elapsed time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Итекло време:</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="678"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="704"/>
         <source>%1 h</source>
         <comment>hours</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 ч</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="684"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="708"/>
         <source>%1 m</source>
         <comment>minutes</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 мин</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="689"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="712"/>
         <source>%1 s</source>
         <comment>seconds</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 сек</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="716"/>
         <source>Max placed activities: %1 (at %2)</source>
         <comment>%1 represents the maximum number of activities placed, %2 is a time interval</comment>
-        <translation type="unfinished"></translation>
+        <translation>Максимум поставени дайности: %1 (за %2)</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="727"/>
         <source>Please wait. It might take 5 to 20 minutes or even more for very difficult timetables</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, чакайте. Може да отнеме 5 до 20 минути, или дори повече, за много трудни графици</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="729"/>
         <source>Activities are placed in order, most difficult ones first</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейностите са постевени в ред, започващ от най-трудната</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="731"/>
         <source>The process of searching is semi-randomized, which means that you will get different timetables and running times each time. You can choose the best timetable from several runs</source>
-        <translation type="unfinished"></translation>
+        <translation>Процесът е донякъде случаен, което означава, че ще получите различни графици за различно време при друго генериране. Можете да изберете най-добрия график от няколко генерирания</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="734"/>
         <source>Usually, there is no need to stop and restart the search. But for very difficult timetables this can help. Sometimes in such cases FET can become stuck and cycle forever, and restarting might produce a very fast solution.</source>
-        <translation type="unfinished"></translation>
+        <translation>Обикновено не трябва да спирате и пускате генерирането отново, но за много трудни графици това може да помогне. Понякога в такива случаи FET може да зацикли и повторното генериране може да стигне много бързо до решение.</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="738"/>
         <source>It is recommended to strengthen the constraints step by step (for instance min days between activities weight or teacher(s) max gaps), as you obtain feasible timetables.</source>
-        <translation type="unfinished"></translation>
+        <translation>Препоръчва се да налагате ограниченията едно след друго (например, мин. дни между дейностите или макс. дупки за преподавателите), след като без тях вече успешно се е генерирал график.</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="741"/>
         <source>If your timetable gets stuck on a certain activity number k (and then begins going back), please check the initial evaluation order and see activity number k+1 in this list. You may find errors this way.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако генерирането се затрудни на определен брой дейности k (и след това започне да се връща обратно), моля проверете в първоначалния ред на дейностите дейността на място k+1. Може да откриете грешки в тази дейност.</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="745"/>
         <source>If the generation is successful, you cannot have hard conflicts. You can have only soft conflicts, corresponding to constraints with weight lower than 100.0%, which are reported in detail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако генерирането е успешно, не трябва да има трудни конфликти. Може да имате само меки конфликти, съответстващи на ограничения с процентно тегло по-малко от 100.0%, които се съобщават в подробности.</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="748"/>
         <source>After the generation (successful or interrupted), you can view the current (complete or incomplete) timetable in the corresponding view timetable dialogs, and the list of conflicts in the view conflicts dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>След генериране (успешно или прекъснато), можете да видите текущия график (пълен или непълен) в съответния диалог за преглед на грефика и списъка с конфликти в диалога за преглед на конфликтите.</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="751"/>
         <source>The results are saved in your selected results directory in HTML and XML mode and the soft conflicts in text mode, along with the current data and timetable, saved as a .fet data file (with activities locked by constraints), so that you can open, modify and regenerate the current timetable later</source>
-        <translation type="unfinished"></translation>
+        <translation>Резултатът се запазва в избраната изходна директория в HTML и XML формати, а меките конфликти в текстов формат, заедно с текущите данни и графици във .fet файл за данни (със заключени от ограничения дейности), така че, можете да отворите, промените и генерирате отново графика по-късно</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="755"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation>Помощ за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="801"/>
@@ -48355,7 +48355,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="866"/>
         <source>Please check the constraints related to the last activities in the list below, which might be difficult to schedule:</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, проверете ограниченията, отнасящи се до последните дейности в следващия списък, които може да е трудно да се поставят в график:</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="869"/>
@@ -48365,12 +48365,12 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="892"/>
         <source>FET - information about difficult activities</source>
-        <translation type="unfinished"></translation>
+        <translation>FET - информация за трудни дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="924"/>
         <source>FET - information about initial order of evaluation of activities</source>
-        <translation type="unfinished"></translation>
+        <translation>FET - информация за първоначалния ред на дейностите</translation>
     </message>
 </context>
 <context>
@@ -48379,68 +48379,68 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="17"/>
         <source>Generate new timetable</source>
         <extracomment>Title of dialog of generation of a new timetable</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Генериране на нов график</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="23"/>
         <source>Current stage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Текущ етап:</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="40"/>
         <source>Stop simulation and...</source>
-        <translation type="unfinished"></translation>
+        <translation>Спиране на симулацията и...</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="49"/>
         <source>View current timetable and impossible activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Преглед на текущия график и невъзможните дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="59"/>
         <source>View highest stage timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Преглед на графика от най-висок етап</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="69"/>
         <source>Without stopping the simulation</source>
         <extracomment>This is the title of a group box with more buttons, and all buttons do their function without stopping the simulation</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Без спиране на симулачията</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="78"/>
         <source>View initial order of placing the activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Преглед на началния ред на дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="88"/>
         <source>View difficult activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Преглед на трудните дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="98"/>
         <source>Write current timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Запис на текущия график</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="108"/>
         <source>Write highest stage timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Запис на графика от най-висок етап</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="118"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Старт</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="127"/>
         <source>Help</source>
-        <translation type="unfinished">Помощ</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform_template.ui" line="134"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
