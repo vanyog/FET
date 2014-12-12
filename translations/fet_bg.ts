@@ -4400,7 +4400,7 @@ force activities consecutive</source>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="14"/>
         <source>Add room not available times</source>
         <extracomment>This is the title of the dialog to add a new constraint of this type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне време за недостъпност на стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform_template.ui" line="47"/>
@@ -9746,12 +9746,12 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addroomform.cpp" line="70"/>
         <location filename="../src/interface/addroomform.cpp" line="75"/>
         <source>Room insertion dialog</source>
-        <translation type="unfinished">Диалог за вмъкване на стая</translation>
+        <translation>Диалог за вмъкване на стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform.cpp" line="71"/>
         <source>Could not insert item. Must be a duplicate</source>
-        <translation type="unfinished">Не може да се вмъкне. Трябва да се дублира</translation>
+        <translation>Не може да се вмъкне. Трябва да се дублира</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform.cpp" line="76"/>
@@ -9771,7 +9771,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addroomform.cpp" line="95"/>
         <source>FET - help on adding room(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>FET - помощ за дабавяне на стая</translation>
     </message>
 </context>
 <context>
@@ -9780,37 +9780,37 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addroomform_template.ui" line="14"/>
         <source>Add room</source>
         <extracomment>This is the title of the dialog to add a new room</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Добавяне на стая</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform_template.ui" line="22"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Име</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform_template.ui" line="39"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform_template.ui" line="49"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform_template.ui" line="56"/>
         <source>Help</source>
-        <translation type="unfinished">Помощ</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform_template.ui" line="67"/>
         <source>Capacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Капацитет</translation>
     </message>
     <message>
         <location filename="../src/interface/addroomform_template.ui" line="94"/>
         <source>Building</source>
-        <translation type="unfinished">Сграда</translation>
+        <translation>Сграда</translation>
     </message>
 </context>
 <context>
@@ -9818,12 +9818,12 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="54"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="54"/>
         <source>Incorrect name</source>
-        <translation type="unfinished">Некоректно име</translation>
+        <translation>Некоректно име</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="61"/>
@@ -9851,7 +9851,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="78"/>
         <source>FET</source>
-        <translation type="unfinished">FET</translation>
+        <translation>FET</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="79"/>
@@ -9866,7 +9866,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="85"/>
         <source>Add</source>
-        <translation type="unfinished">Добавяне</translation>
+        <translation>Добавяне</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="85"/>
@@ -43565,28 +43565,28 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/engine/room.cpp" line="64"/>
         <source>Room</source>
-        <translation type="unfinished">Стая</translation>
+        <translation>Стая</translation>
     </message>
     <message>
         <location filename="../src/engine/room.cpp" line="66"/>
         <source>Name=%1</source>
         <comment>The name of the room</comment>
-        <translation type="unfinished">Име=%1</translation>
+        <translation>Име=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/room.cpp" line="70"/>
         <source>Building=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Сграда=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/room.cpp" line="76"/>
         <source>Capacity=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Капацитет=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/room.cpp" line="106"/>
         <source>Space constraints directly related to this room:</source>
-        <translation type="unfinished"></translation>
+        <translation>Пространствени ограничения, пряко свързани с тази стая:</translation>
     </message>
 </context>
 <context>
@@ -43595,33 +43595,33 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/roomsform.cpp" line="118"/>
         <location filename="../src/interface/roomsform.cpp" line="175"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform.cpp" line="118"/>
         <location filename="../src/interface/roomsform.cpp" line="175"/>
         <source>Invalid selected room</source>
-        <translation type="unfinished"></translation>
+        <translation>Невалидна избрана стая</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform.cpp" line="125"/>
         <source>FET</source>
-        <translation type="unfinished">FET</translation>
+        <translation>FET</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform.cpp" line="126"/>
         <source>Are you sure you want to delete this room and all related constraints?</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте че искате да изтриете тази стая и всички свързани с нея ограничения?</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform.cpp" line="127"/>
         <source>Yes</source>
-        <translation type="unfinished">Да</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <location filename="../src/interface/roomsform.cpp" line="127"/>
         <source>No</source>
-        <translation type="unfinished">Не</translation>
+        <translation>Не</translation>
     </message>
 </context>
 <context>
@@ -43699,13 +43699,13 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/engine/rules.cpp" line="101"/>
         <location filename="../src/engine/rules.cpp" line="5672"/>
         <source>Default institution</source>
-        <translation type="unfinished"></translation>
+        <translation>Подразбираща се институция</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="102"/>
         <location filename="../src/engine/rules.cpp" line="5673"/>
         <source>Default comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Подразбираща се бележка</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="159"/>
@@ -43747,7 +43747,7 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/engine/rules.cpp" line="11570"/>
         <location filename="../src/engine/rules.cpp" line="15236"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/engine/rules.cpp" line="160"/>
@@ -47075,7 +47075,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/teachersform.cpp" line="212"/>
         <location filename="../src/interface/teachersform.cpp" line="224"/>
         <source>Invalid selected teacher</source>
-        <translation>Невалиден изпран преподавател</translation>
+        <translation>Невалиден избран преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/teachersform.cpp" line="127"/>
