@@ -1095,7 +1095,7 @@ void FetMainForm::openFile(const QString& fileName)
 		QString s2=s.right(s.length()-tmp2-1);
 			
 		if(s2.indexOf("\"") >= 0){
-			QMessageBox::warning(this, tr("FET information"), 
+			QMessageBox::warning(this, tr("FET information"),
 			 tr("Please do not use quotation marks \" in filename, the html css code does not work."
 			  " File was not loaded. Please rename it, removing not allowed characters and open it after that with FET."));
 			return;

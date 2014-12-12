@@ -35308,7 +35308,7 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <location filename="../src/engine/import.cpp" line="775"/>
         <location filename="../src/engine/import.cpp" line="784"/>
         <location filename="../src/engine/import.cpp" line="833"/>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET warning</source>
         <translation>Avís de FET</translation>
     </message>
@@ -35339,10 +35339,10 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="846"/>
-        <location filename="../src/engine/import.cpp" line="1675"/>
-        <location filename="../src/engine/import.cpp" line="1733"/>
-        <location filename="../src/engine/import.cpp" line="1803"/>
-        <location filename="../src/engine/import.cpp" line="2271"/>
+        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1735"/>
+        <location filename="../src/engine/import.cpp" line="1805"/>
+        <location filename="../src/engine/import.cpp" line="2273"/>
         <source>Importing</source>
         <comment>Title of a progress dialog</comment>
         <translation>Important</translation>
@@ -35399,20 +35399,20 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1329"/>
-        <location filename="../src/engine/import.cpp" line="1424"/>
-        <location filename="../src/engine/import.cpp" line="1433"/>
-        <location filename="../src/engine/import.cpp" line="1529"/>
-        <location filename="../src/engine/import.cpp" line="1600"/>
+        <location filename="../src/engine/import.cpp" line="1426"/>
+        <location filename="../src/engine/import.cpp" line="1435"/>
+        <location filename="../src/engine/import.cpp" line="1531"/>
+        <location filename="../src/engine/import.cpp" line="1602"/>
         <source>%1 is already in FET data.</source>
         <translation>%1 ja està a les dades de FET.</translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1349"/>
-        <location filename="../src/engine/import.cpp" line="1479"/>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2337"/>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="1481"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>FET information</source>
         <translation>Informació de FET</translation>
     </message>
@@ -35422,117 +35422,117 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <translation>%1 etiquetes d&apos;activitat afegides. Siusplau comprova el formulari d&apos;etiqueta d&apos;activitat.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="2242"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="2244"/>
         <source>%1 subjects added. Please check subjects form.</source>
         <translation>%1 matèries afegides. Siusplau comprova el formulari de matèries.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2227"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2229"/>
         <source>%1 teachers added. Please check teachers form.</source>
         <translation>%1 professors afegits. Siusplau comprova el formulari de professors.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1679"/>
         <source>Checking CSV</source>
         <translation>Comprovant CSV</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1683"/>
+        <location filename="../src/engine/import.cpp" line="1685"/>
         <source>Checking CSV canceled by user.</source>
         <translation>Comprovació de CSV cancel·lada per l&apos;usuari.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1734"/>
+        <location filename="../src/engine/import.cpp" line="1736"/>
         <source>Checking data</source>
         <translation>Comprovant dades</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1743"/>
-        <location filename="../src/engine/import.cpp" line="1757"/>
-        <location filename="../src/engine/import.cpp" line="1773"/>
+        <location filename="../src/engine/import.cpp" line="1745"/>
+        <location filename="../src/engine/import.cpp" line="1759"/>
+        <location filename="../src/engine/import.cpp" line="1775"/>
         <source>Checking data canceled by user.</source>
         <translation>Comprovació de dades cancel·lada per l&apos;usuari.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1748"/>
+        <location filename="../src/engine/import.cpp" line="1750"/>
         <source>Year %1 is already in FET data.</source>
         <translation>El curs %1 ja està a les dades de FET.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1750"/>
+        <location filename="../src/engine/import.cpp" line="1752"/>
         <source>Can&apos;t import group %1. Name is already taken for a year.</source>
         <translation>No es pot importar el grup %1. El nom ja l&apos;usa un curs.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1752"/>
+        <location filename="../src/engine/import.cpp" line="1754"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a year.</source>
         <translation>No es pot importar el subgrup %1. El nom ja l&apos;usa un curs.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1763"/>
+        <location filename="../src/engine/import.cpp" line="1765"/>
         <source>Can&apos;t import year %1. Name is already taken for a group.</source>
         <translation>No es pot importar el curs %1. El nom ja l&apos;usa un grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1765"/>
+        <location filename="../src/engine/import.cpp" line="1767"/>
         <source>Group name %1 is already in FET data (In the same or in an other year).</source>
         <translation>El nom de grup %1 ja està a les dades de FET (en el mateix o en un altre curs).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1767"/>
+        <location filename="../src/engine/import.cpp" line="1769"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a group.</source>
         <translation>No es pot importar el subgrup %1. El nom ja l&apos;usa un grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1779"/>
+        <location filename="../src/engine/import.cpp" line="1781"/>
         <source>Can&apos;t import year %1. Name is already taken for a subgroup.</source>
         <translation>No es pot importar el curs %1. El nom ja l&apos;usa un subgrup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1781"/>
+        <location filename="../src/engine/import.cpp" line="1783"/>
         <source>Can&apos;t import group %1. Name is taken for a subgroup.</source>
         <translation>No es pot importar el grup %1. El nom ja l&apos;usa un subgrup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1783"/>
+        <location filename="../src/engine/import.cpp" line="1785"/>
         <source>Subgroup name %1 is already in FET data (In the same or in an other group).</source>
         <translation>El nom de subgrup %1 ja està a les dades de FET (en el mateix o en un altre grup).</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1804"/>
+        <location filename="../src/engine/import.cpp" line="1806"/>
         <source>Importing data</source>
         <translation>Important dades</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1812"/>
-        <location filename="../src/engine/import.cpp" line="2281"/>
+        <location filename="../src/engine/import.cpp" line="1814"/>
+        <location filename="../src/engine/import.cpp" line="2283"/>
         <source>Importing data canceled by user.</source>
         <translation>Importació de dades cancel·lada per l&apos;usuari.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET needs to know %1 or %2 if you import %3.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2116"/>
+        <location filename="../src/engine/import.cpp" line="2118"/>
         <source>I recommend to import also teachers, rooms, buildings, subjects and activity tags before importing activities. It is not needed, because FET will automatically do it, but you can check the activity csv file by that.</source>
         <translation>Recomano importar també els professors, les aules, els edificis, les matèries i les etiquetes d&apos;activitat abans d&apos;importar les activitats. No és necessari, perquè FET ho farà automàticament, però pots comprovar el fitxer csv per això.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2272"/>
+        <location filename="../src/engine/import.cpp" line="2274"/>
         <source>Importing activities</source>
         <translation>Important activitats</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2337"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
         <source>Activity NOT added - please report error</source>
         <translation>Activitat NO afegida - siusplau comunica&apos;ns l&apos;error</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>Split activity NOT added - error???</source>
         <translation>Activitat dividida NO afegida-error???</translation>
     </message>
@@ -35573,10 +35573,10 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <location filename="../src/engine/import.cpp" line="961"/>
         <location filename="../src/engine/import.cpp" line="986"/>
         <location filename="../src/engine/import.cpp" line="1321"/>
-        <location filename="../src/engine/import.cpp" line="1411"/>
-        <location filename="../src/engine/import.cpp" line="1417"/>
-        <location filename="../src/engine/import.cpp" line="1521"/>
-        <location filename="../src/engine/import.cpp" line="1592"/>
+        <location filename="../src/engine/import.cpp" line="1413"/>
+        <location filename="../src/engine/import.cpp" line="1419"/>
+        <location filename="../src/engine/import.cpp" line="1523"/>
+        <location filename="../src/engine/import.cpp" line="1594"/>
         <source>Skipped line %1: Field &apos;%2&apos; is empty.</source>
         <translation>Saltada la línia %1: el Camp &quot;%2&quot; estàa buit.</translation>
     </message>
@@ -35609,99 +35609,99 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1395"/>
-        <location filename="../src/engine/import.cpp" line="1403"/>
+        <location filename="../src/engine/import.cpp" line="1404"/>
         <source>Skipped line %1: Field &apos;%2&apos; is already in a previous line.</source>
         <translation>Saltada la línia %1: el camp %2 ja estava en una línia prèvia.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%1 buildings added. Please check rooms form.</source>
         <translation>%1 edificis afegits. Siusplau comprova el formulari d&apos;aules.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%2 rooms added. Please check rooms form.</source>
         <translation>%2 aules afegides. Siusplau comprova el formulari d&apos;aules.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1710"/>
+        <location filename="../src/engine/import.cpp" line="1712"/>
         <source>Problem in line %1: Year name %2 is taken for a group - please consider another name</source>
         <translation>Problema a la línia %1: el nom de curs %2 està usat per un grup - siusplau pensa&apos;n un altre</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1718"/>
+        <location filename="../src/engine/import.cpp" line="1720"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a year - please consider another name</source>
         <translation>Problema a la línia %1: el nom de subgrup %2 està usat per un curs - siusplau pensa&apos;n un altre</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1720"/>
+        <location filename="../src/engine/import.cpp" line="1722"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a group - please consider another name</source>
         <translation>Problema a la línia %1: el nom de subgrup %2 està usat per un grup - siusplau pensa&apos;n un altre</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1722"/>
+        <location filename="../src/engine/import.cpp" line="1724"/>
         <source>Problem in line %1: Group name %2 is taken for a subgroup - please consider another name</source>
         <translation>Problema a la línia %1: el nom de grup %2 està usat per un subgrup - siusplau pensa&apos;n un altre</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1724"/>
+        <location filename="../src/engine/import.cpp" line="1726"/>
         <source>Problem in line %1: Year name %2 is taken for a subgroup - please consider another name</source>
         <translation>Problema a la línia %1: el nom de curs %2 està usat per un subgrup - siusplau pensa&apos;n un altre</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1872"/>
-        <location filename="../src/engine/import.cpp" line="1875"/>
+        <location filename="../src/engine/import.cpp" line="1874"/>
+        <location filename="../src/engine/import.cpp" line="1877"/>
         <source>Group name %1 exists in another year. It means that some years share the same group.</source>
         <translation>El nom de grup %1 existeix en un altre curs. Vol dir que alguns cursos comparteixen el mateix grup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1916"/>
+        <location filename="../src/engine/import.cpp" line="1918"/>
         <source>Subgroup name %1 exists in another group. It means that some groups share the same subgroup.</source>
         <translation>El nom de subgrup %1 existeix en un altre grup. Vol dir que alguns cursos comparteixen el mateix subgrup.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1943"/>
-        <location filename="../src/engine/import.cpp" line="2403"/>
+        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="2405"/>
         <source>Notes:</source>
         <translation>Notes:</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1944"/>
+        <location filename="../src/engine/import.cpp" line="1946"/>
         <source>%1 subgroups added. Please check subgroups form.</source>
         <translation>%1 subgrups afegits. Siusplau comprova el formulari de subgrups.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="1947"/>
         <source>%1 groups added. Please check groups form.</source>
         <translation>%1 grups afegits. Siusplau comprova el formulari de grups.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1946"/>
+        <location filename="../src/engine/import.cpp" line="1948"/>
         <source>%1 years added. Please check years form.</source>
         <translation>%1 cursos afegits. Siusplau comprova el formulari de cursos.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2121"/>
+        <location filename="../src/engine/import.cpp" line="2123"/>
         <source>Student set %1 doesn&apos;t exist. You must add (or import) years, groups and subgroups first.</source>
         <translation>El conjunt d&apos;alumnes %1 no existeix. Has d&apos;afegir (o importar) cursos, grups i subgrups abans.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2257"/>
+        <location filename="../src/engine/import.cpp" line="2259"/>
         <source>%1 activity tags added. Please check activity tags form.</source>
         <translation>%1 etiquetes d&apos;activitat afegides. Siusplau comprova el formulari d&apos;etiquetes d&apos;activitat.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2327"/>
+        <location filename="../src/engine/import.cpp" line="2329"/>
         <source>Activity %1 already exists. A duplicate activity is imported. Please check the dataset!</source>
         <translation>L&apos;activitat %1 ja existeix. S&apos;ha importat una activitat duplicada. Siusplau comprova les dades!</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2399"/>
+        <location filename="../src/engine/import.cpp" line="2401"/>
         <source>Warning: found tags for the &apos;consecutive&apos; field of min days which are not a valid boolean value (%1) - making them %2</source>
         <translation>Avís: s&apos;han trobat etiquetes pel camp &quot;consecutiu&quot; de min dies que no són un valor booleà vàlid (%1) - cobertint-los a %2</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2405"/>
+        <location filename="../src/engine/import.cpp" line="2407"/>
         <source>%1 container activities (%2 total activities) added. Please check activity form.</source>
         <translation>%1 activitats contenidor (%2 activitats totals) afegides. Siusplau comprova el formulari d&apos;activitat.</translation>
     </message>
@@ -35711,19 +35711,19 @@ Probably, in practice this problem will not appear and you need not to worry. Bu
         <translation>Saltada la línia %1: els Camps &quot;%2&quot; i &quot;%3&quot; no tenen el mateix valor.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1708"/>
+        <location filename="../src/engine/import.cpp" line="1710"/>
         <source>Problem in line %1: Group name %2 is taken for a year - please consider another name</source>
         <translation>Problema a la línia %1: el nom de grup %2 està usat per un curs - siusplau pensa&apos;n un altre</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2114"/>
+        <location filename="../src/engine/import.cpp" line="2116"/>
         <source>FET can&apos;t import activities, because FET needs to know the stucture of the students sets. You must add (or import) years, groups and subgroups first.</source>
         <translation>FET no pot importar activitats, perquè FET necessita saber l&apos;estructura dels conjunts d&apos;alumnes. Has d&apos;afegir (o importar) cursos, grups i subgrups primer.</translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2158"/>
-        <location filename="../src/engine/import.cpp" line="2175"/>
-        <location filename="../src/engine/import.cpp" line="2197"/>
+        <location filename="../src/engine/import.cpp" line="2160"/>
+        <location filename="../src/engine/import.cpp" line="2177"/>
+        <location filename="../src/engine/import.cpp" line="2199"/>
         <source>%1 %2 will be added.</source>
         <comment>For instance &apos;Subject Math will be added&apos;, so use singular</comment>
         <translation>%1 %2 s&apos;afegiran.</translation>
