@@ -503,7 +503,7 @@
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="45"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Продължаване</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="52"/>
@@ -730,7 +730,7 @@
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1091"/>
         <source>Cannot modify this large activity, because it contains more than %1 activities.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Не можете да промените тази голяма дейност, защото тя съдържа повече от %1 дейности.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1208"/>
@@ -2370,13 +2370,13 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiespreferredstartingtimesform_template.ui" line="124"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredstartingtimesform_template.ui" line="131"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredstartingtimesform_template.ui" line="138"/>
@@ -2509,13 +2509,13 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiespreferredtimeslotsform_template.ui" line="124"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredtimeslotsform_template.ui" line="131"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredtimeslotsform_template.ui" line="138"/>
@@ -2758,7 +2758,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform.cpp" line="189"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform.cpp" line="194"/>
@@ -2911,7 +2911,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingtimeform.cpp" line="434"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -3014,7 +3014,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivityendsstudentsdayform.cpp" line="178"/>
         <source>Invalid weight (percentage) - must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivityendsstudentsdayform.cpp" line="188"/>
@@ -3509,13 +3509,13 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimesform_template.ui" line="146"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimesform_template.ui" line="153"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimesform_template.ui" line="160"/>
@@ -3622,13 +3622,13 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitypreferredtimeslotsform_template.ui" line="146"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredtimeslotsform_template.ui" line="153"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredtimeslotsform_template.ui" line="160"/>
@@ -3666,7 +3666,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="94"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="102"/>
@@ -3818,7 +3818,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform.cpp" line="62"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform.cpp" line="71"/>
@@ -3843,7 +3843,8 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform_template.ui" line="50"/>
@@ -3874,7 +3875,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform.cpp" line="62"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform.cpp" line="71"/>
@@ -3899,7 +3900,8 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform_template.ui" line="50"/>
@@ -4003,7 +4005,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform.cpp" line="199"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform.cpp" line="204"/>
@@ -4080,7 +4082,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform_template.ui" line="153"/>
         <source>Max days</source>
         <comment>It refers to the maximum number of days between activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Макс. дни</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform_template.ui" line="176"/>
@@ -4117,7 +4119,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintmindaysbetweenactivitiesform.cpp" line="193"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmindaysbetweenactivitiesform.cpp" line="198"/>
@@ -4268,7 +4270,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintmingapsbetweenactivitiesform.cpp" line="195"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmingapsbetweenactivitiesform.cpp" line="200"/>
@@ -4465,7 +4467,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="82"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="91"/>
@@ -4536,7 +4538,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="82"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="91"/>
@@ -4682,7 +4684,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform.cpp" line="98"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform.cpp" line="108"/>
@@ -4732,7 +4734,8 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform_template.ui" line="46"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform_template.ui" line="90"/>
@@ -4797,7 +4800,8 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperdayform_template.ui" line="46"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperdayform_template.ui" line="68"/>
@@ -4852,7 +4856,8 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperweekform_template.ui" line="46"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperweekform_template.ui" line="68"/>
@@ -4878,7 +4883,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxdaysperweekform.cpp" line="69"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxdaysperweekform.cpp" line="80"/>
@@ -4918,7 +4923,8 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/addconstraintstudentsmaxdaysperweekform_template.ui" line="85"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
 </context>
 <context>
@@ -5204,7 +5210,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintstudentsmingapsbetweenbuildingchangesform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmingapsbetweenbuildingchangesform_template.ui" line="50"/>
@@ -5251,7 +5258,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsminhoursdailyform.cpp" line="70"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsminhoursdailyform.cpp" line="75"/>
@@ -5358,7 +5365,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="113"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="122"/>
@@ -5440,7 +5447,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="114"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="123"/>
@@ -5744,7 +5751,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="120"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="130"/>
@@ -5970,7 +5977,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="92"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="102"/>
@@ -6539,7 +6546,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetnotavailabletimesform.cpp" line="253"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -6569,7 +6576,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintstudentssetnotavailabletimesform_template.ui" line="120"/>
         <source>Set all available</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetnotavailabletimesform_template.ui" line="127"/>
@@ -6686,7 +6693,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform_template.ui" line="177"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform_template.ui" line="184"/>
@@ -6798,7 +6805,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform_template.ui" line="177"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform_template.ui" line="184"/>
@@ -6848,7 +6855,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="106"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="114"/>
@@ -7173,7 +7180,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="97"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="107"/>
@@ -7255,7 +7262,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform.cpp" line="98"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform.cpp" line="108"/>
@@ -7483,7 +7490,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherintervalmaxdaysperweekform.cpp" line="111"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherintervalmaxdaysperweekform.cpp" line="121"/>
@@ -7709,7 +7716,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform.cpp" line="83"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform.cpp" line="93"/>
@@ -7744,7 +7751,8 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform_template.ui" line="77"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform_template.ui" line="118"/>
@@ -8069,7 +8077,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermindaysperweekform.cpp" line="77"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermindaysperweekform.cpp" line="87"/>
@@ -8104,7 +8112,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteachermindaysperweekform_template.ui" line="77"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermindaysperweekform_template.ui" line="118"/>
@@ -8208,7 +8217,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherminhoursdailyform.cpp" line="80"/>
         <source>Invalid weight (percentage) - must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherminhoursdailyform.cpp" line="88"/>
@@ -8323,7 +8332,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform.cpp" line="245"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -8470,7 +8479,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform.cpp" line="82"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform.cpp" line="92"/>
@@ -8551,7 +8560,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersintervalmaxdaysperweekform.cpp" line="97"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersintervalmaxdaysperweekform.cpp" line="107"/>
@@ -8744,7 +8753,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxdaysperweekform.cpp" line="69"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxdaysperweekform.cpp" line="80"/>
@@ -9048,7 +9057,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmindaysperweekform.cpp" line="65"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmindaysperweekform.cpp" line="76"/>
@@ -9164,7 +9173,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersminhoursdailyform.cpp" line="71"/>
         <source>Invalid weight (percentage) - must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersminhoursdailyform.cpp" line="76"/>
@@ -9645,7 +9654,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addgroupactivitiesininitialorderitemform.cpp" line="178"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/addgroupactivitiesininitialorderitemform.cpp" line="183"/>
@@ -9871,7 +9880,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="85"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Прекъсване</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentsgroupform.cpp" line="99"/>
@@ -9971,7 +9980,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addstudentssubgroupform.cpp" line="86"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Прекъсване</translation>
     </message>
     <message>
         <location filename="../src/interface/addstudentssubgroupform.cpp" line="99"/>
@@ -11041,7 +11050,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15644"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15645"/>
@@ -11296,7 +11305,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17846"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17847"/>
@@ -11431,7 +11440,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="313"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -11513,7 +11522,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1467"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1468"/>
@@ -11553,7 +11562,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1556"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1557"/>
@@ -11703,7 +11712,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6950"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="6951"/>
@@ -11747,7 +11756,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/spaceconstraint.cpp" line="7034"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7039"/>
@@ -11828,7 +11837,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintactivitiesoccupymaxdifferentroomsform.cpp" line="307"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -11942,7 +11951,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17477"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17478"/>
@@ -11965,7 +11974,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17568"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17569"/>
@@ -11986,7 +11995,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="17573"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17578"/>
@@ -12072,7 +12081,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintactivitiesoccupymaxtimeslotsfromselectionform.cpp" line="312"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -12179,7 +12188,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10782"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10783"/>
@@ -12248,7 +12257,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10919"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10920"/>
@@ -12434,7 +12443,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9513"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9514"/>
@@ -12503,7 +12512,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9651"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9652"/>
@@ -12662,7 +12671,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7225"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7226"/>
@@ -12706,7 +12715,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/spaceconstraint.cpp" line="7306"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="7312"/>
@@ -12834,7 +12843,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11972"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11973"/>
@@ -12874,7 +12883,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12063"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12064"/>
@@ -12895,7 +12904,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="12068"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity.</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12075"/>
@@ -12962,7 +12971,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintactivitiessamestartingdayform.cpp" line="189"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -13019,7 +13028,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11667"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11668"/>
@@ -13059,7 +13068,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11758"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11759"/>
@@ -13080,7 +13089,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="11763"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity.</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11770"/>
@@ -13184,7 +13193,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1162"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1163"/>
@@ -13224,7 +13233,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1253"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1254"/>
@@ -13245,7 +13254,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="1258"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1263"/>
@@ -13312,7 +13321,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintactivitiessamestartingtimeform.cpp" line="327"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -13394,7 +13403,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13444"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13445"/>
@@ -13423,7 +13432,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13497"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13498"/>
@@ -13563,7 +13572,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="781"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="782"/>
@@ -13771,7 +13780,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/spaceconstraint.cpp" line="1023"/>
         <location filename="../src/engine/spaceconstraint.cpp" line="1035"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1024"/>
@@ -13958,7 +13967,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8859"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8860"/>
@@ -14018,13 +14027,13 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8944"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8945"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8950"/>
@@ -14178,7 +14187,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10410"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10411"/>
@@ -14238,13 +14247,13 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10508"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10509"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10529"/>
@@ -14373,7 +14382,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9120"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9121"/>
@@ -14439,13 +14448,13 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9227"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9228"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9233"/>
@@ -14584,7 +14593,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3376"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3377"/>
@@ -14749,7 +14758,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3615"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3616"/>
@@ -15310,7 +15319,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5548"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5550"/>
@@ -15487,7 +15496,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2243"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2244"/>
@@ -15508,7 +15517,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="2248"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2253"/>
@@ -15595,7 +15604,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintmaxdaysbetweenactivitiesform.cpp" line="311"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -15672,7 +15681,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1809"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1810"/>
@@ -15724,7 +15733,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1900"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1901"/>
@@ -15745,7 +15754,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="1905"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="1910"/>
@@ -15952,7 +15961,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2488"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2489"/>
@@ -15998,7 +16007,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2577"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2578"/>
@@ -16019,7 +16028,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="2582"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2587"/>
@@ -16091,7 +16100,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintmingapsbetweenactivitiesform.cpp" line="303"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -16378,7 +16387,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7805"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7806"/>
@@ -16530,7 +16539,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16474"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16475"/>
@@ -16696,7 +16705,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6286"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6287"/>
@@ -16881,7 +16890,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15427"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15428"/>
@@ -17315,7 +17324,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18441"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18442"/>
@@ -17456,7 +17465,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16984"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16985"/>
@@ -17613,7 +17622,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5814"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5815"/>
@@ -17754,7 +17763,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7277"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7278"/>
@@ -17897,7 +17906,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6821"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6822"/>
@@ -18180,7 +18189,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8391"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8393"/>
@@ -18330,7 +18339,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8050"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8051"/>
@@ -18498,7 +18507,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16688"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16689"/>
@@ -18697,7 +18706,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6579"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6581"/>
@@ -18989,7 +18998,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1570"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="1571"/>
@@ -19239,7 +19248,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15177"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15178"/>
@@ -19754,7 +19763,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18245"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="18246"/>
@@ -19922,7 +19931,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17248"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="17249"/>
@@ -20106,7 +20115,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6074"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="6075"/>
@@ -20263,7 +20272,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7498"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7499"/>
@@ -20433,7 +20442,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7017"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="7018"/>
@@ -20770,7 +20779,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8611"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="8613"/>
@@ -20982,7 +20991,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="951"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="952"/>
@@ -21141,7 +21150,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11248"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11249"/>
@@ -21215,7 +21224,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11390"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11391"/>
@@ -21332,7 +21341,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintsubactivitiespreferredstartingtimesform.cpp" line="182"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintsubactivitiespreferredstartingtimesform.cpp" line="182"/>
@@ -21446,7 +21455,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9992"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9993"/>
@@ -21520,7 +21529,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10135"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10136"/>
@@ -21637,7 +21646,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/interface/constraintsubactivitiespreferredtimeslotsform.cpp" line="182"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/constraintsubactivitiespreferredtimeslotsform.cpp" line="182"/>
@@ -21718,7 +21727,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2876"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2877"/>
@@ -21894,7 +21903,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3123"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="3124"/>
@@ -22070,7 +22079,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2384"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2385"/>
@@ -22235,7 +22244,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2622"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2623"/>
@@ -22417,7 +22426,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3982"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3983"/>
@@ -22574,7 +22583,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16230"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="16231"/>
@@ -22887,7 +22896,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2120"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/spaceconstraint.cpp" line="2121"/>
@@ -23130,7 +23139,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14618"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14619"/>
@@ -23634,7 +23643,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4232"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4233"/>
@@ -23791,7 +23800,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5331"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5332"/>
@@ -23948,7 +23957,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4919"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4920"/>
@@ -24105,7 +24114,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3468"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3469"/>
@@ -24264,7 +24273,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3025"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3026"/>
@@ -24421,7 +24430,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14178"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14179"/>
@@ -24767,7 +24776,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13954"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13955"/>
@@ -24929,7 +24938,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="587"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="588"/>
@@ -25109,7 +25118,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3712"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3713"/>
@@ -25261,7 +25270,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15990"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15991"/>
@@ -25477,7 +25486,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14870"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14871"/>
@@ -25911,7 +25920,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4466"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4467"/>
@@ -26052,7 +26061,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5123"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="5124"/>
@@ -26193,7 +26202,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4710"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="4711"/>
@@ -26334,7 +26343,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3239"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="3240"/>
@@ -26477,7 +26486,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2805"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="2806"/>
@@ -26618,7 +26627,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14377"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="14378"/>
@@ -26921,7 +26930,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13712"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13713"/>
@@ -27047,7 +27056,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="12856"/>
         <location filename="../src/engine/timeconstraint.cpp" line="12865"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12819"/>
@@ -27101,7 +27110,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12930"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12931"/>
@@ -27240,7 +27249,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="12277"/>
         <location filename="../src/engine/timeconstraint.cpp" line="12286"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12259"/>
@@ -27287,7 +27296,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12346"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12347"/>
@@ -27420,7 +27429,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="12550"/>
         <location filename="../src/engine/timeconstraint.cpp" line="12559"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12532"/>
@@ -27467,7 +27476,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12619"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="12620"/>
@@ -27600,7 +27609,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/engine/timeconstraint.cpp" line="13205"/>
         <location filename="../src/engine/timeconstraint.cpp" line="13214"/>
         <source>FET error in data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Грешка в данните на FET</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13187"/>
@@ -27647,7 +27656,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13274"/>
         <source>Time constraint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Времево ограничение</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="13275"/>
@@ -28361,7 +28370,7 @@ Import of data will be easier with these settings.</source>
     <name>FetMainForm</name>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="658"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3663"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3675"/>
         <source>US English</source>
         <translation>Английски US</translation>
     </message>
@@ -28683,27 +28692,27 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="3167"/>
         <location filename="../src/interface/fetmainform.cpp" line="3181"/>
         <location filename="../src/interface/fetmainform.cpp" line="3195"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3296"/>
         <location filename="../src/interface/fetmainform.cpp" line="3308"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3321"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3327"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3320"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3333"/>
         <location filename="../src/interface/fetmainform.cpp" line="3339"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3352"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3373"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3398"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3413"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3434"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3458"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3469"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3482"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3493"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3506"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3516"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3872"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3905"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3932"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4005"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4016"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3351"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3364"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3385"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3410"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3425"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3446"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3470"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3481"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3494"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3505"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3518"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3528"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3884"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3917"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3944"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4017"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4028"/>
         <source>FET information</source>
         <translation>Информация за FET</translation>
     </message>
@@ -28728,24 +28737,24 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="815"/>
         <location filename="../src/interface/fetmainform.cpp" line="1387"/>
         <location filename="../src/interface/fetmainform.cpp" line="3220"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3230"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3240"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3357"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3378"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3382"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3418"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3439"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3443"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3563"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3620"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4057"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4107"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4137"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4162"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4189"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4211"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4232"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4256"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3242"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3252"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3369"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3390"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3394"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3430"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3451"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3455"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3575"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3632"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4069"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4119"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4149"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4174"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4201"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4223"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4244"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4268"/>
         <source>FET warning</source>
         <translation>FET Внимание</translation>
     </message>
@@ -28783,8 +28792,8 @@ Import of data will be easier with these settings.</source>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="815"/>
         <location filename="../src/interface/fetmainform.cpp" line="3220"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3230"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3240"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3242"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3252"/>
         <source>Could not start the default internet browser (trying to open the link %1). Maybe you can try to manually start your browser and open this link.</source>
         <translation>Не се стартира браузъра по подразбиране за да отвори адрес %1. Може би се налага ръчно да отворите с браузър този адрес.</translation>
     </message>
@@ -28921,13 +28930,13 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="3168"/>
         <location filename="../src/interface/fetmainform.cpp" line="3182"/>
         <location filename="../src/interface/fetmainform.cpp" line="3196"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3297"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3322"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3873"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3906"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3933"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4006"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4017"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3309"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3334"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3885"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3918"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3945"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4018"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4029"/>
         <source>Allocation in course.
 Please stop simulation before this.</source>
         <translation type="unfinished"></translation>
@@ -29271,434 +29280,434 @@ Having a subgroup with too little working hours per week means that you inputted
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3248"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3260"/>
         <source>In case the Help/Online menus do not function, please write down these addresses and open them in an internet browser:</source>
         <translation>В случай, че командите в менюто &quot;Помощ&quot;-&quot;В интернет&quot; не работят, моля, запишете си следните адреси и ги отворете с интерент браузър:</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3250"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3262"/>
         <source>FET homepage: %1</source>
         <comment>%1 is FET homepage, begins with http://...</comment>
         <translation>Начална страница на FET: %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3252"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3264"/>
         <source>Documentation (online help contents): %1</source>
         <comment>%1 is web page of FET Doc(umentation), which is the contents of the online help, it begins with http://...</comment>
         <translation>Документация (съдържание на онлайн помощта): %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3254"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3266"/>
         <source>Forum: %1</source>
         <comment>%1 is web page of FET forum, begins with http://...</comment>
         <translation>Форум: %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3256"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3268"/>
         <source>Additionally, you may find on the FET homepage other contact information.</source>
         <translation>В допълнение на страниците на FET може да намерите друга информация за контакт.</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3258"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3270"/>
         <source>In case these addresses do not function, maybe the FET webpage has temporary problems, so try again later. Or maybe the FET webpage has changed, so search for the new page on the internet.</source>
         <translation>В случай, че тези адреси не се отварят, може би страниците на FET имат временни проблеми, така че опитайте отново. Или може би страниците са преместени, така че потърсете новите им адреси в Интернет.</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3260"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3272"/>
         <source>FET web addresses</source>
         <translation>Интернет адреси на FET</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3308"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3320"/>
         <source>Please input at least one active activity before generating</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3328"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3340"/>
         <source>Your current data has no name. Please save it as a file with a certain name before proceeding.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3339"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3351"/>
         <source>Please input at least one active activity before generating multiple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3352"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3373"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3398"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3413"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3434"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3458"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3482"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3506"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3516"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3364"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3385"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3410"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3425"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3446"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3470"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3494"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3518"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3528"/>
         <source>Please generate, firstly</source>
         <translation>Моля, първо генерирайте</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3357"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3378"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3418"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3439"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3369"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3390"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3430"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3451"/>
         <source>Cannot display the timetable, because you added or removed some rooms. Please regenerate the timetable and then view it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3382"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3443"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3394"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3455"/>
         <source>Cannot display the timetable, because you added or removed some teachers. Please regenerate the timetable and then view it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3469"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3493"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3481"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3505"/>
         <source>The timetable is not generated, but anyway FET will proceed now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3526"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3569"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3538"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3581"/>
         <source>Please select FET language</source>
         <translation>Моля, изберете език за FET</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3530"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3542"/>
         <source>Cancel</source>
         <translation>Отказване</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3531"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3543"/>
         <source>OK</source>
         <translation>Запазване</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3563"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3575"/>
         <source>Invalid current language - making it en_US (US English)</source>
         <translation>Текущия език е невалиден - остава en_US (US Английски)</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3620"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3632"/>
         <source>Invalid language selected - making it en_US (US English)</source>
         <translation>Избраният език е невалиден - остава en_US (US Английски)</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3640"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3652"/>
         <source>Are you sure you want to reset all settings to defaults?</source>
         <translation>Сигурни ли сте, че искате всички настройки да се зададат по подразбиране?</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3643"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3655"/>
         <source>That means:</source>
         <translation>Това означава:</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3646"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3658"/>
         <source>The geometry and any other saved settings of all the windows and dialogs will be reset to default</source>
         <translation>Размерите и други настройки на прозорци и диалози ще се променят като по подразбиране</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3649"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3661"/>
         <source>Show shortcut buttons in main window will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3649"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3703"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3706"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3661"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3715"/>
         <location filename="../src/interface/fetmainform.cpp" line="3718"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3727"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3734"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3738"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3740"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3742"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3744"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3730"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3739"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3746"/>
         <location filename="../src/interface/fetmainform.cpp" line="3750"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3752"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3754"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3756"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3762"/>
         <source>true</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3652"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3664"/>
         <source>In the shortcuts tab from the main window, the first section will be selected/shown</source>
         <comment>Option refers to the main window tab widget for shortcuts, which currently contains 5 tabs: File, Data, Time, Space, Timetable (so it will select/show File tab).</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3656"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3668"/>
         <source>Check for updates at startup will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3656"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3659"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3709"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3712"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3715"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3668"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3671"/>
         <location filename="../src/interface/fetmainform.cpp" line="3721"/>
         <location filename="../src/interface/fetmainform.cpp" line="3724"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3730"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3748"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3727"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3733"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3736"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3742"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3760"/>
         <source>false</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3659"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3671"/>
         <source>Use colors in FET graphical user interface will be %1</source>
         <comment>%1 is true or false</comment>
         <translation>Използването на цветове в грахичния интерфейс на FET ще бъде %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3663"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3684"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3675"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3696"/>
         <source>Language will be %1</source>
         <comment>%1 is the default language</comment>
         <translation>Езикъта ще баде %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3688"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3700"/>
         <source>The list of recently used files will be cleared</source>
         <translation>Списъкът последно отваряни файлове ще бъде изтрит</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3691"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3703"/>
         <source>Working directory will be %1</source>
         <comment>%1 is the directory</comment>
         <translation>Работната директория ще бъде %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3694"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3706"/>
         <source>Output directory will be %1</source>
         <comment>%1 is the directory</comment>
         <translation>Изходната директория ще бъде %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3697"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3709"/>
         <source>Import directory will be %1</source>
         <comment>%1 is the directory</comment>
         <translation>Входната директория ще бъде %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3700"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3712"/>
         <source>Html level of the timetables will be %1</source>
         <comment>%1 is default html level</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3703"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3715"/>
         <source>Mark not available slots with -x- in timetables will be %1</source>
         <comment>%1 is true or false. Lowercase -x-</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3706"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3718"/>
         <source>Mark break slots with -X- in timetables will be %1</source>
         <comment>%1 is true or false. Uppercase -X-</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3709"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3721"/>
         <source>Divide html timetables with time-axis by days will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3712"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3724"/>
         <source>Duplicate vertical headers to the right will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3715"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3727"/>
         <source>Print activities with same starting time will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3718"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3730"/>
         <source>Print activities tags will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3721"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3733"/>
         <source>Enable activity tag max hours daily will be %1</source>
         <comment>%1 is true or false</comment>
         <translation>Разрешените Макс. часове дневно за етикет на дейност ще бъдат %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3724"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3736"/>
         <source>Enable students max gaps per day will be %1</source>
         <comment>%1 is true or false</comment>
         <translation>Разрешените Макс. дупки за студентите на ден ще бъдат %1</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3727"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3739"/>
         <source>Warn if using not perfect constraints will be %1</source>
         <comment>%1 is true or false. This is a warning if user uses not perfect constraints</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3730"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3742"/>
         <source>Enable constraints students min hours daily with empty days will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3733"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3745"/>
         <source>Warn if using constraints students min hours daily with empty days will be %1</source>
         <comment>%1 is true or false. This is a warning if user uses a nonstandard constraint students min hours daily with allowed empty days</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3738"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3750"/>
         <source>Confirm activity planning will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3740"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3752"/>
         <source>Confirm spread activities over the week will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3742"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3754"/>
         <source>Confirm remove redundant constraints will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3744"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3756"/>
         <source>Confirm save data and timetable as will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3748"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3760"/>
         <source>Enable group activities in the initial order of generation will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3750"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3762"/>
         <source>Warn if using group activities in the initial order of generation will be %1</source>
         <comment>%1 is true or false</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3754"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3766"/>
         <source>FET confirmation</source>
         <translation>Потвърждаване за FET</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3755"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3767"/>
         <source>&amp;Yes</source>
         <translation>&amp;Да</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3755"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3767"/>
         <source>&amp;No</source>
         <translation>&amp;Не</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3939"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3951"/>
         <source>You have more than 6 days per week, so probably you won&apos;t need this feature. Do you still want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3942"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3963"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3954"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3975"/>
         <source>FET question</source>
         <translation type="unfinished">Вапрос от FET</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3944"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3965"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3956"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3977"/>
         <source>&amp;Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3944"/>
-        <location filename="../src/interface/fetmainform.cpp" line="3965"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3956"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3977"/>
         <source>&amp;Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="3960"/>
+        <location filename="../src/interface/fetmainform.cpp" line="3972"/>
         <source>You have less than 5 days per week, so probably you won&apos;t need this feature. Do you still want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4048"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4060"/>
         <source>Choose results (output) directory</source>
         <translation>Избиране на директория за резултати (изход)</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4057"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4069"/>
         <source>You don&apos;t have write permissions in this directory</source>
         <translation>Вие нямате право за запис в тази директория</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4098"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4128"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4110"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4140"/>
         <source>These kinds of constraints are good, but not perfectly optimized. Adding such constraints may make your timetable solve too slow or even impossible.</source>
         <translation>Този тип ограничения са добри, но не са напълно оптимизирани. Добавяне на такова ограничение може да направи генерирането на график много бавно или дори невъзможно.</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4101"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4131"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4113"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4143"/>
         <source>It is recommended to use such constraints only at the end, after you generated successfully with all the other constraints.</source>
         <translation>Препоръчва се да използвате такива ограничения само накрая, след като успешно сте генерирали график с всички останали ограничения.</translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4103"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4133"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4115"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4145"/>
         <source>If your timetable is too difficult, it may be from these kinds of constraints, so you may need to remove them and retry.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4105"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4135"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4187"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4230"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4117"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4147"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4199"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4242"/>
         <source>Continue only if you know what you are doing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4156"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4205"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4250"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4168"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4217"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4262"/>
         <source>It is recommended to keep this warning active, but if you really want, you can disable it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4158"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4207"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4252"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4170"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4219"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4264"/>
         <source>Disable it only if you know what you are doing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4160"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4209"/>
-        <location filename="../src/interface/fetmainform.cpp" line="4254"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4172"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4221"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4266"/>
         <source>Are you sure you want to disable it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4179"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4191"/>
         <source>This kind of constraint is good, but only in the right case. Adding such constraints in the wrong circumstance may make your timetable solve too slow or even impossible.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4182"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4194"/>
         <source>Please use such constraints only if you are sure that there exists a timetable with empty days for students. If your instution requires each day for the students to be not empty, or if there does not exist a solution with empty days for students, it is IMPERATIVE (for performance reasons) that you use the standard constraint which does not allow empty days. Otherwise, the timetable may be impossible to find.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/fetmainform.cpp" line="4227"/>
+        <location filename="../src/interface/fetmainform.cpp" line="4239"/>
         <source>This kind of option is good, but only in the right case. Adding such an option in the wrong circumstance may make your timetable solve too slow or even impossible.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -31095,7 +31104,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fet.cpp" line="1087"/>
         <source>Difficult activity cannot be computed - please report possible bug</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Трудна дейност не може да бъде нагласена - моля съобщете за бъг</translation>
     </message>
     <message>
         <location filename="../src/interface/fet.cpp" line="1091"/>
@@ -31105,7 +31114,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fet.cpp" line="1098"/>
         <source>No: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1</translation>
     </message>
 </context>
 <context>
@@ -31133,25 +31142,25 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="125"/>
         <source>%1 h</source>
         <comment>hours</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 ч</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="129"/>
         <source>%1 m</source>
         <comment>minutes</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 мин</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="133"/>
         <source>%1 s</source>
         <comment>seconds</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 сек</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="137"/>
         <source>Max placed activities: %1 (at %2)</source>
         <comment>%1 represents the maximum number of activities placed, %2 is a time interval</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Максимум поставени дайности: %1 (за %2)</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="158"/>
@@ -32419,7 +32428,7 @@ Please modify your data correspondingly and try again</source>
         <location filename="../src/engine/activity.cpp" line="90"/>
         <source>Activity with id=%1 (%2)</source>
         <comment>%1 is the id, %2 is the detailed description of the activity</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Дейност с №=%1 (%2)</translation>
     </message>
     <message>
         <location filename="../src/engine/activity.cpp" line="99"/>
@@ -32504,7 +32513,7 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/interface/groupactivitiesininitialorderitemsform.cpp" line="328"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/groupactivitiesininitialorderitemsform.cpp" line="408"/>
@@ -32765,7 +32774,7 @@ Please modify your data correspondingly and try again</source>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="14"/>
         <source>About FET - Free Timetabling Software</source>
-        <translation>Относно FET - Free Timetabling Software</translation>
+        <translation>Относно FET - Свободен софтуер за графици</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="27"/>
@@ -32782,13 +32791,22 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Copyright (C) 2002-2014 Liviu Lalescu, Volker Dirr&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Version: 5.24.0-snapshot-5-dec-2014-21_50 (December 2014).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Version: 5.24.0-snapshot-9-dec-2014-15_42 (December 2014).&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Licensed under GNU GPL v2 or later.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;FET homepage: &lt;/span&gt;&lt;a href=&quot;http://lalescu.ro/liviu/fet/&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://lalescu.ro/liviu/fet/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;FET е свободен софтуер за автоматично съставяне на графици (разписания, седмични програми) за училища, ВУЗ или университети.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Всички права са запазени (C) 2002-2014 Liviu Lalescu, Volker Dirr&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Версия: 5.24.0-snapshot-9-dec-2014-15_42 (December 2014).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Лиценз GNU GPL версия 2 или следваща.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;Страница на FET: &lt;/span&gt;&lt;a href=&quot;http://lalescu.ro/liviu/fet/&quot;&gt;&lt;span style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://lalescu.ro/liviu/fet/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/interface/helpaboutform_template.ui" line="69"/>
@@ -35181,7 +35199,7 @@ Add another constraint: min 1 day between activities with id-s 2 and 3, consecut
         <location filename="../src/engine/import.cpp" line="775"/>
         <location filename="../src/engine/import.cpp" line="784"/>
         <location filename="../src/engine/import.cpp" line="833"/>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET warning</source>
         <translation type="unfinished">FET Внимание</translation>
     </message>
@@ -35264,10 +35282,10 @@ is:</source>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="846"/>
-        <location filename="../src/engine/import.cpp" line="1675"/>
-        <location filename="../src/engine/import.cpp" line="1733"/>
-        <location filename="../src/engine/import.cpp" line="1803"/>
-        <location filename="../src/engine/import.cpp" line="2271"/>
+        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1735"/>
+        <location filename="../src/engine/import.cpp" line="1805"/>
+        <location filename="../src/engine/import.cpp" line="2273"/>
         <source>Importing</source>
         <comment>Title of a progress dialog</comment>
         <translation type="unfinished"></translation>
@@ -35304,10 +35322,10 @@ is:</source>
         <location filename="../src/engine/import.cpp" line="961"/>
         <location filename="../src/engine/import.cpp" line="986"/>
         <location filename="../src/engine/import.cpp" line="1321"/>
-        <location filename="../src/engine/import.cpp" line="1411"/>
-        <location filename="../src/engine/import.cpp" line="1417"/>
-        <location filename="../src/engine/import.cpp" line="1521"/>
-        <location filename="../src/engine/import.cpp" line="1592"/>
+        <location filename="../src/engine/import.cpp" line="1413"/>
+        <location filename="../src/engine/import.cpp" line="1419"/>
+        <location filename="../src/engine/import.cpp" line="1523"/>
+        <location filename="../src/engine/import.cpp" line="1594"/>
         <source>Skipped line %1: Field &apos;%2&apos; is empty.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35432,20 +35450,20 @@ is:</source>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1329"/>
-        <location filename="../src/engine/import.cpp" line="1424"/>
-        <location filename="../src/engine/import.cpp" line="1433"/>
-        <location filename="../src/engine/import.cpp" line="1529"/>
-        <location filename="../src/engine/import.cpp" line="1600"/>
+        <location filename="../src/engine/import.cpp" line="1426"/>
+        <location filename="../src/engine/import.cpp" line="1435"/>
+        <location filename="../src/engine/import.cpp" line="1531"/>
+        <location filename="../src/engine/import.cpp" line="1602"/>
         <source>%1 is already in FET data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1349"/>
-        <location filename="../src/engine/import.cpp" line="1479"/>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2337"/>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="1481"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>FET information</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35456,232 +35474,232 @@ is:</source>
     </message>
     <message>
         <location filename="../src/engine/import.cpp" line="1395"/>
-        <location filename="../src/engine/import.cpp" line="1403"/>
+        <location filename="../src/engine/import.cpp" line="1404"/>
         <source>Skipped line %1: Field &apos;%2&apos; is already in a previous line.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%1 buildings added. Please check rooms form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1480"/>
+        <location filename="../src/engine/import.cpp" line="1482"/>
         <source>%2 rooms added. Please check rooms form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1551"/>
-        <location filename="../src/engine/import.cpp" line="2242"/>
+        <location filename="../src/engine/import.cpp" line="1553"/>
+        <location filename="../src/engine/import.cpp" line="2244"/>
         <source>%1 subjects added. Please check subjects form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1621"/>
-        <location filename="../src/engine/import.cpp" line="2227"/>
+        <location filename="../src/engine/import.cpp" line="1623"/>
+        <location filename="../src/engine/import.cpp" line="2229"/>
         <source>%1 teachers added. Please check teachers form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1677"/>
+        <location filename="../src/engine/import.cpp" line="1679"/>
         <source>Checking CSV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1683"/>
+        <location filename="../src/engine/import.cpp" line="1685"/>
         <source>Checking CSV canceled by user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1708"/>
+        <location filename="../src/engine/import.cpp" line="1710"/>
         <source>Problem in line %1: Group name %2 is taken for a year - please consider another name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1710"/>
+        <location filename="../src/engine/import.cpp" line="1712"/>
         <source>Problem in line %1: Year name %2 is taken for a group - please consider another name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1718"/>
+        <location filename="../src/engine/import.cpp" line="1720"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a year - please consider another name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1720"/>
+        <location filename="../src/engine/import.cpp" line="1722"/>
         <source>Problem in line %1: Subgroup name %2 is taken for a group - please consider another name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1722"/>
+        <location filename="../src/engine/import.cpp" line="1724"/>
         <source>Problem in line %1: Group name %2 is taken for a subgroup - please consider another name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1724"/>
+        <location filename="../src/engine/import.cpp" line="1726"/>
         <source>Problem in line %1: Year name %2 is taken for a subgroup - please consider another name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1734"/>
+        <location filename="../src/engine/import.cpp" line="1736"/>
         <source>Checking data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1743"/>
-        <location filename="../src/engine/import.cpp" line="1757"/>
-        <location filename="../src/engine/import.cpp" line="1773"/>
+        <location filename="../src/engine/import.cpp" line="1745"/>
+        <location filename="../src/engine/import.cpp" line="1759"/>
+        <location filename="../src/engine/import.cpp" line="1775"/>
         <source>Checking data canceled by user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1748"/>
+        <location filename="../src/engine/import.cpp" line="1750"/>
         <source>Year %1 is already in FET data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1750"/>
+        <location filename="../src/engine/import.cpp" line="1752"/>
         <source>Can&apos;t import group %1. Name is already taken for a year.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1752"/>
+        <location filename="../src/engine/import.cpp" line="1754"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a year.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1763"/>
+        <location filename="../src/engine/import.cpp" line="1765"/>
         <source>Can&apos;t import year %1. Name is already taken for a group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1765"/>
+        <location filename="../src/engine/import.cpp" line="1767"/>
         <source>Group name %1 is already in FET data (In the same or in an other year).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1767"/>
+        <location filename="../src/engine/import.cpp" line="1769"/>
         <source>Can&apos;t import subgroup %1. Name is already taken for a group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1779"/>
+        <location filename="../src/engine/import.cpp" line="1781"/>
         <source>Can&apos;t import year %1. Name is already taken for a subgroup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1781"/>
+        <location filename="../src/engine/import.cpp" line="1783"/>
         <source>Can&apos;t import group %1. Name is taken for a subgroup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1783"/>
+        <location filename="../src/engine/import.cpp" line="1785"/>
         <source>Subgroup name %1 is already in FET data (In the same or in an other group).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1804"/>
+        <location filename="../src/engine/import.cpp" line="1806"/>
         <source>Importing data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1812"/>
-        <location filename="../src/engine/import.cpp" line="2281"/>
+        <location filename="../src/engine/import.cpp" line="1814"/>
+        <location filename="../src/engine/import.cpp" line="2283"/>
         <source>Importing data canceled by user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1872"/>
-        <location filename="../src/engine/import.cpp" line="1875"/>
+        <location filename="../src/engine/import.cpp" line="1874"/>
+        <location filename="../src/engine/import.cpp" line="1877"/>
         <source>Group name %1 exists in another year. It means that some years share the same group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1916"/>
+        <location filename="../src/engine/import.cpp" line="1918"/>
         <source>Subgroup name %1 exists in another group. It means that some groups share the same subgroup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1943"/>
-        <location filename="../src/engine/import.cpp" line="2403"/>
+        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="2405"/>
         <source>Notes:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1944"/>
+        <location filename="../src/engine/import.cpp" line="1946"/>
         <source>%1 subgroups added. Please check subgroups form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1945"/>
+        <location filename="../src/engine/import.cpp" line="1947"/>
         <source>%1 groups added. Please check groups form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1946"/>
+        <location filename="../src/engine/import.cpp" line="1948"/>
         <source>%1 years added. Please check years form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="1998"/>
+        <location filename="../src/engine/import.cpp" line="2000"/>
         <source>FET needs to know %1 or %2 if you import %3.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2114"/>
+        <location filename="../src/engine/import.cpp" line="2116"/>
         <source>FET can&apos;t import activities, because FET needs to know the stucture of the students sets. You must add (or import) years, groups and subgroups first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2116"/>
+        <location filename="../src/engine/import.cpp" line="2118"/>
         <source>I recommend to import also teachers, rooms, buildings, subjects and activity tags before importing activities. It is not needed, because FET will automatically do it, but you can check the activity csv file by that.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2121"/>
+        <location filename="../src/engine/import.cpp" line="2123"/>
         <source>Student set %1 doesn&apos;t exist. You must add (or import) years, groups and subgroups first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2158"/>
-        <location filename="../src/engine/import.cpp" line="2175"/>
-        <location filename="../src/engine/import.cpp" line="2197"/>
+        <location filename="../src/engine/import.cpp" line="2160"/>
+        <location filename="../src/engine/import.cpp" line="2177"/>
+        <location filename="../src/engine/import.cpp" line="2199"/>
         <source>%1 %2 will be added.</source>
         <comment>For instance &apos;Subject Math will be added&apos;, so use singular</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2257"/>
+        <location filename="../src/engine/import.cpp" line="2259"/>
         <source>%1 activity tags added. Please check activity tags form.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2272"/>
+        <location filename="../src/engine/import.cpp" line="2274"/>
         <source>Importing activities</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2327"/>
+        <location filename="../src/engine/import.cpp" line="2329"/>
         <source>Activity %1 already exists. A duplicate activity is imported. Please check the dataset!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2337"/>
+        <location filename="../src/engine/import.cpp" line="2339"/>
         <source>Activity NOT added - please report error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2391"/>
+        <location filename="../src/engine/import.cpp" line="2393"/>
         <source>Split activity NOT added - error???</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2399"/>
+        <location filename="../src/engine/import.cpp" line="2401"/>
         <source>Warning: found tags for the &apos;consecutive&apos; field of min days which are not a valid boolean value (%1) - making them %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/engine/import.cpp" line="2405"/>
+        <location filename="../src/engine/import.cpp" line="2407"/>
         <source>%1 container activities (%2 total activities) added. Please check activity form.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -37247,7 +37265,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingtimeform.cpp" line="199"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingtimeform.cpp" line="204"/>
@@ -37393,7 +37411,8 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivityendsstudentsdayform_template.ui" line="157"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivityendsstudentsdayform_template.ui" line="179"/>
@@ -37731,7 +37750,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="146"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredstartingtimesform_template.ui" line="153"/>
@@ -37832,13 +37851,13 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform_template.ui" line="146"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform_template.ui" line="153"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredtimeslotsform_template.ui" line="160"/>
@@ -37874,7 +37893,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomform.cpp" line="103"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomform.cpp" line="111"/>
@@ -38002,7 +38021,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintbasiccompulsoryspaceform.cpp" line="62"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
 </context>
 <context>
@@ -38117,7 +38136,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="75"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintbreaktimesform_template.ui" line="82"/>
@@ -38256,7 +38275,7 @@ Please stop simulation before this</source>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="204"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform.cpp" line="209"/>
@@ -38400,7 +38419,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintmingapsbetweenactivitiesform.cpp" line="201"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmingapsbetweenactivitiesform.cpp" line="206"/>
@@ -38528,13 +38547,13 @@ force activities consecutive</source>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform_template.ui" line="95"/>
         <source>Set all available</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform_template.ui" line="102"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintroomnotavailabletimesform_template.ui" line="109"/>
@@ -38569,7 +38588,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="90"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -38624,7 +38643,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="91"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -38746,7 +38765,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentsintervalmaxdaysperweekform.cpp" line="88"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsintervalmaxdaysperweekform.cpp" line="98"/>
@@ -38828,7 +38847,8 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/modifyconstraintstudentsmaxbuildingchangesperdayform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxbuildingchangesperdayform_template.ui" line="50"/>
@@ -38904,7 +38924,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentsmaxdaysperweekform.cpp" line="72"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
 </context>
 <context>
@@ -39203,7 +39223,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsminhoursdailyform.cpp" line="74"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentsminhoursdailyform.cpp" line="79"/>
@@ -39294,7 +39314,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="131"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -39360,7 +39380,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="134"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -39616,7 +39636,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetintervalmaxdaysperweekform.cpp" line="122"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetintervalmaxdaysperweekform.cpp" line="132"/>
@@ -39806,7 +39826,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxdaysperweekform.cpp" line="106"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetmaxdaysperweekform.cpp" line="116"/>
@@ -40171,7 +40191,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetminhoursdailyform.cpp" line="111"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetminhoursdailyform.cpp" line="116"/>
@@ -40302,13 +40322,13 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintstudentssetnotavailabletimesform_template.ui" line="120"/>
         <source>Set all available</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetnotavailabletimesform_template.ui" line="127"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssetnotavailabletimesform_template.ui" line="134"/>
@@ -40392,13 +40412,13 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredstartingtimesform_template.ui" line="145"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredstartingtimesform_template.ui" line="152"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredstartingtimesform_template.ui" line="159"/>
@@ -40482,13 +40502,13 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredtimeslotsform_template.ui" line="145"/>
         <source>Set all allowed</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredtimeslotsform_template.ui" line="152"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubactivitiespreferredtimeslotsform_template.ui" line="159"/>
@@ -40530,7 +40550,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomform.cpp" line="129"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomform.cpp" line="137"/>
@@ -40813,7 +40833,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="111"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -40883,7 +40903,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacheractivitytagmaxhoursdailyform.cpp" line="112"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -41069,7 +41089,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherintervalmaxdaysperweekform.cpp" line="107"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherintervalmaxdaysperweekform.cpp" line="117"/>
@@ -41259,7 +41279,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxdaysperweekform.cpp" line="91"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermaxdaysperweekform.cpp" line="101"/>
@@ -41558,7 +41578,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachermindaysperweekform.cpp" line="83"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachermindaysperweekform.cpp" line="93"/>
@@ -41672,7 +41692,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteacherminhoursdailyform.cpp" line="90"/>
         <source>Invalid weight (percentage) - must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherminhoursdailyform.cpp" line="95"/>
@@ -41786,13 +41806,13 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachernotavailabletimesform_template.ui" line="120"/>
         <source>Set all available</source>
         <comment>It refers to time slots</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Активиране на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachernotavailabletimesform_template.ui" line="127"/>
         <source>X=not allowed, empty=allowed</source>
         <extracomment>This is an explanation in a dialog for a constraint. It says that symbol X means that this slot is not allowed, and an empty cell means that the slot is allowed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">x=неактивирано, празно=активирано</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachernotavailabletimesform_template.ui" line="134"/>
@@ -41831,7 +41851,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="90"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -41890,7 +41910,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersactivitytagmaxhoursdailyform.cpp" line="91"/>
         <source>Invalid activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалиден етикет на дейност</translation>
     </message>
 </context>
 <context>
@@ -41953,7 +41973,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersintervalmaxdaysperweekform.cpp" line="89"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersintervalmaxdaysperweekform.cpp" line="99"/>
@@ -42035,7 +42055,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersmaxbuildingchangesperdayform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxbuildingchangesperdayform_template.ui" line="50"/>
@@ -42078,7 +42099,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersmaxbuildingchangesperweekform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxbuildingchangesperweekform_template.ui" line="50"/>
@@ -42112,7 +42134,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxdaysperweekform.cpp" line="72"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
 </context>
 <context>
@@ -42127,7 +42149,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersmaxdaysperweekform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmaxdaysperweekform_template.ui" line="56"/>
@@ -42357,7 +42380,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmindaysperweekform.cpp" line="68"/>
         <source>Invalid weight (percentage) - it has to be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100%</translation>
     </message>
 </context>
 <context>
@@ -42372,7 +42395,8 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteachersmindaysperweekform_template.ui" line="28"/>
         <source>Weight percentage
 (necessary: 100%)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Процентно тегло
+(трябва да е: 100%)</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersmindaysperweekform_template.ui" line="56"/>
@@ -42450,7 +42474,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyconstraintteachersminhoursdailyform.cpp" line="74"/>
         <source>Invalid weight (percentage) - must be 100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Невалидно процентно тегло. Трябва да е 100</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteachersminhoursdailyform.cpp" line="79"/>
@@ -42791,7 +42815,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifygroupactivitiesininitialorderitemform.cpp" line="188"/>
         <source>Empty list of selected activities</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Празен списък от избрани дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/modifygroupactivitiesininitialorderitemform.cpp" line="193"/>
@@ -42911,7 +42935,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/modifyroomform_template.ui" line="40"/>
         <source>Capacity</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Капацитет</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyroomform_template.ui" line="67"/>
@@ -43458,7 +43482,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform_template.ui" line="43"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Продължаване</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform_template.ui" line="50"/>
@@ -44864,7 +44888,7 @@ not added - must be a duplicate</source>
     <message>
         <location filename="../src/interface/savetimetableconfirmationform_template.ui" line="43"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Продължаване</translation>
     </message>
     <message>
         <location filename="../src/interface/savetimetableconfirmationform_template.ui" line="50"/>
@@ -45358,7 +45382,7 @@ not added - must be a duplicate</source>
     <message>
         <location filename="../src/interface/spreadconfirmationform_template.ui" line="43"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Продължаване</translation>
     </message>
     <message>
         <location filename="../src/interface/spreadconfirmationform_template.ui" line="50"/>
@@ -45486,7 +45510,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/spreadmindaysconstraintsfivedaysform.cpp" line="436"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
     <message>
         <location filename="../src/interface/spreadmindaysconstraintsfivedaysform.cpp" line="457"/>
@@ -46369,7 +46393,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/studentsstatisticsform.cpp" line="342"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -48175,7 +48199,7 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegenerateform.cpp" line="534"/>
         <location filename="../src/interface/timetablegenerateform.cpp" line="876"/>
         <source>No: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegenerateform.cpp" line="302"/>
@@ -48503,7 +48527,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="273"/>
         <source>Data is wrong. Please correct and try again</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Данните са лоши. Моля поправете и опитайте отново</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="280"/>
@@ -48572,25 +48596,25 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="483"/>
         <source>%1 h</source>
         <comment>hours</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 ч</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="487"/>
         <source>%1 m</source>
         <comment>minutes</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 мин</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="491"/>
         <source>%1 s</source>
         <comment>seconds</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">%1 сек</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="495"/>
         <source>Max placed activities: %1 (at %2)</source>
         <comment>%1 represents the maximum number of activities placed, %2 is a time interval</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Максимум поставени дайности: %1 (за %2)</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform.cpp" line="498"/>
@@ -48631,7 +48655,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform_template.ui" line="98"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Старт</translation>
     </message>
     <message>
         <location filename="../src/interface/timetablegeneratemultipleform_template.ui" line="108"/>
@@ -49429,7 +49453,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/timetableviewroomsform.cpp" line="771"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -49677,7 +49701,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/timetableviewstudentsform.cpp" line="884"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
@@ -49915,7 +49939,7 @@ Please stop simulation before this.</source>
     <message>
         <location filename="../src/interface/timetableviewteachersform.cpp" line="783"/>
         <source>FET help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Помощ за FET</translation>
     </message>
 </context>
 <context>
