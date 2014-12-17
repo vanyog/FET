@@ -46,7 +46,7 @@ void HelpFaqForm::setText()
 	
 	s+=tr("Frequently asked questions.");
 	s+="\n\n";
-	s+=tr("Last modified on %1.").arg(tr("28 September 2013"));
+	s+=tr("Last modified on %1.").arg(tr("16 December 2014"));
 	
 	s+="\n\n";
 	s+="--------------------";
@@ -154,16 +154,9 @@ void HelpFaqForm::setText()
 	s+="\n\n";
 
 	s+=tr("Q: How to define the students into sections?\n\n"
-		"A: FET can automatically divide years by at most 4 categories of options. If you need to divide "
-		"a year into 5 categories, you can use a small trick (see below)."
+		"A: FET can automatically divide years by categories of options."
 		"\n\n"
-		"Add years and the option 'Divide ...' in the years dialog is the easiest way. You can also add manually years, groups and subgroups."
-		"\n\n"
-		"If each year (for instance 9) is divided by at most 4 categories, you can add year 9 and divide it in 4 categories. "
-		"If a year is divided by 5 categories (for instance, year 9 is divided by: section (a, b, c, d), first language (en, fr), "
-		"religion, boys/girls and second language (de, it)), you might consider years: 9a, 9b, 9c, 9d, each divided "
-		"into 4 categories, and divide each year in the dialog. For more than 5 categories, very unlikely case, you will need to "
-		"manually adjust groups/subgroups.");
+		"Add years and the option 'Divide ...' in the years dialog is the easiest way. You can also add manually years, groups and subgroups.");
 	s+="\n\n";
 	s+=tr("Important: you must consider that each year contains groups which contain independent subgroups. Subgroups should have "
 		"all the activities of the year and group plus additional optional activities. Please check menu statistics/students for "
