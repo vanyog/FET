@@ -145,7 +145,7 @@ Activity::Activity(
 	this->active=_active;
 	this->computeNTotalStudents=_computeNTotalStudents;
 	
-	if(_computeNTotalStudents==true){	
+	if(_computeNTotalStudents==true){
 		this->nTotalStudents=0;
 		for(QStringList::Iterator it=this->studentsNames.begin(); it!=this->studentsNames.end(); it++){
 			StudentsSet* ss=r.searchStudentsSet(*it);

@@ -33626,27 +33626,36 @@ R : Une approche possible : dans FET, vous pouvez avoir une activité avec plusi
 Une autre approche possible : vous pouvez choisir de répartir les élèves en sections (voir la question ci-dessous).</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="168"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="156"/>
+        <source>Q: How to define the students into sections?
+
+A: FET can automatically divide years by categories of options.
+
+Add years and the option &apos;Divide ...&apos; in the years dialog is the easiest way. You can also add manually years, groups and subgroups.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/helpfaqform.cpp" line="161"/>
         <source>Important: you must consider that each year contains groups which contain independent subgroups. Subgroups should have all the activities of the year and group plus additional optional activities. Please check menu statistics/students for subgroups, each subgroup should have a reasonable number of working hours per week, close to the average of hours per week for all subgroups.</source>
         <translation>Important : vous devez vous rappeler que chaque promotion contient des groupes qui contiennent des sous-groupes indépendants. Les sous-groupes auront les activités de la promotion et du groupe en plus des activités optionnelles. Merci de vérifier le menu statistiques/élèves pour les sous-groupes, chaque sous-groupe devrait avoir un nombre raisonnable d&apos;heures de travail par semaine, proche de la moyenne des heures par semaines pour chaque sous-groupe.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="172"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="165"/>
         <source>An impossible timetable might be caused by incorrect years division. Please check statistics/students for all subgroups, each subgroup should have the necessary hours, not less. If you have for instance some subgroups with less than say 20 hours per week you might get an impossible timetable, probably because of incorrect division of years and incorrectly added activities. All the subgroups are independent. If you have a subgroup with only 2 hours per week and constraint early, then these 2 activities must be placed in the first hours of the day, which is probably much too hard (wrong).</source>
         <translation>Un emploi du temps impossible peut être causé par des divisions incorrectes de promotions. Merci de vérifier statistiques/élèves pour chaque sous-groupes, chaque sous-groupe doit avoir les heures nécessaires, pas moins. Si vous avez par exemple des groupes avec moins de 20 heures par semaine, vous pourriez obtenir un emploi du temps impossible, probablement à cause d&apos;une division incorrecte des promotions et d&apos;ajouts incorrects d&apos;activités. Tous les sous-groupes sont indépendants. Si vous avez un sous-groupe avec seulement 2 heures par semaine et une contrainte première heure, alors ces 2 activités doivent être placées en première heure de la journée, ce qui est probablement beaucoup trop dûr (impossible).</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="178"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="171"/>
         <source>Important note: please do the correct division of a year from the beginning. Each time you divide a year, the corresponding activities and constraints referring to year&apos;s groups and subgroups will be removed, along with groups and subgroups. This is not elegant, I know, I will try to find a better solution in the future. If you already inputted a lot of constraints and activities referring to a year&apos;s groups/subgroups, you might want to manually change the division of a year by the groups/subgroups menus.</source>
         <translation>Note importante : merci de faire la division des promotions dès le départ. Chaque fois que vous divisez une promotion, les activités et contraintes se référant aux groupes et sous-groupes de la promotion seront supprimées avec les groupes et sous-groupes. </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="184"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="177"/>
         <source>Another possibility: you can see that each activity has allowed more teachers/students sets. If you need to split year Y according to Language1 (with teachers T1 and T2), you might not split Y and add an activity with Y and teachers T1 and T2 and subject &apos;Language1&apos;. This is a small trick, which might be easier to use than to divide a year.</source>
         <translation>Une autre possibilllité : vous pouvez vous servir de la possibilité d&apos;affecter plusieurs enseignants/groupe d&apos;élèves à une activité. Si vous devez diviser la promotion Y par rapport à Langue 1 (avec les enseignants T1 et T2), vous pouvez ne pas diviser Y et ajouter une activité avec Y et les enseignants T1 et T2 et la matière &apos;Langue 1&apos;. C&apos;est une petite astuce, qui peut être plus facile à mettre en œuvre que de diviser une promotion.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="192"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="185"/>
         <source>Q: What is the structure of the students FET can handle?
 
 A: FET was designed to allow any school structure:
@@ -33663,7 +33672,7 @@ R : FET a été conçu pour autoriser n&apos;importe quelle structure d&apos;éc
 - groupes chevauchants (plusieurs sous-groupes) et promotions (plusieurs groupes).</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="201"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="194"/>
         <source>Q: How can one work with overlapping structures of students?
 
 A: If you have overlapping groups, then you must define the smallest independent subgroup, which does not overlap with any other subgroup. Example: you have 1 group, subject sport (which must be taught to boys and girls separately) and subject physics, which is an optional subject and only some students would like to have this course (yes, FET can manage optional subjects). Then, you must define the subgroups: boys who want physics, boys who do not want physics, girls who want physics, girls who do not want physics. Now, it is very easy. Just define
@@ -33695,7 +33704,7 @@ NOUVEAU : la chose est automatique maintenant. Sélectionnez juste promotion-&gt
 </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="220"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="213"/>
         <source>Q: Can you add more students sets or teachers to a single activity?
 
 A: Yes, you can add several students sets (subgroups, groups or years) and several teachers per activity.</source>
@@ -33704,7 +33713,7 @@ A: Yes, you can add several students sets (subgroups, groups or years) and sever
 R : Oui, vous pouvez ajouter plusieurs groupes d&apos;élèves (sous-groupes, groupes ou promotions) et plusieurs enseignants à une activité.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="227"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="220"/>
         <source>Q: Help on ConstraintMinDaysBetweenActivities.
 
 A: It refers to a set of activities and involves a constant, N. For every pair of activities in the set, it does not allow the distance (in days) between them to be less than N. If you specify N=1, then this constraint means that no two activities can be scheduled in the same day. N=2 means that each two activities must be separated by at least one day
@@ -33733,7 +33742,7 @@ Vous pouvez spécifier consécutif si même jour. Merci d&apos;être prudent, m�
 Actuellement FET peut placer au plus 2 activités le même jour si &apos;consécutif si même jour&apos; est vrai. FET ne peut pas placer 3 activités ou plus le même jour si &apos;consécutif si même jour&apos; est vrai.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="243"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="236"/>
         <source>Important: please do not input unnecessary duplicates. If you input for instance 2 constraints:
 
 1. Activities 1 and 2, min days 1, consecutive if same day=true, weight=95%
@@ -33761,12 +33770,12 @@ Vous pouvez obtenir un emploi du temps impossible avec les doublons, soyez atten
 </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="251"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="244"/>
         <source>If you need to balance 3 activities in a 5 days week, you can add, in the new version 5.5.8 and higher, directly from the add activity dialog, 2 constraints. You just have to input min days 2, and FET will ask if you want to add a second constraint with min days 1. This way, you can ensure that the activities are balanced better (at least one day apart, usually 2 days apart)</source>
         <translation>Si vous devez répartir 3 activités sur une semaine de 5 jours, vous pouvez ajouter, dans les versions 5.5.8 et supérieures, directement depuis la boite de dialogue d&apos;ajout d&apos;activités, 2 contraintes. Vous avez juste à entrer 2 jours mini et FET vous demandera automatiquement si vous voulez ajouter une seconde contrainte avec 1 jour mini. De cette manière, vous pouvez vous assurer que les activités seront mieux réparties (au moins un jour d&apos;écart, le plus souvent 2 jours d&apos;écart)</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="260"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="253"/>
         <source>Q: Can I use FET to do interactive timetabling?
 
 A: Yes, but this is not easy. All the part regarding data representation and gradually construction of the solution is working, only the interface has to be updated.
@@ -33779,7 +33788,7 @@ R : Oui mais ce n&apos;est pas facile. Toute la partie concernant la représenta
 De toute façon, quand vous ajoutez une obligation ConstraintActivityPreferredStartingTime, ceci signifie que vous fixez cette activité. Vous pouvez utiliser cette fonction pour une création semi-automatique voir manuelle d&apos;emploi du temps mais ce n&apos;est pas très pratique.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="270"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="263"/>
         <source>Q: Is it possible to make a timetable where the students learn in two shifts? (for instance, the lowest forms in the morning and the highest forms in the afternoon)?
 
 A: Yes, you have to add more constraint students set not available accordingly (for the lowest forms not available Mon, Tue, Wed, Th, Fr each from middle hour to last hour and for highest forms from first hour to middle hour). The constraints no gaps and early work correctly with these not available: if not available, a students set will not have gaps or early broken for the period of non-availability.</source>
@@ -33788,7 +33797,7 @@ A: Yes, you have to add more constraint students set not available accordingly (
 R : Oui, vous devez ajouter plusieurs contraintes groupe d&apos;élèves non disponible correspondantes (pour les petites classes Lun, Mar, Mer, Jeu, Ven chacune de l&apos;heure médiane à la dernière heure et pour les grandes classes de la première heure à l&apos;heure médiane). Les contraintes &apos;pas de trous&apos; et &apos;première heure&apos; fonctionnent correctement avec ces indisponibilités. Si non disponible, un groupe d&apos;élèves n&apos;aura pas de trou ou de première heure comptabilisé pour la période d&apos;indisponibilité.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="281"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="274"/>
         <source>Q: I added an activity with min days constraint. But I cannot see the min days value in modify activity dialog
 
 A: Min days is a time constraint. You can see it in the time constraints dialog</source>
@@ -33797,7 +33806,7 @@ A: Min days is a time constraint. You can see it in the time constraints dialog<
 R : Jours mini est une contrainte de temps. Vous pouvez la voir dans la boite de dialogue des contraintes de temps</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="288"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="281"/>
         <source>Q: Can I work with fortnightly activities like in older FET versions?
 
 A: You have to use some tricks. It would be difficult to consider fortnightly activities into the new FET algorithm (from 5.0.0 up). But I think you can apply this: for instance, I suppose that you would like the first week to have activity A1 (teacher T1, student S1) and A2 (T2, S2), and second week A3 (T1, S2) and A4 (T2, S1) (simultaneously). You could define a weekly activity A (T1, T2, S1, S2). If you need 2 rooms for A, then you can define dummy A&apos; (no teachers, no students) and constraint activities same starting time A and A&apos; and add rooms for A and A&apos; .</source>
@@ -33807,7 +33816,7 @@ R : Vous devez utiliser des astuces. Il aurait été difficile de prendre en com
 supposons que la premiere semaine vous vouliez avoir une activité A1 (enseignant T1, élèves S1) et A2 (T2, S2), et la seconde semaine A3 (T1, S2) et A4 (T2, S1) (simultanément). Vous pouvez définir une activité hebdomadaire (T1, T2, S1, S2). Si vous avez besoin de 2 salles pour A, alors vous pouvez définir une activité factice A&apos; (pas d&apos;enseignant, pas d&apos;élèves) et une contrainte d&apos;activités &quot;A et A&apos; ont la même heure de début&quot; et ajouter des salles pour A et A&apos;.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="300"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="293"/>
         <source>Q: How to choose the weight percentage of constraint min days between activities?
 
 A: You can use for the constraint min days the weight you want. It can be 95%, 99%, 99.75% or even 100%, but please make sure your timetable is not too constrained. Please take care of the impossible constraints, they should have under 100% weight (percentage) - best would be 0%. For instance, if a teacher teaches only two days per week and has 3 math lessons for a group, then it is clear that the constraint cannot be respected, so the correct way is to specify under 100% weight (percentage) for the corresponding min days constraint - best would be 0%.</source>
@@ -33816,17 +33825,17 @@ A: You can use for the constraint min days the weight you want. It can be 95%, 9
 Vous pouvez utiliser pour la contrainte jours mini, le poids que vous voulez. Ce peut être 95%, 99.75% voir même 100% mais merci de vous assurer que votre emploi du temps n&apos;est pas trop contraint. Merci de faire attention aux contraintes impossibles, elles doivent avoir un poids (pourcentage) inférieur à 100% - le mieux serait 0%. Par exemple, si un enseignant travaille seulement deux jours par semaine et a 3 leçons de math , il est clair que la contrainte ne peut être respectée, la façon correcte est de spécifier un poids (pourcentage) inférieur à 100% pour la contrainte correspondante jours mini - le mieux serait 0%.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="307"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="300"/>
         <source>You could try at first the 95% minimum recommended value, then highten the weight percentage up to maybe 100%. I am not sure here, I have not enough sample files (please contribute with advice). If you would like to change the 95% for another value for all constraints of this type, the easiest way is in Data/Time constraints/Min days between activities dialog, where starting with version 5.3.6 there is a simple command for that.</source>
         <translation>Vous pouvez aussi essayer en premier la valeur minimum recommandée 95%, puis augmenter le pourcentage de poids jusqu&apos;à 100%. Je ne suis pas certain de moi, je n&apos;ai pas assez de fichiers d&apos;exemples (merci de contribuer avec des conseils). Si vous voulez changer 95% pour une autre valeur pour toutes les contraintes de ce type, le moyen le plus simple est dans la boite de dialogue Données/ contraintes de temps/ Jours mini entre activités, à partir de la version 5.3.6 il y a une commande simple pour ça.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="312"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="305"/>
         <source>You might want to choose different weights for different constraint min days (for instance, higher on subjects with less activities per week)</source>
         <translation>Vous pourriez vouloir choisir des poids différents pour différentes contraintes jours mini (par exemple, plus grandes pour les matières avec moins d&apos;activités par semaine)</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="318"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="311"/>
         <source>Q: Are some constraints more efficient in speed of generation than other constraints, even if they give the same result?
 
 A: From the way the algorithm is conceived, the automatic generation is faster if you use students set (or teacher) not available and/or constraint activity(ies) preferred time slots or constraint activity preferred starting time to specify impossible slots, in addition to possible use of students (set) or teacher(s) max hours daily, whenever it is possible. For instance, if you know that year 5 will only have hours from 8:00 to 13:00, it is better to add students set not available in addition to students set max hours daily. So, if possible, try to follow this advice. This trick helps guide FET better towards a solution.
@@ -33839,7 +33848,7 @@ R : De la manière dont l&apos;algorythme est conçu, la génération est plus r
 Chaque contrainte de type non disponible ou heures privilégiées qui supprime les créneaux impossibles peut améliorer la vitesse.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="330"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="323"/>
         <source>Q: Is it allowed to use non-integer weights?
 
 A: If a constraint is allowed values under 100%, you can use any weight, even fractional numbers like 99.75%. It might help in constraints like min days, preferred rooms or max hours daily.</source>
@@ -33848,7 +33857,7 @@ A: If a constraint is allowed values under 100%, you can use any weight, even fr
 R : Si une contrainte est autorisée avec des valeurs inférieures à 100%, vous pouvez utiliser n&apos;importe quelles poids, même avec des nombres décimaux comme 99.75%. Ceci peut aider dans les contraintes comme jours mini, salles privilégiées ou heures maxi journalières.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="788"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="781"/>
         <source>Q: This is a problem that probably will never appear in practice, but it is possible. Say the user generates a timetable successfully, locks a few activities, then tries to generate again, but FET stops at a certain activity and reports impossible timetable.
 
 A: Indeed, this is a potential problem in FET (but probably will never show up in practice). It may happen if you have constraints with weight under 100%, which may be broken when you generate the timetable.
@@ -33885,12 +33894,12 @@ parce que : A2, A3, A4 et A5 sont bloquées et réparties en premier. FET essaie
 Solution pratique au cas 2) ? Réduisez le poids des contraintes qui ont un poids inférieur à 100% ou bloquez (dans un créneau correspondant) l&apos;activité qui correspond à A1 dans votre fichier de données.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="814"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="807"/>
         <source>Q: I tried to work on a fixed timetable, to move an activity to another time slot. Now I got stuck - FET says: impossible to generate.</source>
         <translation>Q : J&apos;essaie de travailler sur un emploi du temps fixé, pour déplacer une activité dans un autre créneau. Maintenant j&apos;ai un problème - FET dit : Impossible de générer.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="816"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="809"/>
         <source>A: There is this potential problem. Suppose you have max hours daily for students = 4 hours, 99%. You generated successfully (maybe you got some days with more than 4 hours, it does not matter for our discussion). Now, if you have a day with 4 hours and try to move another activity to this day, some students will have 5 hours in this day. If in this day all activities have more students sets, FET may report an impossible timetable. Why? Because if you have an activity with say 4 subgroups, 99% is assumed for each subgroup, resulting in a very strong constraint for this activity. (100%-(1%^4)). Even if FET retries more times for each activity, it is not enough.
 
  A solution: lower the weight of this constraint from 99% to 90% or less.</source>
@@ -33900,27 +33909,27 @@ Pourquoi ? Car si vous avez une activité avec disons 4 sous-groupes, 99% est su
 Une solution : baisser le poids de cette contrainte de 99% à 90% ou moins.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="830"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="823"/>
         <source>Q: A trick to deal with fortnightly activities (my institution has a lot of fortnightly activities):</source>
         <translation>Q : Une astuce pour faire face aux activités quinzaines (mon établissement a beaucoup de ces activités quinzaines) :</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="832"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="825"/>
         <source>A: I divided hours in two, the first half (8.00 to 8.30, 9.00 to 9.30, ...) represents week A, the second half (8.30 to 9.00, 9.30 to 10.00, ...) represents week B, fortnightly activities have duration 1, weekly activities have duration 2.</source>
         <translation>R : J&apos;ai divisé les heures en deux, la première moitié (8:00 à 8:30, 9:00 à 9:30, ...) représente les semaines A, la seconde moitié (8:30 à 9:00, 9:30 à 10:00, ...) représente les semaines B, les activités quinzaines ont une durée de 1, les activités hebdomadaires ont une durée de 2.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="836"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="829"/>
         <source>I created an activity tag &apos;Start hour&apos;. It should be added to each weekly activity to make sure they start at the same time (same day + same hour) on each week. Otherwise, an activity with duration 2 can start on a second half of hour in the timetable, so this activity is placed on a certain day and at a certain hour on week A, and on the same day but at the next hour on week B.</source>
         <translation>J&apos;ai créé une étiquette &apos;Début heure&apos;. Elle doit être ajoutée à chaque activité hebdomadaire afin d&apos;être sûr qu&apos;elles débutent au même moment (même jour + même heure) chaque semaine. Sinon, une activité avec une durée de 2 peut commencer une deuxième moitié d&apos;heure dans l&apos;emploi du temps, ce qui signifierait que cette activité est un certain jour et une certaine heure les semaines A et le même jour mais à l&apos;heure suivante les semaines B.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="850"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="843"/>
         <source>Q: I need to add a split activity with total duration 4, which can be either 2+2 or 2+1+1 (two hours in a day and two hours in another day, or two hours in a day, one hour in another day and one hour in another day).</source>
         <translation>Q : Je veux avoir une activité divisée avec au total une durée de 4, qui peut être soit 2+2 soit 2+1+1 (deux heures un jour et deux heures un autre jour ou deux heures un jour, une heure un autre jour et une heure encore un autre jour).</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="853"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="846"/>
         <source>A: Add 3 activities (let us assume that their id-s are 1, 2 and 3), with durations respectively 2, 1 and 1. It is preferable to add them as 3 single/independent activities (see note below).
 
 Add two constraints min 1 day between activities with id-s 1 and 2 and between activities with id-s 1 and 3, 100% weight percentage.
@@ -33933,82 +33942,82 @@ Ajoutez deux contraintes 1 jour mini entre les activités avec id 1 et 2 et entr
 Ajoutez une autre contrainte 1 jour mini entre les activités avec id 2 et 3, consécutif si même jour = oui, poids du pourcentage 0%.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="858"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="851"/>
         <source>Note: It is advisable to add the 3 activities as single/independent ones (not a larger split activity with 3 components). The reason is that if you want to apply spreading of activities over the week, this operation won&apos;t add/remove constraints of type min days between activities for these 3 activities. Also, if you add a split activity, you need to take care not to add a default constraint min days between the 3 components.</source>
         <translation>Note : il est recommandé d&apos;ajouter les 3 activités en tant que simples/indépendantes (et non pas une plus grande activité avec 3 composants). La raison est que si vous voulez appliquer &apos;répartir les activités sur toute la semaine&apos;, cette opération n&apos;ajoutera/supprimera pas de contraintes de type &apos;jours mini entre activités&apos; pour ces 3 activités. Aussi, si vous ajouter une activité partagée, vous devez faire attention de ne pas ajouter une contrainte par défaut jours mini entre les 3 composants.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="868"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="861"/>
         <source>Q: I would like to specify that a teacher should have activities in certain time slots, no matter which activities.</source>
         <translation>Q : J&apos;aimerais spécifier qu&apos;un enseignant peut avoir des activités dans certains créneaux, peut importe l&apos;activité.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="870"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="863"/>
         <source>A: Please use constraint activities occupy max time slots from selection (the exact menu entry is &apos;A set of activities occupies max time slots from selection&apos;. See that constraint&apos;s Help button for more details.</source>
         <translation>R : Merci d&apos;utiliser une contrainte de type activités occupant un maximum de créneaux dans la sélection ( l&apos;entrée exacte dans le menu est &apos;Un groupe d&apos;activités occupent un maximum de créneaux dans la sélection&apos;). Voir l&apos;aide de cette contrainte pour plus de détails.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="877"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="870"/>
         <source>Q: How to easily find the activities with unspecified room in the timetable (after the timetable was generated)?</source>
         <translation>Q : Comment trouver facilement les activités qui n&apos;ont pas de salle affectée dans l&apos;emploi du temps (après la génération de l&apos;emploi du temps) ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="879"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="872"/>
         <source>A: A trick is this: open the file representing the activities timetable in XML form (this file can be found in the results directory, with a name like: file_activities.xml) with a text editor, and search for the text &lt;Room&gt;&lt;/Room&gt;</source>
         <translation>R : Une astuce : ouvrir le fichier contenant les activités de l&apos;empoi du temps au format XML (ce fichier peut être trouvé dans le répertoire de résultats, avec un nom comme : fichier_activities.xml) avec un éditeur de texte et chercher le texte &lt;Room&gt;&lt;/Room&gt;</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="886"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="879"/>
         <source>Q: The students and/or teachers should have in each day some activities without interruption, then some continuous gaps, then again some activities without interruption. This situation can appear in these cases: schools in Morocco and Algeria, which have morning and afternoon shifts, and also in some universities in which students would prefer to have at most a single cluster of gaps, no matter how long, in each day. How to treat such situations in FET?</source>
         <translation>Q : Les élèves et/ou les enseignants doivent avoir chaque jour des activités sans interruption puis des trous continues puis à nouveau des activités sans interruption. Cette situation peut apparaître dans ces cas : écoles du Maroc ou d&apos;Algérie qui ont des regroupements le matin et l&apos;après-midi et aussi dans des universités où les étudiants préfèreront avoir au plus un trou dans l&apos;empoi du temps, quelque soit ça longueur, chaque jour. Comment traiter de telles situations dans FET ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="892"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="885"/>
         <source>A: A nice way to treat such situations would be to consider the number of FET days = 2 * the number of real days. Each real day corresponds to two FET days, one for the morning and one for the afternoon. Then, add constraints max zero gaps, and maybe min two hours daily with allow empty days true. You may need to devise some other tricks, in addition.</source>
         <translation>R : Une bonne façon de traiter de telles situations serait d&apos;utiliser un nombre de jours dans FET = 2 * le nombre réel de jours. Chaque jour réel correspond à deux jours FET, un pour le matin et un pour l&apos;après-midi. Ajoutez ensuite des contraintes trous maxi à zéro et peut-être 2 heures mini par jour en autorisant les jours vides. Vous devrez peut-être mettre au point et ajouter d&apos;autres astuces.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="900"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="893"/>
         <source>Q: How can I add a comment to a (sub)activity or to a constraint?</source>
         <translation>Q : Comment puis-je ajouter un commentaire à une (sous)activité ou à une contrainte ? </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="902"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="895"/>
         <source>A: You can add a comment to a (sub)activity by clicking the &apos;Comments&apos; button in the (sub)activities dialog. You can add a comment to a constraint by clicking the &apos;Comments&apos; button in the all time/space constraints dialogs.</source>
         <translation>R : Vous pouvez ajouter un commentaire à une (sous)activité en cliquant le bouton &apos;Commentaires&apos; dans la boite de dialogue (sous)activités. Vous pouvez ajouter un commentaire à une contrainte en cliquant le bouton &apos;Commentaires&apos; dans les boites de dialogue de contraintes temporelles/spatiales.       </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="909"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="902"/>
         <source>Q: How can I activate/deactivate a constraint?</source>
         <translation>Q : Comment puis-je activer/désactiver une contrainte ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="911"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="904"/>
         <source>A: You can activate/deactivate a constraint by clicking the &apos;Activate&apos;/&apos;Deactivate&apos; buttons in the all time/space constraints dialogs.</source>
         <translation>R : Vous pouvez activer/desactiver une contrainte en cliquant sur les boutons &apos;Activer/Desactiver&apos; dans toutes les boites de dialogue temporelles/spatiales.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="918"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="911"/>
         <source>Q: How can I sort the constraints?</source>
         <translation>Q : Comment puis-je trier les contraintes ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="920"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="913"/>
         <source>A: You can sort the constraints in the all time/space constraints dialogs. Sorting is done ascending, according to each constraints&apos; comments. You can add suitable comments to obtain a desired order, like: &apos;rank #1 ... other comments&apos; and &apos;rank #2 ... other different comments&apos;.</source>
         <translation>R : Vous pouvez trier les contraintes dans toutes les boites de dialogue temporelles/spatiales. Le tri est ascendant sur les commentaires de contraintes. Vous pouvez ajouter des commentaires ordonnés pour obtenir un ordre désiré comme &apos;rang #1 ... autres commentaires&apos; et &apos;rang #2 ... différents autres commentaires&apos;. </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="928"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="921"/>
         <source>Q: How can I specify that some activities must be in the same room (at different time slots, of course, because a single room can hold a single activity in a certain time slot)? This is needed for instance to constrain the Physics activities of a certain students set to take place in the same room, be it Lab-1 or Lab-2</source>
         <translation>Q : Comment puis-je spécifier que des activités doivent-être dans la même salle (à différentes heures, bien sûr, une salle ne pouvant accueillir qu&apos;une seule activité au même moment) ?  C&apos;est nécessaire par example pour contraindre les activités de certains élèves à être dispensées dans la même salle, être en lab 1 ou Lab2  </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="932"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="925"/>
         <source>A: You can use the constraint activities occupy max different rooms, with max different rooms = 1.</source>
         <translation>R : Vous pouvez utiliser les contraintes activités occupent un maximum de salles différentes, avec maximum de salles différentes = 1.  </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="841"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="834"/>
         <source>Add time constraint: activities with all teachers, all students, all subjects, activity tag = &apos;Start hour&apos; have a set of preferred starting times: Monday 8.00, Monday 9.00, ...</source>
         <translation>Ajoutez une contrainte de temps : activités avec tous les enseignants, tous les élèves, toutes les matières, étiquette = &apos;Début heure&apos; ont un groupe d&apos;heures de début privilégiées : Lundi 8:00, Lundi 9:00, ...</translation>
     </message>
@@ -34018,22 +34027,22 @@ Ajoutez une autre contrainte 1 jour mini entre les activités avec id 2 et 3, co
         <translation>Foire aux questions.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="828"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="821"/>
         <source>-- This entry by Regis Bouguin --</source>
         <translation>-- Cette entrée par Regis Bouguin --</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="844"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="837"/>
         <source>It works fine and I got good timetables with strong teachers time constraints.</source>
         <translation>Ceci fonctionne bien et j&apos;obtiens de bons emplois du temps malgré des contraintes horaires importantes pour les enseignants.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="862"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="855"/>
         <source>There may be other solutions possible, but this one seems perfect with respect to efficiency.</source>
         <translation>Il peut y avoir d&apos;autres solutions, mais celle-ci semble être parfaite par rapport à l&apos;efficacité.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="339"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="332"/>
         <source>Q: I have a sports room which allows more than 1 activity simultaneously in it. How to make the preferred room constraints? Can FET accept more than one activity at the same time in a single room?
 
 A: Each room can host a single activity at the same time. How to implement what you need? You can add more rooms (sport1, sport2, sport3) and instead of a single preferred room add more preferred rooms.</source>
@@ -34045,6 +34054,11 @@ R : Chaque salle ne peut accueillir qu&apos;une activité unique au même moment
         <location filename="../src/interface/helpfaqform.cpp" line="49"/>
         <source>Last modified on %1.</source>
         <translation>Dernière modification le %1.</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/helpfaqform.cpp" line="49"/>
+        <source>16 December 2014</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/interface/helpfaqform.cpp" line="94"/>
@@ -34071,18 +34085,7 @@ A: Yes. Using values like 99.75% might be good sometimes. The precision in FET i
 R : Oui. Utiliser des valeurs comme 99.75% peut-être interessant. La précision dans FET est limité à %1 décimales après la virgule mais personne n&apos;aura probablement besoin d&apos;une telle précision</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="156"/>
-        <source>Q: How to define the students into sections?
-
-A: FET can automatically divide years by at most 4 categories of options. If you need to divide a year into 5 categories, you can use a small trick (see below).
-
-Add years and the option &apos;Divide ...&apos; in the years dialog is the easiest way. You can also add manually years, groups and subgroups.
-
-If each year (for instance 9) is divided by at most 4 categories, you can add year 9 and divide it in 4 categories. If a year is divided by 5 categories (for instance, year 9 is divided by: section (a, b, c, d), first language (en, fr), religion, boys/girls and second language (de, it)), you might consider years: 9a, 9b, 9c, 9d, each divided into 4 categories, and divide each year in the dialog. For more than 5 categories, very unlikely case, you will need to manually adjust groups/subgroups.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="348"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="341"/>
         <source>Q: I got an impossible to solve timetable!
 
 A: If you get an impossible timetable, maybe the constraints students (set) early are too difficult. Maybe you can allow more arrivals at second hour. Also teachers&apos; min hours daily might be too strong. Please also check the statistics to be correct. Remove other constraints until you get a possible timetable.</source>
@@ -34091,7 +34094,7 @@ A: If you get an impossible timetable, maybe the constraints students (set) earl
 R : Si vous obtenez un emploi du temps impossible, les contraintes (groupe d&apos;)élèves heure de début sont peut-être trop difficiles. Peut-être pouvez-vous autoriser davantage de début en seconde heure. De même, enseignants heures mini par jour peuvent être trop dur. Merci de vérifier aussi que les statistiques sont correctes. Supprimer les autres contraintes jusqu&apos;à ce que vous obteniez un emploi du temps possible.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="357"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="350"/>
         <source>Q: Is it possible to work with 0 hour?
 
 A: A bit difficult. You have to choose a day for this 0 hour. Then add breaks or not available to prevent other activities in other days at hour 0, then add students set not available to prevent other students set from having hours at this hour 0. Or variants of this.
@@ -34104,7 +34107,7 @@ R : Assez difficile. Vous devez choisir un jour pour cette heure 0. Puis ajouter
 Mr. Zsolt Udvari utilise une autre astuce : considérer que la dernière heure est l&apos;heure 0. Mais ce n&apos;est pas toujours possible.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="367"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="360"/>
         <source>Q: How does FET care about weights. What do they mean?
 
 A: The weights under 100% are subjective, because FET can skip them if necessary.
@@ -34135,7 +34138,7 @@ weight = 99.99%  signifie : en moyenne FET essaie 10000 fois de placer une activ
 Ce n&apos;est pas 100% correcte. Les activités peuvent ne pas être allouées et le cycle réouvert.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="385"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="378"/>
         <source>Q: Help on constraint activities preferred starting or preferred time slots (a set of activities has a set of preferred starting or time slots)
 
 A: You can specify a set of activities by selecting a teacher (if empty - all teachers), a students set (if empty - all students), a subject (if empty - all subjects) and an activity tag (if empty, all activity tags) and a set of allowed time slots.
@@ -34152,7 +34155,7 @@ Débute signifie qu&apos;une activité ne doit débuter qu&apos;à ces périodes
 Créneaux est plus restrictif, cette activité ne peut commencer et finir que dans ces intervalles (si l&apos;activité a une durée de 2 et que le Lundi n&apos;est autorisé que 8:00, 9:00 et 10:00, alors l&apos;activité ne peut commencer qu&apos;à 8:00 ou 9:00).</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="396"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="389"/>
         <source>Q: Help on statistics menu
 
 A: The statistics are important to check your data before generating.
@@ -34165,7 +34168,7 @@ R : Les statistiques sont importantes pour vérifier vos données avant de gén�
 Quand vous voyez les statistiques élèves, le plus utile est probablement la vue sous-groupe. Chaque sous-groupe doit avoir un nombre d&apos;heures raisonnable, si vous avez un sous-groupe avec trop peu d&apos;heures, comme 2 par semaine, vous avez probablement mal compris les notes de FET. Chaque sous-groupe est indépendant par rapport aux autres et devrait avoir un nombre d&apos;heures par semaine proche de la moyenne de tous les sous-groupes. N&apos;entrez pas de sous-groupes vides, avec seulement quelques activités.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="407"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="400"/>
         <source>Q: What if I enter accidentally duplicate constraints?
 
 A: It is not a good practice to allow unnecessary duplicate constraints. For min days between activities and other constraints, the combined weight becomes very high. For instance, if you have 2 constraints with weight 95%, the outcome is a constraint with weight 100%-5%*5%=99.75%, very high. You might get an impossible timetable with duplicates, so beware. For constraint activity(ies) preferred (starting time(s) or time slots) the chosen weight is the largest value, so you can use more constraints of this type for same activities.</source>
@@ -34176,7 +34179,7 @@ R :  Ce n&apos;est pas une bonne pratique de créer des contraintes en doublon n
 Pour les contraintes activité(s) temps privilégié (heure(s) de début ou créneaux) le poids choisi est la valeur la plus grande aussi vous pouvez utiliser plusieurs contraintes de ce type pour les mêmes activités.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="418"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="411"/>
         <source>Q: More information about students&apos; structure
 
 A: The students&apos; structure is very flexible and permits any institution structure.
@@ -34343,7 +34346,7 @@ Vous aurez la possibilité d&apos;ajouter n&apos;importe quelle activité aux pr
 Actuellement, l&apos;interface des élèves est difficile à utiliser. J&apos;y pense. Peut-être est-il plus simple pour vous de travailler directement avec le fichier xml .fet.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="486"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="479"/>
         <source>Q: Example: I have 7 hours of Maths per 5 days week (7 is larger than 5). How to add correctly this split activity?
 
 Complete Question: I have a large container activity split into more activities than the number of days per week. How to add it and constraint min days between activities?
@@ -34368,7 +34371,7 @@ La meilleure façon d&apos;ajouter les activités serait :
 2. Si vous n&apos;ajoutez pas &apos;forcer consécutif si même jour&apos;, alors ajouter une grande activité divisée en un nombre d&apos;activité égal au nombre de jours par semaine et les composants restants dans une autre grande activité divisée. Par exemple, supposons que vous deviez ajouter 7 activités avec une durée de 1 dans une semaine de 5 jours. Ajoutez 2 grandes d&apos;activités, la première divisée en 5 activités avec une durée de 1 et la seconde découpée en 2 activités avec une durée de 1 (il est possible d&apos;augmenter le poids de la contrainte ajoutée jours mini entre activités jusqu&apos;à 100% pour les 2 conteneurs)</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="509"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="502"/>
         <source>Q: What I need is a way to make the following constraint:
 
 If Activity1 comes first, then Activity2 can be consecutive. But, if Activity2 comes first, then Activity1 must have at least 1 period in between.
@@ -34401,7 +34404,7 @@ Supposons que vous ayez les activités A1 et A2. Ajoutez une activité factice, 
 Il n&apos;y a qu&apos;un petit problème : A2 ne peut-être placée en dernière période. Pour corriger ceci : augmentez le nombre d&apos;heure de 1 et contraignez les autres activités (sans A3) à se placer dans les premières périodes. Vous pouvez le faire en ajoutant une étiquette à A1 et A2 nommée Early et une étiquette à A3 nommée Any et contraindre activité &apos;créneaux privilégiés&apos; pour l&apos;étiquette Early à être dans les premiers n-1 créneaux de chaque jour.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="528"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="521"/>
         <source>Q: What is the difference between preferred starting times and preferred time slots?
 
 A: Time slots is more restrictive, means all hours of an activity must be in the allowed intervals.
@@ -34414,7 +34417,7 @@ R : Créneaux horaires est plus restrictif, ce qui signifie que toutes les heure
 Exemple : heures privilégiées Lundi 8, 9 et 10. Si l&apos;activité A a une durée de 2, alors débute signifie que l&apos;activité A peut commencer à 8, 9 ou 10 heures le Lundi, tandis que l&apos;autre signifie que l&apos;activité A peut commencer le Lundi à 8 ou 9 (10 n&apos;est pas autorisé car la dernière heure de l&apos;activité n&apos;est pas autorisée ici).</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="538"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="531"/>
         <source>Q: What means constraint min gaps (hours) between a set of activities?
 
 A: I had many users wanting to put a gap between activities of same teachers or between activities with same teacher and subject, if they are on the same day. This constraint does that. If you want for instance to make teacher John to have at least one gap between all his activities, select filter &apos;John&apos; and add all his activities to a constraint of this type. If you want to make teacher John to have at least one gap between all his Math activities, select filter &apos;John&apos; and &apos;Math&apos; and add all these activities to a constraint of this type.
@@ -34427,7 +34430,7 @@ R : Plusieurs utilisateurs voulaient mettre un trou entre des activités pour le
 Merci de faire attention que les activités sélectionnées ne soient pas forcées à être consécutives par une contrainte &apos;deux activités sont consécutives&apos; ou par une contrainte &apos;jours mini entre activités&apos; qui a &apos;consécutif si même jour&apos; sélectionné.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="551"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="544"/>
         <source>Q: What type of files uses FET?
 
 A: FET uses text files, xml or html or txt or csv (comma separated values - for import/export). The used encoding is UTF-8.</source>
@@ -34436,7 +34439,7 @@ A: FET uses text files, xml or html or txt or csv (comma separated values - for 
 R :FET utilise des fichiers textes, xml ou html ou txt ou csv (comma separated values - pour l&apos;import/export). L&apos;encodage par défaut est l&apos;UTF-8.   </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="558"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="551"/>
         <source>Q: Help on constraint subactivities preferred starting or preferred time slots (a set of subactivities has a set of preferred starting or time slots)
 
 A: You select the component number of certain activities (say, if you have an activity split into 5 activities per week, you have components 1, 2, 3, 4 or 5). Only the selected number of this split activity (the corresponding component activity) will be constrained.
@@ -34465,7 +34468,7 @@ C&apos;est utile si vous avez besoin par exemple, s&apos;il y a 4-5 leçons de M
 Une autre chose : si vous avez 1 ou 2 leçons par semaine pour une matière, disons biologie, et voulez contraindre un des composants s&apos;il y a 2 cours par semaine et aucun s&apos;il n&apos;y en a qu&apos;un, vous pouvez ajouter une telle contrainte pour le composant numéro 2.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="577"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="570"/>
         <source>Q: Help on constraints teacher(s) or students (set) hourly interval max days per week
 
 A: This is a constraint suggested by users, to allow you to specify an hourly interval for students or teachers, and to say that in this interval they must work at most max days per week. This is useful if for instance you want teachers not to have more than 2 days per week activities in the last 2 hours of the day.</source>
@@ -34474,7 +34477,7 @@ A: This is a constraint suggested by users, to allow you to specify an hourly in
 R : C&apos;est une contrainte suggérée par des utilisateurs qui vous permet de spécifier un intervalle horaire pour les élèves ou les enseignants et de dire que dans cet intervalle, ils doivent travailler au plus &apos;jours maxi par semaine&apos;. C&apos;est utile si, par exemple, vous voulez que les enseignants n&apos;aient pas plus de 2 jours par semaines, des activités les 2 dernières heures du jour.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="586"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="579"/>
         <source>Q: Help on constraint activities end students day (or activity ends students day).
 
 A: If you have activities which you want to put in the last slots of a day (like say the meetings with the class master), please use the new constraint a set of activities end students day (or singular activity ends students day). This constraint can have weight only 100%, because of the way the algorithm works.</source>
@@ -34483,7 +34486,7 @@ A: If you have activities which you want to put in the last slots of a day (like
 R : Si vous avez des activités que vous voulez mettre dans le dernier créneau d&apos;une journée (comme disons le rendez-vous avec le professeur principal), merci d&apos;utiliser la nouvelle contrainte &apos;un groupe d&apos;activités finit la journée des élèves&apos; (ou une activité finit la journée des élèves). Cette contrainte ne peut avoir qu&apos;un poids de 100% en raison de la manière dont fonctionne l&apos;algorythme.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="595"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="588"/>
         <source>Q: At our school there are a lot of teachers which work only a few hours a week. Of course it is really nasty to drive for one our to the school. So we set the constraint that every teacher should work at least 2 hours a day. Unfortunately we have this year a teacher which only works 1h a week. As a result of this FET doesn&apos;t start to create a timetable. Any suggestions how to fix the problem without defining a constraint for every singular teacher?
 
 A: I have a nice trick: add a dummy activity, 1 hour duration, with only this teacher (no students sets, any subject), additional to the real activity.
@@ -34496,12 +34499,12 @@ R : j&apos;ai une astuce : ajoutez une activité factice, durée 1 heure avec ju
 J&apos;ai pensé à cette astuce alors que je vous écrivais que vous deviez faire la façon difficile (ajouter des contraintes pour chaque enseignant)</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="786"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="779"/>
         <source>This is an advanced question which probably will never appear in practice, you may skip it at first reading.</source>
         <translation>C&apos;est une question avancée qui probablement n&apos;apparaitra jamais en pratique, vous pouvez la passer en première lecture.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="607"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="600"/>
         <source>Q: What about the automatic search for updates? Should I enable it?
 
 A: It is recommended to enable automatic search for updates. I didn&apos;t set it as default because people might be annoyed if I release too fast new versions. But if you can cope with that, it is recommended to always have the latest version and enable searching for updates at startup.</source>
@@ -34510,25 +34513,20 @@ A: It is recommended to enable automatic search for updates. I didn&apos;t set i
 R : Il est recommandé d&apos;activer la recherche automatique des mises à jour. Je ne l&apos;active pas par défaut car certaines personnes pourraient être ennuyée si je communique trop vite de nouvelles versions. si vous pouvez faire face à ça, il est recommandé de toujours avoir la dernière version et d&apos;activer la recherche automatique de mises à jour au démarage.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="49"/>
-        <source>28 September 2013</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="484"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="477"/>
         <source>Q-1-27-March-2008</source>
         <comment>Mnemonic name for a particular question in the FAQ</comment>
         <translatorcomment>nom mnemonique pour une question particuliaire de la FAQ  </translatorcomment>
         <translation>Q-1-27-Mars-2008</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="507"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="500"/>
         <source>Q-1-6-June-2008</source>
         <comment>Mnemonic name for a particular question in the FAQ</comment>
         <translation>Q-1-6-Juin-2008</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="616"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="609"/>
         <source>Q: I have a double duration activity. Is it possible that it is spread over the break period, like:
 
 Activity Math, duration 2, id say 100
@@ -34549,7 +34547,7 @@ Heure 12:00 : Math (seconde heure de l&apos;activité 100)?
 R : Non, l&apos;activité doit respecter la pause, aussi toutes ses heures sont avant ou après la pause.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="627"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="620"/>
         <source>Q and A From Anestis Vovos: A very difficult to diagnose unresolved case
 
 Since I started working on our school&apos;s timetable I had a problem with a specific day and teacher. No matter what I tried in FET I couldn&apos;t reduce the in-school hours for this specific teacher and day down from 7 (7 hours is the full school day, so he had 6 teaching hours and 1 gap). It was too much (other teachers have 5 teaching hours max) but he didn&apos;t mind so we kept FET solution.Just a month ago this teacher had some major operation and couldn&apos;t teach so much hours in one day anymore. So I started again to experiment with the timetable and what was wrong. After a LOT of test and failures the idea hit me just as I was waking up to go to school; I hadn&apos;t enough teachers for early and late hours! I checked and it was true! Let me explain. We have 6 classes in total and every class has 7 hours per day. This means that I need 6 teachers for the first hour and 6 teachers for the 7th hour, a total of 12 teachers. But I only had 11 teachers to cover first and last hour! I had 16 teachers in total for that day but their restrictions prevented 6 of them to teach first and last hours (and it wasn&apos;t just cases of teacher not available but usually restrictions on teaching on specific hours and max gaps, so it was very difficult to look through it). So this specific teacher (because of the restrictions on the other teachers and the loose restrictions on himself) had to teach 6 hours with 1 gap so that he could cover a first and a last hour!
@@ -34562,7 +34560,7 @@ Depuis que j&apos;ai commencé à travailler sur notre emploi du temps, j&apos;a
 ... Notez que ça n&apos;a pas résolu mon problème mais basé sur ma difficulté à diagnostiquer le problème, ça aidera ceux qui se trouveraient confrontés au même problème.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="645"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="638"/>
         <source>Q: I want to define hard subjects (Math, Physics and Chemistry) and I want students not to have more than 1 (or another variant 2) difficult subjects in a row.
 
 A: Define activity tag &apos;Difficult&apos; and add it to all MA, PH and CH lessons. Then add constraint maximum 1 (or 2) hours continuously for all students and an activity tag &apos;Difficult&apos;. Please take care if you may have double lessons.</source>
@@ -34571,7 +34569,7 @@ A: Define activity tag &apos;Difficult&apos; and add it to all MA, PH and CH les
 R : Définissez une étiquette &apos;Difficile&apos; et ajoutez la à toutes les leçons MA, PH et CH. Puis ajoutez la contrainte maximum 1 (ou 2) heures continues pour tous les élèves et une étiquette &apos;Difficile&apos;. Merci de faire attention si vous pouvez avoir des leçons doubles.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="653"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="646"/>
         <source>Q: (by Horatiu Halmajan) I met a situation: a teacher asks for maximum 2 working days, but these days should not be consecutive. Is there a way to implement it in .fet?
 
 The only (manual) way I could think of is to set the teacher as unavailable on Tuesdays and Thursdays, thus leaving him available on Monday, Wednesday and Friday (any two of these are unconsecutive).
@@ -34592,7 +34590,7 @@ R : J&apos;ai une autre idée : Choisissez 2 activités de cet enseignant qui cl
 Ou ajoutez une activité factice pour cet enseignant, partagez en 2 par semaine, jours mini = 2, poids 100%. Vous devez juste faire attention à ce que cet enseignant ait des places pour ces activités factices (assez de créneaux chaque jour) et à considérer ces activités factices comme des trous possibles, aussi si l&apos;enseignant a 2 trous maxi alors trous maxi pour lui est 0.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="669"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="662"/>
         <source>Q: (by Horatiu Halmajan) The students must have max 4 gaps per week, maximum 2 per day, continuous gaps. How to solve this?
 
 A: Add for each subgroup a dummy activity (no teachers) split into 4 per week, duration 1, min days between activities 1, weight 0%, select consecutive if same day. FET will never put more than 2 of these dummy activities in a day. Add max gaps for students = 0 per week.</source>
@@ -34601,12 +34599,12 @@ A: Add for each subgroup a dummy activity (no teachers) split into 4 per week, d
 R : Ajoutez pour chaque sous-groupe une activité factice (sans enseignant) divisée en 4 par semaine, durée 1, &apos;jours mini entre activités&apos; 1, poids 0%, sélectionnez &apos;consécutif si même jour&apos;. FET ne mettra jamais plus de 2 de ces activités factices par jour. Ajoutez &apos;trous maxi pour les élèves&apos; = 0 par semaine.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="678"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="671"/>
         <source>Advice: to treat gaps for students or teachers, if FET constraints are not enough, you can use dummy activities. For instance, if a students set can have maximum 3 gaps, add an activity split into 3 per week, with no teachers.</source>
         <translation>Conseils pour traiter les trous des elèves et enseignants : si les contraintes de FET ne sont pas suffisantes, vous pouvez utiliser les activités factices. Par exemple, si un groupe d&apos;élèves ne peut avoir qu&apos;au maximum 3 trous, ajoutez une activité divisée en 3 par semaine, avec aucun enseignant.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="685"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="678"/>
         <source>Question 1/16 August 2009: How to add constraint two activities grouped, two activities consecutive and three activities grouped if the activities are constrained not to be in the same day by constraints min days between activities?
 
 If A1 and A2 are constrained not to be in the same day with 95% weight or any other weight, it is a bad practice to add a constraint grouped or consecutive to them. If they are constrained with weight 100% not to be in the same day, the timetable is impossible; if the weight is under 100%, the timetable is more difficult to find than using the correct way.
@@ -34619,7 +34617,7 @@ Si A1 et A2 sont contraintes à ne pas être le même jour avec un poids de 95% 
 La bonne façon serait probablement de considérer A1 et A2 = une activité unique A12, ou de modifier la contrainte liée &apos;jours mini entre activités&apos;. Ou peut-être pouvez-vous trouver une autre manière.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="698"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="691"/>
         <source>Question 1/25 September 2009: An observation for constraint teacher(s) or students (set) activity tag max hours daily:
 
 This constraint is implemented correctly and is working good, but it is not perfect, which means that in unusual, extreme cases the time needed to generate a timetable might be longer or much longer than really necessary. You should give FET a hand in these extreme situations.
@@ -34657,63 +34655,63 @@ En pratique, ce problème n&apos;apparaitra probablement pas et vous ne devriez 
 </translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="732"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="725"/>
         <source>3 hints from an anonymous Polish user, who uses FET for very large data:</source>
         <translation>3 conseils d&apos;un utilisateur Polonais anonyme qui utilise FET avec une très grosse base:</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="734"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="727"/>
         <source>The first hint for other users is to start with minimum number of constraints and if FET would generate the plan then thinking about adding the next ones.</source>
         <translation type="unfinished">Le premier conseil aux autres utilisateurs est de commencer avec le minimum de contraintes et si FET génère l&apos;emploi du temps, ajouter les suivantes.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="737"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="730"/>
         <source>The second hint is not to change too many constraints in one simulation as it may lead to impossible timetable and then it is difficult to say which particular constraint was too much.</source>
         <translation type="unfinished">Le second conseil  est de ne pas changer trop de contraintes par simulation car on peut obtenir un emploi du temps impossible et il serait difficile de savoir quelle contrainte particulière est de trop.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="740"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="733"/>
         <source>For instance even when two consecutive activities are placed at one day (the same group and the same teacher) sometimes they are placed at different rooms what would force them to needless changing room. I guess that FET is focused on fulfilling constraints but not on optimizing timetable. Sometimes simple changing of two activities makes plan better both for students and teachers. I think that manually improving generated plan is faster than creating many many more constraints and repeating simulations. And this is the third hint.</source>
         <translation type="unfinished">Par exemple quand deux activités consécutives sont placées un jour (même groupe et même enseignant) parfois elles sont placées dans différentes salles ce qui entraine un changement de salle inutile. Je suppose que FET est axé sur respecter les contraintes mais pas sur optimiser les emplois du temps. Parfois un changement simple crée des emplois du temps meilleurs pour les élèves et les enseignants. Je pense que ces améliorations manuelles des emplois du temps générés est plus rapide que de créer de plus en plus de contraintes et de répéter les simulations. C&apos;est le troisième conseil.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="750"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="743"/>
         <source>Q: Why the constraints activity tag max hours daily and students max gaps per day are disabled in the FET menu?</source>
         <translation>Q : Pourquoi les contraintes &apos;étiquette : heures maxi par jour&apos; et &apos;élèves : trous maxi par jour&apos; sont-elles désactivées dans le menu FET ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="752"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="745"/>
         <source>A: These 6 constraints (4 for activity tag and 2 for students max gaps per day) are the only ones which are not perfectly optimized in FET. For some combinations of constraints, they may slow down the generation or even make the timetable impossible. That is why they are not enabled by default. You need to activate them from the advanced settings menu. It is recommended to add such constraints at the end of your work, after you added all the other constraints and verified that your timetable is possible.</source>
         <translation>R : Ces 6 contraintes (4 pour les étiquettes et 2 pour &apos;élèves trous maxi par jour&apos;) sont les seules qui ne sont pas parfaitement optimisées dans FET. Pour certaines combinaisons de contraintes, elles peuvent ralentir la génération voir rendre l&apos;emploi du temps impossible. C&apos;est pourquoi elles ne sont pas activées par défaut. Vous devez les activer dans le menu Préférences -&gt; Avancé. Il est recommandé de n&apos;ajouter de tels contraintes qu&apos;à la fin de votre travail, après avoir ajouté toutes les autres contraintes et avoir vérifié que votre emploi du temps est possible.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="757"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="750"/>
         <source>If these constraints are disabled, they have an icon attached in the menu to signify that. If they are enabled, they have another icon attached to them, to signify that they are enabled, but must be used with caution.</source>
         <translation>Si ces contraintes sont désactivées, elles ont une icone attachée dans le menu pour le signifier. Si elles sont actives, elles ont une autre icone attachée, pour signifier qu&apos;elles sont actives mais doivent être utilisées avec précaution.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="760"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="753"/>
         <source>Use these constraints with caution, not to obtain impossible timetables.</source>
         <translation>Utilisez ces contraintes avec précaution, afin de ne pas obtenir des emplois du temps impossibles.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="766"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="759"/>
         <source>Q: Why don&apos;t you implement the not perfect constraints (activity tag max hours daily and students max gaps per day) in a perfect way?</source>
         <translation>Q : Pourquoi n&apos;avez-vous pas implémenté les contraintes non parfaites (étiquette heures maxi par jour et élèves trous maxi par jour) de façon parfaite ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="768"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="761"/>
         <source>A: Activity tag max hours daily cannot be implemented perfectly, generation would take too much (because of complexity of checks). Students max gaps per day can be implemented perfectly, but it would change the algorithm for students a lot and I am afraid to change something that is working well. Very much testing would be needed, and I have not enough sample files. While changing the algorithm, it would be easy to make critical bugs and some files may not solve anymore.</source>
         <translation>R: L&apos;étiquette &apos;heures maxi par jour&apos; ne peut être parfaitement implémentée, la génération prendrait trop de temps (à cause de la complexité des vérifications).
 Elèves trous maxi par jour peut être implémenté parfaitement mais ça changerait beaucoup l&apos;algorythme pour les élèves et j&apos;ai peur de changer quelque chose qui fonctionne bien. Beaucoup de tests seraient nécessaires et je n&apos;ai pas assez de fichiers d&apos;exemples. En changeant l&apos;algorythme, ce serait facile de créer des bugs critiques et des fichiers pourraient ne plus être solvables.</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="779"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="772"/>
         <source>A: More users asked for shortcut buttons for the most commonly used functions. It is possible to show such buttons, if you select the corresponding option from the Settings-&gt;Interface menu (shortcuts are shown, by default).</source>
         <translation>R : Plusieurs utilisateurs ont demandé des boutons de raccourcis pour les fonctions les plus employées. Il est possible de montrer de tels boutons si vous sélectionnez l&apos;option correspondante dans le menu Préférences-&gt;Interface (les boutons de raccourcis sont montrés par défaut).</translation>
     </message>
     <message>
-        <location filename="../src/interface/helpfaqform.cpp" line="777"/>
+        <location filename="../src/interface/helpfaqform.cpp" line="770"/>
         <source>Q: Help on shortcut buttons in the main form.</source>
         <translation>Q : Aide sur les boutons de raccourci de la fenêtre principale.</translation>
     </message>
@@ -45628,212 +45626,186 @@ non ajoutée - doit être un doublon</translation>
 <context>
     <name>SplitYearForm</name>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="113"/>
+        <location filename="../src/interface/splityearform.cpp" line="119"/>
         <source>Splitting year: %1</source>
         <translation>Fractionnement de promotion :%1</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="491"/>
-        <location filename="../src/interface/splityearform.cpp" line="496"/>
-        <location filename="../src/interface/splityearform.cpp" line="502"/>
-        <location filename="../src/interface/splityearform.cpp" line="512"/>
-        <location filename="../src/interface/splityearform.cpp" line="522"/>
-        <location filename="../src/interface/splityearform.cpp" line="532"/>
-        <location filename="../src/interface/splityearform.cpp" line="543"/>
-        <location filename="../src/interface/splityearform.cpp" line="553"/>
-        <location filename="../src/interface/splityearform.cpp" line="563"/>
-        <location filename="../src/interface/splityearform.cpp" line="573"/>
-        <location filename="../src/interface/splityearform.cpp" line="583"/>
-        <location filename="../src/interface/splityearform.cpp" line="593"/>
-        <location filename="../src/interface/splityearform.cpp" line="603"/>
-        <location filename="../src/interface/splityearform.cpp" line="613"/>
-        <location filename="../src/interface/splityearform.cpp" line="623"/>
-        <location filename="../src/interface/splityearform.cpp" line="633"/>
-        <location filename="../src/interface/splityearform.cpp" line="646"/>
-        <location filename="../src/interface/splityearform.cpp" line="651"/>
-        <location filename="../src/interface/splityearform.cpp" line="657"/>
-        <location filename="../src/interface/splityearform.cpp" line="667"/>
-        <location filename="../src/interface/splityearform.cpp" line="677"/>
-        <location filename="../src/interface/splityearform.cpp" line="687"/>
-        <location filename="../src/interface/splityearform.cpp" line="697"/>
-        <location filename="../src/interface/splityearform.cpp" line="707"/>
-        <location filename="../src/interface/splityearform.cpp" line="717"/>
-        <location filename="../src/interface/splityearform.cpp" line="727"/>
-        <location filename="../src/interface/splityearform.cpp" line="737"/>
-        <location filename="../src/interface/splityearform.cpp" line="747"/>
-        <location filename="../src/interface/splityearform.cpp" line="763"/>
-        <location filename="../src/interface/splityearform.cpp" line="768"/>
-        <location filename="../src/interface/splityearform.cpp" line="774"/>
-        <location filename="../src/interface/splityearform.cpp" line="784"/>
-        <location filename="../src/interface/splityearform.cpp" line="794"/>
-        <location filename="../src/interface/splityearform.cpp" line="804"/>
-        <location filename="../src/interface/splityearform.cpp" line="820"/>
-        <location filename="../src/interface/splityearform.cpp" line="825"/>
-        <location filename="../src/interface/splityearform.cpp" line="831"/>
-        <location filename="../src/interface/splityearform.cpp" line="841"/>
-        <location filename="../src/interface/splityearform.cpp" line="851"/>
-        <location filename="../src/interface/splityearform.cpp" line="861"/>
-        <location filename="../src/interface/splityearform.cpp" line="908"/>
-        <location filename="../src/interface/splityearform.cpp" line="917"/>
-        <location filename="../src/interface/splityearform.cpp" line="926"/>
-        <location filename="../src/interface/splityearform.cpp" line="935"/>
-        <location filename="../src/interface/splityearform.cpp" line="948"/>
-        <location filename="../src/interface/splityearform.cpp" line="958"/>
-        <location filename="../src/interface/splityearform.cpp" line="968"/>
-        <location filename="../src/interface/splityearform.cpp" line="978"/>
-        <location filename="../src/interface/splityearform.cpp" line="995"/>
-        <location filename="../src/interface/splityearform.cpp" line="1085"/>
-        <location filename="../src/interface/splityearform.cpp" line="1095"/>
-        <location filename="../src/interface/splityearform.cpp" line="1105"/>
-        <location filename="../src/interface/splityearform.cpp" line="1120"/>
-        <location filename="../src/interface/splityearform.cpp" line="1190"/>
-        <location filename="../src/interface/splityearform.cpp" line="1200"/>
-        <location filename="../src/interface/splityearform.cpp" line="1213"/>
-        <location filename="../src/interface/splityearform.cpp" line="1265"/>
-        <location filename="../src/interface/splityearform.cpp" line="1281"/>
+        <location filename="../src/interface/splityearform.cpp" line="195"/>
+        <location filename="../src/interface/splityearform.cpp" line="233"/>
+        <location filename="../src/interface/splityearform.cpp" line="303"/>
+        <location filename="../src/interface/splityearform.cpp" line="311"/>
+        <location filename="../src/interface/splityearform.cpp" line="351"/>
+        <location filename="../src/interface/splityearform.cpp" line="361"/>
+        <location filename="../src/interface/splityearform.cpp" line="380"/>
+        <location filename="../src/interface/splityearform.cpp" line="446"/>
         <source>FET information</source>
         <translation>FET - Information</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="491"/>
-        <location filename="../src/interface/splityearform.cpp" line="496"/>
-        <location filename="../src/interface/splityearform.cpp" line="502"/>
-        <location filename="../src/interface/splityearform.cpp" line="512"/>
-        <location filename="../src/interface/splityearform.cpp" line="522"/>
-        <location filename="../src/interface/splityearform.cpp" line="532"/>
-        <location filename="../src/interface/splityearform.cpp" line="543"/>
-        <location filename="../src/interface/splityearform.cpp" line="553"/>
-        <location filename="../src/interface/splityearform.cpp" line="563"/>
-        <location filename="../src/interface/splityearform.cpp" line="573"/>
-        <location filename="../src/interface/splityearform.cpp" line="583"/>
-        <location filename="../src/interface/splityearform.cpp" line="593"/>
-        <location filename="../src/interface/splityearform.cpp" line="603"/>
-        <location filename="../src/interface/splityearform.cpp" line="613"/>
-        <location filename="../src/interface/splityearform.cpp" line="623"/>
-        <location filename="../src/interface/splityearform.cpp" line="633"/>
-        <location filename="../src/interface/splityearform.cpp" line="646"/>
-        <location filename="../src/interface/splityearform.cpp" line="651"/>
-        <location filename="../src/interface/splityearform.cpp" line="657"/>
-        <location filename="../src/interface/splityearform.cpp" line="667"/>
-        <location filename="../src/interface/splityearform.cpp" line="677"/>
-        <location filename="../src/interface/splityearform.cpp" line="687"/>
-        <location filename="../src/interface/splityearform.cpp" line="697"/>
-        <location filename="../src/interface/splityearform.cpp" line="707"/>
-        <location filename="../src/interface/splityearform.cpp" line="717"/>
-        <location filename="../src/interface/splityearform.cpp" line="727"/>
-        <location filename="../src/interface/splityearform.cpp" line="737"/>
-        <location filename="../src/interface/splityearform.cpp" line="747"/>
-        <location filename="../src/interface/splityearform.cpp" line="763"/>
-        <location filename="../src/interface/splityearform.cpp" line="768"/>
-        <location filename="../src/interface/splityearform.cpp" line="774"/>
-        <location filename="../src/interface/splityearform.cpp" line="784"/>
-        <location filename="../src/interface/splityearform.cpp" line="794"/>
-        <location filename="../src/interface/splityearform.cpp" line="804"/>
-        <location filename="../src/interface/splityearform.cpp" line="820"/>
-        <location filename="../src/interface/splityearform.cpp" line="825"/>
-        <location filename="../src/interface/splityearform.cpp" line="831"/>
-        <location filename="../src/interface/splityearform.cpp" line="841"/>
-        <location filename="../src/interface/splityearform.cpp" line="851"/>
-        <location filename="../src/interface/splityearform.cpp" line="861"/>
-        <source>Empty names not allowed</source>
-        <translation>Noms vides non autorisés</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/splityearform.cpp" line="879"/>
+        <location filename="../src/interface/splityearform.cpp" line="321"/>
         <source>FET question</source>
         <translation>FET - Question</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="890"/>
+        <location filename="../src/interface/splityearform.cpp" line="110"/>
+        <location filename="../src/interface/splityearform.cpp" line="332"/>
         <source>FET warning</source>
         <translation>FET - Avertissement</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="908"/>
-        <location filename="../src/interface/splityearform.cpp" line="917"/>
-        <location filename="../src/interface/splityearform.cpp" line="926"/>
-        <location filename="../src/interface/splityearform.cpp" line="935"/>
+        <location filename="../src/interface/splityearform.cpp" line="129"/>
+        <source>Max subgroups per year: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="130"/>
+        <source>Max total subgroups: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="177"/>
+        <location filename="../src/interface/splityearform.cpp" line="205"/>
+        <location filename="../src/interface/splityearform.cpp" line="272"/>
+        <location filename="../src/interface/splityearform.cpp" line="292"/>
+        <source>Number of subgroups per year: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="189"/>
+        <source>FET - Add division to category %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="190"/>
+        <source>Please input division name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="195"/>
+        <location filename="../src/interface/splityearform.cpp" line="233"/>
+        <source>Duplicates not allowed!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="226"/>
+        <source>FET - Modify division to category %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="227"/>
+        <source>Please input the new division name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="250"/>
+        <location filename="../src/interface/splityearform.cpp" line="282"/>
+        <location filename="../src/interface/splityearform.cpp" line="539"/>
+        <source>FET confirmation</source>
+        <translation type="unfinished">FET - Confirmation</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="251"/>
+        <source>Do you want to remove division %1 from category %2?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="283"/>
+        <source>Do you really want to remove all divisions from category %1?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="303"/>
+        <source>The current number of subgroups for this year is too large (the maximum allowed value is %1, but computing up to category %2 gives %3 subgroups)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="311"/>
+        <source>Each category must contain at least one division</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="351"/>
         <source>Duplicate names not allowed</source>
         <translation>Doublons sur les noms non autorisés</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="948"/>
-        <location filename="../src/interface/splityearform.cpp" line="958"/>
-        <location filename="../src/interface/splityearform.cpp" line="968"/>
-        <location filename="../src/interface/splityearform.cpp" line="978"/>
-        <location filename="../src/interface/splityearform.cpp" line="1085"/>
-        <location filename="../src/interface/splityearform.cpp" line="1095"/>
-        <location filename="../src/interface/splityearform.cpp" line="1105"/>
-        <location filename="../src/interface/splityearform.cpp" line="1190"/>
-        <location filename="../src/interface/splityearform.cpp" line="1200"/>
-        <location filename="../src/interface/splityearform.cpp" line="1265"/>
+        <location filename="../src/interface/splityearform.cpp" line="361"/>
         <source>Cannot add group %1, because a set with same name exists. Please choose another name or remove old group</source>
         <translation>Impossible d&apos;ajouter le groupe %1 car un groupe avec le même nom existe. Merci de choisir un autre nom ou de supprimer l&apos;ancien groupe</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1281"/>
+        <location filename="../src/interface/splityearform.cpp" line="446"/>
         <source>Split of year complete, please check the groups and subgroups of year to make sure everything is OK</source>
         <translation>Fractionnement de la promotion réussie, merci de vérifier les groupes et sous-groupes de la promotion afin de vous assurer que tout est OK</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1364"/>
-        <source>If you need to make a division of say year 9 in 5 categories (category1: a, b, c, d, category2: first language, category3: religion, category4: boys/girls, category5: second language), you might want to use this trick: consider first category to define years: year 9a, year 9b, year 9c, year 9d, and divide each year by 4 categories: first language, religion, boys/girls, second language. For activities with year 9 - first language = 1 for instance, you need to add to these activities the groups 9a_firstlanguage1+9b_firstlanguage1+9c_firstlanguage1+9d_firstlanguage1. For activities with year 9a, just add year 9a to the corresponding activities.</source>
+        <location filename="../src/interface/splityearform.cpp" line="477"/>
+        <source>Please choose a number of categories and in each category the number of divisions. You can choose for instance 3 categories, 5 divisions for the first category: a, b, c, d and e, 2 divisions for the second category: boys and girls, and 3 divisions for the third: English, German and French.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="879"/>
+        <location filename="../src/interface/splityearform.cpp" line="491"/>
+        <source>If your number of subgroups is reasonable, probably you need not worry about empty subgroups (regarding speed of generation). But more tests need to be done. You just need to know that for the moment the maximum total number of subgroups is %1 (which can be changed, but nobody needed larger values)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="540"/>
+        <source>Do you really want to reset the form values to defaults (empty)?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="321"/>
         <source>Year %1 is not empty and it will be emptied before adding the divisions you selected. This means that all the activities and constraints for the groups and subgroups in this year will be removed. It is strongly recommended to save your file before continuing. You might also want, as an alternative, to modify manually the groups/subgroups from the corresponding menu, so that you will not lose constraints and activities referring to them. Do you really want to empty year?</source>
         <translation>La promotion %1 n&apos;est pas vide et sera vidée avant d&apos;ajouter les divisions que vous avez sélectionnées. Ceci signifie que toutes les activités et contraintes pour les groupes et sous-groupes de cette promotion seront supprimées. Il est extrèmement recommandé de sauvegarder votre fichier avant de continuer. Comme alternative, vous pouvez aussi modifier manuellement les groupes/sous-groupes avec le menu correspondant, ainsi vous ne perdrez pas les activités et contraintes s&apos;y rapportant. Voulez-vous vraiment vider la promotion ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="890"/>
+        <location filename="../src/interface/splityearform.cpp" line="110"/>
+        <source>You have met a minor bug in FET, please report it. FET expected to read from settings %1 divisions in category %2, but read %3. FET will now continue operation, nothing will be lost.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="332"/>
         <source>Year %1 will be emptied. This means that all constraints and activities referring to groups/subgroups in year %1 will be removed. Are you absolutely sure?</source>
         <translation>La promotion %1 va être vidée. Ceci signifie que toutes les activités et contraintes pour les groupes et sous-groupes de la promotion %1 seront supprimées. Êtes-vous absolument sûr ?</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1354"/>
-        <source>Please choose a number of categories and in each category the number of divisions. You can choose for instance 3 categories, 5 divisions for the first category: a, b, c, d and e, 2 divisions for the second category: boys and girls, and 3 divisions for the third: English, German and French. You can select 1 to 4 categories, the first with 2 to 16 divisions, the second with 2 to 12 divisions, and the third and fourth ones each with 2 to 6 divisions. If you need 5 categories, you may apply this trick: consider 9a a year, 9b another year, ..., and divide them by 4 categories (more details below). For more values (very unlikely case) you will have to manually add the groups and subgroups</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/interface/splityearform.cpp" line="1372"/>
+        <location filename="../src/interface/splityearform.cpp" line="483"/>
         <source>Please input from the beginning the correct divisions. After you inputted activities and constraints for this year&apos;s groups and subgroups, dividing it again will remove the activities and constraints referring to these groups/subgroups. I know this is not elegant, I hope I&apos;ll solve that in the future. You might want to use the alternative of manually adding/editing/removing groups/subgroups in the groups/subgroups menu, though removing a group/subgroup will also remove the activities</source>
         <translation>Merci d&apos;entrer dès le début les divisions correctes. Après avoir entré les activités et les contraintes pour les promotions, groupes et sous-groupes, les diviser à nouveau supprimera les activités et les contraintes se référant à ces groupes/sous-groupes. Je sais que ce n&apos;est pas élégant, j&apos;espère régler ceci dans le futur. Vous pouvez utiliser l&apos;alternative d&apos;ajouter/éditer/supprimer manuellement les groupes/sous-groupes dans le menu groupes/sous-groupes, supprimer un groupes/sous-groupes supprimera aussi les activités</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1380"/>
-        <source>Probably you don&apos;t need to worry about empty subgroups (no significant speed changes), although I didn&apos;t test enough such situations. You just need to know that for the moment the maximum total number of subgroups is %1 (which can be changed, but nobody needed larger values)</source>
-        <translation>Vous n&apos;avez probablement pas besoin de vous occuper des sous-groupes vides (pas de changements de vitesse significatifs) cependant je n&apos;ai pas testé suffisamment ces situations. Sachez seulement que pour le moment, le nombre total de sous-groupes est de %1 (ce qui peut-être changé mais personne n&apos;a besoin d&apos;une plus grande valeur)</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/splityearform.cpp" line="1387"/>
+        <location filename="../src/interface/splityearform.cpp" line="497"/>
         <source>Please note that the dialog here will keep the last configuration of the last divided year, it will not remember the values for a specific year you need to modify.</source>
         <translation>Merci de noter que cette boite de dialogue gardera la dernière configuration de la dernière division des promotions, elle ne se rappelera pas des valeurs spécifiques des promotions que vous avez besoin de modifier.</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1392"/>
+        <location filename="../src/interface/splityearform.cpp" line="502"/>
         <source>Separator character(s) is of your choice (default is space)</source>
         <translation>Le(s) caractère(s) est à votre choix (par défaut un espace)</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1397"/>
+        <location filename="../src/interface/splityearform.cpp" line="506"/>
+        <source>WARNING: Adding or removing many subgroups at once might take too long. This is a weak point of FET, which is too late now to be fixed. The problem is more visible when removing subgroups than adding. For instance, you can create a year with many divisions. When you want to divide it the second time, it will take too much, because the year firstly has to be emptied of all (sub)groups. Please consider this when working with FET and forgive the authors for this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform.cpp" line="514"/>
         <source>FET - help on dividing a year</source>
         <translation>FET - Aide sur la division de promotion</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1403"/>
+        <location filename="../src/interface/splityearform.cpp" line="520"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="1346"/>
+        <location filename="../src/interface/splityearform.cpp" line="469"/>
         <source>You might first want to consider if dividing a year is necessary and on what options. Please remember that FET can handle activities with multiple teachers/students sets. If you have say students set 9a, which is split into 2 parts: English (teacher TE) and French (teacher TF), and language activities must be simultaneous, then you might not want to divide according to this category, but add more larger activities, with students set 9a and teachers TE+TF. The only drawback is that each activity can take place only in one room in FET, so you might need to find a way to overcome that.</source>
         <translation>En premier lieu, vous devez vous demander si diviser une promotion est nécessaire et selon quelles options. Merci de vous rappeler que FET peut gérer des activités avec de multiples enseignants/groupes d&apos;élèves. Si vous avez un groupe d&apos;élève 9a, qui est divisé en 2 parties : Anglais (enseignant TE) et Français (enseignant TF) et que les activités langues doivent être simultanée, alors vous pouvez ne pas vouloir le diviser selon cette catégorie mais ajouter une activité plus large avec le groupe d&apos;élève 9a et kes enseignants TE+TF. Le seul inconvénient est que chaque activité ne peut prendre place que dans une salle dans FET aussi vous pourriez avoir besoin de trouver un moyen de surmonter ça.</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform.cpp" line="995"/>
-        <location filename="../src/interface/splityearform.cpp" line="1120"/>
-        <location filename="../src/interface/splityearform.cpp" line="1213"/>
+        <location filename="../src/interface/splityearform.cpp" line="380"/>
         <source>Cannot add subgroup %1, because a set with same name exists. Please choose another name or remove old subgroup</source>
         <translation>Impossible d&apos;ajouter le sous-groupe %1 car un groupe avec le même nom existe. Merci de choisir un autre nom ou de supprimer l&apos;ancien sous-groupe</translation>
     </message>
@@ -45841,47 +45813,147 @@ non ajoutée - doit être un doublon</translation>
 <context>
     <name>SplitYearForm_template</name>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="536"/>
+        <location filename="../src/interface/splityearform_template.ui" line="44"/>
+        <source>1</source>
+        <translation type="unfinished">1</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="54"/>
+        <source>2</source>
+        <translation type="unfinished">2</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="64"/>
+        <source>3</source>
+        <translation type="unfinished">3</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="74"/>
+        <source>4</source>
+        <translation type="unfinished">4</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="84"/>
+        <source>5</source>
+        <translation type="unfinished">5</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="94"/>
+        <source>6</source>
+        <translation type="unfinished">6</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="104"/>
+        <source>7</source>
+        <translation type="unfinished">7</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="114"/>
+        <source>8</source>
+        <translation type="unfinished">8</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="124"/>
+        <source>9</source>
+        <translation type="unfinished">9</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="134"/>
+        <source>10</source>
+        <translation type="unfinished">10</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="144"/>
+        <source>11</source>
+        <translation type="unfinished">11</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="154"/>
+        <source>12</source>
+        <translation type="unfinished">12</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="164"/>
+        <source>13</source>
+        <translation type="unfinished">13</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="174"/>
+        <source>14</source>
+        <translation type="unfinished">14</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="189"/>
+        <source>Add</source>
+        <translation type="unfinished">Ajouter</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="196"/>
+        <source>Remove</source>
+        <translation type="unfinished">Supprimer</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="210"/>
+        <source>Modify</source>
+        <translation type="unfinished">Modifier</translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="217"/>
+        <source>Remove all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="321"/>
+        <source>Separator character(s):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="350"/>
+        <source>Number of subgroups per year:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="370"/>
+        <source>Limits:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/interface/splityearform_template.ui" line="426"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="543"/>
+        <location filename="../src/interface/splityearform_template.ui" line="433"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="20"/>
+        <location filename="../src/interface/splityearform_template.ui" line="250"/>
         <source>Splitting year:</source>
         <translation>Fractionnement de promotion : </translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="46"/>
-        <source>Number of categories (you can select 1-4 categories)</source>
+        <location filename="../src/interface/splityearform_template.ui" line="26"/>
+        <source>IMPORTANT: For generation performance, keep the (total) number of subgroups to a minimum! WARNING: adding/removing many subgroups might take too much time!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="100"/>
-        <source>Category 1 (you can select 2-16 divisions)</source>
+        <location filename="../src/interface/splityearform_template.ui" line="273"/>
+        <source>Divisions / Categories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="395"/>
-        <source>Category 4 (you can select 2-6 divisions)</source>
+        <location filename="../src/interface/splityearform_template.ui" line="279"/>
+        <source>0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="472"/>
-        <source>Separator character(s)</source>
-        <translation>Caractère(s) de séparation</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/splityearform_template.ui" line="529"/>
+        <location filename="../src/interface/splityearform_template.ui" line="419"/>
         <source>Help</source>
         <translation>Aide</translation>
     </message>
     <message>
-        <location filename="../src/interface/splityearform_template.ui" line="522"/>
+        <location filename="../src/interface/splityearform_template.ui" line="412"/>
         <source>Reset</source>
         <translation>Réinitialiser</translation>
     </message>
@@ -45889,16 +45961,6 @@ non ajoutée - doit être un doublon</translation>
         <location filename="../src/interface/splityearform_template.ui" line="14"/>
         <source>Split year dialog</source>
         <translation>Boite de dialogue Fractionnement de promotion</translation>
-    </message>
-    <message>
-        <location filename="../src/interface/splityearform_template.ui" line="231"/>
-        <source>Category 2 (you can select 2-12 divisions)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/interface/splityearform_template.ui" line="334"/>
-        <source>Category 3 (you can select 2-6 divisions)</source>
-        <translation>Categorie 3 (vous pouvez selectionner 2-6 divisions)</translation>
     </message>
 </context>
 <context>
