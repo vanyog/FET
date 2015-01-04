@@ -35,6 +35,19 @@ GroupActivitiesInInitialOrderItem::~GroupActivitiesInInitialOrderItem()
 {
 }
 
+void GroupActivitiesInInitialOrderItem::removeUseless(Rules& r)
+{
+	QList<int> tmpList;
+	
+	foreach(int id, ids){
+		Activity* act=r.activitiesPointerHash.value(id, NULL);
+		if(act!=NULL)
+			tmpList.append(id);
+	}
+	
+	ids=tmpList;
+}
+
 QString GroupActivitiesInInitialOrderItem::getXmlDescription(Rules& r)
 {
 	Q_UNUSED(r);
@@ -683,10 +696,10 @@ QString Activity::getDetailedDescriptionWithConstraints(Rules& r)
 		s+=tr("Timetable generation options directly related to this activity:");
 		s+="\n";
 		for(int i=0; i<r.groupActivitiesInInitialOrderList.count(); i++){
-			GroupActivitiesInInitialOrderItem& item=r.groupActivitiesInInitialOrderList[i];
-			if(item.ids.contains(id)){
+			GroupActivitiesInInitialOrderItem* item=r.groupActivitiesInInitialOrderList[i];
+			if(item->ids.contains(id)){
 				s+="\n";
-				s+=item.getDetailedDescription(r);
+				s+=item->getDetailedDescription(r);
 			}
 		}
 		s+="--------------------------------------------------\n";

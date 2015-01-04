@@ -294,7 +294,7 @@ public:
 	int _activity;
 	
 	//The index of the room
-	int _room; 
+	int _room;
 
 	//----------------------------------------------------------
 

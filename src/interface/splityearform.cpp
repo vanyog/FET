@@ -106,7 +106,7 @@ SplitYearForm::SplitYearForm(QWidget* parent, const QString& _year): QDialog(par
 			else
 				_nDivisions[i]--;
 		}
-		if(!_nDivisions[i]==_divisions[i].count()){
+		if(_nDivisions[i]!=_divisions[i].count()){
 			QMessageBox::warning(this, tr("FET warning"), tr("You have met a minor bug in FET, please report it. FET expected to read"
 			 " from settings %1 divisions in category %2, but read %3. FET will now continue operation, nothing will be lost.")
 			 .arg(_nDivisions[i]).arg(i).arg(_divisions[i].count()));
@@ -171,11 +171,7 @@ void SplitYearForm::numberOfCategoriesChanged()
 		else
 			tabWidget->setTabEnabled(i, false);
 			
-	qint64 t=1;
-	for(int i=0; i<categoriesSpinBox->value(); i++)
-		t*=listWidgets[i]->count();
-	currentSubgroupsLabel->setText(tr("Number of subgroups per year: %1").arg(t));
-
+	updateNumberOfSubgroups();
 	updateDivisionsLabel();
 }
 
@@ -199,11 +195,7 @@ void SplitYearForm::addClicked()
 		listWidgets[i]->addItem(text);
 		listWidgets[i]->setCurrentRow(listWidgets[i]->count()-1);
 
-		qint64 t=1;
-		for(int i=0; i<categoriesSpinBox->value(); i++)
-			t*=listWidgets[i]->count();
-		currentSubgroupsLabel->setText(tr("Number of subgroups per year: %1").arg(t));
-
+		updateNumberOfSubgroups();
 		updateDivisionsLabel();
 	}
 }
@@ -259,17 +251,13 @@ void SplitYearForm::removeClicked()
 		item=listWidgets[i]->takeItem(j);
 		delete item;
 		
-		updateDivisionsLabel();
-
 		if(j>=listWidgets[i]->count())
 			j=listWidgets[i]->count()-1;
 		if(j>=0)
 			listWidgets[i]->setCurrentRow(j);
 
-		qint64 t=1;
-		for(int i=0; i<categoriesSpinBox->value(); i++)
-			t*=listWidgets[i]->count();
-		currentSubgroupsLabel->setText(tr("Number of subgroups per year: %1").arg(t));
+		updateNumberOfSubgroups();
+		updateDivisionsLabel();
 	}
 }
 
@@ -287,13 +275,21 @@ void SplitYearForm::removeAllClicked()
 	
 	listWidgets[i]->clear();
 
+	updateNumberOfSubgroups();
 	updateDivisionsLabel();
-	
-	currentSubgroupsLabel->setText(tr("Number of subgroups per year: %1").arg(0));
 }
 
 void SplitYearForm::ok()
 {
+	if(categoriesSpinBox->value()>4){
+		QMessageBox::StandardButton ret=QMessageBox::warning(this, tr("FET warning"),
+		 tr("You want to divide the year by %1 categories. The recommended number of categories"
+		 " is 2, 3 or maximum 4. Are you sure?").arg(categoriesSpinBox->value()),
+		 QMessageBox::Yes|QMessageBox::Cancel);
+		if(ret==QMessageBox::Cancel)
+			return;
+	}
+
 	qint64 product=1;
 	
 	for(int i=0; i<categoriesSpinBox->value(); i++){
@@ -312,9 +308,47 @@ void SplitYearForm::ok()
 		return;
 	}
 	
+	//warn too many total subgroups - suggested by Volker Dirr
+	QSet<QString> tmpSet;
+	foreach(StudentsYear* sty, gt.rules.yearsList){
+		if(sty->name!=year){
+			if(sty->groupsList.count()==0){
+				tmpSet.insert(sty->name);
+			}
+			else{
+				foreach(StudentsGroup* stg, sty->groupsList){
+					if(stg->subgroupsList.count()==0){
+						tmpSet.insert(stg->name);
+					}
+					else{
+						foreach(StudentsSubgroup* sts, stg->subgroupsList)
+							tmpSet.insert(sts->name);
+					}
+				}
+			}
+		}
+	}
+	int totalEstimated=tmpSet.count()+int(product);
+	if(totalEstimated>MAX_TOTAL_SUBGROUPS){
+		QMessageBox::StandardButton ret=QMessageBox::warning(this, tr("FET warning"),
+		 tr("Please note that the current configuration will lead you to %1 total number of subgroups."
+		 " The file format supports any number of students sets, but for the timetable generation to be"
+		 " possible the maximum allowed total number of subgroups is %2.").arg(totalEstimated).arg(MAX_TOTAL_SUBGROUPS)
+		 +QString("\n\n")+tr("Are you sure you want to continue?"),
+		 QMessageBox::Yes|QMessageBox::Cancel);
+		if(ret==QMessageBox::Cancel)
+			return;
+	}
+	
 	QString separator=separatorLineEdit->text();
 	
-	StudentsYear* y=(StudentsYear*)gt.rules.searchStudentsSet(year);
+	//StudentsYear* y=(StudentsYear*)gt.rules.searchStudentsSet(year);
+	StudentsYear* y=NULL;
+	foreach(StudentsYear* ty, gt.rules.yearsList)
+		if(ty->name==year){
+			y=ty;
+			break;
+		}
 	assert(y!=NULL);
 	
 	if(y->groupsList.count()>0){
@@ -337,10 +371,11 @@ void SplitYearForm::ok()
 		if(t==QMessageBox::Cancel)
 			return;
 			
-		while(y->groupsList.count()>0){
+		gt.rules.emptyYear(year);
+		/*while(y->groupsList.count()>0){
 			QString group=y->groupsList.at(0)->name;
 			gt.rules.removeGroup(year, group);
-		}
+		}*/
 	}
 	
 	QSet<QString> tmp;
@@ -353,13 +388,27 @@ void SplitYearForm::ok()
 			}
 			tmp.insert(ts);
 		}
+		
+	QSet<QString> existingNames;
+	foreach(StudentsYear* year, gt.rules.yearsList){
+		assert(!existingNames.contains(year->name));
+		existingNames.insert(year->name);
+		foreach(StudentsGroup* group, year->groupsList){
+			if(!existingNames.contains(group->name))
+				existingNames.insert(group->name);
+			foreach(StudentsSubgroup* subgroup, group->subgroupsList){
+				if(!existingNames.contains(subgroup->name))
+					existingNames.insert(subgroup->name);
+			}
+		}
+	}
 
 	for(int i=0; i<categoriesSpinBox->value(); i++)
 		for(int j=0; j<listWidgets[i]->count(); j++){
 			QString ts=year+separator+listWidgets[i]->item(j)->text();
-			if(gt.rules.searchStudentsSet(ts)!=NULL){
-				QMessageBox::information(this, tr("FET information"), tr("Cannot add group %1, because a set with same name exists. "
-				 "Please choose another name or remove old group").arg(ts));
+			if(existingNames.contains(ts)){
+				QMessageBox::information(this, tr("FET information"), tr("Cannot add group %1, because a set with the same name exists. "
+				 "Please choose another name or remove the old set").arg(ts));
 				return;
 			}
 		}
@@ -376,9 +425,9 @@ void SplitYearForm::ok()
 			QString sb=year;
 			for(int i=0; i<categoriesSpinBox->value(); i++)
 				sb+=separator+listWidgets[i]->item(b[i])->text();
-			if(gt.rules.searchStudentsSet(sb)!=NULL){
-				QMessageBox::information(this, tr("FET information"), tr("Cannot add subgroup %1, because a set with same name exists. "
-				 "Please choose another name or remove old subgroup").arg(sb));
+			if(existingNames.contains(sb)){
+				QMessageBox::information(this, tr("FET information"), tr("Cannot add subgroup %1, because a set with the same name exists. "
+				 "Please choose another name or remove the old set").arg(sb));
 				return;
 			}
 			ii=categoriesSpinBox->value()-1;
@@ -397,14 +446,28 @@ again_here_1:
 		}
 	}
 	
+	QHash<QString, StudentsGroup*> groupsHash;
+	
+	StudentsYear* yearPointer=NULL;
+	foreach(StudentsYear* y, gt.rules.yearsList)
+		if(y->name==year){
+			yearPointer=y;
+			break;
+		}
+	assert(yearPointer!=NULL);
+	
 	//add groups and subgroups
 	for(int i=0; i<categoriesSpinBox->value(); i++)
 		for(int j=0; j<listWidgets[i]->count(); j++){
 			QString ts=year+separator+listWidgets[i]->item(j)->text();
 			StudentsGroup* gr=new StudentsGroup;
 			gr->name=ts;
-			bool t=gt.rules.addGroup(year, gr);
+			bool t=gt.rules.addGroupFast(yearPointer, gr);
+			
 			assert(t);
+			
+			assert(!groupsHash.contains(gr->name));
+			groupsHash.insert(gr->name, gr);
 		}
 	
 	if(categoriesSpinBox->value()>=2){
@@ -420,10 +483,12 @@ again_here_1:
 			for(int i=0; i<categoriesSpinBox->value(); i++)
 				sbn+=separator+listWidgets[i]->item(b[i])->text();
 				
+			StudentsSubgroup* sb=new StudentsSubgroup;
+			sb->name=sbn;
+
 			for(int i=0; i<categoriesSpinBox->value(); i++){
-				StudentsSubgroup* sb=new StudentsSubgroup;
-				sb->name=sbn;
-				bool t=gt.rules.addSubgroup(year, groups.at(i), sb);
+				assert(groupsHash.contains(groups.at(i)));
+				bool t=gt.rules.addSubgroupFast(yearPointer, groupsHash.value(groups.at(i)), sb);
 				assert(t);
 			}
 
@@ -503,10 +568,28 @@ void SplitYearForm::help()
 	
 	s+="\n\n";
 	
-	s+=tr("WARNING: Adding or removing many subgroups at once might take too long. This is a weak point of FET, which is too late now to be fixed."
-		" The problem is more visible when removing subgroups than adding. For instance, you can create a year with many divisions."
-		" When you want to divide it the second time, it will take too much, because the year firstly has to be emptied of all (sub)groups."
-		" Please consider this when working with FET and forgive the authors for this problem.");
+	s+=tr("If you have many subgroups and you don't explicitely use them, it is recommended to use the three global settings: hide subgroups"
+		" in combo boxes, hide subgroups in activity planning, and do not write subgroups timetables on hard disk.");
+	s+="\n";
+	s+=tr("Note that if you are only working to get a feasible timetable, without the need to obtain the students timetable (XML or HTML) on"
+		" the disk at all, and if you have many total subgroups, a good idea is to disable writing the subgroups, groups AND years timetables"
+		" to the hard disk, as these take a long time to compute (not only subgroups, but also groups and years!).");
+	s+=" ";
+	s+=tr("(Also the conflicts timetable might take long to write, if the file is big.)");
+	s+=" ";
+	s+=tr("After that, you can re-enable writing the students timetables on the disk, and re-generate.");
+	
+	s+="\n\n";
+	s+=tr("About using a large number of categories, divisions per category and subgroups: it is highly recommended to"
+		" keep these to a minimum, especially the number of categories, by using any kind of tricks. Otherwise the timetable"
+		" might become impossible (taking too much time to generate).");
+	s+=" ";
+	s+=tr("Maybe a reasonable number of categories could be 2, 3 or maximum 4. The divide year dialog allows much higher values, but"
+		" these are not at all recommended.");
+	s+="\n";
+	s+=tr("Maybe an alternative to dividing a year into many categories/subgroups would be to enter individual students as FET subgroups and add into"
+		" each group the corresponding subgroups. But this is hard to do from the FET interface - maybe a solution would be to use an automatic"
+		" tool to convert your instition data into a file in .fet format.");
 	
 	//show the message in a dialog
 	QDialog dialog(this);
@@ -552,6 +635,14 @@ void SplitYearForm::reset() //reset to defaults
 	numberOfCategoriesChanged();
 
 	tabIndexChanged(0);
+}
+
+void SplitYearForm::updateNumberOfSubgroups()
+{
+	qint64 n=1;
+	for(int i=0; i<categoriesSpinBox->value(); i++)
+		n*=listWidgets[i]->count();
+	currentSubgroupsLabel->setText(tr("Subgroups: %1", "%1 is the number of subgroups").arg(n));
 }
 
 void SplitYearForm::updateDivisionsLabel()

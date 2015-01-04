@@ -17,8 +17,6 @@
 
 #include <QMessageBox>
 
-
-
 #include "modifyconstraintstudentssethomeroomsform.h"
 
 #include <QListWidget>
@@ -65,7 +63,7 @@ ModifyConstraintStudentsSetHomeRoomsForm::ModifyConstraintStudentsSetHomeRoomsFo
 			if(stg->name==this->_ctr->studentsName)
 				j=i;
 			i++;
-			for(int p=0; p<stg->subgroupsList.size(); p++){
+			if(SHOW_SUBGROUPS_IN_COMBO_BOXES) for(int p=0; p<stg->subgroupsList.size(); p++){
 				StudentsSubgroup* sts=stg->subgroupsList[p];
 				studentsComboBox->addItem(sts->name);
 				if(sts->name==this->_ctr->studentsName)
@@ -74,7 +72,10 @@ ModifyConstraintStudentsSetHomeRoomsForm::ModifyConstraintStudentsSetHomeRoomsFo
 			}
 		}
 	}
-	assert(j>=0);
+	if(j<0)
+		showWarningForInvisibleSubgroupConstraint(parent, this->_ctr->studentsName);
+	else
+		assert(j>=0);
 	studentsComboBox->setCurrentIndex(j);
 /////////
 	
@@ -102,6 +103,11 @@ void ModifyConstraintStudentsSetHomeRoomsForm::updateRoomsListWidget()
 
 void ModifyConstraintStudentsSetHomeRoomsForm::ok()
 {
+	if(studentsComboBox->currentIndex()<0){
+		showWarningCannotModifyConstraintInvisibleSubgroupConstraint(this, this->_ctr->studentsName);
+		return;
+	}
+
 	double weight;
 	QString tmp=weightLineEdit->text();
 	weight_sscanf(tmp, "%lf", &weight);

@@ -859,6 +859,7 @@ int Import::readFields(QWidget* parent){
 		lineNumber++;
         crt+=line.length();
 		if(progress.wasCanceled()){
+			progress.setValue(size);
 			QMessageBox::warning(parent, "FET", Import::tr("Loading canceled by user."));
 			file.close();
 			return false;
@@ -1682,6 +1683,7 @@ void Import::importCSVStudents(QWidget* parent){
 	for(int i=0; i<fieldList[FIELD_YEAR_NAME].size(); i++){
 		progress.setValue(i);
 		if(progress.wasCanceled()){
+			progress.setValue(fieldList[FIELD_YEAR_NAME].size());
 			QMessageBox::warning(newParent, "FET", Import::tr("Checking CSV canceled by user."));
 			return;
 		}
@@ -1742,6 +1744,7 @@ void Import::importCSVStudents(QWidget* parent){
 		progress2.setValue(kk);
 		kk++;
 		if(progress2.wasCanceled()){
+			progress2.setValue(fieldList[FIELD_YEAR_NAME].size());
 			QMessageBox::warning(newParent, "FET", Import::tr("Checking data canceled by user."));
 			return;
 		}
@@ -1756,6 +1759,7 @@ void Import::importCSVStudents(QWidget* parent){
 			progress2.setValue(kk);
 			kk++;
 			if(progress2.wasCanceled()){
+				progress2.setValue(fieldList[FIELD_YEAR_NAME].size());
 				QMessageBox::warning(newParent, "FET", Import::tr("Checking data canceled by user."));
 				return;
 			}
@@ -1772,6 +1776,7 @@ void Import::importCSVStudents(QWidget* parent){
 				kk++;
 
 				if(progress2.wasCanceled()){
+					progress2.setValue(fieldList[FIELD_YEAR_NAME].size());
 					QMessageBox::warning(newParent, "FET", Import::tr("Checking data canceled by user."));
 					return;
 				}
@@ -1811,6 +1816,7 @@ void Import::importCSVStudents(QWidget* parent){
 	for(int i=0; i<fieldList[FIELD_YEAR_NAME].size(); i++){
 		progress3.setValue(i);
 		if(progress3.wasCanceled()){
+			progress3.setValue(fieldList[FIELD_YEAR_NAME].size());
 			QMessageBox::warning(newParent, "FET", Import::tr("Importing data canceled by user."));
 			//return false;
 			ok=false;
@@ -2280,6 +2286,7 @@ void Import::importCSVActivities(QWidget* parent){
 	for(int i=0; i<fieldList[FIELD_SUBJECT_NAME].size(); i++){
 		progress4.setValue(i);
 		if(progress4.wasCanceled()){
+			progress4.setValue(fieldList[FIELD_SUBJECT_NAME].size());
 			QMessageBox::warning(newParent, "FET", Import::tr("Importing data canceled by user."));
 			//return false;
 			ok=false;

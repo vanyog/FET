@@ -1,4 +1,4 @@
-This is FET version 5.24.0-snapshot-16-dec-2014-19_30
+This is FET version 5.24.0
 
 
 Program description:
@@ -14,7 +14,7 @@ Program description:
 
 Requirements:
 
-	FET is created in the following environment: openSUSE 13.2 GNU/Linux distribution, Linux 3.16.6, Xfce 4.10,
+	FET is created in the following environment: openSUSE 13.2 GNU/Linux distribution, Linux 3.16.7, Xfce 4.10,
 	Midnight Commander 4.8.13, KDiff3 0.9.97, Qt 5.4.0, gcc 4.8.3, g++ 4.8.3, make 4.0, sed 4.2.2,
 	Valgrind 3.10.0, Coverity Scan 7.5.0, Cppcheck 1.67, other great free tools.
 	FET can be run on any platform supported by the free software Qt (GNU/Linux, Windows, Mac OS X).
@@ -219,6 +219,10 @@ Running FET:
 	Run the executable fet.exe (its location is inside the fet-v.v.v directory, you can find it there if you have FET precompiled for Windows or after you compiled it).
 
 	COMMAND LINE: no GUI, just run "fet-cl --inputfile=x [--outputdir=d] [--timelimitseconds=y] [--htmllevel=z] [--language=t]
+	 [--writetimetableconflicts=wt1] [--writetimetablesxml=wt2] [--writetimetablesdayshorizontal=wt3] [--writetimetablesdaysvertical=wt4]
+	 [--writetimetablestimehorizontal=wt5] [--writetimetablestimevertical=wt6] [--writetimetablessubgroups=wt7] [--writetimetablesgroups=wt8]
+	 [--writetimetablesyears=wt9] [--writetimetablesteachers=wt10] [--writetimetablesteachersfreeperiods=wt11] [--writetimetablesrooms=wt12]
+	 [--writetimetablessubjects=wt13] [--writetimetablesactivities=wt14]
 	 [--printactivitytags=a] [--printnotavailable=u] [--printbreak=b] [--dividetimeaxisbydays=v] [--duplicateverticalheaders=e]
 	 [--printsimultaneousactivities=w] [--randomseedx=rx --randomseedy=ry] [--warnifusingnotperfectconstraints=s]
 	 [--warnifusingstudentsminhoursdailywithallowemptydays=p] [--verbose=r]",
@@ -229,6 +233,7 @@ Running FET:
 			z is integer from 0 to 6 and represents the detail level for the generated HTML timetables
 				(default 2, larger values have more details/facilities and larger file sizes).
 			t is one of en_US, ar, ca, da, de, el, es, fa, fr, gl, he, hu, id, it, lt, mk, ms, nl, pl, pt_BR, ro, ru, si, sk, sq, sr, tr, uk, uz, vi, zh_CN (default en_US).
+			wt1 to wt14 are either true or false and represent whether you want the corresponding timetables to be written on the disk (default true).
 			a is either true or false and represets if you want activity tags to be present in the final HTML timetables (default true).
 			u is either "true" or "false" and represents if you want -x- (for true) or --- (for false) in the generated timetables for the
 				not available slots (default true).
@@ -340,9 +345,11 @@ Uninstalling FET:
 
 	To completely remove stored FET settings from your operating system:
 
-	GNU/Linux, and maybe Mac OS X:
+	GNU/Linux:
 	Usually, in your $HOME/.config directory you will find a directory "fet" containing the file "fettimetabling.conf".
 	Remove the directory "fet" and its contents.
+
+	Mac OS X: It seems that the configuration file might be: $HOME/Library/Preferences/com.fet.fettimetabling.plist
 
 	Windows:
 	Run regedit.exe (Registry Editor), search for the key "fet". You will find a section "fet" with the subsection "fettimetabling".
