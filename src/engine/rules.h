@@ -202,7 +202,7 @@ public:
 	/**
 	Here will be only the active activities.
 	
-	For speed, I used here not pointers, but static copies.
+	For speed, I used here not pointers, but static copies. (old comment.)
 	*/
 	int nInternalActivities;
 	Matrix1D<Activity> internalActivitiesList;
@@ -396,7 +396,9 @@ public:
 	*/
 	bool addYearFast(StudentsYear* year);
 
+	bool emptyYear(const QString& yearName);
 	bool removeYear(const QString& yearName);
+	bool removeYear(const QString& yearName, bool removeAlsoThisYear);
 
 	/**
 	Returns -1 if not found or the index of this year in the years list
@@ -406,10 +408,10 @@ public:
 	int searchAugmentedYear(const QString& yearName);
 
 	/**
-	Modifies this students year (name, number of students) and takes care of all related 
-	activities and constraints.	Returns true on success, false on failure (if not found)
+	Modifies this students set (name, number of students) and takes care of all related
+	activities and constraints. Returns true on success, false on failure (if not found)
 	*/
-	bool modifyYear(const QString& initialYearName, const QString& finalYearName, int finalNumberOfStudents);
+	bool modifyStudentsSet(const QString& initialStudentsSetName, const QString& finalStudentsSetName, int finalNumberOfStudents);
 	
 	/**
 	A function to sort the years alphabetically
@@ -437,12 +439,6 @@ public:
 	int searchAugmentedGroup(const QString& yearName, const QString& groupName);
 
 	/**
-	Modifies this students group (name, number of students) and takes care of all related 
-	activities and constraints.	Returns true on success, false on failure (if not found)
-	*/
-	bool modifyGroup(const QString& yearName, const QString& initialGroupName, const QString& finalGroupName, int finalNumberOfStudents);
-	
-	/**
 	A function to sort the groups of this year alphabetically
 	*/
 	void sortGroupsAlphabetically(const QString& yearName);
@@ -467,12 +463,6 @@ public:
 
 	int searchAugmentedSubgroup(const QString& yearName, const QString& groupName, const QString& subgroupName);
 
-	/**
-	Modifies this students subgroup (name, number of students) and takes care of all related 
-	activities and constraints.	Returns true on success, false on failure (if not found)
-	*/
-	bool modifySubgroup(const QString& yearName, const QString& groupName, const QString& initialSubgroupName, const QString& finalSubgroupName, int finalNumberOfStudents);
-	
 	/**
 	A function to sort the subgroups of this group alphabetically
 	*/
@@ -554,17 +544,19 @@ public:
 	*/
 	void removeActivity(int _id, int _activityGroupId);
 	
+	void removeActivities(const QList<int>& _idsList, bool updateConstraints);
+	
 	/**
 	A function to modify the information of a certain activity.
 	If this is a sub-activity of a split activity,
 	all the sub-activities will be modified.
 	*/
 	void modifyActivity(
-		int _id, 
-		int _activityGroupId, 
+		int _id,
+		int _activityGroupId,
 		const QStringList& _teachersNames,
-		const QString& _subjectName, 
-		const QStringList& _activityTagsNames, 
+		const QString& _subjectName,
+		const QStringList& _activityTagsNames,
 		const QStringList& _studentsNames,
 	 	int _nSplits,
 		int _totalDuration,
@@ -574,11 +566,11 @@ public:
 		int nTotalStudents);
 
 	void modifySubactivity(
-		int _id, 
-		int _activityGroupId, 
+		int _id,
+		int _activityGroupId,
 		const QStringList& _teachersNames,
-		const QString& _subjectName, 
-		const QStringList& _activityTagsNames, 
+		const QString& _subjectName,
+		const QStringList& _activityTagsNames,
 		const QStringList& _studentsNames,
 		int _duration,
 		bool _active,
@@ -706,6 +698,10 @@ public:
 	int deactivateSubject(const QString& subjectName);
 	
 	int deactivateActivityTag(const QString& activityTagName);
+	
+	void updateActivitiesWhenRemovingStudents(const QSet<StudentsSet*>& studentsSets, bool updateConstraints);
+	void updateGroupActivitiesInInitialOrderAfterRemoval();
+	void updateConstraintsAfterRemoval();
 	
 private:
 	TimeConstraint* readBasicCompulsoryTime(QXmlStreamReader& xml, FakeString& xmlReadingLog);

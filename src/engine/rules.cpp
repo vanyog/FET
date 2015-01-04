@@ -408,35 +408,6 @@ bool Rules::computeInternalStructure(QWidget* parent)
 		}
 	}
 	
-/*	for(int i=0; i<this->augmentedYearsList.size(); i++){
-		StudentsYear* sty=this->augmentedYearsList[i];
-		
-		assert(sty->groupsList.count()>0);
-
-		for(int j=0; j<sty->groupsList.size(); j++){
-			StudentsGroup* stg=sty->groupsList[j];
-			
-			assert(stg->subgroupsList.count()>0);
-
-			for(int k=0; k<stg->subgroupsList.size(); k++){
-				StudentsSubgroup* sts=stg->subgroupsList[k];
-
-				bool existing=false;
-				for(int i=0; i<this->nInternalSubgroups; i++)
-					if(this->internalSubgroupsList[i]->name==sts->name){
-						existing=true;
-						sts->indexInInternalSubgroupsList=i;
-						break;
-					}
-				if(!existing){
-					assert(this->nInternalSubgroups<MAX_TOTAL_SUBGROUPS);
-					assert(this->nInternalSubgroups<tmpNSubgroups);
-					sts->indexInInternalSubgroupsList=this->nInternalSubgroups;
-					this->internalSubgroupsList[this->nInternalSubgroups++]=sts;
-				}
-			}
-		}
-	}*/
 	assert(this->nInternalSubgroups==tmpNSubgroups);
 
 	//buildings
@@ -500,6 +471,7 @@ bool Rules::computeInternalStructure(QWidget* parent)
 			progress.setValue(ttt);
 			//pqapplication->processEvents();
 			if(progress.wasCanceled()){
+				progress.setValue(range);
 				RulesImpossible::warning(parent, tr("FET information"), tr("Canceled"));
 				return false;
 			}
@@ -544,43 +516,10 @@ bool Rules::computeInternalStructure(QWidget* parent)
 		}
 	}
 
-	/*activitiesForTeacherHash.clear();
-	activitiesForSubjectHash.clear();
-	activitiesForActivityTagHash.clear();
-	activitiesForStudentsSetHash.clear();*/
 	activitiesHash.clear();
 	for(int i=0; i<nInternalActivities; i++){
 		assert(!activitiesHash.contains(internalActivitiesList[i].id));
 		activitiesHash.insert(internalActivitiesList[i].id, i);
-		
-		/*const Activity& act=internalActivitiesList[i];
-		
-		foreach(QString tch, act.teachersNames){
-			QSet<int> set=activitiesForTeacherHash.value(tch, QSet<int>());
-			assert(!set.contains(i));
-			set.insert(i);
-			activitiesForTeacherHash.insert(tch, set);
-		}
-
-		QString sbj=act.subjectName;
-		QSet<int> set=activitiesForSubjectHash.value(sbj, QSet<int>());
-		assert(!set.contains(i));
-		set.insert(i);
-		activitiesForSubjectHash.insert(sbj, set);
-
-		foreach(QString at, act.activityTagsNames){
-			QSet<int> set=activitiesForActivityTagHash.value(at, QSet<int>());
-			assert(!set.contains(i));
-			set.insert(i);
-			activitiesForActivityTagHash.insert(at, set);
-		}
-
-		foreach(QString st, act.studentsNames){
-			QSet<int> set=activitiesForStudentsSetHash.value(st, QSet<int>());
-			assert(!set.contains(i));
-			set.insert(i);
-			activitiesForStudentsSetHash.insert(st, set);
-		}*/
 	}
 
 	//activities list for each subject - used for subjects timetable - in order for students and teachers
@@ -666,6 +605,7 @@ bool Rules::computeInternalStructure(QWidget* parent)
 		progress.setValue(ttt);
 		//pqapplication->processEvents();
 		if(progress.wasCanceled()){
+			progress.setValue(timeConstraintsList.size());
 			RulesImpossible::warning(parent, tr("FET information"), tr("Canceled"));
 			return false;
 		}
@@ -747,6 +687,7 @@ bool Rules::computeInternalStructure(QWidget* parent)
 		progress.setValue(ttt);
 		//pqapplication->processEvents();
 		if(progress.wasCanceled()){
+			progress.setValue(spaceConstraintsList.size());
 			RulesImpossible::warning(parent, tr("FET information"), tr("Canceled"));
 			return false;
 		}
@@ -782,18 +723,18 @@ bool Rules::computeInternalStructure(QWidget* parent)
 	
 		QSet<int> visitedIds;
 		for(int j=0; j<groupActivitiesInInitialOrderList.count(); j++){
-			GroupActivitiesInInitialOrderItem &item=groupActivitiesInInitialOrderList[j];
+			GroupActivitiesInInitialOrderItem* item=groupActivitiesInInitialOrderList[j];
 			
-			if(!item.active)
+			if(!item->active)
 				continue;
 			
-			if(item.ids.count()<2){
+			if(item->ids.count()<2){
 				fetBugs.append(tr("All 'group activities in the initial order for timetable generation' items should contain at least two activities ids."
 				 " This is not true for item number %1. Please report potential bug.").arg(j+1));
 			}
 
-			item.indices.clear();
-			foreach(int id, item.ids){
+			item->indices.clear();
+			foreach(int id, item->ids){
 				if(visitedIds.contains(id)){
 					userErrors.append(tr("All 'group activities in the initial order for timetable generation' items should have different activities ids."
 					 " (Each activity id must appear at most once in all the items.) This is not true for item number %1 and activity id %2.").arg(j+1).arg(id));
@@ -802,7 +743,7 @@ bool Rules::computeInternalStructure(QWidget* parent)
 					visitedIds.insert(id);
 					int index=activitiesHash.value(id, -1);
 					if(index>=0)
-						item.indices.append(index);
+						item->indices.append(index);
 				}
 			}
 
@@ -838,18 +779,18 @@ void Rules::kill() //clears memory for the rules, destroys them
 		delete yearsList.takeFirst();*/
 		
 	//students sets
-	QList<StudentsYear*> iyears;
-	QList<StudentsGroup*> igroups;
-	QList<StudentsSubgroup*> isubgroups;
+	QSet<StudentsYear*> iyears;
+	QSet<StudentsGroup*> igroups;
+	QSet<StudentsSubgroup*> isubgroups;
 	foreach(StudentsYear* year, yearsList){
 		if(!iyears.contains(year))
-			iyears.append(year);
+			iyears.insert(year);
 		foreach(StudentsGroup* group, year->groupsList){
 			if(!igroups.contains(group))
-				igroups.append(group);
+				igroups.insert(group);
 			foreach(StudentsSubgroup* subgroup, group->subgroupsList){
 				if(!isubgroups.contains(subgroup))
-					isubgroups.append(subgroup);
+					isubgroups.insert(subgroup);
 			}
 		}
 	}
@@ -919,7 +860,8 @@ void Rules::kill() //clears memory for the rules, destroys them
 	while(!roomsList.isEmpty())
 		delete roomsList.takeFirst();
 		
-	groupActivitiesInInitialOrderList.clear();
+	while(!groupActivitiesInInitialOrderList.isEmpty())
+		delete groupActivitiesInInitialOrderList.takeFirst();
 
 	activitiesPointerHash.clear();
 	bctSet.clear();
@@ -1013,178 +955,13 @@ int Rules::searchTeacher(const QString& teacherName)
 
 bool Rules::removeTeacher(const QString& teacherName)
 {
-	for(int i=0; i<this->activitiesList.size(); ){
-		Activity* act=this->activitiesList[i];
+	QList<int> idsToBeRemoved;
+	foreach(Activity* act, activitiesList){
 		bool t=act->removeTeacher(teacherName);
-		if(t && act->teachersNames.size()==0){
-			this->removeActivity(act->id, act->activityGroupId);
-			i=0;
-			//(You have to be careful, there can be erased more activities here)
-		}
-		else
-			i++;
+		if(t && act->teachersNames.count()==0)
+			idsToBeRemoved.append(act->id);
 	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-		if(ctr->type==CONSTRAINT_TEACHER_NOT_AVAILABLE_TIMES){
-			ConstraintTeacherNotAvailableTimes* crt_constraint=(ConstraintTeacherNotAvailableTimes*)ctr;
-			if(teacherName==crt_constraint->teacher)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_WEEK){
-			ConstraintTeacherMaxGapsPerWeek* crt_constraint=(ConstraintTeacherMaxGapsPerWeek*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_DAY){
-			ConstraintTeacherMaxGapsPerDay* crt_constraint=(ConstraintTeacherMaxGapsPerDay*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MAX_HOURS_DAILY){
-			ConstraintTeacherMaxHoursDaily* crt_constraint=(ConstraintTeacherMaxHoursDaily*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MAX_HOURS_CONTINUOUSLY){
-			ConstraintTeacherMaxHoursContinuously* crt_constraint=(ConstraintTeacherMaxHoursContinuously*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintTeacherActivityTagMaxHoursContinuously* crt_constraint=(ConstraintTeacherActivityTagMaxHoursContinuously*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintTeacherActivityTagMaxHoursDaily* crt_constraint=(ConstraintTeacherActivityTagMaxHoursDaily*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MIN_HOURS_DAILY){
-			ConstraintTeacherMinHoursDaily* crt_constraint=(ConstraintTeacherMinHoursDaily*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MAX_DAYS_PER_WEEK){
-			ConstraintTeacherMaxDaysPerWeek* crt_constraint=(ConstraintTeacherMaxDaysPerWeek*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MIN_DAYS_PER_WEEK){
-			ConstraintTeacherMinDaysPerWeek* crt_constraint=(ConstraintTeacherMinDaysPerWeek*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_INTERVAL_MAX_DAYS_PER_WEEK){
-			ConstraintTeacherIntervalMaxDaysPerWeek* crt_constraint=(ConstraintTeacherIntervalMaxDaysPerWeek*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(teacherName==crt_constraint->p_teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(teacherName==crt_constraint->p_teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-
-
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-		if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOM){
-			ConstraintTeacherHomeRoom* crt_constraint=(ConstraintTeacherHomeRoom*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeSpaceConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOMS){
-			ConstraintTeacherHomeRooms* crt_constraint=(ConstraintTeacherHomeRooms*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeSpaceConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_DAY){
-			ConstraintTeacherMaxBuildingChangesPerDay* crt_constraint=(ConstraintTeacherMaxBuildingChangesPerDay*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeSpaceConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_WEEK){
-			ConstraintTeacherMaxBuildingChangesPerWeek* crt_constraint=(ConstraintTeacherMaxBuildingChangesPerWeek*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeSpaceConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
-			ConstraintTeacherMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintTeacherMinGapsBetweenBuildingChanges*)ctr;
-			if(teacherName==crt_constraint->teacherName)
-				this->removeSpaceConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-
+	removeActivities(idsToBeRemoved, false);
 
 	for(int i=0; i<this->teachersList.size(); i++)
 		if(this->teachersList.at(i)->name==teacherName){
@@ -1194,6 +971,8 @@ bool Rules::removeTeacher(const QString& teacherName)
 			break;
 		}
 	
+	updateConstraintsAfterRemoval();
+
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
 
@@ -1209,221 +988,120 @@ bool Rules::modifyTeacher(const QString& initialTeacherName, const QString& fina
 	assert(this->searchTeacher(finalTeacherName)==-1);
 	assert(this->searchTeacher(initialTeacherName)>=0);
 
-	//TODO: improve this part
 	for(int i=0; i<this->activitiesList.size(); i++)
 		this->activitiesList.at(i)->renameTeacher(initialTeacherName, finalTeacherName);
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
+		
+	foreach(TimeConstraint* ctr, timeConstraintsList){
 		if(ctr->type==CONSTRAINT_TEACHER_NOT_AVAILABLE_TIMES){
 			ConstraintTeacherNotAvailableTimes* crt_constraint=(ConstraintTeacherNotAvailableTimes*)ctr;
 			if(initialTeacherName == crt_constraint->teacher)
 				crt_constraint->teacher=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_WEEK){
+		else if(ctr->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_WEEK){
 			ConstraintTeacherMaxGapsPerWeek* crt_constraint=(ConstraintTeacherMaxGapsPerWeek*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_DAY){
+		else if(ctr->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_DAY){
 			ConstraintTeacherMaxGapsPerDay* crt_constraint=(ConstraintTeacherMaxGapsPerDay*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MAX_HOURS_DAILY){
+		else if(ctr->type==CONSTRAINT_TEACHER_MAX_HOURS_DAILY){
 			ConstraintTeacherMaxHoursDaily* crt_constraint=(ConstraintTeacherMaxHoursDaily*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MAX_HOURS_CONTINUOUSLY){
+		else if(ctr->type==CONSTRAINT_TEACHER_MAX_HOURS_CONTINUOUSLY){
 			ConstraintTeacherMaxHoursContinuously* crt_constraint=(ConstraintTeacherMaxHoursContinuously*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+		else if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
 			ConstraintTeacherActivityTagMaxHoursContinuously* crt_constraint=(ConstraintTeacherActivityTagMaxHoursContinuously*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_DAILY){
+		else if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_DAILY){
 			ConstraintTeacherActivityTagMaxHoursDaily* crt_constraint=(ConstraintTeacherActivityTagMaxHoursDaily*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MIN_HOURS_DAILY){
+		else if(ctr->type==CONSTRAINT_TEACHER_MIN_HOURS_DAILY){
 			ConstraintTeacherMinHoursDaily* crt_constraint=(ConstraintTeacherMinHoursDaily*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MAX_DAYS_PER_WEEK){
+		else if(ctr->type==CONSTRAINT_TEACHER_MAX_DAYS_PER_WEEK){
 			ConstraintTeacherMaxDaysPerWeek* crt_constraint=(ConstraintTeacherMaxDaysPerWeek*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MIN_DAYS_PER_WEEK){
+		else if(ctr->type==CONSTRAINT_TEACHER_MIN_DAYS_PER_WEEK){
 			ConstraintTeacherMinDaysPerWeek* crt_constraint=(ConstraintTeacherMinDaysPerWeek*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_INTERVAL_MAX_DAYS_PER_WEEK){
+		else if(ctr->type==CONSTRAINT_TEACHER_INTERVAL_MAX_DAYS_PER_WEEK){
 			ConstraintTeacherIntervalMaxDaysPerWeek* crt_constraint=(ConstraintTeacherIntervalMaxDaysPerWeek*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
 			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
 			if(initialTeacherName == crt_constraint->p_teacherName)
 				crt_constraint->p_teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
 			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
 			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
+		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
 			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
 			if(initialTeacherName == crt_constraint->p_teacherName)
 				crt_constraint->p_teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
+		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
 			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
 	}
 	
-
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];	
-
+	foreach(SpaceConstraint* ctr, spaceConstraintsList){
 		if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOM){
 			ConstraintTeacherHomeRoom* crt_constraint=(ConstraintTeacherHomeRoom*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOMS){
+		else if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOMS){
 			ConstraintTeacherHomeRooms* crt_constraint=(ConstraintTeacherHomeRooms*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_DAY){
+		else if(ctr->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_DAY){
 			ConstraintTeacherMaxBuildingChangesPerDay* crt_constraint=(ConstraintTeacherMaxBuildingChangesPerDay*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_WEEK){
+		else if(ctr->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_WEEK){
 			ConstraintTeacherMaxBuildingChangesPerWeek* crt_constraint=(ConstraintTeacherMaxBuildingChangesPerWeek*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
-	}
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];	
-
-		if(ctr->type==CONSTRAINT_TEACHER_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
+		else if(ctr->type==CONSTRAINT_TEACHER_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
 			ConstraintTeacherMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintTeacherMinGapsBetweenBuildingChanges*)ctr;
 			if(initialTeacherName == crt_constraint->teacherName)
 				crt_constraint->teacherName=finalTeacherName;
 		}
 	}
 	
-
-
 	int t=0;
 	for(int i=0; i<this->teachersList.size(); i++){
 		Teacher* tch=this->teachersList[i];
@@ -1433,20 +1111,16 @@ bool Rules::modifyTeacher(const QString& initialTeacherName, const QString& fina
 			t++;
 		}
 	}
-	assert(t<=1);
+	assert(t==1);
 
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
 
-	if(t==0)
-		return false;
-	else
-		return true;
+	return true;
 }
 
 void Rules::sortTeachersAlphabetically()
 {
-	//qSort(this->teachersList.begin(), this->teachersList.end(), teachersAscending);
 	std::stable_sort(this->teachersList.begin(), this->teachersList.end(), teachersAscending);
 
 	this->internalStructureComputed=false;
@@ -1496,100 +1170,12 @@ int Rules::searchSubject(const QString& subjectName)
 
 bool Rules::removeSubject(const QString& subjectName)
 {
-	//check the activities first
-	for(int i=0; i<this->activitiesList.size(); ){
-		Activity* act=this->activitiesList[i];
-		if(act->subjectName==subjectName){
-			this->removeActivity(act->id, act->activityGroupId);
-			i=0;
-			//(You have to be careful, there can be erased more activities here)
-		}
-		else
-			i++;
+	QList<int> idsToBeRemoved;
+	foreach(Activity* act, activitiesList){
+		if(act->subjectName==subjectName)
+			idsToBeRemoved.append(act->id);
 	}
-	
-	//delete the time constraints related to this subject
-
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-		if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(subjectName==crt_constraint->p_subjectName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(subjectName==crt_constraint->subjectName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(subjectName==crt_constraint->subjectName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(subjectName==crt_constraint->p_subjectName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(subjectName==crt_constraint->subjectName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-
-	//delete the space constraints related to this subject
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_SUBJECT_PREFERRED_ROOM){
-			ConstraintSubjectPreferredRoom* c=(ConstraintSubjectPreferredRoom*)ctr;
-
-			if(c->subjectName == subjectName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_PREFERRED_ROOMS){
-			ConstraintSubjectPreferredRooms* c=(ConstraintSubjectPreferredRooms*)ctr;
-
-			if(c->subjectName == subjectName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOM){
-			ConstraintSubjectActivityTagPreferredRoom* c=(ConstraintSubjectActivityTagPreferredRoom*)ctr;
-
-			if(c->subjectName == subjectName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOMS){
-			ConstraintSubjectActivityTagPreferredRooms* c=(ConstraintSubjectActivityTagPreferredRooms*)ctr;
-
-			if(c->subjectName == subjectName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else
-			i++;
-	}
+	removeActivities(idsToBeRemoved, false);
 
 	//remove the subject from the list
 	for(int i=0; i<this->subjectsList.size(); i++)
@@ -1600,6 +1186,8 @@ bool Rules::removeSubject(const QString& subjectName)
 			break;
 		}
 	
+	updateConstraintsAfterRemoval();
+
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
 
@@ -1624,64 +1212,36 @@ bool Rules::modifySubject(const QString& initialSubjectName, const QString& fina
 	}
 	
 	//modify the time constraints related to this subject
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
+	foreach(TimeConstraint* ctr, timeConstraintsList){
 		if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
 			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
 			if(initialSubjectName == crt_constraint->p_subjectName)
 				crt_constraint->p_subjectName=finalSubjectName;
 		}
-	}
-
-	//modify the time constraints related to this subject
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
 			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
 			if(initialSubjectName == crt_constraint->subjectName)
 				crt_constraint->subjectName=finalSubjectName;
 		}
-	}
-
-	//modify the time constraints related to this subject
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
 			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
 			if(initialSubjectName == crt_constraint->subjectName)
 				crt_constraint->subjectName=finalSubjectName;
 		}
-	}
-
-	//modify the time constraints related to this subject
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
+		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
 			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
 			if(initialSubjectName == crt_constraint->p_subjectName)
 				crt_constraint->p_subjectName=finalSubjectName;
 		}
-	}
-
-	//modify the time constraints related to this subject
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
+		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
 			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
 			if(initialSubjectName == crt_constraint->subjectName)
 				crt_constraint->subjectName=finalSubjectName;
 		}
 	}
-
+	
 	//modify the space constraints related to this subject
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
+	foreach(SpaceConstraint* ctr, spaceConstraintsList){
 		if(ctr->type==CONSTRAINT_SUBJECT_PREFERRED_ROOM){
 			ConstraintSubjectPreferredRoom* c=(ConstraintSubjectPreferredRoom*)ctr;
 			if(c->subjectName == initialSubjectName)
@@ -1704,7 +1264,6 @@ bool Rules::modifySubject(const QString& initialSubjectName, const QString& fina
 		}
 	}
 
-
 	//rename the subject in the list
 	int t=0;
 	for(int i=0; i<this->subjectsList.size(); i++){
@@ -1715,7 +1274,7 @@ bool Rules::modifySubject(const QString& initialSubjectName, const QString& fina
 			sbj->name=finalSubjectName;
 		}
 	}
-	assert(t<=1);
+	assert(t==1);
 
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
@@ -1725,7 +1284,6 @@ bool Rules::modifySubject(const QString& initialSubjectName, const QString& fina
 
 void Rules::sortSubjectsAlphabetically()
 {
-	//qSort(this->subjectsList.begin(), this->subjectsList.end(), subjectsAscending);
 	std::stable_sort(this->subjectsList.begin(), this->subjectsList.end(), subjectsAscending);
 
 	this->internalStructureComputed=false;
@@ -1776,154 +1334,9 @@ int Rules::searchActivityTag(const QString& activityTagName)
 
 bool Rules::removeActivityTag(const QString& activityTagName)
 {
-	//check the activities first
-	for(int i=0; i<this->activitiesList.size(); i++){
-		Activity* act=this->activitiesList[i];
-
-		//if( act->activityTagName == activityTagName)
-		//	act->activityTagName="";
-		if( act->activityTagsNames.contains(activityTagName) )
+	foreach(Activity* act, activitiesList)
+		if(act->activityTagsNames.contains(activityTagName))
 			act->activityTagsNames.removeAll(activityTagName);
-	}
-	
-	//delete the time constraints related to this activity tag
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-		
-		if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintTeacherActivityTagMaxHoursContinuously* crt_constraint=(ConstraintTeacherActivityTagMaxHoursContinuously*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintTeacherActivityTagMaxHoursDaily* crt_constraint=(ConstraintTeacherActivityTagMaxHoursDaily*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintTeachersActivityTagMaxHoursContinuously* crt_constraint=(ConstraintTeachersActivityTagMaxHoursContinuously*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintTeachersActivityTagMaxHoursDaily* crt_constraint=(ConstraintTeachersActivityTagMaxHoursDaily*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsActivityTagMaxHoursContinuously*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsActivityTagMaxHoursDaily*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(activityTagName == crt_constraint->p_activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(activityTagName == crt_constraint->p_activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(activityTagName == crt_constraint->activityTagName)
-				this->removeTimeConstraint(ctr); //single constraint removal
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-
-	//delete the space constraints related to this activity tag
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-		
-		if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOM){
-			ConstraintSubjectActivityTagPreferredRoom* c=(ConstraintSubjectActivityTagPreferredRoom*)ctr;
-
-			if(c->activityTagName == activityTagName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOMS){
-			ConstraintSubjectActivityTagPreferredRooms* c=(ConstraintSubjectActivityTagPreferredRooms*)ctr;
-
-			if(c->activityTagName == activityTagName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOM){
-			ConstraintActivityTagPreferredRoom* c=(ConstraintActivityTagPreferredRoom*)ctr;
-
-			if(c->activityTagName == activityTagName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOMS){
-			ConstraintActivityTagPreferredRooms* c=(ConstraintActivityTagPreferredRooms*)ctr;
-
-			if(c->activityTagName == activityTagName)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else
-			i++;
-	}
 
 	//remove the activity tag from the list
 	for(int i=0; i<this->activityTagsList.size(); i++)
@@ -1934,6 +1347,8 @@ bool Rules::removeActivityTag(const QString& activityTagName)
 			break;
 		}
 	
+	updateConstraintsAfterRemoval();
+
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
 
@@ -1953,136 +1368,74 @@ bool Rules::modifyActivityTag(const QString& initialActivityTagName, const QStri
 	for(int i=0; i<this->activitiesList.size(); i++){
 		Activity* act=this->activitiesList[i];
 
-		//if( act->activityTagName == initialActivityTagName)
-		//	act->activityTagName=finalActivityTagName;
 		for(int kk=0; kk<act->activityTagsNames.count(); kk++)
 			if(act->activityTagsNames.at(kk)==initialActivityTagName)
 				act->activityTagsNames[kk]=finalActivityTagName;
 	}
 	
 	//modify the constraints related to this activity tag
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
+	foreach(TimeConstraint* ctr, timeConstraintsList){
 		if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
 			ConstraintTeacherActivityTagMaxHoursContinuously* crt_constraint=(ConstraintTeacherActivityTagMaxHoursContinuously*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_DAILY){
+		else if(ctr->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_DAILY){
 			ConstraintTeacherActivityTagMaxHoursDaily* crt_constraint=(ConstraintTeacherActivityTagMaxHoursDaily*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+		else if(ctr->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
 			ConstraintTeachersActivityTagMaxHoursContinuously* crt_constraint=(ConstraintTeachersActivityTagMaxHoursContinuously*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_DAILY){
+		else if(ctr->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_DAILY){
 			ConstraintTeachersActivityTagMaxHoursDaily* crt_constraint=(ConstraintTeachersActivityTagMaxHoursDaily*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+		else if(ctr->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
 			ConstraintStudentsActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsActivityTagMaxHoursContinuously*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_DAILY){
+		else if(ctr->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_DAILY){
 			ConstraintStudentsActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsActivityTagMaxHoursDaily*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
 			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
+		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
 			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-
-	//modify the constraints related to this activity tag
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
 			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
 			if(initialActivityTagName == crt_constraint->p_activityTagName)
 				crt_constraint->p_activityTagName=finalActivityTagName;
 		}
-	}
-
-	//modify the constraints related to this activity tag
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
 			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-
-	//modify the constraints related to this activity tag
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
+		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
 			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
 		}
-	}
-
-	//modify the constraints related to this activity tag
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
+		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
 			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
 			if(initialActivityTagName == crt_constraint->p_activityTagName)
 				crt_constraint->p_activityTagName=finalActivityTagName;
 		}
-	}
-
-	//modify the constraints related to this activity tag
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
+		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
 			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
 			if(initialActivityTagName == crt_constraint->activityTagName)
 				crt_constraint->activityTagName=finalActivityTagName;
@@ -2090,9 +1443,7 @@ bool Rules::modifyActivityTag(const QString& initialActivityTagName, const QStri
 	}
 
 	//modify the space constraints related to this subject tag
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
+	foreach(SpaceConstraint* ctr, spaceConstraintsList){
 		if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOM){
 			ConstraintSubjectActivityTagPreferredRoom* c=(ConstraintSubjectActivityTagPreferredRoom*)ctr;
 			if(c->activityTagName == initialActivityTagName)
@@ -2127,7 +1478,7 @@ bool Rules::modifyActivityTag(const QString& initialActivityTagName, const QStri
 		}
 	}
 	
-	assert(t<=1);
+	assert(t==1);
 
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
@@ -2137,7 +1488,6 @@ bool Rules::modifyActivityTag(const QString& initialActivityTagName, const QStri
 
 void Rules::sortActivityTagsAlphabetically()
 {
-	//qSort(this->activityTagsList.begin(), this->activityTagsList.end(), activityTagsAscending);
 	std::stable_sort(this->activityTagsList.begin(), this->activityTagsList.end(), activityTagsAscending);
 
 	this->internalStructureComputed=false;
@@ -2315,8 +1665,11 @@ StudentsSet* Rules::searchAugmentedStudentsSet(const QString& setName)
 bool Rules::addYear(StudentsYear* year)
 {
 	//already existing?
-	if(this->searchStudentsSet(year->name)!=NULL)
-		return false;
+	foreach(StudentsYear* ty, yearsList)
+		if(ty->name==year->name)
+			return false;
+	//if(this->searchStudentsSet(year->name)!=NULL)
+	//	return false;
 	this->yearsList << year;
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
@@ -2333,209 +1686,73 @@ bool Rules::addYearFast(StudentsYear* year)
 
 bool Rules::removeYear(const QString& yearName)
 {
-	StudentsYear* year=NULL;
+	return removeYear(yearName, true);
+}
+
+bool Rules::emptyYear(const QString& yearName)
+{
+	return removeYear(yearName, false);
+}
+
+bool Rules::removeYear(const QString& yearName, bool removeAlsoThisYear)
+{
+	StudentsYear* yearPointer=NULL;
 	foreach(StudentsYear* ty, this->yearsList){
 		if(ty->name==yearName){
-			year=ty;
+			yearPointer=ty;
 			break;
 		}
 	}
 
-	//StudentsYear* year=(StudentsYear*)searchStudentsSet(yearName);
-	assert(year!=NULL);
-	int nStudents=year->numberOfStudents;
-	while(year->groupsList.size()>0){
-		QString groupName=year->groupsList[0]->name;
-		this->removeGroup(yearName, groupName);
+	assert(yearPointer!=NULL);
+	
+	//pointers
+	QSet<StudentsSet*> tmpSet;
+	foreach(StudentsYear* year, yearsList)
+		if(year->name!=yearName){
+			tmpSet.insert(year);
+			foreach(StudentsGroup* group, year->groupsList){
+				tmpSet.insert(group);
+				foreach(StudentsSubgroup* subgroup, group->subgroupsList)
+					tmpSet.insert(subgroup);
+			}
+		}
+	
+	QSet<StudentsSet*> toBeRemoved;
+	toBeRemoved.insert(yearPointer);
+	foreach(StudentsGroup* group, yearPointer->groupsList){
+		assert(!toBeRemoved.contains(group));
+		if(!tmpSet.contains(group))
+			toBeRemoved.insert(group);
+		foreach(StudentsSubgroup* subgroup, group->subgroupsList){
+			//assert(!toBeRemoved.contains(subgroup));
+			if(!tmpSet.contains(subgroup) && !toBeRemoved.contains(subgroup))
+				toBeRemoved.insert(subgroup);
+		}
 	}
-
-	for(int i=0; i<this->activitiesList.size(); ){
-		Activity* act=this->activitiesList[i];
-		bool t=act->removeStudents(*this, yearName, nStudents);
+	
+	if(!removeAlsoThisYear)
+		toBeRemoved.remove(yearPointer);
+	
+	updateActivitiesWhenRemovingStudents(toBeRemoved, false);
+	
+	if(removeAlsoThisYear){
+		for(int i=0; i<yearsList.count(); i++)
+			if(yearsList.at(i)==yearPointer){
+				yearsList.removeAt(i);
+				break;
+			}
+	}
+	else{
+		yearPointer->groupsList.clear();
+	}
+	
+	foreach(StudentsSet* studentsSet, toBeRemoved)
+		delete studentsSet;
 		
-		if(t && act->studentsNames.count()==0){
-			this->removeActivity(act->id, act->activityGroupId);
-			i=0;
-			//(You have to be careful, there can be erased more activities here)
-		}
-		else
-			i++;
-	}
+	if(toBeRemoved.count()>0)
+		updateConstraintsAfterRemoval();
 	
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-	
-		bool erased=false;
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
-			ConstraintStudentsSetNotAvailableTimes* crt_constraint=(ConstraintStudentsSetNotAvailableTimes*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
-			ConstraintStudentsSetMaxHoursDaily* crt_constraint=(ConstraintStudentsSetMaxHoursDaily*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetMaxDaysPerWeek*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetIntervalMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetMaxHoursContinuously*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
-			ConstraintStudentsSetMinHoursDaily* crt_constraint=(ConstraintStudentsSetMinHoursDaily*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
-			ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* crt_constraint=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
-			ConstraintStudentsSetMaxGapsPerWeek* crt_constraint=(ConstraintStudentsSetMaxGapsPerWeek*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
-			ConstraintStudentsSetMaxGapsPerDay* crt_constraint=(ConstraintStudentsSetMaxGapsPerDay*)ctr;
-			if(yearName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(yearName == crt_constraint->p_studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(yearName == crt_constraint->p_studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-
-		if(!erased)
-			i++;
-	}
-
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-	
-		bool erased=false;
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
-			ConstraintStudentsSetHomeRoom* crt_constraint=(ConstraintStudentsSetHomeRoom*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
-			ConstraintStudentsSetHomeRooms* crt_constraint=(ConstraintStudentsSetHomeRooms*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
-			ConstraintStudentsSetMaxBuildingChangesPerDay* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerDay*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
-			ConstraintStudentsSetMaxBuildingChangesPerWeek* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
-			ConstraintStudentsSetMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)ctr;
-			if(yearName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-
-		if(!erased)
-			i++;
-	}
-
-	for(int i=0; i<this->yearsList.size(); i++)
-		if(this->yearsList.at(i)->name==yearName){
-			delete this->yearsList[i]; //added in version 4.0.2
-			this->yearsList.removeAt(i);
-			break;
-		}
-
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
 	return true;
@@ -2559,171 +1776,143 @@ int Rules::searchAugmentedYear(const QString& yearName)
 	return -1;
 }
 
-bool Rules::modifyYear(const QString& initialYearName, const QString& finalYearName, int finalNumberOfStudents)
+bool Rules::modifyStudentsSet(const QString& initialStudentsSetName, const QString& finalStudentsSetName, int finalNumberOfStudents)
 {
-	StudentsSet* _initialSet=searchStudentsSet(initialYearName);
-	assert(_initialSet!=NULL);
-	int _initialNumberOfStudents=_initialSet->numberOfStudents;
-
-	QString _initialYearName=initialYearName;
-
-	assert(searchYear(_initialYearName)>=0);
-	StudentsSet* _ss=searchStudentsSet(finalYearName);
-	assert(_ss==NULL || _initialYearName==finalYearName);
-
-	for(int i=0; i<this->activitiesList.size(); i++){
-		Activity* act=this->activitiesList[i];
-		act->renameStudents(*this, _initialYearName, finalYearName, _initialNumberOfStudents, finalNumberOfStudents);
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
-			ConstraintStudentsSetNotAvailableTimes* crt_constraint=(ConstraintStudentsSetNotAvailableTimes*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
-			ConstraintStudentsSetMaxHoursDaily* crt_constraint=(ConstraintStudentsSetMaxHoursDaily*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetMaxDaysPerWeek*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetIntervalMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetMaxHoursContinuously*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
-			ConstraintStudentsSetMinHoursDaily* crt_constraint=(ConstraintStudentsSetMinHoursDaily*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
-			ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* crt_constraint=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
-			ConstraintStudentsSetMaxGapsPerWeek* crt_constraint=(ConstraintStudentsSetMaxGapsPerWeek*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
-			ConstraintStudentsSetMaxGapsPerDay* crt_constraint=(ConstraintStudentsSetMaxGapsPerDay*)ctr;
-			if(_initialYearName == crt_constraint->students)
-				crt_constraint->students=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(_initialYearName == crt_constraint->p_studentsName)
-				crt_constraint->p_studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(_initialYearName == crt_constraint->p_studentsName)
-				crt_constraint->p_studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-	}
-
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
-			ConstraintStudentsSetHomeRoom* crt_constraint=(ConstraintStudentsSetHomeRoom*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
-			ConstraintStudentsSetHomeRooms* crt_constraint=(ConstraintStudentsSetHomeRooms*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
-			ConstraintStudentsSetMaxBuildingChangesPerDay* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerDay*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
-			ConstraintStudentsSetMaxBuildingChangesPerWeek* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
-			ConstraintStudentsSetMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)ctr;
-			if(_initialYearName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalYearName;
-		}
-	}
-
-	int t=0;
+	StudentsSet* studentsSet=searchStudentsSet(initialStudentsSetName);
+	assert(studentsSet!=NULL);
+	if(initialStudentsSetName!=finalStudentsSetName)
+		assert(searchStudentsSet(finalStudentsSetName)==NULL);
+	int initialNumberOfStudents=studentsSet->numberOfStudents;
 	
-	for(int i=0; i<this->yearsList.size(); i++){
-		StudentsYear* sty=this->yearsList[i];
+	foreach(Activity* act, activitiesList)
+		act->renameStudents(*this, initialStudentsSetName, finalStudentsSetName, initialNumberOfStudents, finalNumberOfStudents);
 	
-		if(sty->name==_initialYearName){
-			sty->name=finalYearName;
-			sty->numberOfStudents=finalNumberOfStudents;
-			t++;
-			
-			/*for(int j=0; j<sty->groupsList.size(); j++){
-				StudentsGroup* stg=sty->groupsList[j];
+	if(initialStudentsSetName!=finalStudentsSetName){
+		foreach(TimeConstraint* ctr, timeConstraintsList){
+			if(ctr->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
+				ConstraintStudentsSetNotAvailableTimes* crt_constraint=(ConstraintStudentsSetNotAvailableTimes*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
+				ConstraintStudentsSetMaxHoursDaily* crt_constraint=(ConstraintStudentsSetMaxHoursDaily*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
+				ConstraintStudentsSetMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetMaxDaysPerWeek*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
+				ConstraintStudentsSetIntervalMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
+				ConstraintStudentsSetMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetMaxHoursContinuously*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+				ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
+				ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
+				ConstraintStudentsSetMinHoursDaily* crt_constraint=(ConstraintStudentsSetMinHoursDaily*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
+				ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* crt_constraint=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
+				ConstraintStudentsSetMaxGapsPerWeek* crt_constraint=(ConstraintStudentsSetMaxGapsPerWeek*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
+				ConstraintStudentsSetMaxGapsPerDay* crt_constraint=(ConstraintStudentsSetMaxGapsPerDay*)ctr;
+				if(initialStudentsSetName == crt_constraint->students)
+					crt_constraint->students=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
+				ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
+				if(initialStudentsSetName == crt_constraint->p_studentsName)
+					crt_constraint->p_studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
+				ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
+				ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
+				ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
+				if(initialStudentsSetName == crt_constraint->p_studentsName)
+					crt_constraint->p_studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
+				ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
+		}
 
-				if(stg->name.right(11)==" WHOLE YEAR" && stg->name.left(stg->name.length()-11)==_initialYearName)
-					this->modifyGroup(sty->name, stg->name, sty->name+" WHOLE YEAR", stg->numberOfStudents);
-			}*/
+		foreach(SpaceConstraint* ctr, spaceConstraintsList){
+			if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
+				ConstraintStudentsSetHomeRoom* crt_constraint=(ConstraintStudentsSetHomeRoom*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
+				ConstraintStudentsSetHomeRooms* crt_constraint=(ConstraintStudentsSetHomeRooms*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
+				ConstraintStudentsSetMaxBuildingChangesPerDay* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerDay*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
+				ConstraintStudentsSetMaxBuildingChangesPerWeek* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
+			else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
+				ConstraintStudentsSetMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)ctr;
+				if(initialStudentsSetName == crt_constraint->studentsName)
+					crt_constraint->studentsName=finalStudentsSetName;
+			}
 		}
 	}
-		
-	assert(t<=1);
 
+	assert(studentsSet->name==initialStudentsSetName);
+	assert(studentsSet->numberOfStudents==initialNumberOfStudents);
+	studentsSet->name=finalStudentsSetName;
+	studentsSet->numberOfStudents=finalNumberOfStudents;
+	
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
 	
-	if(t==0)
-		return false;
-	else
-		return true;
+	return true;
 }
 
 void Rules::sortYearsAlphabetically()
 {
-	//qSort(this->yearsList.begin(), this->yearsList.end(), yearsAscending);
 	std::stable_sort(this->yearsList.begin(), this->yearsList.end(), yearsAscending);
 
 	this->internalStructureComputed=false;
@@ -2770,282 +1959,84 @@ bool Rules::addGroupFast(StudentsYear* year, StudentsGroup* group)
 
 bool Rules::removeGroup(const QString& yearName, const QString& groupName)
 {
-	this->internalStructureComputed=false;
-	setRulesModifiedAndOtherThings(this);
-	
-	StudentsYear* year=NULL;
+	StudentsYear* yearPointer=NULL;
 	foreach(StudentsYear* ty, this->yearsList){
 		if(ty->name==yearName){
-			year=ty;
+			yearPointer=ty;
 			break;
 		}
 	}
-	assert(year!=NULL);
+
+	assert(yearPointer!=NULL);
 	
-	StudentsGroup* group=NULL;
-	foreach(StudentsGroup* tg, year->groupsList){
+	StudentsGroup* groupPointer=NULL;
+	foreach(StudentsGroup* tg, yearPointer->groupsList){
 		if(tg->name==groupName){
-			group=tg;
-			break;
-		}
-	}
-
-	//StudentsGroup* group=(StudentsGroup*)searchStudentsSet(groupName);
-	assert(group!=NULL);
-	int nStudents=group->numberOfStudents;
-	
-	bool stillExistsWithSamePointer=false;
-	foreach(StudentsYear* ty, this->yearsList){
-		if(ty->name!=yearName){
-			foreach(StudentsGroup* tg, ty->groupsList){
-				if(tg==group){
-					stillExistsWithSamePointer=true;
-					break;
-				}
-			}
-		}
-		if(stillExistsWithSamePointer)
-			break;
-	}
-	
-	if(!stillExistsWithSamePointer){
-		while(group->subgroupsList.size()>0){
-			QString subgroupName=group->subgroupsList[0]->name;
-			this->removeSubgroup(yearName, groupName, subgroupName);
-		}
-	}
-
-	StudentsYear* sty=NULL;
-	for(int i=0; i<this->yearsList.size(); i++){
-		sty=yearsList[i];
-		if(sty->name==yearName)
-			break;
-	}
-	assert(sty);
-	assert(sty==year);
-
-	StudentsGroup* stg=NULL;
-	for(int i=0; i<sty->groupsList.size(); i++){
-		stg=sty->groupsList[i];
-		if(stg->name==groupName){
-			sty->groupsList.removeAt(i);
+			groupPointer=tg;
 			break;
 		}
 	}
 	
-	assert(stg);
+	assert(groupPointer!=NULL);
 
-	if(this->searchStudentsSet(stg->name)!=NULL){
-		//group still exists
-		
-		//with the same pointer??? (leak bug fix on 6 Jan 2010 in FET-5.12.1)
-		bool foundSamePointer=false;
-		foreach(StudentsYear* year, yearsList){
+	//pointers
+	QSet<StudentsSet*> tmpSet;
+	foreach(StudentsYear* year, yearsList){
+		if(year->name!=yearName){
+			tmpSet.insert(year);
 			foreach(StudentsGroup* group, year->groupsList){
-				if(group==stg){
-					foundSamePointer=true;
-					break;
+				tmpSet.insert(group);
+				foreach(StudentsSubgroup* subgroup, group->subgroupsList)
+					tmpSet.insert(subgroup);
+			}
+		}
+		else{
+			foreach(StudentsGroup* group, year->groupsList)
+				if(group->name!=groupName){
+					tmpSet.insert(group);
+					foreach(StudentsSubgroup* subgroup, group->subgroupsList)
+						tmpSet.insert(subgroup);
 				}
-			}
-			if(foundSamePointer)
-				break;
 		}
+	}
+	
+	QSet<StudentsSet*> toBeRemoved;
+	toBeRemoved.insert(groupPointer);
+	foreach(StudentsSubgroup* subgroup, groupPointer->subgroupsList){
+		assert(!toBeRemoved.contains(subgroup));
+		if(!tmpSet.contains(subgroup))
+			toBeRemoved.insert(subgroup);
+	}
+	
+	updateActivitiesWhenRemovingStudents(toBeRemoved, false);
+	
+	for(int i=0; i<yearPointer->groupsList.count(); i++)
+		if(yearPointer->groupsList.at(i)==groupPointer){
+			yearPointer->groupsList.removeAt(i);
+			break;
+		}
+	
+	foreach(StudentsSet* studentsSet, toBeRemoved)
+		delete studentsSet;
 		
-		if(!foundSamePointer)
-			delete stg;
-		/////////////////////////////////////////////////////////////////////
-		
-		return true;
-	}
-
-	delete stg;
-
-	for(int i=0; i<this->activitiesList.size(); ){
-		Activity* act=this->activitiesList[i];
-
-		bool t=act->removeStudents(*this, groupName, nStudents);
-		if(t && act->studentsNames.count()==0){
-			this->removeActivity(act->id, act->activityGroupId);
-			i=0;
-			//(You have to be careful, there can be erased more activities here)
-		}
-		else
-			i++;
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		bool erased=false;
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
-			ConstraintStudentsSetNotAvailableTimes* crt_constraint=(ConstraintStudentsSetNotAvailableTimes*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
-			ConstraintStudentsSetMaxHoursDaily* crt_constraint=(ConstraintStudentsSetMaxHoursDaily*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetMaxDaysPerWeek*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetIntervalMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetMaxHoursContinuously*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
-			ConstraintStudentsSetMinHoursDaily* crt_constraint=(ConstraintStudentsSetMinHoursDaily*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
-			ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* crt_constraint=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
-			ConstraintStudentsSetMaxGapsPerWeek* crt_constraint=(ConstraintStudentsSetMaxGapsPerWeek*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
-			ConstraintStudentsSetMaxGapsPerDay* crt_constraint=(ConstraintStudentsSetMaxGapsPerDay*)ctr;
-			if(groupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(groupName == crt_constraint->p_studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(groupName == crt_constraint->p_studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-
-		if(!erased)
-			i++;
-	}
-
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
-		bool erased=false;
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
-			ConstraintStudentsSetHomeRoom* crt_constraint=(ConstraintStudentsSetHomeRoom*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
-			ConstraintStudentsSetHomeRooms* crt_constraint=(ConstraintStudentsSetHomeRooms*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
-			ConstraintStudentsSetMaxBuildingChangesPerDay* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerDay*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
-			ConstraintStudentsSetMaxBuildingChangesPerWeek* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
-			ConstraintStudentsSetMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)ctr;
-			if(groupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-
-		if(!erased)
-			i++;
-	}
-
+	if(toBeRemoved.count()>0)
+		updateConstraintsAfterRemoval();
+	
+	this->internalStructureComputed=false;
+	setRulesModifiedAndOtherThings(this);
 	return true;
 }
 
 int Rules::searchGroup(const QString& yearName, const QString& groupName)
 {
-	StudentsYear* sty=this->yearsList[this->searchYear(yearName)];
-	assert(sty);
-	
+	StudentsYear* sty=NULL;
+	foreach(StudentsYear* ty, yearsList)
+		if(ty->name==yearName){
+			sty=ty;
+			break;
+		}
+	assert(sty!=NULL);
+
 	for(int i=0; i<sty->groupsList.size(); i++)
 		if(sty->groupsList[i]->name==groupName)
 			return i;
@@ -3055,8 +2046,13 @@ int Rules::searchGroup(const QString& yearName, const QString& groupName)
 
 int Rules::searchAugmentedGroup(const QString& yearName, const QString& groupName)
 {
-	StudentsYear* sty=this->augmentedYearsList[this->searchAugmentedYear(yearName)];
-	assert(sty);
+	StudentsYear* sty=NULL;
+	foreach(StudentsYear* ty, augmentedYearsList)
+		if(ty->name==yearName){
+			sty=ty;
+			break;
+		}
+	assert(sty!=NULL);
 	
 	for(int i=0; i<sty->groupsList.size(); i++)
 		if(sty->groupsList[i]->name==groupName)
@@ -3065,178 +2061,11 @@ int Rules::searchAugmentedGroup(const QString& yearName, const QString& groupNam
 	return -1;
 }
 
-bool Rules::modifyGroup(const QString& yearName, const QString& initialGroupName, const QString& finalGroupName, int finalNumberOfStudents)
-{
-	StudentsSet* _initialSet=searchStudentsSet(initialGroupName);
-	assert(_initialSet!=NULL);
-	int _initialNumberOfStudents=_initialSet->numberOfStudents;
-
-	//cout<<"Begin: initialGroupName=='"<<qPrintableinitialGroupName<<"'"<<endl;
-	
-	QString _initialGroupName=initialGroupName;
-
-	assert(searchGroup(yearName, _initialGroupName)>=0);
-	StudentsSet* _ss=searchStudentsSet(finalGroupName);
-	assert(_ss==NULL || _initialGroupName==finalGroupName);
-
-	StudentsYear* sty=NULL;
-	for(int i=0; i<this->yearsList.size(); i++){
-		sty=this->yearsList[i];
-		if(sty->name==yearName)
-			break;
-	}
-	assert(sty);
-	
-	StudentsGroup* stg=NULL;
-	for(int i=0; i<sty->groupsList.size(); i++){
-		stg=sty->groupsList[i];
-		if(stg->name==_initialGroupName){
-			stg->name=finalGroupName;
-			stg->numberOfStudents=finalNumberOfStudents;
-
-			break;
-		}
-	}
-	assert(stg);
-	
-	if(_ss!=NULL){ //In case it only changes the number of students, make the same number of students in all groups with this name
-		assert(_initialGroupName==finalGroupName);
-		foreach(StudentsYear* year, yearsList)
-			foreach(StudentsGroup* group, year->groupsList)
-				if(group->name==finalGroupName)
-					group->numberOfStudents=finalNumberOfStudents;
-	}
-
-	for(int i=0; i<this->activitiesList.size(); i++)
-		this->activitiesList[i]->renameStudents(*this, _initialGroupName, finalGroupName, _initialNumberOfStudents, finalNumberOfStudents);
-	
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
-			ConstraintStudentsSetNotAvailableTimes* crt_constraint=(ConstraintStudentsSetNotAvailableTimes*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
-			ConstraintStudentsSetMaxHoursDaily* crt_constraint=(ConstraintStudentsSetMaxHoursDaily*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetMaxDaysPerWeek*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetIntervalMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetMaxHoursContinuously*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
-			ConstraintStudentsSetMinHoursDaily* crt_constraint=(ConstraintStudentsSetMinHoursDaily*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
-			ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* crt_constraint=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
-			ConstraintStudentsSetMaxGapsPerWeek* crt_constraint=(ConstraintStudentsSetMaxGapsPerWeek*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
-			ConstraintStudentsSetMaxGapsPerDay* crt_constraint=(ConstraintStudentsSetMaxGapsPerDay*)ctr;
-			if(_initialGroupName == crt_constraint->students)
-				crt_constraint->students=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(_initialGroupName == crt_constraint->p_studentsName)
-				crt_constraint->p_studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(_initialGroupName == crt_constraint->p_studentsName)
-				crt_constraint->p_studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-	}
-
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
-			ConstraintStudentsSetHomeRoom* crt_constraint=(ConstraintStudentsSetHomeRoom*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
-			ConstraintStudentsSetHomeRooms* crt_constraint=(ConstraintStudentsSetHomeRooms*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
-			ConstraintStudentsSetMaxBuildingChangesPerDay* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerDay*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
-			ConstraintStudentsSetMaxBuildingChangesPerWeek* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
-			ConstraintStudentsSetMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)ctr;
-			if(_initialGroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalGroupName;
-		}
-	}
-
-	this->internalStructureComputed=false;
-	setRulesModifiedAndOtherThings(this);
-
-	return true;
-}
-
 void Rules::sortGroupsAlphabetically(const QString& yearName)
 {
 	StudentsYear* sty=this->yearsList[this->searchYear(yearName)];
 	assert(sty);
 
-	//qSort(sty->groupsList.begin(), sty->groupsList.end(), groupsAscending);
 	std::stable_sort(sty->groupsList.begin(), sty->groupsList.end(), groupsAscending);
 
 	this->internalStructureComputed=false;
@@ -3249,7 +2078,6 @@ bool Rules::addSubgroup(const QString& yearName, const QString& groupName, Stude
 	assert(sty);
 	StudentsGroup* stg=sty->groupsList.at(this->searchGroup(yearName, groupName));
 	assert(stg);
-
 
 	for(int i=0; i<stg->subgroupsList.size(); i++){
 		StudentsSubgroup* sts=stg->subgroupsList[i];
@@ -3284,246 +2112,82 @@ bool Rules::addSubgroupFast(StudentsYear* year, StudentsGroup* group, StudentsSu
 
 bool Rules::removeSubgroup(const QString& yearName, const QString& groupName, const QString& subgroupName)
 {
-	this->internalStructureComputed=false;
-	setRulesModifiedAndOtherThings(this);
+	StudentsYear* yearPointer=NULL;
+	foreach(StudentsYear* ty, this->yearsList){
+		if(ty->name==yearName){
+			yearPointer=ty;
+			break;
+		}
+	}
 
-	StudentsSubgroup* subgroup=(StudentsSubgroup*)searchStudentsSet(subgroupName);
-	assert(subgroup!=NULL);
-	int nStudents=subgroup->numberOfStudents;
-
-	StudentsYear* sty=this->yearsList.at(this->searchYear(yearName));
-	assert(sty);
-	StudentsGroup* stg=sty->groupsList.at(this->searchGroup(yearName, groupName));
-	assert(stg);
-
-	StudentsSubgroup* sts=NULL;
-	for(int i=0; i<stg->subgroupsList.size(); i++){
-		sts=stg->subgroupsList[i];
-		if(sts->name==subgroupName){
-			stg->subgroupsList.removeAt(i);
+	assert(yearPointer!=NULL);
+	
+	StudentsGroup* groupPointer=NULL;
+	foreach(StudentsGroup* tg, yearPointer->groupsList){
+		if(tg->name==groupName){
+			groupPointer=tg;
 			break;
 		}
 	}
 	
-	assert(sts!=NULL);
-
-	if(this->searchStudentsSet(sts->name)!=NULL){
-		//subgroup still exists, in other group
-		
-		//with the same pointer??? (leak bug fix on 6 Jan 2010 in FET-5.12.1)
-		bool foundSamePointer=false;
-		foreach(StudentsYear* year, yearsList){
-			foreach(StudentsGroup* group, year->groupsList){
-				foreach(StudentsSubgroup* subgroup, group->subgroupsList){
-					if(subgroup==sts){
-						foundSamePointer=true;
-						break;
-					}
-				}
-				if(foundSamePointer)
-					break;
-			}
-			if(foundSamePointer)
-				break;
+	assert(groupPointer!=NULL);
+	
+	StudentsSubgroup* subgroupPointer=NULL;
+	foreach(StudentsSubgroup* ts, groupPointer->subgroupsList){
+		if(ts->name==subgroupName){
+			subgroupPointer=ts;
+			break;
 		}
-		
-		if(!foundSamePointer)
-			delete sts;
-		/////////////////////////////////////////////////////////////////////
-		
-		return true;
-	}
-
-	delete sts;
-
-	for(int i=0; i<this->activitiesList.size(); ){
-		Activity* act=this->activitiesList[i];
-
-		bool t=act->removeStudents(*this, subgroupName, nStudents);
-		if(t && act->studentsNames.count()==0){
-			this->removeActivity(act->id, act->activityGroupId);
-			i=0;
-			//(You have to be careful, there can be erased more activities here)
-		}
-		else
-			i++;
 	}
 	
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		bool erased=false;
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
-			ConstraintStudentsSetNotAvailableTimes* crt_constraint=(ConstraintStudentsSetNotAvailableTimes*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
-			ConstraintStudentsSetMaxHoursDaily* crt_constraint=(ConstraintStudentsSetMaxHoursDaily*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetMaxDaysPerWeek*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetIntervalMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetMaxHoursContinuously*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
-			ConstraintStudentsSetMinHoursDaily* crt_constraint=(ConstraintStudentsSetMinHoursDaily*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
-			ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* crt_constraint=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
-			ConstraintStudentsSetMaxGapsPerWeek* crt_constraint=(ConstraintStudentsSetMaxGapsPerWeek*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
-			ConstraintStudentsSetMaxGapsPerDay* crt_constraint=(ConstraintStudentsSetMaxGapsPerDay*)ctr;
-			if(subgroupName == crt_constraint->students){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(subgroupName == crt_constraint->p_studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(subgroupName == crt_constraint->p_studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeTimeConstraint(ctr);
-				erased=true;
-			}
-		}
-
-		if(!erased)
-			i++;
-	}
+	assert(subgroupPointer!=NULL);
 	
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
-		bool erased=false;
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
-			ConstraintStudentsSetHomeRoom* crt_constraint=(ConstraintStudentsSetHomeRoom*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
+	//pointers
+	QSet<StudentsSet*> toBeRemoved;
+	toBeRemoved.insert(subgroupPointer);
+	foreach(StudentsYear* year, yearsList)
+		foreach(StudentsGroup* group, year->groupsList)
+			foreach(StudentsSubgroup* subgroup, group->subgroupsList)
+				if(subgroup->name==subgroupName && (year->name!=yearName || group->name!=groupName))
+					toBeRemoved.remove(subgroupPointer);
+					
+	updateActivitiesWhenRemovingStudents(toBeRemoved, false);
+	
+	for(int i=0; i<groupPointer->subgroupsList.count(); i++)
+		if(groupPointer->subgroupsList.at(i)==subgroupPointer){
+			groupPointer->subgroupsList.removeAt(i);
+			break;
 		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
-			ConstraintStudentsSetHomeRooms* crt_constraint=(ConstraintStudentsSetHomeRooms*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
-			ConstraintStudentsSetMaxBuildingChangesPerDay* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerDay*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
-			ConstraintStudentsSetMaxBuildingChangesPerWeek* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
-			ConstraintStudentsSetMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)ctr;
-			if(subgroupName == crt_constraint->studentsName){
-				this->removeSpaceConstraint(ctr);
-				erased=true;
-			}
-		}
-
-		if(!erased)
-			i++;
-	}
-
+	
+	foreach(StudentsSet* studentsSet, toBeRemoved)
+		delete studentsSet;
+		
+	if(toBeRemoved.count()>0)
+		updateConstraintsAfterRemoval();
+	
+	this->internalStructureComputed=false;
+	setRulesModifiedAndOtherThings(this);
 	return true;
 }
 
 int Rules::searchSubgroup(const QString& yearName, const QString& groupName, const QString& subgroupName)
 {
-	StudentsYear* sty=this->yearsList.at(this->searchYear(yearName));
-	assert(sty);
-	StudentsGroup* stg=sty->groupsList.at(this->searchGroup(yearName, groupName));
-	assert(stg);
-	
+	StudentsYear* sty=NULL;
+	foreach(StudentsYear* ty, yearsList)
+		if(ty->name==yearName){
+			sty=ty;
+			break;
+		}
+	assert(sty!=NULL);
+
+	StudentsGroup* stg=NULL;
+	foreach(StudentsGroup* tg, sty->groupsList)
+		if(tg->name==groupName){
+			stg=tg;
+			break;
+		}
+	assert(stg!=NULL);
+
 	for(int i=0; i<stg->subgroupsList.size(); i++)
 		if(stg->subgroupsList[i]->name==subgroupName)
 			return i;
@@ -3533,179 +2197,27 @@ int Rules::searchSubgroup(const QString& yearName, const QString& groupName, con
 
 int Rules::searchAugmentedSubgroup(const QString& yearName, const QString& groupName, const QString& subgroupName)
 {
-	StudentsYear* sty=this->augmentedYearsList.at(this->searchAugmentedYear(yearName));
-	assert(sty);
-	StudentsGroup* stg=sty->groupsList.at(this->searchAugmentedGroup(yearName, groupName));
-	assert(stg);
-	
+	StudentsYear* sty=NULL;
+	foreach(StudentsYear* ty, augmentedYearsList)
+		if(ty->name==yearName){
+			sty=ty;
+			break;
+		}
+	assert(sty!=NULL);
+
+	StudentsGroup* stg=NULL;
+	foreach(StudentsGroup* tg, sty->groupsList)
+		if(tg->name==groupName){
+			stg=tg;
+			break;
+		}
+	assert(stg!=NULL);
+
 	for(int i=0; i<stg->subgroupsList.size(); i++)
 		if(stg->subgroupsList[i]->name==subgroupName)
 			return i;
 	
 	return -1;
-}
-
-bool Rules::modifySubgroup(const QString& yearName, const QString& groupName, const QString& initialSubgroupName, const QString& finalSubgroupName, int finalNumberOfStudents)
-{
-	StudentsSet* _initialSet=searchStudentsSet(initialSubgroupName);
-	assert(_initialSet!=NULL);
-	int _initialNumberOfStudents=_initialSet->numberOfStudents;
-
-	QString _initialSubgroupName=initialSubgroupName;
-
-	assert(searchSubgroup(yearName, groupName, _initialSubgroupName)>=0);
-	StudentsSet* _ss=searchStudentsSet(finalSubgroupName);
-	assert(_ss==NULL || _initialSubgroupName==finalSubgroupName);
-
-	StudentsYear* sty=this->yearsList.at(this->searchYear(yearName));
-	assert(sty);
-	StudentsGroup* stg=sty->groupsList.at(this->searchGroup(yearName, groupName));
-	assert(stg);
-
-	StudentsSubgroup* sts=NULL;
-	for(int i=0; i<stg->subgroupsList.size(); i++){
-		sts=stg->subgroupsList[i];
-
-		if(sts->name==_initialSubgroupName){
-			sts->name=finalSubgroupName;
-			sts->numberOfStudents=finalNumberOfStudents;
-			break;
-		}
-	}
-	assert(sts);
-
-	if(_ss!=NULL){ //In case it only changes the number of students, make the same number of students in all subgroups with this name
-		assert(_initialSubgroupName==finalSubgroupName);
-		foreach(StudentsYear* year, yearsList)
-			foreach(StudentsGroup* group, year->groupsList)
-				foreach(StudentsSubgroup* subgroup, group->subgroupsList)
-					if(subgroup->name==finalSubgroupName)
-						subgroup->numberOfStudents=finalNumberOfStudents;
-	}
-
-	//TODO: improve this part
-	for(int i=0; i<this->activitiesList.size(); i++)
-		this->activitiesList[i]->renameStudents(*this, _initialSubgroupName, finalSubgroupName, _initialNumberOfStudents, finalNumberOfStudents);
-
-	for(int i=0; i<this->timeConstraintsList.size(); i++){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
-			ConstraintStudentsSetNotAvailableTimes* crt_constraint=(ConstraintStudentsSetNotAvailableTimes*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
-			ConstraintStudentsSetMaxHoursDaily* crt_constraint=(ConstraintStudentsSetMaxHoursDaily*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetMaxDaysPerWeek*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
-			ConstraintStudentsSetIntervalMaxDaysPerWeek* crt_constraint=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetMaxHoursContinuously*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
-			ConstraintStudentsSetActivityTagMaxHoursContinuously* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
-			ConstraintStudentsSetActivityTagMaxHoursDaily* crt_constraint=(ConstraintStudentsSetActivityTagMaxHoursDaily*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
-			ConstraintStudentsSetMinHoursDaily* crt_constraint=(ConstraintStudentsSetMinHoursDaily*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
-			ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* crt_constraint=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
-			ConstraintStudentsSetMaxGapsPerWeek* crt_constraint=(ConstraintStudentsSetMaxGapsPerWeek*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
-			ConstraintStudentsSetMaxGapsPerDay* crt_constraint=(ConstraintStudentsSetMaxGapsPerDay*)ctr;
-			if(_initialSubgroupName == crt_constraint->students)
-				crt_constraint->students=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintActivitiesPreferredTimeSlots* crt_constraint=(ConstraintActivitiesPreferredTimeSlots*)ctr;
-			if(_initialSubgroupName == crt_constraint->p_studentsName)
-				crt_constraint->p_studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintActivitiesPreferredStartingTimes* crt_constraint=(ConstraintActivitiesPreferredStartingTimes*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
-			ConstraintActivitiesEndStudentsDay* crt_constraint=(ConstraintActivitiesEndStudentsDay*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
-			ConstraintSubactivitiesPreferredTimeSlots* crt_constraint=(ConstraintSubactivitiesPreferredTimeSlots*)ctr;
-			if(_initialSubgroupName == crt_constraint->p_studentsName)
-				crt_constraint->p_studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
-			ConstraintSubactivitiesPreferredStartingTimes* crt_constraint=(ConstraintSubactivitiesPreferredStartingTimes*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-	}
-
-	for(int i=0; i<this->spaceConstraintsList.size(); i++){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-
-		if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
-			ConstraintStudentsSetHomeRoom* crt_constraint=(ConstraintStudentsSetHomeRoom*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
-			ConstraintStudentsSetHomeRooms* crt_constraint=(ConstraintStudentsSetHomeRooms*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
-			ConstraintStudentsSetMaxBuildingChangesPerDay* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerDay*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
-			ConstraintStudentsSetMaxBuildingChangesPerWeek* crt_constraint=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
-			ConstraintStudentsSetMinGapsBetweenBuildingChanges* crt_constraint=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)ctr;
-			if(_initialSubgroupName == crt_constraint->studentsName)
-				crt_constraint->studentsName=finalSubgroupName;
-		}
-	}
-
-	this->internalStructureComputed=false;
-	setRulesModifiedAndOtherThings(this);
-
-	return true;
 }
 
 void Rules::sortSubgroupsAlphabetically(const QString& yearName, const QString& groupName)
@@ -3715,7 +2227,6 @@ void Rules::sortSubgroupsAlphabetically(const QString& yearName, const QString& 
 	StudentsGroup* stg=sty->groupsList.at(this->searchGroup(yearName, groupName));
 	assert(stg);
 
-	//qSort(stg->subgroupsList.begin(), stg->subgroupsList.end(), subgroupsAscending);
 	std::stable_sort(stg->subgroupsList.begin(), stg->subgroupsList.end(), subgroupsAscending);
 	
 	this->internalStructureComputed=false;
@@ -3877,491 +2388,57 @@ bool Rules::addSplitActivity(
 
 void Rules::removeActivity(int _id)
 {
-	bool recomputeTime=false, recomputeSpace=false;
-
-	for(int i=0; i<this->activitiesList.size(); i++){
-		Activity* act=this->activitiesList[i];
-		if(_id==act->id){
-			if(groupActivitiesInInitialOrderList.count()>0){
-				for(int i=0; i<groupActivitiesInInitialOrderList.count(); i++){
-					GroupActivitiesInInitialOrderItem& item=groupActivitiesInInitialOrderList[i];
-					if(item.ids.contains(act->id)){
-						int t=item.ids.removeAll(act->id);
-						assert(t==1);
-						if(item.ids.count()<2){
-							groupActivitiesInInitialOrderList.removeAt(i);
-						}
-						break; //The activity must be used only once in all items.
-					}
-				}
-			}
-
-			assert(activitiesPointerHash.contains(act->id));
-			activitiesPointerHash.remove(act->id);
-			
-			if(mdbaHash.contains(act->id)){
-				int t=mdbaHash.remove(act->id);
-				assert(t==1);
-			}
-		
-			for(int j=0; j<this->timeConstraintsList.size(); ){
-				TimeConstraint* ctr=this->timeConstraintsList[j];
-				if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIME){
-					ConstraintActivityPreferredStartingTime *apt=(ConstraintActivityPreferredStartingTime*)ctr;
-					if(apt->activityId==act->id){
-						this->removeTimeConstraint(ctr);
-						recomputeTime=true;
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_TWO_ACTIVITIES_CONSECUTIVE){
-					ConstraintTwoActivitiesConsecutive *apt=(ConstraintTwoActivitiesConsecutive*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_TWO_ACTIVITIES_GROUPED){
-					ConstraintTwoActivitiesGrouped *apt=(ConstraintTwoActivitiesGrouped*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_THREE_ACTIVITIES_GROUPED){
-					ConstraintThreeActivitiesGrouped *apt=(ConstraintThreeActivitiesGrouped*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->thirdActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_TWO_ACTIVITIES_ORDERED){
-					ConstraintTwoActivitiesOrdered *apt=(ConstraintTwoActivitiesOrdered*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_TIME_SLOTS){
-					ConstraintActivityPreferredTimeSlots *apt=(ConstraintActivityPreferredTimeSlots*)ctr;
-					if(apt->p_activityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIMES){
-					ConstraintActivityPreferredStartingTimes *apt=(ConstraintActivityPreferredStartingTimes*)ctr;
-					if(apt->activityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_ENDS_STUDENTS_DAY){
-					ConstraintActivityEndsStudentsDay *apt=(ConstraintActivityEndsStudentsDay*)ctr;
-					if(apt->activityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else
-					j++;
-			}
-
-			for(int j=0; j<this->spaceConstraintsList.size(); ){
-				SpaceConstraint* ctr=this->spaceConstraintsList[j];
-				if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOM){
-					if(((ConstraintActivityPreferredRoom*)ctr)->activityId==act->id){
-						this->removeSpaceConstraint(ctr);
-						recomputeSpace=true;
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOMS){
-					if(((ConstraintActivityPreferredRooms*)ctr)->activityId==act->id)
-						this->removeSpaceConstraint(ctr);
-					else
-						j++;
-				}
-				else
-					j++;
-			}
-
-			//remove the activity
-			delete this->activitiesList[i];
-			this->activitiesList.removeAt(i); 
-			break;
-		}
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-		if(ctr->type==CONSTRAINT_MIN_DAYS_BETWEEN_ACTIVITIES){
-			((ConstraintMinDaysBetweenActivities*)ctr)->removeUseless(*this);
-			if(((ConstraintMinDaysBetweenActivities*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_OCCUPY_MAX_TIME_SLOTS_FROM_SELECTION){
-			((ConstraintActivitiesOccupyMaxTimeSlotsFromSelection*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesOccupyMaxTimeSlotsFromSelection*)ctr)->activitiesIds.count()<1)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_MAX_SIMULTANEOUS_IN_SELECTED_TIME_SLOTS){
-			((ConstraintActivitiesMaxSimultaneousInSelectedTimeSlots*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesMaxSimultaneousInSelectedTimeSlots*)ctr)->activitiesIds.count()<1)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_MAX_DAYS_BETWEEN_ACTIVITIES){
-			((ConstraintMaxDaysBetweenActivities*)ctr)->removeUseless(*this);
-			if(((ConstraintMaxDaysBetweenActivities*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_MIN_GAPS_BETWEEN_ACTIVITIES){
-			((ConstraintMinGapsBetweenActivities*)ctr)->removeUseless(*this);
-			if(((ConstraintMinGapsBetweenActivities*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_TIME){
-			((ConstraintActivitiesSameStartingTime*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameStartingTime*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_HOUR){
-			((ConstraintActivitiesSameStartingHour*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameStartingHour*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_DAY){
-			((ConstraintActivitiesSameStartingDay*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameStartingDay*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_NOT_OVERLAPPING){
-			((ConstraintActivitiesNotOverlapping*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesNotOverlapping*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-	
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-		if(ctr->type==CONSTRAINT_ACTIVITIES_OCCUPY_MAX_DIFFERENT_ROOMS){
-			((ConstraintActivitiesOccupyMaxDifferentRooms*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesOccupyMaxDifferentRooms*)ctr)->activitiesIds.count()<2)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_ROOM_IF_CONSECUTIVE){
-			((ConstraintActivitiesSameRoomIfConsecutive*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameRoomIfConsecutive*)ctr)->activitiesIds.count()<2)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-
-	if(recomputeTime){
-		LockUnlock::computeLockedUnlockedActivitiesOnlyTime();
-	}
-	if(recomputeSpace){
-		LockUnlock::computeLockedUnlockedActivitiesOnlySpace();
-	}
-	if(recomputeTime || recomputeSpace){
-		LockUnlock::increaseCommunicationSpinBox();
-	}
-	
-	this->internalStructureComputed=false;
-	setRulesModifiedAndOtherThings(this);
+	QList<int> tmpList;
+	tmpList.append(_id);
+	removeActivities(tmpList, true);
 }
 
 void Rules::removeActivity(int _id, int _activityGroupId)
 {
-	bool recomputeTime=false;
-	bool recomputeSpace=false;
+	QList<int> tmpList;
+	foreach(Activity* act, activitiesList)
+		if(_id==act->id || (_activityGroupId>0 && _activityGroupId==act->activityGroupId))
+			tmpList.append(act->id);
+	removeActivities(tmpList, true);
+}
+
+void Rules::removeActivities(const QList<int>& _idsList, bool updateConstraints)
+{
+	if(_idsList.count()==0)
+		return;
+
+	QSet<int> _idsSet=_idsList.toSet();
 	
-	for(int i=0; i<this->activitiesList.size(); ){
-		Activity* act=this->activitiesList[i];
+	ActivitiesList newActivitiesList;
+	ActivitiesList toBeRemoved;
+	
+	for(int i=0; i<activitiesList.count(); i++){
+		int id=activitiesList.at(i)->id;
+		if(!_idsSet.contains(id)){
+			newActivitiesList.append(activitiesList[i]);
+		}
+		else{
+			toBeRemoved.append(activitiesList[i]);
 
-		if(_id==act->id || (_activityGroupId>0 && _activityGroupId==act->activityGroupId)){
-			if(groupActivitiesInInitialOrderList.count()>0){
-				for(int i=0; i<groupActivitiesInInitialOrderList.count(); i++){
-					GroupActivitiesInInitialOrderItem& item=groupActivitiesInInitialOrderList[i];
-					if(item.ids.contains(act->id)){
-						int t=item.ids.removeAll(act->id);
-						assert(t==1);
-						if(item.ids.count()<2){
-							groupActivitiesInInitialOrderList.removeAt(i);
-						}
-						break; //The activity must be used only once in all items.
-					}
-				}
-			}
-
-			assert(activitiesPointerHash.contains(act->id));
-			activitiesPointerHash.remove(act->id);
-
-			if(mdbaHash.contains(act->id)){
-				int t=mdbaHash.remove(act->id);
+			assert(activitiesPointerHash.contains(id));
+			activitiesPointerHash.remove(id);
+			
+			if(mdbaHash.contains(id)){
+				int t=mdbaHash.remove(id);
 				assert(t==1);
 			}
+		}
+	}
+
+	while(!toBeRemoved.isEmpty())
+		delete toBeRemoved.takeFirst();
 		
-			for(int j=0; j<this->timeConstraintsList.size(); ){
-				TimeConstraint* ctr=this->timeConstraintsList[j];
-				if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIME){
-					ConstraintActivityPreferredStartingTime *apt=(ConstraintActivityPreferredStartingTime*)ctr;
-					if(apt->activityId==act->id){
-						this->removeTimeConstraint(ctr);
-						recomputeTime=true;
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_TWO_ACTIVITIES_CONSECUTIVE){
-					ConstraintTwoActivitiesConsecutive *apt=(ConstraintTwoActivitiesConsecutive*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_TWO_ACTIVITIES_GROUPED){
-					ConstraintTwoActivitiesGrouped *apt=(ConstraintTwoActivitiesGrouped*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_THREE_ACTIVITIES_GROUPED){
-					ConstraintThreeActivitiesGrouped *apt=(ConstraintThreeActivitiesGrouped*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->thirdActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_TWO_ACTIVITIES_ORDERED){
-					ConstraintTwoActivitiesOrdered *apt=(ConstraintTwoActivitiesOrdered*)ctr;
-					if(apt->firstActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else if(apt->secondActivityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_TIME_SLOTS){
-					ConstraintActivityPreferredTimeSlots *apt=(ConstraintActivityPreferredTimeSlots*)ctr;
-					if(apt->p_activityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIMES){
-					ConstraintActivityPreferredStartingTimes *apt=(ConstraintActivityPreferredStartingTimes*)ctr;
-					if(apt->activityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_ENDS_STUDENTS_DAY){
-					ConstraintActivityEndsStudentsDay *apt=(ConstraintActivityEndsStudentsDay*)ctr;
-					if(apt->activityId==act->id){
-						this->removeTimeConstraint(ctr);
-					}
-					else
-						j++;
-				}
-				else
-					j++;
-			}
-			for(int j=0; j<this->spaceConstraintsList.size(); ){
-				SpaceConstraint* ctr=this->spaceConstraintsList[j];
-				if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOM){
-					if(((ConstraintActivityPreferredRoom*)ctr)->activityId==act->id){
-						this->removeSpaceConstraint(ctr);
-						recomputeSpace=true;
-					}
-					else
-						j++;
-				}
-				else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOMS){
-					if(((ConstraintActivityPreferredRooms*)ctr)->activityId==act->id)
-						this->removeSpaceConstraint(ctr);
-					else
-						j++;
-				}
-				else
-					j++;
-			}
-
-			delete this->activitiesList[i];
-			this->activitiesList.removeAt(i); //if this is the last activity, then we will make one more comparison above
-		}
-		else
-			i++;
-	}
-
-	for(int i=0; i<this->timeConstraintsList.size(); ){
-		TimeConstraint* ctr=this->timeConstraintsList[i];
-		if(ctr->type==CONSTRAINT_MIN_DAYS_BETWEEN_ACTIVITIES){
-			((ConstraintMinDaysBetweenActivities*)ctr)->removeUseless(*this);
-			if(((ConstraintMinDaysBetweenActivities*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_OCCUPY_MAX_TIME_SLOTS_FROM_SELECTION){
-			((ConstraintActivitiesOccupyMaxTimeSlotsFromSelection*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesOccupyMaxTimeSlotsFromSelection*)ctr)->activitiesIds.count()<1)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_MAX_SIMULTANEOUS_IN_SELECTED_TIME_SLOTS){
-			((ConstraintActivitiesMaxSimultaneousInSelectedTimeSlots*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesMaxSimultaneousInSelectedTimeSlots*)ctr)->activitiesIds.count()<1)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_MAX_DAYS_BETWEEN_ACTIVITIES){
-			((ConstraintMaxDaysBetweenActivities*)ctr)->removeUseless(*this);
-			if(((ConstraintMaxDaysBetweenActivities*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_MIN_GAPS_BETWEEN_ACTIVITIES){
-			((ConstraintMinGapsBetweenActivities*)ctr)->removeUseless(*this);
-			if(((ConstraintMinGapsBetweenActivities*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_TIME){
-			((ConstraintActivitiesSameStartingTime*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameStartingTime*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_HOUR){
-			((ConstraintActivitiesSameStartingHour*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameStartingHour*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_DAY){
-			((ConstraintActivitiesSameStartingDay*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameStartingDay*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_NOT_OVERLAPPING){
-			((ConstraintActivitiesNotOverlapping*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesNotOverlapping*)ctr)->n_activities<2)
-				this->removeTimeConstraint(ctr);
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-
-	for(int i=0; i<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[i];
-		if(ctr->type==CONSTRAINT_ACTIVITIES_OCCUPY_MAX_DIFFERENT_ROOMS){
-			((ConstraintActivitiesOccupyMaxDifferentRooms*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesOccupyMaxDifferentRooms*)ctr)->activitiesIds.count()<2)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITIES_SAME_ROOM_IF_CONSECUTIVE){
-			((ConstraintActivitiesSameRoomIfConsecutive*)ctr)->removeUseless(*this);
-			if(((ConstraintActivitiesSameRoomIfConsecutive*)ctr)->activitiesIds.count()<2)
-				this->removeSpaceConstraint(ctr);
-			else
-				i++;
-		}
-		else
-			i++;
-	}
-
-	if(recomputeTime){
-		LockUnlock::computeLockedUnlockedActivitiesOnlyTime();
-	}
-	if(recomputeSpace){
-		LockUnlock::computeLockedUnlockedActivitiesOnlySpace();
-	}
-	if(recomputeTime || recomputeSpace){
-		LockUnlock::increaseCommunicationSpinBox();
-	}
-
+	activitiesList=newActivitiesList;
+	
+	updateGroupActivitiesInInitialOrderAfterRemoval();
+	if(updateConstraints)
+		updateConstraintsAfterRemoval();
+	
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
 }
@@ -4493,8 +2570,6 @@ int Rules::searchRoom(const QString& roomName)
 
 bool Rules::removeRoom(const QString& roomName)
 {
-	bool recomputeSpace=false;
-
 	int i=this->searchRoom(roomName);
 	if(i<0)
 		return false;
@@ -4502,206 +2577,10 @@ bool Rules::removeRoom(const QString& roomName)
 	Room* searchedRoom=this->roomsList[i];
 	assert(searchedRoom->name==roomName);
 
-	for(int j=0; j<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[j];
-		if(ctr->type==CONSTRAINT_ROOM_NOT_AVAILABLE_TIMES){
-			ConstraintRoomNotAvailableTimes* crna=(ConstraintRoomNotAvailableTimes*)ctr;
-			if(crna->room==roomName)
-				this->removeSpaceConstraint(ctr);
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOM){
-			ConstraintActivityPreferredRoom* c=(ConstraintActivityPreferredRoom*)ctr;
-			if(c->roomName==roomName){
-				this->removeSpaceConstraint(ctr);
-				
-				recomputeSpace=true;
-			}
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOMS){
-			ConstraintActivityPreferredRooms* c=(ConstraintActivityPreferredRooms*)ctr;
-			int t=c->roomsNames.removeAll(roomName);
-			assert(t<=1);
-			if(t==1 && c->roomsNames.count()==0)
-				this->removeSpaceConstraint(ctr);
-			/*else if(t==1 && c->roomsNames.count()==1){
-				ConstraintActivityPreferredRoom* c2=new ConstraintActivityPreferredRoom
-				 (c->weightPercentage, c->activityId, c->roomsNames.at(0), true); //true means permanently locked
-
-				RulesUsualInformation::information(parent, tr("FET information"), 
-				 tr("The constraint\n%1 will be modified into constraint\n%2 because"
-				 " there is only one room left in the constraint")
-				 .arg(c->getDetailedDescription(*this))
-				 .arg(c2->getDetailedDescription(*this)));
-
-				this->removeSpaceConstraint(ctr);
-				this->addSpaceConstraint(c2);
-				
-				recomputeSpace=true;
-			}*/
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
-			ConstraintStudentsSetHomeRoom* c=(ConstraintStudentsSetHomeRoom*)ctr;
-			if(c->roomName==roomName)
-				this->removeSpaceConstraint(ctr);
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
-			ConstraintStudentsSetHomeRooms* c=(ConstraintStudentsSetHomeRooms*)ctr;
-			int t=c->roomsNames.removeAll(roomName);
-			assert(t<=1);
-			if(t==1 && c->roomsNames.count()==0)
-				this->removeSpaceConstraint(ctr);
-			/*else if(t==1 && c->roomsNames.count()==1){
-				ConstraintStudentsSetHomeRoom* c2=new ConstraintStudentsSetHomeRoom
-				 (c->weightPercentage, c->studentsName, c->roomsNames.at(0));
-
-				RulesUsualInformation::information(parent, tr("FET information"), 
-				 tr("The constraint\n%1 will be modified into constraint\n%2 because"
-				 " there is only one room left in the constraint")
-				 .arg(c->getDetailedDescription(*this))
-				 .arg(c2->getDetailedDescription(*this)));
-
-				this->removeSpaceConstraint(ctr);
-				this->addSpaceConstraint(c2);
-			}*/
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOM){
-			ConstraintTeacherHomeRoom* c=(ConstraintTeacherHomeRoom*)ctr;
-			if(c->roomName==roomName)
-				this->removeSpaceConstraint(ctr);
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOMS){
-			ConstraintTeacherHomeRooms* c=(ConstraintTeacherHomeRooms*)ctr;
-			int t=c->roomsNames.removeAll(roomName);
-			assert(t<=1);
-			if(t==1 && c->roomsNames.count()==0)
-				this->removeSpaceConstraint(ctr);
-			/*else if(t==1 && c->roomsNames.count()==1){
-				ConstraintTeacherHomeRoom* c2=new ConstraintTeacherHomeRoom
-				 (c->weightPercentage, c->teacherName, c->roomsNames.at(0));
-
-				RulesUsualInformation::information(parent, tr("FET information"), 
-				 tr("The constraint\n%1 will be modified into constraint\n%2 because"
-				 " there is only one room left in the constraint")
-				 .arg(c->getDetailedDescription(*this))
-				 .arg(c2->getDetailedDescription(*this)));
-
-				this->removeSpaceConstraint(ctr);
-				this->addSpaceConstraint(c2);
-			}*/
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_PREFERRED_ROOM){
-			ConstraintSubjectPreferredRoom* c=(ConstraintSubjectPreferredRoom*)ctr;
-			if(c->roomName==roomName)
-				this->removeSpaceConstraint(ctr);
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_PREFERRED_ROOMS){
-			ConstraintSubjectPreferredRooms* c=(ConstraintSubjectPreferredRooms*)ctr;
-			int t=c->roomsNames.removeAll(roomName);
-			assert(t<=1);
-			if(t==1 && c->roomsNames.count()==0)
-				this->removeSpaceConstraint(ctr);
-			/*else if(t==1 && c->roomsNames.count()==1){
-				ConstraintSubjectPreferredRoom* c2=new ConstraintSubjectPreferredRoom
-				 (c->weightPercentage, c->subjectName, c->roomsNames.at(0));
-
-				RulesUsualInformation::information(parent, tr("FET information"), 
-				 tr("The constraint\n%1 will be modified into constraint\n%2 because"
-				 " there is only one room left in the constraint")
-				 .arg(c->getDetailedDescription(*this))
-				 .arg(c2->getDetailedDescription(*this)));
-
-				this->removeSpaceConstraint(ctr);
-				this->addSpaceConstraint(c2);
-			}*/
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOM){
-			ConstraintSubjectActivityTagPreferredRoom* c=(ConstraintSubjectActivityTagPreferredRoom*)ctr;
-			if(c->roomName==roomName)
-				this->removeSpaceConstraint(ctr);
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOMS){
-			ConstraintSubjectActivityTagPreferredRooms* c=(ConstraintSubjectActivityTagPreferredRooms*)ctr;
-			int t=c->roomsNames.removeAll(roomName);
-			assert(t<=1);
-			if(t==1 && c->roomsNames.count()==0)
-				this->removeSpaceConstraint(ctr);
-			/*else if(t==1 && c->roomsNames.count()==1){
-				ConstraintSubjectActivityTagPreferredRoom* c2=new ConstraintSubjectActivityTagPreferredRoom
-				 (c->weightPercentage, c->subjectName, c->activityTagName, c->roomsNames.at(0));
-
-				RulesUsualInformation::information(parent, tr("FET information"), 
-				 tr("The constraint\n%1 will be modified into constraint\n%2 because"
-				 " there is only one room left in the constraint")
-				 .arg(c->getDetailedDescription(*this))
-				 .arg(c2->getDetailedDescription(*this)));
-
-				this->removeSpaceConstraint(ctr);
-				this->addSpaceConstraint(c2);
-			}*/
-			else
-				j++;
-		}
-
-		else if(ctr->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOM){
-			ConstraintActivityTagPreferredRoom* c=(ConstraintActivityTagPreferredRoom*)ctr;
-			if(c->roomName==roomName)
-				this->removeSpaceConstraint(ctr);
-			else
-				j++;
-		}
-		else if(ctr->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOMS){
-			ConstraintActivityTagPreferredRooms* c=(ConstraintActivityTagPreferredRooms*)ctr;
-			int t=c->roomsNames.removeAll(roomName);
-			assert(t<=1);
-			if(t==1 && c->roomsNames.count()==0)
-				this->removeSpaceConstraint(ctr);
-			/*else if(t==1 && c->roomsNames.count()==1){
-				ConstraintActivityTagPreferredRoom* c2=new ConstraintActivityTagPreferredRoom
-				 (c->weightPercentage, c->activityTagName, c->roomsNames.at(0));
-
-				RulesUsualInformation::information(parent, tr("FET information"), 
-				 tr("The constraint\n%1 will be modified into constraint\n%2 because"
-				 " there is only one room left in the constraint")
-				 .arg(c->getDetailedDescription(*this))
-				 .arg(c2->getDetailedDescription(*this)));
-
-				this->removeSpaceConstraint(ctr);
-				this->addSpaceConstraint(c2);
-			}*/
-			else
-				j++;
-		}
-		else
-			j++;
-	}
-
 	delete this->roomsList[i];
 	this->roomsList.removeAt(i);
 
-	if(recomputeSpace){
-		LockUnlock::computeLockedUnlockedActivitiesOnlySpace();
-		LockUnlock::increaseCommunicationSpinBox();
-	}
+	updateConstraintsAfterRemoval();
 
 	this->internalStructureComputed=false;
 	setRulesModifiedAndOtherThings(this);
@@ -4722,19 +2601,16 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 	Room* searchedRoom=this->roomsList[i];
 	assert(searchedRoom->name==initialRoomName);
 
-	for(int j=0; j<this->spaceConstraintsList.size(); ){
-		SpaceConstraint* ctr=this->spaceConstraintsList[j];
+	foreach(SpaceConstraint* ctr, spaceConstraintsList){
 		if(ctr->type==CONSTRAINT_ROOM_NOT_AVAILABLE_TIMES){
 			ConstraintRoomNotAvailableTimes* crna=(ConstraintRoomNotAvailableTimes*)ctr;
 			if(crna->room==initialRoomName)
 				crna->room=finalRoomName;
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOM){
 			ConstraintActivityPreferredRoom* c=(ConstraintActivityPreferredRoom*)ctr;
 			if(c->roomName==initialRoomName)
 				c->roomName=finalRoomName;
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOMS){
 			ConstraintActivityPreferredRooms* c=(ConstraintActivityPreferredRooms*)ctr;
@@ -4746,13 +2622,11 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 				}
 			}
 			assert(t<=1);
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
 			ConstraintStudentsSetHomeRoom* c=(ConstraintStudentsSetHomeRoom*)ctr;
 			if(c->roomName==initialRoomName)
 				c->roomName=finalRoomName;
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
 			ConstraintStudentsSetHomeRooms* c=(ConstraintStudentsSetHomeRooms*)ctr;
@@ -4764,13 +2638,11 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 				}
 			}
 			assert(t<=1);
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOM){
 			ConstraintTeacherHomeRoom* c=(ConstraintTeacherHomeRoom*)ctr;
 			if(c->roomName==initialRoomName)
 				c->roomName=finalRoomName;
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_TEACHER_HOME_ROOMS){
 			ConstraintTeacherHomeRooms* c=(ConstraintTeacherHomeRooms*)ctr;
@@ -4782,13 +2654,11 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 				}
 			}
 			assert(t<=1);
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_SUBJECT_PREFERRED_ROOM){
 			ConstraintSubjectPreferredRoom* c=(ConstraintSubjectPreferredRoom*)ctr;
 			if(c->roomName==initialRoomName)
 				c->roomName=finalRoomName;
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_SUBJECT_PREFERRED_ROOMS){
 			ConstraintSubjectPreferredRooms* c=(ConstraintSubjectPreferredRooms*)ctr;
@@ -4800,13 +2670,11 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 				}
 			}
 			assert(t<=1);
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOM){
 			ConstraintSubjectActivityTagPreferredRoom* c=(ConstraintSubjectActivityTagPreferredRoom*)ctr;
 			if(c->roomName==initialRoomName)
 				c->roomName=finalRoomName;
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOMS){
 			ConstraintSubjectActivityTagPreferredRooms* c=(ConstraintSubjectActivityTagPreferredRooms*)ctr;
@@ -4818,14 +2686,11 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 				}
 			}
 			assert(t<=1);
-			j++;
 		}
-
 		else if(ctr->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOM){
 			ConstraintActivityTagPreferredRoom* c=(ConstraintActivityTagPreferredRoom*)ctr;
 			if(c->roomName==initialRoomName)
 				c->roomName=finalRoomName;
-			j++;
 		}
 		else if(ctr->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOMS){
 			ConstraintActivityTagPreferredRooms* c=(ConstraintActivityTagPreferredRooms*)ctr;
@@ -4837,11 +2702,7 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 				}
 			}
 			assert(t<=1);
-			j++;
 		}
-
-		else
-			j++;
 	}
 
 	searchedRoom->name=finalRoomName;
@@ -4855,7 +2716,6 @@ bool Rules::modifyRoom(const QString& initialRoomName, const QString& finalRoomN
 
 void Rules::sortRoomsAlphabetically()
 {
-	//qSort(this->roomsList.begin(), this->roomsList.end(), roomsAscending);
 	std::stable_sort(this->roomsList.begin(), this->roomsList.end(), roomsAscending);
 
 	this->internalStructureComputed=false;
@@ -4946,7 +2806,6 @@ bool Rules::modifyBuilding(const QString& initialBuildingName, const QString& fi
 
 void Rules::sortBuildingsAlphabetically()
 {
-	//qSort(this->buildingsList.begin(), this->buildingsList.end(), buildingsAscending);
 	std::stable_sort(this->buildingsList.begin(), this->buildingsList.end(), buildingsAscending);
 
 	this->internalStructureComputed=false;
@@ -4973,7 +2832,7 @@ bool Rules::addTimeConstraint(TimeConstraint* ctr)
 		/*int i;
 		for(i=0; i<this->timeConstraintsList.size(); i++){
 			TimeConstraint* ctr2=this->timeConstraintsList[i];
-			if(ctr2->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIME) 
+			if(ctr2->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIME)
 				if(
 				 *((ConstraintActivityPreferredStartingTime*)ctr2)
 				 ==
@@ -5458,6 +3317,558 @@ bool Rules::removeSpaceConstraints(QList<SpaceConstraint*> _scl)
 	}
 	
 	return ok;
+}
+
+void Rules::updateGroupActivitiesInInitialOrderAfterRemoval()
+{
+	GroupActivitiesInInitialOrderList newList;
+	GroupActivitiesInInitialOrderList toBeRemovedList;
+	
+	foreach(GroupActivitiesInInitialOrderItem* item, groupActivitiesInInitialOrderList){
+		item->removeUseless(*this);
+		if(item->ids.count()<2)
+			toBeRemovedList.append(item);
+		else
+			newList.append(item);
+	}
+	
+	groupActivitiesInInitialOrderList=newList;
+	while(!toBeRemovedList.isEmpty())
+		delete toBeRemovedList.takeFirst();
+}
+
+void Rules::updateActivitiesWhenRemovingStudents(const QSet<StudentsSet*>& studentsSets, bool updateConstraints)
+{
+	if(studentsSets.count()==0)
+		return;
+
+	QList<int> toBeRemovedIds;
+
+	QHash<QString, int> numberOfStudentsPerSet;
+	
+	foreach(StudentsSet* set, studentsSets)
+		numberOfStudentsPerSet.insert(set->name, set->numberOfStudents);
+		
+	foreach(Activity* act, activitiesList){
+		QStringList newStudents;
+		foreach(QString st, act->studentsNames){
+			if(!numberOfStudentsPerSet.contains(st)){
+				newStudents.append(st);
+			}
+			else{
+				if(act->computeNTotalStudents){
+					act->nTotalStudents-=numberOfStudentsPerSet.value(st);
+					assert(act->nTotalStudents>=0);
+				}
+			}
+		}
+		if(act->studentsNames.count()>0 && newStudents.count()==0)
+			toBeRemovedIds.append(act->id);
+		act->studentsNames=newStudents;
+	}
+	
+	removeActivities(toBeRemovedIds, updateConstraints);
+}
+
+void Rules::updateConstraintsAfterRemoval()
+{
+	bool recomputeTime=false;
+	bool recomputeSpace=false;
+
+	QSet<int> existingActivitiesIds;
+	QSet<QString> existingTeachersNames;
+	QSet<QString> existingStudentsNames;
+	QSet<QString> existingSubjectsNames;
+	QSet<QString> existingActivityTagsNames;
+	QSet<QString> existingRoomsNames;
+	
+	QList<TimeConstraint*> toBeRemovedTime;
+	QList<SpaceConstraint*> toBeRemovedSpace;
+	
+	foreach(Activity* act, activitiesList)
+		existingActivitiesIds.insert(act->id);
+		
+	foreach(Teacher* tch, teachersList)
+		existingTeachersNames.insert(tch->name);
+		
+	foreach(StudentsYear* sty, yearsList){
+		existingStudentsNames.insert(sty->name);
+		foreach(StudentsGroup* stg, sty->groupsList){
+			existingStudentsNames.insert(stg->name);
+			foreach(StudentsSubgroup* sts, stg->subgroupsList)
+				existingStudentsNames.insert(sts->name);
+		}
+	}
+	
+	foreach(Subject* sbj, subjectsList)
+		existingSubjectsNames.insert(sbj->name);
+		
+	foreach(ActivityTag* at, activityTagsList)
+		existingActivityTagsNames.insert(at->name);
+		
+	foreach(Room* rm, roomsList)
+		existingRoomsNames.insert(rm->name);
+		
+	foreach(TimeConstraint* tc, timeConstraintsList){
+		if(tc->type==CONSTRAINT_TEACHER_NOT_AVAILABLE_TIMES){
+			ConstraintTeacherNotAvailableTimes* c=(ConstraintTeacherNotAvailableTimes*)tc;
+			if(!existingTeachersNames.contains(c->teacher))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_NOT_AVAILABLE_TIMES){
+			ConstraintStudentsSetNotAvailableTimes* c=(ConstraintStudentsSetNotAvailableTimes*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_TIME){
+			ConstraintActivitiesSameStartingTime* c=(ConstraintActivitiesSameStartingTime*)tc;
+			c->removeUseless(*this);
+			if(c->n_activities<2)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_NOT_OVERLAPPING){
+			ConstraintActivitiesNotOverlapping* c=(ConstraintActivitiesNotOverlapping*)tc;
+			c->removeUseless(*this);
+			if(c->n_activities<2)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_MIN_DAYS_BETWEEN_ACTIVITIES){
+			ConstraintMinDaysBetweenActivities* c=(ConstraintMinDaysBetweenActivities*)tc;
+			c->removeUseless(*this);
+			if(c->n_activities<2)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_MAX_DAYS_BETWEEN_ACTIVITIES){
+			ConstraintMaxDaysBetweenActivities* c=(ConstraintMaxDaysBetweenActivities*)tc;
+			c->removeUseless(*this);
+			if(c->n_activities<2)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_MIN_GAPS_BETWEEN_ACTIVITIES){
+			ConstraintMinGapsBetweenActivities* c=(ConstraintMinGapsBetweenActivities*)tc;
+			c->removeUseless(*this);
+			if(c->n_activities<2)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_MAX_HOURS_DAILY){
+			ConstraintTeacherMaxHoursDaily* c=(ConstraintTeacherMaxHoursDaily*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_MAX_HOURS_CONTINUOUSLY){
+			ConstraintTeacherMaxHoursContinuously* c=(ConstraintTeacherMaxHoursContinuously*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+			ConstraintTeachersActivityTagMaxHoursContinuously* c=(ConstraintTeachersActivityTagMaxHoursContinuously*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+			ConstraintTeacherActivityTagMaxHoursContinuously* c=(ConstraintTeacherActivityTagMaxHoursContinuously*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName) || !existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_MAX_DAYS_PER_WEEK){
+			ConstraintTeacherMaxDaysPerWeek* c=(ConstraintTeacherMaxDaysPerWeek*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_MIN_DAYS_PER_WEEK){
+			ConstraintTeacherMinDaysPerWeek* c=(ConstraintTeacherMinDaysPerWeek*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_WEEK){
+			ConstraintStudentsSetMaxGapsPerWeek* c=(ConstraintStudentsSetMaxGapsPerWeek*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_WEEK){
+			ConstraintTeacherMaxGapsPerWeek* c=(ConstraintTeacherMaxGapsPerWeek*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_MAX_GAPS_PER_DAY){
+			ConstraintTeacherMaxGapsPerDay* c=(ConstraintTeacherMaxGapsPerDay*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_EARLY_MAX_BEGINNINGS_AT_SECOND_HOUR){
+			ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour* c=(ConstraintStudentsSetEarlyMaxBeginningsAtSecondHour*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_DAILY){
+			ConstraintStudentsSetMaxHoursDaily* c=(ConstraintStudentsSetMaxHoursDaily*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_MAX_HOURS_CONTINUOUSLY){
+			ConstraintStudentsSetMaxHoursContinuously* c=(ConstraintStudentsSetMaxHoursContinuously*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+			ConstraintStudentsActivityTagMaxHoursContinuously* c=(ConstraintStudentsActivityTagMaxHoursContinuously*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_CONTINUOUSLY){
+			ConstraintStudentsSetActivityTagMaxHoursContinuously* c=(ConstraintStudentsSetActivityTagMaxHoursContinuously*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName) || !existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_MIN_HOURS_DAILY){
+			ConstraintStudentsSetMinHoursDaily* c=(ConstraintStudentsSetMinHoursDaily*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIME){
+			ConstraintActivityPreferredStartingTime* c=(ConstraintActivityPreferredStartingTime*)tc;
+			if(!existingActivitiesIds.contains(c->activityId)){
+				toBeRemovedTime.append(tc);
+				recomputeTime=true;
+			}
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITY_PREFERRED_TIME_SLOTS){
+			ConstraintActivityPreferredTimeSlots* c=(ConstraintActivityPreferredTimeSlots*)tc;
+			if(!existingActivitiesIds.contains(c->p_activityId))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITY_PREFERRED_STARTING_TIMES){
+			ConstraintActivityPreferredStartingTimes* c=(ConstraintActivityPreferredStartingTimes*)tc;
+			if(!existingActivitiesIds.contains(c->activityId))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_PREFERRED_TIME_SLOTS){
+			ConstraintActivitiesPreferredTimeSlots* c=(ConstraintActivitiesPreferredTimeSlots*)tc;
+			if( (c->p_teacherName!="" && !existingTeachersNames.contains(c->p_teacherName)) ||
+			 (c->p_studentsName!="" && !existingStudentsNames.contains(c->p_studentsName)) ||
+			 (c->p_subjectName!="" && !existingSubjectsNames.contains(c->p_subjectName)) ||
+			 (c->p_activityTagName!="" && !existingActivityTagsNames.contains(c->p_activityTagName)) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_TIME_SLOTS){
+			ConstraintSubactivitiesPreferredTimeSlots* c=(ConstraintSubactivitiesPreferredTimeSlots*)tc;
+			if( (c->p_teacherName!="" && !existingTeachersNames.contains(c->p_teacherName)) ||
+			 (c->p_studentsName!="" && !existingStudentsNames.contains(c->p_studentsName)) ||
+			 (c->p_subjectName!="" && !existingSubjectsNames.contains(c->p_subjectName)) ||
+			 (c->p_activityTagName!="" && !existingActivityTagsNames.contains(c->p_activityTagName)) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_PREFERRED_STARTING_TIMES){
+			ConstraintActivitiesPreferredStartingTimes* c=(ConstraintActivitiesPreferredStartingTimes*)tc;
+			if( (c->teacherName!="" && !existingTeachersNames.contains(c->teacherName)) ||
+			 (c->studentsName!="" && !existingStudentsNames.contains(c->studentsName)) ||
+			 (c->subjectName!="" && !existingSubjectsNames.contains(c->subjectName)) ||
+			 (c->activityTagName!="" && !existingActivityTagsNames.contains(c->activityTagName)) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_SUBACTIVITIES_PREFERRED_STARTING_TIMES){
+			ConstraintSubactivitiesPreferredStartingTimes* c=(ConstraintSubactivitiesPreferredStartingTimes*)tc;
+			if( (c->teacherName!="" && !existingTeachersNames.contains(c->teacherName)) ||
+			 (c->studentsName!="" && !existingStudentsNames.contains(c->studentsName)) ||
+			 (c->subjectName!="" && !existingSubjectsNames.contains(c->subjectName)) ||
+			 (c->activityTagName!="" && !existingActivityTagsNames.contains(c->activityTagName)) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_HOUR){
+			ConstraintActivitiesSameStartingHour* c=(ConstraintActivitiesSameStartingHour*)tc;
+			c->removeUseless(*this);
+			if(c->n_activities<2)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_SAME_STARTING_DAY){
+			ConstraintActivitiesSameStartingDay* c=(ConstraintActivitiesSameStartingDay*)tc;
+			c->removeUseless(*this);
+			if(c->n_activities<2)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TWO_ACTIVITIES_CONSECUTIVE){
+			ConstraintTwoActivitiesConsecutive* c=(ConstraintTwoActivitiesConsecutive*)tc;
+			if( !existingActivitiesIds.contains(c->firstActivityId) ||
+			 !existingActivitiesIds.contains(c->secondActivityId) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TWO_ACTIVITIES_GROUPED){
+			ConstraintTwoActivitiesGrouped* c=(ConstraintTwoActivitiesGrouped*)tc;
+			if( !existingActivitiesIds.contains(c->firstActivityId) ||
+			 !existingActivitiesIds.contains(c->secondActivityId) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_THREE_ACTIVITIES_GROUPED){
+			ConstraintThreeActivitiesGrouped* c=(ConstraintThreeActivitiesGrouped*)tc;
+			if( !existingActivitiesIds.contains(c->firstActivityId) ||
+			 !existingActivitiesIds.contains(c->secondActivityId) ||
+			 !existingActivitiesIds.contains(c->thirdActivityId) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TWO_ACTIVITIES_ORDERED){
+			ConstraintTwoActivitiesOrdered* c=(ConstraintTwoActivitiesOrdered*)tc;
+			if( !existingActivitiesIds.contains(c->firstActivityId) ||
+			 !existingActivitiesIds.contains(c->secondActivityId) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITY_ENDS_STUDENTS_DAY){
+			ConstraintActivityEndsStudentsDay* c=(ConstraintActivityEndsStudentsDay*)tc;
+			if(!existingActivitiesIds.contains(c->activityId))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_MIN_HOURS_DAILY){
+			ConstraintTeacherMinHoursDaily* c=(ConstraintTeacherMinHoursDaily*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_INTERVAL_MAX_DAYS_PER_WEEK){
+			ConstraintTeacherIntervalMaxDaysPerWeek* c=(ConstraintTeacherIntervalMaxDaysPerWeek*)tc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_INTERVAL_MAX_DAYS_PER_WEEK){
+			ConstraintStudentsSetIntervalMaxDaysPerWeek* c=(ConstraintStudentsSetIntervalMaxDaysPerWeek*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_END_STUDENTS_DAY){
+			ConstraintActivitiesEndStudentsDay* c=(ConstraintActivitiesEndStudentsDay*)tc;
+			if( (c->teacherName!="" && !existingTeachersNames.contains(c->teacherName)) ||
+			 (c->studentsName!="" && !existingStudentsNames.contains(c->studentsName)) ||
+			 (c->subjectName!="" && !existingSubjectsNames.contains(c->subjectName)) ||
+			 (c->activityTagName!="" && !existingActivityTagsNames.contains(c->activityTagName)) )
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHERS_ACTIVITY_TAG_MAX_HOURS_DAILY){
+			ConstraintTeachersActivityTagMaxHoursDaily* c=(ConstraintTeachersActivityTagMaxHoursDaily*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_TEACHER_ACTIVITY_TAG_MAX_HOURS_DAILY){
+			ConstraintTeacherActivityTagMaxHoursDaily* c=(ConstraintTeacherActivityTagMaxHoursDaily*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName) || !existingTeachersNames.contains(c->teacherName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_ACTIVITY_TAG_MAX_HOURS_DAILY){
+			ConstraintStudentsActivityTagMaxHoursDaily* c=(ConstraintStudentsActivityTagMaxHoursDaily*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_ACTIVITY_TAG_MAX_HOURS_DAILY){
+			ConstraintStudentsSetActivityTagMaxHoursDaily* c=(ConstraintStudentsSetActivityTagMaxHoursDaily*)tc;
+			if(!existingActivityTagsNames.contains(c->activityTagName) || !existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_MAX_GAPS_PER_DAY){
+			ConstraintStudentsSetMaxGapsPerDay* c=(ConstraintStudentsSetMaxGapsPerDay*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_OCCUPY_MAX_TIME_SLOTS_FROM_SELECTION){
+			ConstraintActivitiesOccupyMaxTimeSlotsFromSelection* c=(ConstraintActivitiesOccupyMaxTimeSlotsFromSelection*)tc;
+			c->removeUseless(*this);
+			if(c->activitiesIds.count()<1)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_ACTIVITIES_MAX_SIMULTANEOUS_IN_SELECTED_TIME_SLOTS){
+			ConstraintActivitiesMaxSimultaneousInSelectedTimeSlots* c=(ConstraintActivitiesMaxSimultaneousInSelectedTimeSlots*)tc;
+			c->removeUseless(*this);
+			if(c->activitiesIds.count()<1)
+				toBeRemovedTime.append(tc);
+		}
+		else if(tc->type==CONSTRAINT_STUDENTS_SET_MAX_DAYS_PER_WEEK){
+			ConstraintStudentsSetMaxDaysPerWeek* c=(ConstraintStudentsSetMaxDaysPerWeek*)tc;
+			if(!existingStudentsNames.contains(c->students))
+				toBeRemovedTime.append(tc);
+		}
+	}
+
+	foreach(SpaceConstraint* sc, spaceConstraintsList){
+		if(sc->type==CONSTRAINT_ROOM_NOT_AVAILABLE_TIMES){
+			ConstraintRoomNotAvailableTimes* c=(ConstraintRoomNotAvailableTimes*)sc;
+			if(!existingRoomsNames.contains(c->room))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOM){
+			ConstraintActivityPreferredRoom* c=(ConstraintActivityPreferredRoom*)sc;
+			if(!existingActivitiesIds.contains(c->activityId) || !existingRoomsNames.contains(c->roomName)){
+				toBeRemovedSpace.append(sc);
+				recomputeSpace=true;
+			}
+		}
+		else if(sc->type==CONSTRAINT_ACTIVITY_PREFERRED_ROOMS){
+			ConstraintActivityPreferredRooms* c=(ConstraintActivityPreferredRooms*)sc;
+			if(!existingActivitiesIds.contains(c->activityId))
+				toBeRemovedSpace.append(sc);
+			else{
+				QStringList newRooms;
+				foreach(QString room, c->roomsNames)
+					if(existingRoomsNames.contains(room))
+						newRooms.append(room);
+				c->roomsNames=newRooms;
+				if(c->roomsNames.count()==0)
+					toBeRemovedSpace.append(sc);
+			}
+		}
+		else if(sc->type==CONSTRAINT_STUDENTS_SET_HOME_ROOM){
+			ConstraintStudentsSetHomeRoom* c=(ConstraintStudentsSetHomeRoom*)sc;
+			if(!existingStudentsNames.contains(c->studentsName) || !existingRoomsNames.contains(c->roomName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_STUDENTS_SET_HOME_ROOMS){
+			ConstraintStudentsSetHomeRooms* c=(ConstraintStudentsSetHomeRooms*)sc;
+			if(!existingStudentsNames.contains(c->studentsName))
+				toBeRemovedSpace.append(sc);
+			else{
+				QStringList newRooms;
+				foreach(QString room, c->roomsNames)
+					if(existingRoomsNames.contains(room))
+						newRooms.append(room);
+				c->roomsNames=newRooms;
+				if(c->roomsNames.count()==0)
+					toBeRemovedSpace.append(sc);
+			}
+		}
+		else if(sc->type==CONSTRAINT_TEACHER_HOME_ROOM){
+			ConstraintTeacherHomeRoom* c=(ConstraintTeacherHomeRoom*)sc;
+			if(!existingTeachersNames.contains(c->teacherName) || !existingRoomsNames.contains(c->roomName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_TEACHER_HOME_ROOMS){
+			ConstraintTeacherHomeRooms* c=(ConstraintTeacherHomeRooms*)sc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedSpace.append(sc);
+			else{
+				QStringList newRooms;
+				foreach(QString room, c->roomsNames)
+					if(existingRoomsNames.contains(room))
+						newRooms.append(room);
+				c->roomsNames=newRooms;
+				if(c->roomsNames.count()==0)
+					toBeRemovedSpace.append(sc);
+			}
+		}
+		else if(sc->type==CONSTRAINT_SUBJECT_PREFERRED_ROOM){
+			ConstraintSubjectPreferredRoom* c=(ConstraintSubjectPreferredRoom*)sc;
+			if(!existingSubjectsNames.contains(c->subjectName) || !existingRoomsNames.contains(c->roomName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_SUBJECT_PREFERRED_ROOMS){
+			ConstraintSubjectPreferredRooms* c=(ConstraintSubjectPreferredRooms*)sc;
+			if(!existingSubjectsNames.contains(c->subjectName))
+				toBeRemovedSpace.append(sc);
+			else{
+				QStringList newRooms;
+				foreach(QString room, c->roomsNames)
+					if(existingRoomsNames.contains(room))
+						newRooms.append(room);
+				c->roomsNames=newRooms;
+				if(c->roomsNames.count()==0)
+					toBeRemovedSpace.append(sc);
+			}
+		}
+		else if(sc->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOM){
+			ConstraintSubjectActivityTagPreferredRoom* c=(ConstraintSubjectActivityTagPreferredRoom*)sc;
+			if(!existingSubjectsNames.contains(c->subjectName) || !existingActivityTagsNames.contains(c->activityTagName) ||
+			 !existingRoomsNames.contains(c->roomName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_SUBJECT_ACTIVITY_TAG_PREFERRED_ROOMS){
+			ConstraintSubjectActivityTagPreferredRooms* c=(ConstraintSubjectActivityTagPreferredRooms*)sc;
+			if(!existingSubjectsNames.contains(c->subjectName) || !existingActivityTagsNames.contains(c->activityTagName))
+				toBeRemovedSpace.append(sc);
+			else{
+				QStringList newRooms;
+				foreach(QString room, c->roomsNames)
+					if(existingRoomsNames.contains(room))
+						newRooms.append(room);
+				c->roomsNames=newRooms;
+				if(c->roomsNames.count()==0)
+					toBeRemovedSpace.append(sc);
+			}
+		}
+		else if(sc->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOM){
+			ConstraintActivityTagPreferredRoom* c=(ConstraintActivityTagPreferredRoom*)sc;
+			if(!existingActivityTagsNames.contains(c->activityTagName) || !existingRoomsNames.contains(c->roomName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_ACTIVITY_TAG_PREFERRED_ROOMS){
+			ConstraintActivityTagPreferredRooms* c=(ConstraintActivityTagPreferredRooms*)sc;
+			if(!existingActivityTagsNames.contains(c->activityTagName))
+				toBeRemovedSpace.append(sc);
+			else{
+				QStringList newRooms;
+				foreach(QString room, c->roomsNames)
+					if(existingRoomsNames.contains(room))
+						newRooms.append(room);
+				c->roomsNames=newRooms;
+				if(c->roomsNames.count()==0)
+					toBeRemovedSpace.append(sc);
+			}
+		}
+		else if(sc->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_DAY){
+			ConstraintStudentsSetMaxBuildingChangesPerDay* c=(ConstraintStudentsSetMaxBuildingChangesPerDay*)sc;
+			if(!existingStudentsNames.contains(c->studentsName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_STUDENTS_SET_MAX_BUILDING_CHANGES_PER_WEEK){
+			ConstraintStudentsSetMaxBuildingChangesPerWeek* c=(ConstraintStudentsSetMaxBuildingChangesPerWeek*)sc;
+			if(!existingStudentsNames.contains(c->studentsName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_STUDENTS_SET_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
+			ConstraintStudentsSetMinGapsBetweenBuildingChanges* c=(ConstraintStudentsSetMinGapsBetweenBuildingChanges*)sc;
+			if(!existingStudentsNames.contains(c->studentsName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_DAY){
+			ConstraintTeacherMaxBuildingChangesPerDay* c=(ConstraintTeacherMaxBuildingChangesPerDay*)sc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_TEACHER_MAX_BUILDING_CHANGES_PER_WEEK){
+			ConstraintTeacherMaxBuildingChangesPerWeek* c=(ConstraintTeacherMaxBuildingChangesPerWeek*)sc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_TEACHER_MIN_GAPS_BETWEEN_BUILDING_CHANGES){
+			ConstraintTeacherMinGapsBetweenBuildingChanges* c=(ConstraintTeacherMinGapsBetweenBuildingChanges*)sc;
+			if(!existingTeachersNames.contains(c->teacherName))
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_ACTIVITIES_OCCUPY_MAX_DIFFERENT_ROOMS){
+			ConstraintActivitiesOccupyMaxDifferentRooms* c=(ConstraintActivitiesOccupyMaxDifferentRooms*)sc;
+			c->removeUseless(*this);
+			if(c->activitiesIds.count()<2)
+				toBeRemovedSpace.append(sc);
+		}
+		else if(sc->type==CONSTRAINT_ACTIVITIES_SAME_ROOM_IF_CONSECUTIVE){
+			ConstraintActivitiesSameRoomIfConsecutive* c=(ConstraintActivitiesSameRoomIfConsecutive*)sc;
+			c->removeUseless(*this);
+			if(c->activitiesIds.count()<2)
+				toBeRemovedSpace.append(sc);
+		}
+	}
+	
+	bool t;
+	if(toBeRemovedTime.count()>0){
+		t=removeTimeConstraints(toBeRemovedTime);
+		assert(t);
+	}
+	if(toBeRemovedSpace.count()>0){
+		t=removeSpaceConstraints(toBeRemovedSpace);
+		assert(t);
+	}
+	
+	if(recomputeTime){
+		LockUnlock::computeLockedUnlockedActivitiesOnlyTime();
+	}
+	if(recomputeSpace){
+		LockUnlock::computeLockedUnlockedActivitiesOnlySpace();
+	}
+	if(recomputeTime || recomputeSpace){
+		LockUnlock::increaseCommunicationSpinBox();
+	}
 }
 
 bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QString commandLineDirectory) //commandLineDirectory has trailing FILE_SEP
@@ -7559,7 +5970,7 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 				
 				if(xmlReader.name()=="GroupActivitiesInInitialOrder"){
 					tgol++;
-					GroupActivitiesInInitialOrderItem item;
+					GroupActivitiesInInitialOrderItem* item=new GroupActivitiesInInitialOrderItem();
 					int nActs=-1;
 					assert(xmlReader.isStartElement());
 					while(xmlReader.readNextStartElement()){
@@ -7574,28 +5985,29 @@ bool Rules::read(QWidget* parent, const QString& fileName, bool commandLine, QSt
 							QString text=xmlReader.readElementText();
 							int id=text.toInt();
 							xmlReadingLog+="    Activity id="+CustomFETString::number(id)+"\n";
-							item.ids.append(id);
+							item->ids.append(id);
 						}
 						else if(xmlReader.name()=="Active"){
 							QString text=xmlReader.readElementText();
 							if(text=="false"){
-								item.active=false;
+								item->active=false;
 							}
 						}
 						else if(xmlReader.name()=="Comments"){
 							QString text=xmlReader.readElementText();
-							item.comments=text;
+							item->comments=text;
 						}
 						else{
 							xmlReader.skipCurrentElement();
 							xmlReaderNumberOfUnrecognizedFields++;
 						}
 					}
-					if(!(nActs==item.ids.count())){
+					if(!(nActs==item->ids.count())){
 						xmlReader.raiseError(tr("%1 does not coincide with the number of read %2").arg("Number_of_Activities").arg("Activity_Id"));
+						delete item;
 					}
 					else{
-						assert(nActs==item.ids.count());
+						assert(nActs==item->ids.count());
 						groupActivitiesInInitialOrderList.append(item);
 					}
 				}
@@ -7801,8 +6213,8 @@ bool Rules::write(QWidget* parent, const QString& filename)
 	if(groupActivitiesInInitialOrderList.count()>0){
 		tos << "<Timetable_Generation_Options_List>\n";
 		for(int i=0; i<groupActivitiesInInitialOrderList.count(); i++){
-			GroupActivitiesInInitialOrderItem& item=groupActivitiesInInitialOrderList[i];
-			tos << item.getXmlDescription(*this);
+			GroupActivitiesInInitialOrderItem* item=groupActivitiesInInitialOrderList[i];
+			tos << item->getXmlDescription(*this);
 		}
 		tos << "</Timetable_Generation_Options_List>\n\n";
 	}

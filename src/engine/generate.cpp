@@ -44,6 +44,7 @@ using namespace std;
 
 #include <QList>
 #include <QSet>
+#include <QHash>
 
 #include <QSemaphore>
 

@@ -50,11 +50,12 @@ public:
 	SplitYearForm(QWidget* parent, const QString& _year);
 	~SplitYearForm();
 	
+	void updateNumberOfSubgroups();
+	void updateDivisionsLabel();
+	
 public slots:
 	void tabIndexChanged(int i);
 	
-	void updateDivisionsLabel();
-
 	void ok();
 	void numberOfCategoriesChanged();
 	
