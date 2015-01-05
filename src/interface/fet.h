@@ -72,9 +72,9 @@ void writeSimulationParameters();
 //void writeDefaultSimulationParameters();
 
 #ifndef FET_COMMAND_LINE
-void setLanguage(QApplication& qapplication, QWidget* parent);
+bool setLanguage(QApplication& qapplication, QWidget* parent);
 #else
-void setLanguage(QCoreApplication& qapplication, QWidget* parent);
+bool setLanguage(QCoreApplication& qapplication, QWidget* parent);
 #endif
 
 void initLanguagesSet();

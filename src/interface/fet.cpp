@@ -462,9 +462,9 @@ void initLanguagesSet()
 }
 
 #ifndef FET_COMMAND_LINE
-void setLanguage(QApplication& qapplication, QWidget* parent)
+bool setLanguage(QApplication& qapplication, QWidget* parent)
 #else
-void setLanguage(QCoreApplication& qapplication, QWidget* parent)
+bool setLanguage(QCoreApplication& qapplication, QWidget* parent)
 #endif
 {
 	Q_UNUSED(qapplication); //silence MSVC wrong warning
@@ -507,7 +507,7 @@ void setLanguage(QCoreApplication& qapplication, QWidget* parent)
 		translation_loaded=true;
 	}
 	
-	if(!translation_loaded){
+    if(!translation_loaded){
 		FetMessage::warning(parent, QString("FET warning"),
 		 QString("Translation for specified language not loaded - maybe the translation file is missing - setting the language to en_US (US English)")
 		 +"\n\n"+
@@ -517,9 +517,9 @@ void setLanguage(QCoreApplication& qapplication, QWidget* parent)
 		 .arg(QDir::toNativeSeparators(qapplication.applicationDirPath()))
 		 .arg(QDir::toNativeSeparators(qapplication.applicationDirPath()+"/translations"))
 		 .arg("/usr/share/fet/translations")
-		 );
+         );
 		FET_LANGUAGE="en_US";
-	}
+    }
 	
 	if(FET_LANGUAGE=="ar" || FET_LANGUAGE=="he" || FET_LANGUAGE=="fa" || FET_LANGUAGE=="ur" /* and others? */){
 		LANGUAGE_STYLE_RIGHT_TO_LEFT=true;
@@ -621,6 +621,7 @@ void setLanguage(QCoreApplication& qapplication, QWidget* parent)
 			}
 		}
 #endif
+    return translation_loaded;
 }
 
 void SomeQtTranslations()
@@ -712,7 +713,14 @@ int main(int argc, char **argv)
 				test.remove();
 		}
 
-		setLanguage(qapplication, NULL);
+        if (!setLanguage(qapplication, NULL)){
+            if (QMessageBox::question(
+                        0, "FET question",
+                        "Do you want to stop FET now, to be able to provide a language file?"
+                )==QMessageBox::Yes){
+                    return 0;
+                }
+        }
 
 		pqapplication=&qapplication;
 		FetMainForm fetMainForm;
