@@ -399,6 +399,8 @@ public:
 	bool emptyYear(const QString& yearName);
 	bool removeYear(const QString& yearName);
 	bool removeYear(const QString& yearName, bool removeAlsoThisYear);
+	
+	bool removeYearPointerAfterSplit(StudentsYear* yearPointer);
 
 	/**
 	Returns -1 if not found or the index of this year in the years list
