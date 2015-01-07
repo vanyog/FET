@@ -58,7 +58,7 @@
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="429"/>
         <source>different boolean variable &apos;must compute n total students&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>различна логическа стойност на &quot;трябва да съдържа общо N студенти&quot;</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesform.cpp" line="431"/>
@@ -30432,7 +30432,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1251"/>
         <source>Enable writing on disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Позволяване запис на диск</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1286"/>
@@ -30799,7 +30799,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1673"/>
         <source>Min hours daily for all students</source>
-        <translation type="unfinished"></translation>
+        <translation>Минимум часове на ден за всички студенти</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1678"/>
@@ -30815,7 +30815,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1688"/>
         <source>Two activities are consecutive</source>
-        <translation type="unfinished"></translation>
+        <translation>Две дейности са последователни</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1693"/>
@@ -30840,17 +30840,17 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2429"/>
         <source>Show subgroups in combo boxes</source>
-        <translation type="unfinished"></translation>
+        <translation>Показване на подгрупите в падащи списъци</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2440"/>
         <source>Show subgroups in activity planning</source>
-        <translation type="unfinished"></translation>
+        <translation>Показване на подтрупите при планиране на дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2451"/>
         <source>XML</source>
-        <translation type="unfinished"></translation>
+        <translation>XML</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2462"/>
@@ -30865,47 +30865,47 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2484"/>
         <source>Time horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Времето хоризонтално</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2495"/>
         <source>Time vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Времето вертикално</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2506"/>
         <source>Subgroups</source>
-        <translation type="unfinished">Подгрупи</translation>
+        <translation>Подгрупи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2517"/>
         <source>Groups</source>
-        <translation type="unfinished">Групи</translation>
+        <translation>Групи</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2528"/>
         <source>Years</source>
-        <translation type="unfinished">Години</translation>
+        <translation>Години</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2550"/>
         <source>Teachers free periods</source>
-        <translation type="unfinished"></translation>
+        <translation>Свободни периоди на преподавателите</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2594"/>
         <source>Soft conflicts</source>
-        <translation type="unfinished"></translation>
+        <translation>Меките конфликти</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1708"/>
         <source>Min hours daily for all teachers</source>
-        <translation type="unfinished"></translation>
+        <translation>Минимум часове на ден за всички преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1713"/>
         <source>Min hours daily for a teacher</source>
-        <translation type="unfinished"></translation>
+        <translation>Минимум часове на ден на преподавател</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1718"/>
@@ -31026,7 +31026,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1833"/>
         <source>Save data and timetable as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Запазване на данните и графиците като...</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1838"/>
@@ -31172,7 +31172,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1984"/>
         <source>Two activities are grouped</source>
-        <translation type="unfinished"></translation>
+        <translation>Две дейности са групирани</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1989"/>
@@ -31182,7 +31182,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1994"/>
         <source>Unlock all activities of a specified day</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключване на всички дейности от посочен ден</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1999"/>
@@ -31202,7 +31202,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2014"/>
         <source>Unlock all activities of the current timetable</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключване на всички дейности от текущия график</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2019"/>
@@ -31264,12 +31264,12 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2091"/>
         <source>Print activities with same starting time in timetables</source>
-        <translation type="unfinished"></translation>
+        <translation>Печатане на дейностите с еднакво начало в графиците</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2096"/>
         <source>Three activities are grouped</source>
-        <translation type="unfinished"></translation>
+        <translation>Три дейности са групирани</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2101"/>
@@ -31340,7 +31340,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="2208"/>
         <source>Warn if using not perfect constraints</source>
         <extracomment>This is an option, which can be selected or deselected. It means warn before generating, if user uses not perfect constraints</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Съобщаване ако се използват неправилни ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2216"/>
@@ -31431,7 +31431,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="2339"/>
         <source>&amp;Print</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Generate new, View (&amp;teachers), View (&amp;students), View (&amp;rooms), Show soft &amp;conflicts, &amp;Print, Generate &amp;multiple, must be different</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Печат</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2342"/>
@@ -31462,7 +31462,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2367"/>
         <source>Print activity tags in timetables</source>
-        <translation type="unfinished"></translation>
+        <translation>Печатане на етикетите на дейности в графиците</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2372"/>
