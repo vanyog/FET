@@ -29304,12 +29304,13 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3028"/>
         <source>Feature is not enabled. To use this type of feature you must enable it from the Settings-&gt;Advanced menu.</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Функцията не е разрешена. За да използвате този тип функция Вие трябва да я позволите от меню &quot;Настройки&quot;-&gt;&quot;Разширени&quot;.</translatorcomment>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3032"/>
         <source>The feature must be used with caution, by experienced users.</source>
-        <translation type="unfinished"></translation>
+        <translation>Функцията трябва да се използва с внимание, от напреднали потребители.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3459"/>
@@ -30191,7 +30192,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="301"/>
         <source>Advanced</source>
         <comment>It is on the shortcuts tab buttons, so keep translation short. It contains submenu for activity planning</comment>
-        <translation>Разширени</translation>
+        <translation>&amp;Разширени</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="354"/>
@@ -30217,7 +30218,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1220"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1313"/>
         <source>Advanced</source>
-        <translation type="unfinished">&amp;Разширени</translation>
+        <translation>Разширени</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="497"/>
@@ -31156,7 +31157,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1969"/>
         <source>Spread the activities evenly over the week</source>
-        <translation type="unfinished"></translation>
+        <translation>Разпределяне на дейностите равномерно в седмицата</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1974"/>
@@ -31166,7 +31167,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1979"/>
         <source>Remove redundant constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на излишни ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1984"/>
@@ -31476,7 +31477,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2388"/>
         <source>Group activities in the initial order of generation</source>
-        <translation type="unfinished"></translation>
+        <translation>Групиране на дейностите в началния ред за генериране</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2399"/>
@@ -43984,27 +43985,27 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform.cpp" line="41"/>
         <source>Please read carefully the description below:</source>
-        <translation type="unfinished">Моля, прочетете внимателно следното описание:</translation>
+        <translation>Моля, прочетете внимателно следното описание:</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform.cpp" line="43"/>
         <source>This function is intended to be used after you inputted all data or after you used the advanced function of spreading the activities over the week. This function will automatically remove the redundant constraints of type min days between activities, so that your data is more correct and the timetable easier for FET to find</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази функция е предвидено да се използва след като сте въвели всички данни или след като сте използвали разширената фенкция за равномерно разпределяне на дейностите през седмицата. Тази функция автоматично изтрива излишните ограничения от типа минимум дни межде дейностите, така Вашите данни са по-правилни и генерирането на график от FET - по-лесно.</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform.cpp" line="47"/>
         <source>Removing means making their weight percentage 0.0%. This is done so you can still activate them again, if needed, and also for you to be able to see when they are broken, in the soft conflicts list</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриването означава промяна на тяхното процентно тегло на 0.0%. Това е направено за да можете да ги активирате отново, ако имате нужда, и за да можете да видите кога се нарушават в списъка на меките конфликти.</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform.cpp" line="50"/>
         <source>This function might be usable if you have constraints of type activities same starting time and/or constraints activities same starting day</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази функция може да е полезна ако имате ограничения от типа еднакво време на започване и/или еднакви дни на започване.</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform.cpp" line="53"/>
         <source>Please SAVE/BACKUP your current file and keep it safe, in case anything goes wrong, and only continue if you did that already. Current function might modify much your data</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, ЗАПАЗЕТЕ/АРХИВИРАЙТЕ текущия си файл и го съхранете сигурно, в случай че нещо се обърка, и продължете само ако вече сте направили това. Настоящата функция ще модифицира голяма част от Вашите данни.</translation>
     </message>
 </context>
 <context>
@@ -46040,22 +46041,22 @@ not added - must be a duplicate</source>
     <message>
         <location filename="../src/interface/spreadconfirmationform.cpp" line="41"/>
         <source>Please read carefully the description below:</source>
-        <translation type="unfinished">Моля, прочетете внимателно следното описание:</translation>
+        <translation>Моля, прочетете внимателно следното описание:</translation>
     </message>
     <message>
         <location filename="../src/interface/spreadconfirmationform.cpp" line="43"/>
         <source>This function is intended to be used after you introduced all activities and obtained a timetable, if you want now to spread the divided activities more evenly over the week. This function is useful if you have 5 days per week, maybe also if you have 6 days per week.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази функция е предвидено да се използва след като сте въвели всички дейности и сте генерирали график, ако искате да разпределите резделените дейности по-равномерно през седмицата. Тази функция е полезна ако имете 5 дни в седмицата, а може би също и 6 дни в седмица.</translation>
     </message>
     <message>
         <location filename="../src/interface/spreadconfirmationform.cpp" line="47"/>
         <source>This improvement - optimization of spreading activities in a week - is a process of replacing current constraints of type min days between activities with others, which should provide you with a better timetable. Note: only min days constraints referring to components from the same split activity will be replaced. If you have constraints min days referring to activities in different components, these will be left untouched - this is a useful feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Това подобрение - оптимизирането на разпределението през седмицата, е процес на заместване на текущите ограничения от типа минимум дни между дейностите с други, които ще осигурят по-добър график. Збележете: само ограниченията за минимум дни отнасящи се за една и съща разделена дейност ще бъдат подменени. Ако имате ограничения за минимум дни между дейности от различни компоненти, те ще останат незасегнати - това е полезна функция.</translation>
     </message>
     <message>
         <location filename="../src/interface/spreadconfirmationform.cpp" line="52"/>
         <source>Please SAVE/BACKUP your current file and keep it safe, in case anything goes wrong, and only continue if you did that already. Current function might modify much your data</source>
-        <translation type="unfinished"></translation>
+        <translation>Моля, ЗАПАЗЕТЕ/АРХИВИРАЙТЕ текущия си файл и го съхранете сигурно, в случай че нещо се обърка, и продължете само ако вече сте направили това. Настоящата функция ще модифицира голяма част от Вашите данни.</translation>
     </message>
     <message>
         <location filename="../src/interface/spreadconfirmationform.cpp" line="55"/>
