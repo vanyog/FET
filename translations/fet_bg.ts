@@ -304,12 +304,12 @@
         <location filename="../src/interface/activitiesroomsstatisticsform_template.ui" line="14"/>
         <source>Activities rooms statistics</source>
         <extracomment>Title of dialog. Refers to the statistics of each activity&apos;s possible rooms</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Статистики за стаите на дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/activitiesroomsstatisticsform_template.ui" line="44"/>
         <source>Close</source>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
 </context>
 <context>
@@ -455,37 +455,37 @@
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="47"/>
         <source>This is a simple activity planning dialog. You need to add all teachers, subjects and the students structure before you can work with it. It is also recommended to add the necessary activity tags before using this dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако щракнете бутона &quot;Продължаване&quot; ще се отвори диалог за планиране на дейностите. Трябва да сте въвели всички преподаватели, дисциплини и студенти преди да можете да работите с него. Също така се препоръчва да сте въвели и всички етикети на дейности преди използването му. Ако не сте говоти щракнете бутона &quot;Оказване&quot;.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="51"/>
         <source>The main work will be done in the upper table with the students-subjects matrix. Select an &apos;action&apos; from the right side and activate a table cell to do that action (activate with the mouse double-click or click, depending on your platform, or by pressing Enter). The number of hours is summed in the heading, so you can always check if your planning fits your needs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Основната работа се извършва в горната таблица матрица студенти-дисциплини. Изберете дайствие от дясната страна и щракнете клетка от таблицата. За да изпълните избраното действието с избрената клетка трябва да щракнете двойно върху клетката или да натиснете Enter от клавиатурата. Сумарният брой на часовете се показва в заглавните клетки от първия ред и първия стълб и Вие винаги можете да проверите дали планираните дайности съотвтстват на Вашите нужди.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="57"/>
         <source>You can also double click the tables heading to do an action to the whole row/column.</source>
-        <translation type="unfinished"></translation>
+        <translation>Можете също да щракнете двойно върху заглавна клетка на колона или ред, за да извършите избраното действие върху цялата колона/ред.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="59"/>
         <source>You can change size of the tables by using the splitter between the tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>Можете да променяте размера на таблиците влачейки разелителия между тях.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="61"/>
         <source>Pseudo activities are (sometimes) difficult to see in the tables, so you can view them quickly with the corresponding push button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Псевдодейностите е трудно (понякога) да се видят в таблиците, така че можете набързо да ги прегледате щраквайки върху съответния бутон.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="64"/>
         <source>You have also a facility to hide/show the buttons on the right. This is useful if you need more space for the tables. With the buttons shown (default), there is available a &apos;Hide buttons&apos; command. When you press it, all the other buttons will be hidden and you will have only one small button remaining. Press it and all the buttons will be shown again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Имате също възможност да покажете/скриете бутоните вдясно. Това е полезно ако искате да имате повече място за таблиците. С щракване на бутона &quot;Скриване на бутоните&quot; всички бутони се скриват и на тяхно място остава само един малък бутон. Когато щракнете върху него, бутоните се показват отново.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform.cpp" line="69"/>
         <source>If the buttons are hidden, when you will double-click or click the mouse on the tables or press Enter on a table cell, the command that will be done is the one which was selected when the buttons were not hidden.</source>
-        <translation type="unfinished"></translation>
+        <translation>Когато бутоните се скрити ако щракнете двойно в клетка или натиснете Enter от клавиатурата, действието, което се изпълнява, е избраното преди скриване на бутоните.</translation>
     </message>
 </context>
 <context>
@@ -493,22 +493,22 @@
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="14"/>
         <source>Instructions and confirmation of activity planning</source>
-        <translation type="unfinished"></translation>
+        <translation>Инструкции и потвърждаване планирането на дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="25"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation>Да не се показва отново</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="45"/>
         <source>Continue</source>
-        <translation type="unfinished">Продължаване</translation>
+        <translation>Продължаване</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningconfirmationform_template.ui" line="52"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отказване</translation>
+        <translation>Отказване</translation>
     </message>
 </context>
 <context>
@@ -516,31 +516,31 @@
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="211"/>
         <source>Activity Planning Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Диалог за планиране на дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="231"/>
         <source>Action</source>
         <comment>It means the kind of action the user selects</comment>
-        <translation type="unfinished"></translation>
+        <translation>Действие</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="233"/>
         <source>Activities</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished">Дейности</translation>
+        <translation>Дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="234"/>
         <source>Subactivities</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished">Поддейности</translation>
+        <translation>Поддейности</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="235"/>
         <source>Add activity</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished">Добавяне на дейност</translation>
+        <translation>Добавяне на дейност</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="236"/>
@@ -623,50 +623,50 @@
         <location filename="../src/interface/activityplanningform.cpp" line="273"/>
         <source>Hide full teachers</source>
         <comment>This field is for the moment not shown in FET, but we translate it for maybe future versions. It refers to teachers who have their number of hours fulfilled. Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Скривене на заетите преподаватели</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="276"/>
         <source>Swap axes</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Транспониране</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="278"/>
         <source>Pseudo activities</source>
         <comment>Please keep translation short. It means activities without teachers and/or students sets</comment>
-        <translation type="unfinished"></translation>
+        <translation>Псевдодейности</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="281"/>
         <source>Delete all</source>
         <comment>Refers to activities. Please keep translation short</comment>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на всички</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="287"/>
         <location filename="../src/interface/activityplanningform.cpp" line="488"/>
         <source>Hide buttons</source>
         <comment>Please keep translation short. This is an option to hide some buttons in the planning activity dialog, so that the tables are more visible.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Скриване на бутоните</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="294"/>
         <source>Close</source>
         <comment>Please keep translation short</comment>
-        <translation type="unfinished">Затваряне</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="472"/>
         <source>B</source>
         <comment>Abbreviation for &apos;Buttons&apos;. Please keep translation very short (probably only one letter). There is an option to hide the buttons in the planning activity dialog, so that the tables can have larger visible parts. This button (B) will remain there after the user hides the other buttons. The user then can press this button to show again all the buttons. We need this &apos;B&apos; button to be very small, so keep translation abbreviated to the initial only</comment>
-        <translation type="unfinished"></translation>
+        <translation>Б</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="732"/>
         <location filename="../src/interface/activityplanningform.cpp" line="940"/>
         <source>Delete %1 activities of students set %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на %1 дейности за множество студенти %2 ?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="736"/>
@@ -678,7 +678,7 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1376"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1512"/>
         <source>Because you have individually modified the components, there will be removed an additional number of %1 activities (which are in the same larger split activities as the selected activities).</source>
-        <translation type="unfinished"></translation>
+        <translation>Понеже индивидуално сте променяли компоненти, ще се изтрият допълнително %1 дейности, които са в същите разделени дайности заедно с избраните.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="740"/>
@@ -689,7 +689,7 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1515"/>
         <source>Delete multiple?</source>
         <comment>It refers to activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>Множествено изтриване?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="745"/>
@@ -702,97 +702,97 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1519"/>
         <source>Delete related?</source>
         <comment>It refers to activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на свързаните?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="745"/>
         <location filename="../src/interface/activityplanningform.cpp" line="953"/>
         <source>There are activities affecting other students sets. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>Има дейности, засягащи други множества студенти. Трябва ли засегнатите дейности също да се изтрият?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="766"/>
         <location filename="../src/interface/activityplanningform.cpp" line="906"/>
         <source>Delete %1 activities of subject %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на %1 дейности по дисциплина %2 ?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="780"/>
         <location filename="../src/interface/activityplanningform.cpp" line="920"/>
         <source>There are activities affecting other subjects. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>Има дейности, засягащи други дисциплини. Трябва ли засегнатите дейности също да се изтрият?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1100"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1101"/>
         <source>Cannot modify this large activity, because it contains more than %1 activities.</source>
-        <translation type="unfinished">Не можете да промените тази голяма дейност, защото тя съдържа повече от %1 дейности.</translation>
+        <translation>Не можете да промените тази голяма дейност, защото тя съдържа повече от %1 дейности.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1218"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1242"/>
         <source>Delete %1 activities from selected cell?</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на %1 дейности от избраната клетка?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1220"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1246"/>
         <source>subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>дисциплина=%1</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1222"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1244"/>
         <source>students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>студенти=%1</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1257"/>
         <source>Delete activities?</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на дейностите?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1262"/>
         <source>This cell contains activities that relate to other students. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази клетка съдържа дейности, които засягат други студенти. Трябва ли и засегнатите дейности да се изтрият?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1268"/>
         <source>This cell contains activities that relate to other subjects. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази клетка съдържа дейности, които засягат други дисциплини. Трябва ли и засегнатите дейности да се изтрият?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1372"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1508"/>
         <source>Delete %1 activities of teacher %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриване на %1 дейности на преподавател %2 ?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1383"/>
         <location filename="../src/interface/activityplanningform.cpp" line="1519"/>
         <source>There are activities affecting other teachers. Should the related activities also be deleted?</source>
-        <translation type="unfinished"></translation>
+        <translation>Има дейности, засягащи други преподаватели. Трябва ли засегнатите дейности също да се изтрият?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1407"/>
         <source>FET question</source>
-        <translation type="unfinished">Вапрос от FET</translation>
+        <translation>Вапрос от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1407"/>
         <source>Please enter the target number of hours:</source>
         <comment>This field is for the moment inactive in FET, but we translate it for possible future use</comment>
-        <translation type="unfinished"></translation>
+        <translation>Моля въведете целевия брой часове:</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1753"/>
         <source>Target</source>
         <comment>Please keep translation short. This field is for the moment inactive in FET, we keep it for possible future use</comment>
-        <translation type="unfinished"></translation>
+        <translation>Цел</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="1754"/>
@@ -817,48 +817,48 @@
         <location filename="../src/interface/activityplanningform.cpp" line="1997"/>
         <source>Are you sure you want to remove ALL the %1 activities and related constraints?</source>
         <comment>%1 is the number of total activities</comment>
-        <translation type="unfinished"></translation>
+        <translation>Сигурни ли сте, че искате да изтриете ВСИЧКИТЕ %1 дейности и съответните ограничения?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2000"/>
         <source>Are you absolutely sure you want to remove ALL activities and related constraints from your data?</source>
-        <translation type="unfinished"></translation>
+        <translation>Абсолятно сигурни ли сте, че искате да изтриете ВСИЧКИ дейности и съответните ограничения от вашите данни?</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2038"/>
         <source>There are no activities without teachers and without students.</source>
-        <translation type="unfinished"></translation>
+        <translation>Няма дейности без преподаватели и без студенти.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2040"/>
         <source>Activities without teachers and without students:</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейности без преподаватели и без студенти:</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2043"/>
         <source>There are no activities without teachers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Няма дейности без преподаватели.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2045"/>
         <source>Activities without teachers:</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейности без преподаватели:</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2048"/>
         <source>There are no activities without students.</source>
-        <translation type="unfinished"></translation>
+        <translation>Няма дейности без студенти.</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2050"/>
         <source>Activities without students:</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейности без студенти:</translation>
     </message>
     <message>
         <location filename="../src/interface/activityplanningform.cpp" line="2052"/>
         <source>Information about pseudo activities</source>
         <comment>Pseudo activities means activities without teachers and/or students sets</comment>
-        <translation type="unfinished"></translation>
+        <translation>Информация за псевдодейностите</translation>
     </message>
 </context>
 <context>
@@ -866,13 +866,13 @@
     <message>
         <location filename="../src/engine/activitytag.cpp" line="40"/>
         <source>Activity tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Етикет на дейност</translation>
     </message>
     <message>
         <location filename="../src/engine/activitytag.cpp" line="42"/>
         <source>Name=%1</source>
         <comment>The name of the activity tag</comment>
-        <translation type="unfinished">Име=%1</translation>
+        <translation>Име=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/activitytag.cpp" line="53"/>
@@ -1291,7 +1291,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addactivityform_template.ui" line="43"/>
         <source>Selected</source>
         <comment>It refers to a list of selected teachers</comment>
-        <translation>Избран</translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addactivityform_template.ui" line="56"/>
@@ -1722,7 +1722,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="140"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesendstudentsdayform.cpp" line="147"/>
@@ -1808,7 +1808,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="295"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesmaxsimultaneousinselectedtimeslotsform.cpp" line="298"/>
@@ -1939,7 +1939,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="208"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform.cpp" line="215"/>
@@ -2000,7 +2000,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform_template.ui" line="137"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation>Избрана</translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesnotoverlappingform_template.ui" line="150"/>
@@ -2052,7 +2052,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesoccupymaxdifferentroomsform.cpp" line="144"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesoccupymaxdifferentroomsform.cpp" line="147"/>
@@ -2154,7 +2154,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiesoccupymaxtimeslotsfromselectionform.cpp" line="295"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiesoccupymaxtimeslotsfromselectionform.cpp" line="298"/>
@@ -2320,7 +2320,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredstartingtimesform.cpp" line="370"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredstartingtimesform.cpp" line="377"/>
@@ -2459,7 +2459,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredtimeslotsform.cpp" line="370"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiespreferredtimeslotsform.cpp" line="377"/>
@@ -2563,7 +2563,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiessameroomifconsecutiveform.cpp" line="138"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessameroomifconsecutiveform.cpp" line="141"/>
@@ -2660,7 +2660,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform.cpp" line="211"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform.cpp" line="218"/>
@@ -2716,7 +2716,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation>Избрана</translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingdayform_template.ui" line="134"/>
@@ -2768,7 +2768,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform.cpp" line="210"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform.cpp" line="217"/>
@@ -2824,7 +2824,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation>Избрана</translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartinghourform_template.ui" line="134"/>
@@ -2895,7 +2895,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiessamestartingtimeform.cpp" line="317"/>
         <location filename="../src/interface/addconstraintactivitiessamestartingtimeform.cpp" line="344"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingtimeform.cpp" line="324"/>
@@ -2962,7 +2962,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitiessamestartingtimeform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation>Избрана</translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitiessamestartingtimeform_template.ui" line="134"/>
@@ -3024,7 +3024,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivityendsstudentsdayform.cpp" line="199"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivityendsstudentsdayform.cpp" line="202"/>
@@ -3115,7 +3115,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomform.cpp" line="224"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomform.cpp" line="238"/>
@@ -3221,7 +3221,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="225"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredroomsform.cpp" line="232"/>
@@ -3334,7 +3334,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimeform.cpp" line="224"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimeform.cpp" line="231"/>
@@ -3454,7 +3454,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimesform.cpp" line="385"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredstartingtimesform.cpp" line="392"/>
@@ -3567,7 +3567,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredtimeslotsform.cpp" line="384"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitypreferredtimeslotsform.cpp" line="391"/>
@@ -3676,12 +3676,12 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="111"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomform.cpp" line="118"/>
         <source>Constraint NOT added - error ?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ограничението не е добавено - грешка ?</translation>
     </message>
 </context>
 <context>
@@ -3747,7 +3747,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="114"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform.cpp" line="121"/>
@@ -3777,7 +3777,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintactivitytagpreferredroomsform_template.ui" line="77"/>
@@ -3823,7 +3823,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform.cpp" line="71"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsoryspaceform.cpp" line="74"/>
@@ -3880,7 +3880,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform.cpp" line="71"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbasiccompulsorytimeform.cpp" line="74"/>
@@ -3931,7 +3931,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform.cpp" line="201"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintbreaktimesform.cpp" line="204"/>
@@ -4015,7 +4015,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform.cpp" line="219"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmaxdaysbetweenactivitiesform.cpp" line="226"/>
@@ -4159,7 +4159,7 @@ You can choose the minimum distance in days between each pair of activities. Ple
     <message>
         <location filename="../src/interface/addconstraintmindaysbetweenactivitiesform.cpp" line="246"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmindaysbetweenactivitiesform.cpp" line="253"/>
@@ -4280,7 +4280,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintmingapsbetweenactivitiesform.cpp" line="217"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintmingapsbetweenactivitiesform.cpp" line="224"/>
@@ -4388,7 +4388,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform.cpp" line="237"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintroomnotavailabletimesform.cpp" line="247"/>
@@ -4472,7 +4472,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="91"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhourscontinuouslyform.cpp" line="94"/>
@@ -4543,7 +4543,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="91"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsactivitytagmaxhoursdailyform.cpp" line="94"/>
@@ -4610,7 +4610,7 @@ force activities consecutive</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsearlymaxbeginningsatsecondhourform.cpp" line="76"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsearlymaxbeginningsatsecondhourform.cpp" line="79"/>
@@ -4705,7 +4705,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform.cpp" line="126"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsintervalmaxdaysperweekform.cpp" line="129"/>
@@ -4771,7 +4771,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperdayform.cpp" line="71"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperdayform.cpp" line="74"/>
@@ -4827,7 +4827,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperweekform.cpp" line="71"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxbuildingchangesperweekform.cpp" line="74"/>
@@ -4889,7 +4889,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxdaysperweekform.cpp" line="80"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxdaysperweekform.cpp" line="83"/>
@@ -4951,7 +4951,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxgapsperdayform.cpp" line="76"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxgapsperdayform.cpp" line="79"/>
@@ -5019,7 +5019,7 @@ IMPORTANT: if you want 0 total gaps, it is strongly recommended NOT to use this 
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxgapsperweekform.cpp" line="76"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxgapsperweekform.cpp" line="79"/>
@@ -5079,7 +5079,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhourscontinuouslyform.cpp" line="71"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhourscontinuouslyform.cpp" line="74"/>
@@ -5135,7 +5135,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhoursdailyform.cpp" line="72"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmaxhoursdailyform.cpp" line="75"/>
@@ -5191,7 +5191,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsmingapsbetweenbuildingchangesform.cpp" line="71"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsmingapsbetweenbuildingchangesform.cpp" line="74"/>
@@ -5280,7 +5280,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentsminhoursdailyform.cpp" line="91"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentsminhoursdailyform.cpp" line="94"/>
@@ -5371,7 +5371,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="122"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhourscontinuouslyform.cpp" line="125"/>
@@ -5453,7 +5453,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="123"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetactivitytagmaxhoursdailyform.cpp" line="126"/>
@@ -5531,7 +5531,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="101"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetearlymaxbeginningsatsecondhourform.cpp" line="104"/>
@@ -5673,7 +5673,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="118"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssethomeroomsform.cpp" line="125"/>
@@ -5778,7 +5778,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="157"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetintervalmaxdaysperweekform.cpp" line="160"/>
@@ -5853,7 +5853,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperdayform.cpp" line="101"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperdayform.cpp" line="104"/>
@@ -5918,7 +5918,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperweekform.cpp" line="101"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxbuildingchangesperweekform.cpp" line="104"/>
@@ -5989,7 +5989,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="111"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxdaysperweekform.cpp" line="114"/>
@@ -6060,7 +6060,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxgapsperdayform.cpp" line="108"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxgapsperdayform.cpp" line="111"/>
@@ -6139,7 +6139,7 @@ IMPORTANT: if you want 0 total gaps, it is strongly recommended NOT to use this 
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxgapsperweekform.cpp" line="109"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxgapsperweekform.cpp" line="112"/>
@@ -6210,7 +6210,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxhourscontinuouslyform.cpp" line="104"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxhourscontinuouslyform.cpp" line="107"/>
@@ -6277,7 +6277,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxhoursdailyform.cpp" line="103"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmaxhoursdailyform.cpp" line="106"/>
@@ -6344,7 +6344,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmingapsbetweenbuildingchangesform.cpp" line="101"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetmingapsbetweenbuildingchangesform.cpp" line="104"/>
@@ -6442,7 +6442,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetminhoursdailyform.cpp" line="123"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetminhoursdailyform.cpp" line="126"/>
@@ -6528,7 +6528,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintstudentssetnotavailabletimesform.cpp" line="231"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintstudentssetnotavailabletimesform.cpp" line="234"/>
@@ -6635,7 +6635,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform.cpp" line="290"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredstartingtimesform.cpp" line="297"/>
@@ -6747,7 +6747,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="291"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubactivitiespreferredtimeslotsform.cpp" line="298"/>
@@ -6867,12 +6867,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="123"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomform.cpp" line="130"/>
         <source>Constraint NOT added - error ?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ограничението не е добавено - грешка ?</translation>
     </message>
 </context>
 <context>
@@ -6949,7 +6949,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="127"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform.cpp" line="134"/>
@@ -6984,7 +6984,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform_template.ui" line="77"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectactivitytagpreferredroomsform_template.ui" line="90"/>
@@ -7036,12 +7036,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform.cpp" line="103"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomform.cpp" line="110"/>
         <source>Constraint NOT added - error ?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ограничението не е добавено - грешка ?</translation>
     </message>
 </context>
 <context>
@@ -7107,7 +7107,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="113"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform.cpp" line="120"/>
@@ -7137,7 +7137,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintsubjectpreferredroomsform_template.ui" line="77"/>
@@ -7193,7 +7193,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="108"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhourscontinuouslyform.cpp" line="111"/>
@@ -7275,7 +7275,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform.cpp" line="109"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacheractivitytagmaxhoursdailyform.cpp" line="112"/>
@@ -7347,12 +7347,12 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomform.cpp" line="95"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomform.cpp" line="102"/>
         <source>Constraint NOT added - error ?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ограничението не е добавено - грешка ?</translation>
     </message>
 </context>
 <context>
@@ -7412,7 +7412,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="108"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform.cpp" line="115"/>
@@ -7442,7 +7442,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addconstraintteacherhomeroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherhomeroomsform_template.ui" line="77"/>
@@ -7517,7 +7517,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherintervalmaxdaysperweekform.cpp" line="148"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherintervalmaxdaysperweekform.cpp" line="151"/>
@@ -7592,7 +7592,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxbuildingchangesperdayform.cpp" line="91"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxbuildingchangesperdayform.cpp" line="94"/>
@@ -7657,7 +7657,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxbuildingchangesperweekform.cpp" line="91"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxbuildingchangesperweekform.cpp" line="94"/>
@@ -7728,7 +7728,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform.cpp" line="102"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxdaysperweekform.cpp" line="105"/>
@@ -7801,7 +7801,7 @@ Note: students set not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperdayform.cpp" line="93"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperdayform.cpp" line="96"/>
@@ -7878,7 +7878,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperweekform.cpp" line="93"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxgapsperweekform.cpp" line="96"/>
@@ -7949,7 +7949,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhourscontinuouslyform.cpp" line="94"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhourscontinuouslyform.cpp" line="97"/>
@@ -8016,7 +8016,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhoursdailyform.cpp" line="94"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermaxhoursdailyform.cpp" line="97"/>
@@ -8089,7 +8089,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermindaysperweekform.cpp" line="96"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermindaysperweekform.cpp" line="99"/>
@@ -8156,7 +8156,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachermingapsbetweenbuildingchangesform.cpp" line="91"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachermingapsbetweenbuildingchangesform.cpp" line="94"/>
@@ -8234,7 +8234,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteacherminhoursdailyform.cpp" line="105"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteacherminhoursdailyform.cpp" line="108"/>
@@ -8314,7 +8314,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform.cpp" line="223"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachernotavailabletimesform.cpp" line="226"/>
@@ -8421,7 +8421,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="92"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhourscontinuouslyform.cpp" line="95"/>
@@ -8492,7 +8492,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform.cpp" line="93"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersactivitytagmaxhoursdailyform.cpp" line="96"/>
@@ -8582,7 +8582,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersintervalmaxdaysperweekform.cpp" line="126"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersintervalmaxdaysperweekform.cpp" line="129"/>
@@ -8646,7 +8646,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxbuildingchangesperdayform.cpp" line="69"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxbuildingchangesperdayform.cpp" line="72"/>
@@ -8700,7 +8700,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxbuildingchangesperweekform.cpp" line="69"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxbuildingchangesperweekform.cpp" line="72"/>
@@ -8760,7 +8760,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxdaysperweekform.cpp" line="80"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxdaysperweekform.cpp" line="83"/>
@@ -8820,7 +8820,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperdayform.cpp" line="76"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperdayform.cpp" line="79"/>
@@ -8886,7 +8886,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperweekform.cpp" line="76"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxgapsperweekform.cpp" line="79"/>
@@ -8946,7 +8946,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhourscontinuouslyform.cpp" line="77"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhourscontinuouslyform.cpp" line="80"/>
@@ -9002,7 +9002,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhoursdailyform.cpp" line="77"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmaxhoursdailyform.cpp" line="80"/>
@@ -9064,7 +9064,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmindaysperweekform.cpp" line="76"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmindaysperweekform.cpp" line="79"/>
@@ -9118,7 +9118,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersmingapsbetweenbuildingchangesform.cpp" line="72"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersmingapsbetweenbuildingchangesform.cpp" line="75"/>
@@ -9185,7 +9185,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintteachersminhoursdailyform.cpp" line="88"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintteachersminhoursdailyform.cpp" line="91"/>
@@ -9270,7 +9270,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstraintthreeactivitiesgroupedform.cpp" line="239"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstraintthreeactivitiesgroupedform.cpp" line="242"/>
@@ -9375,7 +9375,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesconsecutiveform.cpp" line="224"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesconsecutiveform.cpp" line="227"/>
@@ -9475,7 +9475,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesgroupedform.cpp" line="224"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesgroupedform.cpp" line="227"/>
@@ -9575,7 +9575,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesorderedform.cpp" line="224"/>
         <source>Constraint added:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Добавено ограничание:</translation>
     </message>
     <message>
         <location filename="../src/interface/addconstrainttwoactivitiesorderedform.cpp" line="227"/>
@@ -9717,7 +9717,7 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/addgroupactivitiesininitialorderitemform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/addgroupactivitiesininitialorderitemform_template.ui" line="134"/>
@@ -10574,7 +10574,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/allspaceconstraintsform_template.ui" line="108"/>
         <source>Sorted</source>
         <comment>It refers to space constraints</comment>
-        <translation type="unfinished"></translation>
+        <translation>Подредени</translation>
     </message>
     <message>
         <location filename="../src/interface/allspaceconstraintsform_template.ui" line="115"/>
@@ -10608,7 +10608,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="965"/>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="1035"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/alltimeconstraintsform.cpp" line="356"/>
@@ -10746,7 +10746,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
         <location filename="../src/interface/alltimeconstraintsform_template.ui" line="114"/>
         <source>Sorted</source>
         <comment>It refers to time constraints</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Подредени</translation>
     </message>
     <message>
         <location filename="../src/interface/alltimeconstraintsform_template.ui" line="121"/>
@@ -30217,7 +30217,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1220"/>
         <location filename="../src/interface/fetmainform_template.ui" line="1313"/>
         <source>Advanced</source>
-        <translation>Разширени</translation>
+        <translation type="unfinished">&amp;Разширени</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="497"/>
@@ -30331,7 +30331,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="959"/>
         <source>Statistics</source>
-        <translation>Статистика</translation>
+        <translation type="unfinished">&amp;Статистики</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="974"/>
@@ -30406,12 +30406,12 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1181"/>
         <source>Institution information</source>
-        <translation>Информация за институцията</translation>
+        <translation>&amp;Информация за институцията</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1188"/>
         <source>Days and hours</source>
-        <translation>Дни и часове</translation>
+        <translation type="unfinished">Дни и &amp;часове</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1216"/>
@@ -30685,7 +30685,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="1557"/>
         <source>All s&amp;pace constraints</source>
         <extracomment>Accelerator key (letter after ampersand) for &amp;Subjects, Activity ta&amp;gs, &amp;Teachers, Stu&amp;dents, &amp;Activities, &amp;Modify subactivities, &amp;Buildings, &amp;Rooms, All t&amp;ime constraints, All s&amp;pace constraints must be different</extracomment>
-        <translation type="unfinished">Всички пр&amp;остранствени ограничения</translation>
+        <translation>Всички пр&amp;остранствени ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1562"/>
@@ -30743,17 +30743,17 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1612"/>
         <source>Teachers statistics</source>
-        <translation>Статистики за преподавателите</translation>
+        <translation type="unfinished">Статистики за &amp;преподавателите</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1617"/>
         <source>Students statistics</source>
-        <translation>Статистики за студентите</translation>
+        <translation>Статистики за &amp;студентите</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1622"/>
         <source>Subjects statistics</source>
-        <translation>Статистики за дисциплини</translation>
+        <translation>Статистики за &amp;дисциплините</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1627"/>
@@ -31161,7 +31161,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1974"/>
         <source>Export advanced statistics to disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Експортиране на разирени статистики на диска</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="1979"/>
@@ -31389,7 +31389,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2280"/>
         <source>Activity planning</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Планиране на дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2291"/>
@@ -31424,7 +31424,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="2334"/>
         <source>Activities rooms statistics</source>
         <extracomment>It refers to the statistics of each activity&apos;s possible room(s)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Статистики за стаите на дейностите</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2339"/>
@@ -31466,7 +31466,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2372"/>
         <source>Print advanced statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>Печат на разширени статистики</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2383"/>
@@ -36397,7 +36397,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyactivityform_template.ui" line="43"/>
         <source>Selected</source>
         <comment>It refers to a list of selected teachers</comment>
-        <translation>Избран</translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyactivityform_template.ui" line="56"/>
@@ -36442,7 +36442,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyactivityform_template.ui" line="168"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activity tags</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyactivityform_template.ui" line="201"/>
@@ -37033,7 +37033,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiesnotoverlappingform_template.ui" line="137"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiesnotoverlappingform_template.ui" line="150"/>
@@ -37667,7 +37667,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingdayform_template.ui" line="134"/>
@@ -37763,7 +37763,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartinghourform_template.ui" line="134"/>
@@ -37859,7 +37859,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingtimeform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitiessamestartingtimeform_template.ui" line="134"/>
@@ -38079,7 +38079,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitypreferredroomsform_template.ui" line="77"/>
@@ -38520,7 +38520,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintactivitytagpreferredroomsform_template.ui" line="77"/>
@@ -38904,7 +38904,7 @@ Please stop simulation before this</source>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmindaysbetweenactivitiesform_template.ui" line="134"/>
@@ -39013,7 +39013,7 @@ force activities consecutive</source>
         <location filename="../src/interface/modifyconstraintmingapsbetweenactivitiesform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintmingapsbetweenactivitiesform_template.ui" line="134"/>
@@ -40128,7 +40128,7 @@ Note: students set not available and break are not counted as gaps (early gaps).
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintstudentssethomeroomsform_template.ui" line="77"/>
@@ -41195,7 +41195,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform_template.ui" line="77"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectactivitytagpreferredroomsform_template.ui" line="90"/>
@@ -41324,7 +41324,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintsubjectpreferredroomsform_template.ui" line="77"/>
@@ -41581,7 +41581,7 @@ Note: students set not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform_template.ui" line="64"/>
         <source>Selected</source>
         <comment>It refers to a list of selected rooms</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifyconstraintteacherhomeroomsform_template.ui" line="77"/>
@@ -43411,7 +43411,7 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifygroupactivitiesininitialorderitemform_template.ui" line="121"/>
         <source>Selected</source>
         <comment>It refers to a list of selected activities</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifygroupactivitiesininitialorderitemform_template.ui" line="134"/>
@@ -43723,7 +43723,7 @@ Note: teacher not available and break are not counted as gaps.</source>
         <location filename="../src/interface/modifysubactivityform_template.ui" line="46"/>
         <source>Selected</source>
         <comment>It refers to a list of selected teachers</comment>
-        <translation>Избран</translation>
+        <translation>Избрани</translation>
     </message>
     <message>
         <location filename="../src/interface/modifysubactivityform_template.ui" line="59"/>
@@ -44017,7 +44017,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform_template.ui" line="23"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Да не се показва отново</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantconfirmationform_template.ui" line="43"/>
@@ -45423,7 +45423,7 @@ not added - must be a duplicate</source>
     <message>
         <location filename="../src/interface/savetimetableconfirmationform_template.ui" line="23"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Да не се показва отново</translation>
     </message>
     <message>
         <location filename="../src/interface/savetimetableconfirmationform_template.ui" line="43"/>
@@ -46078,7 +46078,7 @@ not added - must be a duplicate</source>
     <message>
         <location filename="../src/interface/spreadconfirmationform_template.ui" line="23"/>
         <source>Don&apos;t show this again</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Да не се показва отново</translation>
     </message>
     <message>
         <location filename="../src/interface/spreadconfirmationform_template.ui" line="43"/>
@@ -46469,7 +46469,7 @@ Please report error. FET will now abort current operation</source>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="539"/>
         <source>Statistics</source>
-        <translation type="unfinished">Статистика</translation>
+        <translation>Статистики</translation>
     </message>
     <message>
         <location filename="../src/engine/statisticsexport.cpp" line="541"/>
@@ -47092,7 +47092,8 @@ Please report error. FET will now abort current operation</source>
         <location filename="../src/interface/studentsstatisticsform_template.ui" line="14"/>
         <source>Students statistics</source>
         <extracomment>Title of dialog to see the students statistics</extracomment>
-        <translation>Статистики за студентите</translation>
+        <translation type="unfinished">
+Статистики за студентите</translation>
     </message>
     <message>
         <location filename="../src/interface/studentsstatisticsform_template.ui" line="23"/>
