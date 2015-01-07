@@ -2043,6 +2043,9 @@
    <property name="text">
     <string extracomment="Please translate in your language and also add the original English term, like: 'Idioma/Language'. This is to ensure that people mistakingly selecting an unknown language do not become stuck with it (so that they can find this setting description also in English).">Language</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
   </action>
   <action name="settingsDivideTimetablesByDaysAction">
    <property name="checkable">

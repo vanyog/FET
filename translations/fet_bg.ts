@@ -11057,7 +11057,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15692"/>
         <source>students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">студенти=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15694"/>
@@ -11067,7 +11067,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15697"/>
         <source>subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">дисциплина=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="15699"/>
@@ -12195,7 +12195,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10882"/>
         <source>students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">студенти=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10884"/>
@@ -12205,7 +12205,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10887"/>
         <source>subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">дисциплина=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10889"/>
@@ -12450,7 +12450,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9615"/>
         <source>students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">студенти=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9617"/>
@@ -12460,7 +12460,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9620"/>
         <source>subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">дисциплина=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="9622"/>
@@ -21167,7 +21167,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11350"/>
         <source>students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">студенти=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11352"/>
@@ -21177,7 +21177,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11355"/>
         <source>subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">дисциплина=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="11357"/>
@@ -21472,7 +21472,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10096"/>
         <source>students=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">студенти=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10098"/>
@@ -21482,7 +21482,7 @@ Definition from Wikipedia: &apos;In computing, regular expressions, also referre
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10101"/>
         <source>subject=%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">дисциплина=%1</translation>
     </message>
     <message>
         <location filename="../src/engine/timeconstraint.cpp" line="10103"/>
@@ -29289,7 +29289,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="2032"/>
         <source>Show duplicates</source>
-        <translation type="unfinished">Показване дублирания</translation>
+        <translation>Показване дублирания</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="2035"/>
@@ -29305,7 +29305,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform.cpp" line="3028"/>
         <source>Feature is not enabled. To use this type of feature you must enable it from the Settings-&gt;Advanced menu.</source>
         <translatorcomment>Функцията не е разрешена. За да използвате този тип функция Вие трябва да я позволите от меню &quot;Настройки&quot;-&gt;&quot;Разширени&quot;.</translatorcomment>
-        <translation></translation>
+        <translation>Функцията не е активирана. За да използвате този тип функция, трябва да я активирате от меню: Настройки -&gt; Разширени.</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="3032"/>
@@ -31482,7 +31482,7 @@ Having a subgroup with too little working hours per week means that you inputted
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2399"/>
         <source>Enable group activities in initial order</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешаване групирането на дейности в началния ред</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2410"/>
@@ -44079,7 +44079,7 @@ Note: teacher not available and break are not counted as gaps.</source>
     <message>
         <location filename="../src/interface/removeredundantform_template.ui" line="14"/>
         <source>Remove redundant constraints</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Изтриване на излишни ограничения</translation>
     </message>
     <message>
         <location filename="../src/interface/removeredundantform_template.ui" line="26"/>
