@@ -906,7 +906,7 @@
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="100"/>
         <source>Could not insert item. Must be a duplicate</source>
-        <translation type="unfinished">Не може да се вмъкне. Трябва да се дублира</translation>
+        <translation>Не може да се вмъкне. Трябва да се дублира</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="110"/>
@@ -919,12 +919,12 @@
         <location filename="../src/interface/activitytagsform.cpp" line="229"/>
         <location filename="../src/interface/activitytagsform.cpp" line="235"/>
         <source>FET information</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="110"/>
         <source>Incorrect name</source>
-        <translation type="unfinished">Некоректно име</translation>
+        <translation>Некоректно име</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="120"/>
@@ -939,7 +939,7 @@
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="131"/>
         <source>FET</source>
-        <translation type="unfinished">FET</translation>
+        <translation>FET</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="132"/>
@@ -969,17 +969,17 @@
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="177"/>
         <source>Could not modify item. New name must be a duplicate</source>
-        <translation type="unfinished">Не може да се промени. Новото име трябва да се дублира</translation>
+        <translation>Не може да се промени. Новото име трябва да се дублира</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="223"/>
         <source>Activated a number of %1 activities</source>
-        <translation type="unfinished">Активирани са %1 броя дейности</translation>
+        <translation>Активирани са %1 броя дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="235"/>
         <source>De-activated a number of %1 activities</source>
-        <translation type="unfinished">Деактивирани са %1 броя дейности</translation>
+        <translation>Деактивирани са %1 броя дейности</translation>
     </message>
     <message>
         <location filename="../src/interface/activitytagsform.cpp" line="240"/>
@@ -28704,7 +28704,7 @@ Import of data will be easier with these settings.</source>
         <location filename="../src/interface/fetmainform.cpp" line="4309"/>
         <location filename="../src/interface/fetmainform.cpp" line="4320"/>
         <source>FET information</source>
-        <translation>Информация за FET</translation>
+        <translation>Информация от FET</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform.cpp" line="943"/>
@@ -31234,7 +31234,7 @@ Having a subgroup with too little working hours per week means that you inputted
         <location filename="../src/interface/fetmainform_template.ui" line="2044"/>
         <source>Language</source>
         <extracomment>Please translate in your language and also add the original English term, like: &apos;Idioma/Language&apos;. This is to ensure that people mistakingly selecting an unknown language do not become stuck with it (so that they can find this setting description also in English).</extracomment>
-        <translation>&amp;Език</translation>
+        <translation>&amp;Език (Language)</translation>
     </message>
     <message>
         <location filename="../src/interface/fetmainform_template.ui" line="2060"/>
